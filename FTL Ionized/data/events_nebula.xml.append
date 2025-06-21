@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Uncharted Nebula Sector Events-->
+<!--Stores-->
+<eventList name="NEBULA_TAT_STORES">
+	<event load="TAT_STORE_NEBULA"/>
+	<event load="NEBULA_STORE"/>
+</eventList>
+
+<!--Nothing (Uncharted)-->
+
+<!--Passive-->
+<eventList name="NEBULA_ITEMS">
+	<event load="STORM_ITEMS"/>
+	<event load="TAT_NEBULA_FILTRATION"/>
+	<event load="SLUG_DISTRESS_QUESTION"/>
+	<event load="SLUG_DISTRESS_RESCUE"/>
+	<event load="NEBULA_BATTLEFIELD"/>
+	<event load="NEBULA_ZOLTAN_EYE"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEBULA_NEUTRAL">
+	<event load="NEBULA_REBEL_UNDETECTED"/>
+	<event load="NEBULA_PIRATE_SMUGGLE"/>
+	<event load="NEBULA_AUTO_DEFENSE_ITEM"/>
+	<event load="NEBULA_LOST_SHIP"/>
+	<event load="NEBULA_WEAPONS_TRADER"/>
+	<event load="NEBULA_ROCK_RACIST"/>
+	<event load="NEBULA_MANTIS_CHOICE"/>
+	<event load="NEBULA_REBEL_CHASE"/>
+	<event load="NEBULA_TRADER"/>
+	<event load="NEBULA_SLUG_HULLFIX"/>
+</eventList>
+<eventList name="NEBULA_NEUTRAL_STANDARD">
+	<event load="NEBULA_REBEL_UNDETECTED"/>
+	<event load="NEBULA_PIRATE_SMUGGLE"/>
+	<event load="NEBULA_LOST_SHIP"/>
+	<event load="NEBULA_WEAPONS_TRADER"/>
+	<event load="NEBULA_ROCK_RACIST"/>
+	<event load="NEBULA_MANTIS_CHOICE"/>
+	<event load="NEBULA_REBEL_CHASE"/>
+	<event load="NEBULA_TRADER"/>
+	<event load="NEBULA_SLUG_HULLFIX"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="NEBULA_HOSTILE">
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_AUTO"/>
+	<event load="NEBULA_AUTO_WARNING"/>
+	<event load="NEBULA_PIRATE"/>
+	<event load="NEBULA_MANTIS_FIGHT"/>
+	<event load="STORM_AUTO"/>
+	<event load="STORM_REBEL"/>
+	<event load="NEBULA_BOARDING"/>
+	<event load="STORM_BOARDING"/>
+	<event load="NEBULA_REBEL_BOARDING"/>
+	<event load="DONOR_BLACK_RAVEN"/>
+	<event load="TAT_LANIUS_BOARDERS"/>
+	<event load="STORM_SLUG_FIGHT"/>
+	<event load="TAT_NEBULA_FEDERATION"/>
+	<event load="TAT_STORM_FEDERATION"/>
+	<event load="TAT_ENGI_NEBULA"/>
+	<event load="TAT_ENGI_STORM"/>
+	<event load="TAT_ZOLTAN_NEBULA"/>
+	<event load="TAT_ZOLTAN_STORM"/>
+	<event load="TAT_MANTIS_STORM"/>
+	<event load="TAT_ROCK_STORM"/>
+	<event load="TAT_LANIUS_NEBULA"/>
+	<event load="TAT_LANIUS_STORM"/>
+	<event load="TAT_EMEN_STORM"/>
+</eventList>
+<eventList name="NEBULA_HOSTILE_STANDARD">
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_PIRATE"/>
+	<event load="NEBULA_MANTIS_FIGHT"/>
+	<event load="STORM_REBEL"/>
+	<event load="NEBULA_BOARDING"/>
+	<event load="STORM_BOARDING"/>
+	<event load="NEBULA_REBEL_BOARDING"/>
+	<event load="DONOR_BLACK_RAVEN"/>
+	<event load="STORM_SLUG_FIGHT"/>
+	<event load="TAT_NEBULA_FEDERATION"/>
+	<event load="TAT_STORM_FEDERATION"/>
+	<event load="TAT_ENGI_NEBULA"/>
+	<event load="TAT_ENGI_STORM"/>
+	<event load="TAT_ZOLTAN_NEBULA"/>
+	<event load="TAT_ZOLTAN_STORM"/>
+	<event load="TAT_MANTIS_STORM"/>
+	<event load="TAT_ROCK_STORM"/>
+	<event load="TAT_LANIUS_NEBULA"/>
+	<event load="TAT_LANIUS_STORM"/>
+	<event load="TAT_EMEN_STORM"/>
+</eventList>
+
+<!--NEBULA_REBEL (Nebula)-->
+<event name="NEBULA_REBEL" unique="true">
+	<text load="NEBULA_REBEL_LIST"/>
+	<ship load="REBEL" hostile="true"/>
+	<environment type="nebula"/>
+</event>
+
+<!--NEBULA_AUTO (Nebula)-->
+<event name="NEBULA_AUTO" unique="true">
+	<text load="NEBULA_AUTO_LIST"/>
+	<ship load="REBEL_AUTO" hostile="true"/>
+	<environment type="nebula"/>
+</event>
+
+<!--NEBULA_AUTO_WARNING (Nebula)-->
+<event name="NEBULA_AUTO_WARNING" unique="true">
+	<text id="event_NEBULA_AUTO_WARNING_text"/>
+	<ship load="REBEL_AUTO_WARNING" hostile="true"/>
+	<environment type="nebula"/>
+</event>
+
+<!--NEBULA_PIRATE (Nebula)-->
+<event name="NEBULA_PIRATE" unique="true">
+	<text load="NEBULA_PIRATE"/>
+	<ship load="PIRATE" hostile="true"/>
+</event>
+
+<!--NEBULA_MANTIS_FIGHT (Nebula)-->
+<event name="NEBULA_MANTIS_FIGHT" unique="true">
+	<text load="NEBULA_MANTIS_FIGHT"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+	<environment type="nebula"/>
+</event>
+
+<!--NEBULA_REBEL_UNDETECTED (Nebula)-->
+<!--NEBULA_PIRATE_SMUGGLE (Nebula)-->
+<event name="NEBULA_PIRATE_SMUGGLE" unique="true">
+	<text id="event_NEBULA_PIRATE_SMUGGLE_text"/>
+	<environment type="nebula"/>
+	<choice>
+		<text id="event_NEBULA_PIRATE_SMUGGLE_c1_choice"/>
+		<event>
+			<text id="event_NEBULA_PIRATE_SMUGGLE_c1_text"/>
+			<ship load="PIRATE_SMUGGLE" hostile ="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_NEBULA_PIRATE_SMUGGLE_c2_choice"/>
+		<event>
+			<text id="event_NEBULA_PIRATE_SMUGGLE_c2_text"/>
+		</event>
+	</choice>
+	<choice req="weapons" lvl="6" hidden="true">
+		<text id="event_NEBULA_PIRATE_SMUGGLE_c3_choice"/>
+		<event>
+			<text id="event_NEBULA_PIRATE_SMUGGLE_c3_text"/>
+			<choice>
+				<text id="event_NEBULA_PIRATE_SMUGGLE_c3_c1_choice"/>
+				<event>
+					<autoReward level="MED">fuel</autoReward>
+				</event>
+			</choice>
+			<choice>
+				<text id="event_NEBULA_PIRATE_SMUGGLE_c3_c2_choice"/>
+				<event>
+					<ship load="PIRATE_SMUGGLE" hostile ="true"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--NEBULA_AUTO_DEFENSE_ITEM (Nebula)-->
+<!--NEBULA_LOST_SHIP (Nebula)-->
+<!--NEBULA_WEAPONS_TRADER (Nebula)-->
+<event name="NEBULA_WEAPONS_TRADER" unique="true">
+	<text id="event_NEBULA_WEAPONS_TRADER_text"/>
+	<environment type="nebula"/>
+	<ship load="PIRATE" hostile="false"/>
+	<choice>
+		<text id="event_NEBULA_WEAPONS_TRADER_c1_choice"/>
+		<event/>
+	</choice>
+	<choice>
+		<text id="event_NEBULA_WEAPONS_TRADER_c2_choice"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_c3_choice"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST"/>
+	</choice>
+	<choice req="mind" hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_c4_choice"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST2"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_TAT_DRONE"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONE"/>
+	</choice>
+	<choice req="mind" hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_c4_choice"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONE2"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_TAT_AUGMENT"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST_TAT_AUGMENT"/>
+	</choice>
+	<choice req="mind" hidden="true">
+		<text id="event_NEBULA_WEAPONS_TRADER_c4_choice"/>
+		<event load="NEBULA_WEAPONS_TRADER_LIST_TAT_AUGMENT2"/>
+	</choice>
+</event>
+<eventList name="NEBULA_WEAPONS_TRADER_LIST"><!--Random Weapon-->
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_1_text"/>
+		<item_modify>
+			<item type="scrap" min="-35" max="-35"/>
+		</item_modify>
+		<weapon name="RANDOM"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_text"/>
+		<item_modify>
+			<item type="scrap" min="-35" max="-35"/>
+		</item_modify>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_c1_choice"/>
+			<event>
+				<ship hostile="true"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_c2_choice"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+<eventList name="NEBULA_WEAPONS_TRADER_LIST2"><!--MC Random Weapon-->
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_c4_choice"/>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-35" max="-35"/>
+				</item_modify>
+				<weapon name="RANDOM"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_text"/>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST2_2_text"/>
+		<ship hostile="true"/>
+	</event>
+</eventList>
+<eventList name="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONE"><!--Random Drone-->
+	<event>
+		<text id="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONED"/>
+		<item_modify>
+			<item type="scrap" min="-35" max="-35"/>
+		</item_modify>
+		<drone name="RANDOM"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_text"/>
+		<item_modify>
+			<item type="scrap" min="-35" max="-35"/>
+		</item_modify>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_c1_choice"/>
+			<event>
+				<ship hostile="true"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_c2_choice"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+<eventList name="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONE2"><!--MC Random Drone-->
+	<event>
+		<text id="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONED2"/>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-35" max="-35"/>
+				</item_modify>
+				<drone name="RANDOM"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_text"/>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST2_2_text"/>
+		<ship hostile="true"/>
+	</event>
+</eventList>
+<eventList name="NEBULA_WEAPONS_TRADER_LIST_TAT_AUGMENT"><!--Random Augment-->
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_TAT_AUGMENTED"/>
+		<item_modify>
+			<item type="scrap" min="-35" max="-35"/>
+		</item_modify>
+		<drone name="RANDOM"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_text"/>
+		<item_modify>
+			<item type="scrap" min="-35" max="-35"/>
+		</item_modify>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_c1_choice"/>
+			<event>
+				<ship hostile="true"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST_2_c2_choice"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+<eventList name="NEBULA_WEAPONS_TRADER_LIST_TAT_AUGMENT2"><!--MC Random Augment-->
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_TAT_AUGMENTED2"/>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_text"/>
+				<item_modify>
+					<item type="scrap" min="-35" max="-35"/>
+				</item_modify>
+				<drone name="RANDOM"/>
+			</event>
+		</choice>
+		<choice>
+			<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_choice"/>
+			<event>
+				<text id="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_text"/>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_NEBULA_WEAPONS_TRADER_LIST2_2_text"/>
+		<ship hostile="true"/>
+	</event>
+</eventList>
+
+<!--NEBULA_ROCK_RACIST (Nebula)-->
+<!--NEBULA_MANTIS_CHOICE (Nebula)-->
+<!--NEBULA_REBEL_CHASE (Nebula)-->
+<!--NEBULA_TRADER (Nebula)-->
+<!--NEBULA_BOARDING (Nebula)-->
+<event name="NEBULA_BOARDING" unique="true">
+	<text load="NEBULA_BOARDING_TEXT"/>
+	<environment type="nebula"/>
+	<autoReward level="LOW">scrap_only</autoReward>
+	<boarders min="6" max="6" class="human"/>
+</event>
+
+<!--STORM_AUTO (Nebula)-->
+<!--STORM_REBEL (Nebula)-->
+<!--STORM_BOARDING (Nebula)-->
+<event name="STORM_BOARDING" unique="true">
+	<text id="event_STORM_BOARDING_text"/>
+	<environment type="storm"/>
+	<boarders min="6" max="6" class="human"/>
+	<autoReward level="MED">standard</autoReward>
+</event>
+
+<!--STORM_ITEMS (Nebula)-->
+<!--TAT_NEBULA_FILTRATION (Nebula/Uncharted/Rebel both/Slug home)-->
+<event name="TAT_NEBULA_FILTRATION" unique="true">
+	<text id="TAT_NEBULA_FILTRATION_INTRO"/>
+	<environment type="nebula"/>
+	<choice>
+		<text id="TAT_NEBULA_FILTRATION_SCUFF"/>
+		<event>
+			<text id="TAT_NEBULA_FILTRATION_SCUFFED"/>
+			<event/>
+		</event>
+		<event>
+			<text id="TAT_NEBULA_FILTRATION_UNSCUFFED"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice req="engi">
+		<text id="TAT_NEBULA_FILTRATION_ENGI"/>
+		<event>
+			<text id="TAT_NEBULA_FILTRATION_ENGIED"/>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</choice>
+	<choice req="anaerobic">
+		<text id="TAT_NEBULA_FILTRATION_LANIUS"/>
+		<event>
+			<text id="TAT_NEBULA_FILTRATION_ENGIED"/>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</choice>
+	<choice req="REPAIR">
+		<text id="TAT_NEBULA_FILTRATION_DRONE"/>
+		<event>
+			<text id="TAT_NEBULA_FILTRATION_DRONED"/>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</choice>
+	<choice req="BOMB_HEAL_SYSTEM">
+		<text id="TAT_NEBULA_FILTRATION_BOMB"/>
+		<event>
+			<text id="TAT_NEBULA_FILTRATION_BOMBED"/>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_NEBULA_FILTRATION_LAME"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_LANIUS_BOARDERS (Nebula/Slug/Lanius)-->
+<event name="TAT_LANIUS_BOARDERS" unique="true">
+	<text id="TAT_LANIUS_BOARDERS_INTRO"/>
+	<boarders min="4" max="4" class="anaerobic"/>
+	<autoReward level="LOW">scrap_only</autoReward>
+	<environment type="storm"/>
+</event>

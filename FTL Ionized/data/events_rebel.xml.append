@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Rebel Sector Events-->
+<!--Stores-->
+<eventList name="STORES_REBEL">
+	<event load="STORE_REBEL"/>
+	<!--<event load="TAT_STORE_REBEL_LOCKED">-->
+</eventList>
+
+<!--Nothing Rebel-->
+<eventList name="NOTHING_REBEL_LIST">
+	<event load="NOTHING_REBEL"/>
+	<event load="NOTHING"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="ITEMS_REBEL">
+	<event load="DISTRESS_STATION_FIRE"/>
+	<event load="TAT_REBEL_REFUEL"/>
+	<event load="TAT_NEBULA_FILTRATION"/>
+	<event load="TAT_MEET_THE_SPY"/>
+	<event load="TAT_REKT_AUTO"/>
+	<event load="TAT_REBEL_UPRISING"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_REBEL">
+	<event load="AUTO_CIVILIAN"/>
+	<event load="SQUAT_REFUEL_STATION"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="AUTO_DEFENSE_MAP"/>
+	<event load="AUTO_DEFENSE_ITEM"/>
+	<event load="AUTO_DEFENSE_RADAR"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="ALISON_DEFECTOR"/>
+	<event load="REBEL_VS_FEDERATION"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+	<event load="STORE_RESCUE"/>
+	<event load="REBEL_CHECKPOINT"/>
+	<event load="REBEL_HELPERS"/>
+	<event load="TAT_REBEL_VS_MANTIS"/>
+	<event load="STORE_REBELSIDE"/>
+	<event load="LANIUS_AUTO_REBEL"/>
+	<event load="LANIUS_GROUP_AUTO"/>
+	<event load="NEBULA_REBEL_UNDETECTED"/>
+	<event load="TAT_FEDERATION_DISABLED"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_REBEL"><!--Overriden in dlcEventsOverwrite-->
+	<event load="REBEL"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_SUN"/>
+	<event load="AUTO_WARNING"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="NEBULA_REBEL_BOARDING"/>
+	<event load="BOARDERS_REBEL_SHIP"/>
+	<event load="AUTO_HACKER"/>
+	<event load="BOARDERS"/>
+	<event load="TAT_REBEL_SUN"/>
+	<event load="TAT_REBEL_ASTEROID"/>
+	<event load="TAT_REBEL_NEUTRON"/>
+	<event load="TAT_VS_ASB_REBEL"/>
+	<event load="TAT_ASB_REBEL_AUTO"/>
+	<event load="TAT_REBEL_ELITE_SUN"/>
+	<event load="TAT_REBEL_ELITE_ASTEROID"/>
+	<event load="TAT_REBEL_ELITE_NEUTRON"/>
+	<event load="TAT_REBEL_ELITE_STORM"/>
+	<event load="TAT_FLEET_SUN"/>
+	<event load="TAT_FLEET_ASTEROIDS"/>
+	<event load="TAT_FLEET_NEUTRON"/>
+</eventList>
+
+<!--Controlled Only-->
+<eventList name="REBEL_CONTROLLED">
+	<event load="TAT_PIRATES_SCRAPPING"/>
+	<event load="TAT_ASB_ALL"/>
+	<event load="TRAP_BEACON"/>
+</eventList>
+
+<!--Stronghold only-->
+<eventList name="REBEL_STRONGHOLD">
+	<event load="FLAGSHIP_CONSTRUCTION"/><!--2nd Flagship-->
+	<event load="DISTRESS_STATION_DISEASE"/>
+	<event load="STATION_SICK"/>
+	<event load="DISTRESS_INFESTATION"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+</eventList>
+
+
+<!--STORE_REBEL-->
+
+<!--NOTHING_REBEL-->
+
+<!--AUTO_BAIT (If the ship explodes rebel pursuit increses, best for it to remain unused until a way to disable these ships is added)-->
+
+<!--REBEL_AUTO (EXCLUSIVE)-->
+<event name="REBEL_AUTO" unique="true">
+	<text load="REBEL_AUTO"/>
+	<ship load="REBEL_AUTO" hostile="true"/>
+</event>
+
+<!--AUTO_WARNING (Filler)-->
+
+<!--AUTO_HACKER (EXCLUSIVE)-->
+
+<!--REBEL (Rebel sectors/Fed/Engi/Zoltan)-->
+<event name="REBEL" unique="true">
+	<text load="REBEL"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--SQUAT_WARNING (Filler)-->
+<!--AUTO_CIVILIAN (Rebel/Federation both)-->
+
+<!--SQUAT_REFUEL_STATION (Rebel/Federation both)-->
+
+
+<!--AUTO_REFUEL_STATION (EXCLUSIVE)-->
+<!--AUTO_DEFENSE_MAP (EXCLUSIVE)-->
+<!--AUTO_DEFENSE_ITEM (EXCLUSIVE)-->
+<!--AUTO_DEFENSE_RADAR (EXCLUSIVE)-->
+<!--REBEL_TRANSPORT (EXCLUSIVE)-->
+<!--BROKEN_REBEL_DRONE (EXCLUSIVE)-->
+
+<!--NEBULA_REBEL_BOARDING (Rebel/Nebula)-->
+<event name="NEBULA_REBEL_BOARDING" unique="true">
+	<environment type="nebula"/>
+	<text id="event_NEBULA_REBEL_BOARDING_text"/>
+	<boarders min="6" max="6" class="human"/>
+</event>
+
+<!--BOARDERS_REBEL_SHIP (Rebel both/Last Stand/Battlegrounds)-->
+<event name="BOARDERS_REBEL_SHIP" unique="true">
+	<text load="BOARDERS_REBEL_SHIP"/>
+	<boarders min="4" max="4" class="human"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--TAT_ASB_REBEL_AUTO (Rebel both/Last Stand/Battlegrounds)-->
+<event name="TAT_ASB_REBEL_AUTO" unique="true">
+	<text id="TAT_ASB_REBEL_AUTO_INTRO"/>
+	<ship load="REBEL_AUTO" hostile="true"/>
+	<environment type="PDS" target="player"/>
+</event>
+
+<!--TAT_REBEL_REFUEL (Rebel both/Battlegrounds/Abandoned)-->
+<event name="TAT_REBEL_REFUEL" unique="true">
+	<text id="TAT_REBEL_REFUEL_INTRO"/>
+	<choice>
+		<text id="TAT_REBEL_REFUEL_FUEL"/>
+		<event>
+			<text id="TAT_REBEL_REFUEL_FUELED"/>
+			<item type="fuel" min="3" max="8"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_REBEL_REFUEL_DELAY"/>
+		<event>
+			<text id="TAT_REBEL_REFUEL_DELAYED"/>
+			<modifyPursuit amount="-2"/>
+		</event>
+	</choice>
+</event>
+
+<!--TAT_REBEL_AUTO_FACTORY
+SHUT OFF for fight
+hack for fleet delay-->
+
+<!--TAT_FEDERATION_DISABLED (Rebel/Battlegrounds)-->
+<event name="TAT_FEDERATION_DISABLED" unique="true">
+	<img back="BACKGROUND" planet="PLANET_GAS"/>
+	<text id="TAT_FEDERATION_DISABLED_INTRO"/>
+	<choice>
+		<text id="TAT_FEDERATION_DISABLED_YES"/>
+		<event>
+			<text id="TAT_FEDERATION_DISABLED_YESED"/>
+			<crewMember amount="2" type="random"/>
+			<autoReward level="LOW">stuff</autoReward>
+			<ship load="LONG_ELITE" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_FEDERATION_DISABLED_NO"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_MEET_THE_SPY (Rebel EXCLUSIVE)-->
+<event name="TAT_MEET_THE_SPY" unique="true">
+	<text id="TAT_MEET_THE_SPY_INTRO"/>
+	<choice>
+		<text id="TAT_MEET_THE_SPY_STUFF"/>
+		<event>
+			<text id="TAT_MEET_THE_SPY_STUFFED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_MEET_THE_SPY_DELAY"/>
+		<event>
+			<text id="TAT_MEET_THE_SPY_DELAYED"/>
+			<modifyPursuit amount="-2"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_MEET_THE_SPY_JOIN"/>
+		<event>
+			<text id="TAT_MEET_THE_SPY_JOINED"/>
+			<crewMember amount="1" combat="2" type="random" id="name_TATJames"/>
+		</event>
+	</choice>
+</event>
+<text name="name_TATJames">James Lee</text>
+
+<!--TAT_REKT_AUTO (Rebel/Battlegrounds/Abandoned)-->
+<event name="TAT_REKT_AUTO" unique="true">
+	<ship load="REBEL_AUTO" hostile="flase"/>
+	<text id="TAT_REKT_AUTO_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_REKT_AUTO_SCRAP"/>
+		<event>
+			<text id="TAT_REKT_AUTO_SCRAPED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+			<modifyPursuit amount="1"/>
+		</event>
+	</choice>
+	<choice req="hacking" hidden="true">
+		<text id="TAT_REKT_AUTO_HACK"/>
+		<event>
+			<text id="TAT_REKT_AUTO_HACKED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice req="anaerobic" hidden="true">
+		<text id="SHIPS_REBEL_AUTO_LANIUS"/>
+		<event>
+			<text id="SHIPS_REBEL_AUTO_LANIUSED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice req="emen" hidden="true">
+		<text id="SHIPS_REBEL_AUTO_EMEN"/>
+		<event>
+			<text id="SHIPS_REBEL_AUTO_LANIUSED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_REKT_AUTO_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_REBEL_UPRISING (Rebel/Battlegrounds)-->
+<event name="TAT_REBEL_UPRISING" unique="true">
+	<img planet="PLANET_POPULATED"/>
+	<text id="TAT_REBEL_UPRISING_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_REBEL_UPRISING_FIRE"/>
+		<event>
+			<text id="TAT_REBEL_UPRISING_FIRE1"/>
+			<modifyPursuit amount="-2"/>
+		</event>
+		<event>
+			<text id="TAT_REBEL_UPRISING_FIRE2"/>
+			<damage amount="1" system="engines" effect="breach"/>
+			<damage amount="1" system="shields" effect="breach"/>
+			<damage amount="1" system="pilot" effect="breach"/>
+		</event>
+	</choice>
+	<choice req="artillery" hidden="true">
+		<text id="TAT_REBEL_UPRISING_ARTILLERY"/>
+		<event>
+			<text id="TAT_REBEL_UPRISING_ARTILLERYED"/>
+			<modifyPursuit amount="-2"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_REBEL_UPRISING_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_REBEL_SUN (Rebel/Zoltan)-->
+<event name="TAT_REBEL_SUN" unique="true">
+	<img back="No_Stars" planet="NONE"/>
+	<text load="TAT_REBEL_SUN_INTRO"/>
+	<environment type="sun"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--TAT_REBEL_ASTEROID (Rebel/Rock)-->
+<event name="TAT_REBEL_ASTEROID" unique="true">
+	<text load="TAT_REBEL_ASTEROID_INTRO"/>
+	<environment type="asteroid"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--TAT_REBEL_NEUTRON (Rebel)-->
+<event name="TAT_REBEL_NEUTRON" unique="true">
+	<text load="TAT_REBEL_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--REBEL_BOMBED-->
+<!--You stumble upon a Federation settlement that's been severely bombed, almost all buildings are somewhere between damaged and a pile of rubble
+sabotage
+Help
+Leave-->
+
+<!--TAT_REBEL_ROCK-->
+<!--You see a Rebel ship explode as a Federation ship blasts it with lasers, they hail you. These Rebels act tough but none of them can handle a classic 1v1, you're Federation right? beat me in a 1v1 and ill gift you something that'll give you an edge-->

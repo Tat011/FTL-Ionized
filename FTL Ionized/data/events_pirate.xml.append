@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Pirate Sector Events-->
+<!--Stores-->
+<eventList name="STORES_PIRATE">
+	<event load="STORE_PIRATE"/>
+</eventList>
+
+<!--Empty-->
+<eventList name="NOTHING_PIRATE_LIST">
+	<event load="NOTHING_PIRATE"/>
+	<event load="NOTHING"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="ITEMS_PIRATE">
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="TAT_PIRATE_NO_FUEL"/>
+	<event load="TAT_PIRATE_STATION"/>
+	<event load="TAT_PIRATE_ITEMS"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_PIRATE">
+	<event load="PIRATE_BRIBER"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="FRIENDLY_SLAVER"/>
+	<event load="ENGI_SURRENDER"/>
+	<event load="PIRATE_STATION_CROPS"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+	<event load="STORE_RESCUE"/>
+	<event load="QUEST_CREWDEAD"/>
+	<event load="PIRATE_SALESMAN"/>
+	<event load="TAT_PIRATE_VS_PIRATE"/>
+	<event load="QUEST_SLUG_PIRATE_TRAP"/>
+	<event load="ZOLTAN_LIFERAFT"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_PIRATE"><!--Overriden in dlcEventsOverwrite-->
+	<event load="PIRATE"/>
+	<event load="PIRATE_SUN"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="PIRATE_PULSAR"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="TRAP_BEACON"/>
+	<event load="BOARDERS_HACKING"/>
+	<event load="DONOR_BLACK_RAVEN"/>
+	<event load="ENGI_PIRATE_FIGHT"/>
+	<event load="BOARDERS_PIRATE"/>
+	<event load="BOARDERS_SUN"/>
+	<event load="BOARDERS_ASTEROID"/>
+	<event load="TAT_PIRATE_PULSAR"/>
+	<event load="ROCK_BOARDERS_ASTEROID"/>
+	<event load="ROCK_PIRATE_ASTEROID"/>
+</eventList>
+
+<!--Controlled only-->
+<eventList name="PIRATE_CONTROLLED">
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="QUEST_MANTIS_INVASION"/>
+	<event load="REBEL_CHECKPOINT"/>
+	<event load="REBEL_HELPERS"/>
+	<event load="MERCHANT_REQUEST"/>
+</eventList>
+
+<!--Stronghold only-->
+<eventList name="PIRATE_STRONGHOLD">
+	<event load="DISTRESS_STATION_DISEASE"/>
+	<event load="STATION_SICK"/>
+</eventList>
+
+<!--PIRATE (EXCLUSIVE)-->
+<event name="PIRATE" unique="true">
+	<text load="PIRATE"/>
+	<ship load="PIRATE" hostile="true"/>
+</event>
+
+<!--PIRATE_NO_ESCAPE (EXCLUSIVE)-->
+<event name="PIRATE_NO_ESCAPE" unique="true">
+	<text id="event_PIRATE_NO_ESCAPE_text"/>
+	<ship load="PIRATE_NO_ESCAPE" hostile="true"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event>
+			<status type="limit" target="player" system="engines" amount="1"/>
+			<status type="limit" target="player" system="oxygen" amount="1"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="hacking">
+		<text id="event_PIRATE_NO_ESCAPE_c2_choice"/>
+		<event>
+			<text id="event_PIRATE_NO_ESCAPE_c2_text"/>
+			<status type="limit" target="player" system="hacking" amount="0"/>
+		</event>
+	</choice>
+</event>
+
+<!--PIRATE_CIVILIAN (Filler)-->
+<event name="PIRATE_CIVILIAN" unique="true">
+	<text load="PIRATE_CIVILIAN"/>
+	<img back="BACKGROUND" planet="PLANET_POPULATED"/>
+	<choice>
+		<text id="event_PIRATE_CIVILIAN_c1_choice"/>
+		<event>
+			<text id="event_PIRATE_CIVILIAN_c1_text"/>
+			<ship load="PIRATE_CIVILIAN" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_PIRATE_CIVILIAN_c2_choice"/>
+		<event>
+			<text id="event_PIRATE_CIVILIAN_c2_text"/>
+		</event>
+	</choice>
+</event>
+
+<!--PIRATE_BRIBER (Filler)-->
+
+<!--PIRATE_CHOICE (Filler)-->
+<event name="PIRATE_CHOICE" unique="true">
+	<text id="event_PIRATE_CHOICE_text"/>
+	<ship load="PIRATE" hostile="false"/>
+	<choice>
+		<text id="event_PIRATE_CHOICE_c1_choice"/>
+		<event>
+			<text id="event_PIRATE_CHOICE_c1_text"/>
+			<item_modify>
+				<item type="scrap" min="-25" max="-15"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_PIRATE_CHOICE_c2_choice"/>
+		<event>
+			<text id="event_PIRATE_CHOICE_c2_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event>
+
+<!--PIRATE_SLAVER (Pirate/Mantis)-->
+<event name="PIRATE_SLAVER" unique="true">
+	<text id="event_PIRATE_SLAVER_text"/>
+	<ship load="PIRATE_SLAVER" hostile="false"/>
+	<choice>
+		<text id="event_PIRATE_SLAVER_c1_choice"/>
+		<event>
+			<text id="event_PIRATE_SLAVER_c1_text"/>
+			<removeCrew>
+				<clone>false</clone>
+				<text id="event_PIRATE_SLAVER_c1_c0_clone"/>
+			</removeCrew>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_PIRATE_SLAVER_c2_choice"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice req="engines" lvl="6" hidden="true">
+		<text id="event_PIRATE_SLAVER_c3_choice"/>
+		<event load="PIRATE_SLAVER_RUN"/>
+	</choice>
+</event>
+
+<!--FRIENDLY_SLAVER (Pirate/Mantis)-->
+<!--PIRATE_SUN (Pirate/Zoltan)-->
+
+<!--PIRATE_ASTEROID (Pirate/Rock)-->
+<event name="PIRATE_ASTEROID" unique="true">
+	<environment type="asteroid"/>
+	<text id="event_PIRATE_ASTEROID_text"/>
+	<ship load="PIRATE" hostile="true"/>
+</event>
+
+<!--BOARDERS_PIRATE (EXCLUSIVE)-->
+<event name="BOARDERS_PIRATE">
+	<text load="BOARDERS_PIRATE"/>
+	<boarders min="6" max="6" class="random"/>
+</event>
+
+<!--BOARDERS_SUN (EXCLUSIVE)-->
+<event name="BOARDERS_SUN" unique="true">
+	<text id="event_BOARDERS_SUN_text"/>
+	<boarders min="6" max="6" class="random"/>
+	<environment type="sun"/>
+</event>
+
+<!--BOARDERS_ASTEROID (EXCLUSIVE)-->
+<event name="BOARDERS_ASTEROID" unique="true">
+	<text id="event_BOARDERS_ASTEROID_text"/>
+	<boarders min="6" max="6" class="random"/>
+	<environment type="asteroid"/>
+</event>
+
+<!--FLOATING_CARGO (Filler)-->
+
+<!--TAT_PIRATE_NO_FUEL (Mantis homeworlds/Rock BOTH/Pirate Controlled/Stronghold)-->
+<event name="TAT_PIRATE_NO_FUEL" unique="true">
+	<ship load="PIRATE" hostile="false"/>
+	<text id="TAT_PIRATE_NO_FUEL_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_PIRATE_NO_FUEL_HELP"/>
+		<event>
+			<text id="TAT_PIRATE_NO_FUEL_HELP1"/>
+			<item_modify>
+				<item type="fuel" min="-3" max="-1"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_NO_FUEL_HELP2"/>
+			<autoReward level="LOW">missiles_only</autoReward>
+			<autoReward level="LOW">droneparts_only</autoReward>
+			<item_modify>
+				<item type="fuel" min="-3" max="-1"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_NO_FUEL_HELP2"/>
+			<autoReward level="MED">scrap_only</autoReward>
+			<item_modify>
+				<item type="fuel" min="-3" max="-1"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_PIRATE_NO_FUEL_NOHELP"/>
+		<event>
+			<text id="TAT_PIRATE_NO_FUEL_NOHELP1"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_NO_FUEL_NOHELP2"/>
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_NO_FUEL_NOHELP3"/>
+			<status type="limit" target="player" system="sensors" amount="0"/>
+			<status type="limit" target="player" system="doors" amount="1"/>
+			<status type="limit" target="player" system="mind" amount="1"/>
+			<status type="limit" target="player" system="hacking" amount="1"/>
+			<status type="limit" target="player" system="cloaking" amount="1"/>
+			<status type="limit" target="player" system="teleporter" amount="1"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event>
+
+<!--TAT_PIRATE_VS_PIRATE (Rock/Mantis/Engi Controlled/Pirate Controlled/Stronghold)-->
+<event name="TAT_PIRATE_VS_PIRATE" unique="true">
+	<text id="TAT_PIRATE_VS_PIRATE_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_PIRATE_VS_PIRATE_CHOICE1"/>
+		<event>
+			<text id="TAT_PIRATE_VS_PIRATE_CHOICED"/>
+			<ship load="CIRCLE_FIGHTER_B_P" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_PIRATE_VS_PIRATE_CHOICE2"/>
+		<event>
+			<text id="TAT_PIRATE_VS_PIRATE_CHOICED"/>
+			<ship load="MANTIS_FIGHTER_A_P" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_REBEL_VS_MANTIS_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_REBEL_VS_PIRATE ()-->
+
+<!--TAT_PIRATE_STATION (Rock controlled/Pirate/Slug both)-->
+<event name="TAT_PIRATE_STATION" unique="true">
+	<text id="TAT_PIRATE_STATION_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_PIRATE_STATION_GAMBLE"/>
+		<event>
+			<text id="TAT_PIRATE_STATION_NOTHING"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_BOARD"/>
+			<boarders min="6" max="6" class="emen"/>
+			<status type="limit" target="player" system="sensors" amount="0"/>
+			<status type="limit" target="player" system="mind" amount="0"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_SHIP"/>
+			<ship load="REBEL_AUTO" hostile="true"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_DAMAGE"/>
+            <damage amount="1" system="pilot"/>
+            <damage amount="1" system="engines"/>
+            <damage amount="1" system="doors"/>
+            <damage amount="1" system="oxygen"/>
+            <damage amount="1" system="weapons"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_HEAL"/>
+			<damage amount="-10"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_FIRE"/>
+            <damage amount="0" system="pilot" effect="fire"/>
+            <damage amount="0" system="engines" effect="fire"/>
+            <damage amount="0" system="doors" effect="fire"/>
+            <damage amount="0" system="oxygen" effect="fire"/>
+            <damage amount="0" system="weapons" effect="fire"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_BREACH"/>
+            <damage amount="0" system="pilot" effect="breach"/>
+            <damage amount="0" system="engines" effect="breach"/>
+            <damage amount="0" system="doors" effect="breach"/>
+            <damage amount="0" system="oxygen" effect="breach"/>
+            <damage amount="0" system="weapons" effect="breach"/>
+		</event>
+		<event>
+			<text loidad="TAT_PIRATE_STATION_HACK"/>
+			<environment type="PDS" target="player"/>
+			<status type="limit" target="player" system="cloak" amount="0"/>
+			<status type="limit" target="player" system="engines" amount="1"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_STEAL"/>
+			<item_modify>
+				<item type="fuel" min="-3" max="-1"/>
+				<item type="missiles" min="-4" max="-1"/>
+				<item type="drones" min="-3" max="-1"/>
+				<item type="scrap" min="-15" max="-1"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_SCRAP"/>
+			<item_modify>
+				<item type="scrap" min="15" max="25"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_FUEL"/>
+			<item_modify>
+				<item type="fuel" min="4" max="6"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_MISSILES"/>
+			<item_modify>
+				<item type="missiles" min="4" max="6"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_DRONES"/>
+			<item_modify>
+				<item type="drones" min="4" max="6"/>
+			</item_modify>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_WEAPON"/>
+			<weapon name="STANDARD_WEAPONS"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_DRONE"/>
+			<drone name="DRONES_STANDARD"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_AUGMENT"/>
+			<augment name="RANDOM"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_KILL"/>
+			<removeCrew>
+				<clone>false</clone>
+				<text id="TAT_PIRATE_STATION_KILLED"/>
+			</removeCrew>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_CREW"/>
+			<crewMember amount="1" type="random"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_FLEET_SPEED"/>
+			<modifyPursuit amount="1"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_FLEET_DELAY"/>
+			<modifyPursuit amount="-2"/>
+		</event>
+		<event>
+			<text id="TAT_PIRATE_STATION_REACTOR"/>
+			<upgrade amount="1" system="reactor"/>
+		</event>
+	</choice>
+	<choice req="hacking" hidden="true">
+		<text id="TAT_PIRATE_STATION_HACKEM"/>
+		<event>
+			<text id="TAT_PIRATE_STATION_YOURE_SO_SMART_ARENT_YOU"/>
+			<boarders min="6" max="6" class="emen"/>
+			<status type="limit" target="player" system="sensors" amount="0"/>
+			<status type="limit" target="player" system="doors" amount="2"/>
+			<status type="limit" target="player" system="oxygen" amount="1"/>
+			<status type="limit" target="player" system="engines" amount="1"/>
+			<status type="limit" target="player" system="cloak" amount="1"/>
+			<ship load="REBEL_AUTO" hostile="true"/>
+			<environment type="PDS" target="player"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_REBEL_VS_MANTIS_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_PIRATE_ITEMS-->
+<event name="TAT_PIRATE_ITEMS" unique="true">
+	<text id="TAT_PIRATE_ITEMS_INTRO"/>
+	<ship load="PIRATE" hostile="false"/>
+	<autoReward level="MED">stuff</autoReward>
+</event>
+
+
+
+
+

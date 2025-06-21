@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Rock Sector Events-->
+<!--Stores-->
+<eventList name="STORES_ROCK">
+	<event load="STORE_ROCK"/>
+	<event load="TAT_ROCK_STORE"/>
+</eventList>
+
+<!--Empty-->
+<eventList name="NOTHING_ROCK_LIST">
+	<event load="NOTHING_ROCK"/>
+	<event load="NOTHING"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="ITEMS_ROCK">
+	<event load="TAT_ROCK_GOV"/>
+	<event load="TAT_ROCK_CHURCH"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_ROCK">
+	<event load="ROCK_NURSERY"/>
+	<event load="ROCK_MANTIS_HUNTER"/>
+	<event load="ROCK_MANTIS_FREIGHTER"/>
+	<event load="ROCK_ZOLTAN_HELP"/>
+	<event load="ROCK_ATHIEST"/>
+	<event load="ROCK_LOOTING"/>
+	<event load="ROCK_STARSHIP_MINE"/>
+	<event load="ROCK_SLUG_ARGUMENT"/>
+	<event load="TAT_MANTIS_VS_ROCK"/>
+	<event load="MANTIS_FIGHT_CHOICE"/>
+	<event load="TAT_PIRATE_NO_FUEL"/>
+	<event load="ASTEROID_DERELICT_SHIP"/><!--CRYSTAL UNLOCK-->
+	<event load="ROCK_BOARDERS_SHIP"/>
+	<event load="ROCK_BOARDERS_ASTEROID"/>
+	<event load="ROCK_BOARDERS_SUN"/>
+	<event load="ROCK_QUEST_MARRIAGE_START"/>
+	<event load="SLUG_DISTRESS_ROCK"/>
+	<event load="LANIUS_ROCK_DISTRESS"/>
+	<event load="LANIUS_HARVESTER"/>
+	<event load="ROCK_CRYSTAL_BEACON"/><!--Crystal beacon-->
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_ROCK">
+	<event load="ROCK_SHIP"/>
+	<event load="ROCK_FIGHT_ASTEROID"/>
+	<event load="ROCK_PIRATE"/>
+	<event load="ROCK_PIRATE_ASTEROID"/>
+	<event load="ROCK_PIRATE_SUN"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="TAT_MANTIS_ASTEROIDS"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="LANIUS_FIGHT_ASTEROID"/>
+	<event load="ZOLTAN_ASTEROID"/>
+	<event load="TAT_ROCK_ASB"/>
+	<event load="TAT_ROCK_PULSAR"/>
+	<event load="TAT_SLUG_ASTEROID"/>
+	<event load="TAT_REBEL_ASTEROID"/>
+	<event load="TAT_ENGI_ASTEROID"/>
+</eventList>
+
+<!--Controlled only-->
+<eventList name="ROCK_CONTROLLED">
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/>
+	<event load="DONOR_MANTIS_CHASE"/>
+	<event load="REBEL_CHECKPOINT"/>
+	<event load="QUEST_MANTIS_INVASION"/>
+	<event load="TAT_PIRATE_VS_PIRATE"/>
+	<event load="TAT_PIRATE_STATION"/>
+</eventList>
+
+<!--Homewolrds only-->
+<eventList name="ROCK_HOMEWORLDS">
+	<event load="ROCK_UNLOCK1"/><!--Ship unlock-->
+</eventList>
+
+
+<!--ROCK_SHIP (Rock EXCLUSIVE)-->
+<event name="ROCK_SHIP" unique="true">
+	<text load="ROCK_SHIP"/>
+	<ship load="ROCK_SHIP" hostile="true"/>
+</event>
+
+<!--ROCK_PIRATE (Rock EXCLUSIVE)-->
+<event name="ROCK_PIRATE" unique="true">
+	<text load="ROCK_PIRATE"/>
+	<ship load="ROCK_PIRATE" hostile="true"/>
+</event>
+
+<!--ROCK_LOOTING (Rock EXCLUSIVE)-->
+<eventList name="ROCK_LOOTING_STRIP">
+	<event>
+		<text id="event_ROCK_LOOTING_STRIP_1_text"/>
+		<autoReward level="low">standard</autoReward>
+	</event>
+	<event>
+		<text id="event_ROCK_LOOTING_STRIP_2_text"/>
+		<ship load="ROCK_SHIP" hostile="true"/>
+		<autoReward level="low">standard</autoReward>
+	</event>
+	<event>
+		<text id="event_ROCK_LOOTING_STRIP_TAT_PIRATE"/>
+		<ship load="PIRATE_SHIP" hostile="true"/>
+		<autoReward level="low">standard</autoReward>
+	</event>
+</eventList>
+
+<!--ROCK_NURSERY (Rock EXCLUSIVE)-->
+
+<!--ROCK_MANTIS_HUNTER (Rock/Mantis)-->
+
+<!--ROCK_MANTIS_FREIGHTER (Rock/Mantis)-->
+
+<!--ROCK_ZOLTAN_HELP (Zoltan/Rock)-->
+
+<!--ROCK_ATHIEST (Rock/Uncharted)-->
+<event name="ROCK_ATHIEST" unique="true">
+	<text id="event_ROCK_ATHIEST_text"/>
+	<ship load="ROCK_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_ROCK_ATHIEST_c1_choice"/>
+		<event>
+			<text load="ROCK_ATHIEST_BAD"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_ROCK_ATHIEST_c2_choice"/>
+		<event load="ROCK_ATHIEST_GOOD"/>
+	</choice>
+	<choice hidden="true" req="sensors" lvl="3">
+		<text id="event_ROCK_ATHIEST_c3_choice"/>
+		<event>
+			<text id="event_ROCK_ATHIEST_c3_text"/>
+			<crewMember amount="1" class="rock"/>
+		</event>
+	</choice>
+</event>
+
+<!--ROCK_STARSHIP_MINE (Rock EXCLUSIVE)-->
+<event name="ROCK_STARSHIP_MINE" unique="true">
+	<text id="event_ROCK_STARSHIP_MINE_text"/>
+	<choice hidden="true">
+		<text id="event_ROCK_STARSHIP_MINE_c1_choice"/>
+		<event>
+			<text id="event_ROCK_STARSHIP_MINE_c1_text"/>
+			<choice hidden="true">
+				<text id="event_ROCK_STARSHIP_MINE_c1_c1_choice"/>
+				<event load="ROCK_STARSHIP_MINE_DEFUSE"/>
+			</choice>
+			<choice hidden="true" req="WEAPONS_MISSILES"> <!--JUSTIN - TO DO - Missile weapons-->
+				<text id="event_ROCK_STARSHIP_MINE_c1_c2_choice"/>
+				<event>
+					<text id="event_ROCK_STARSHIP_MINE_c1_c2_text"/>
+             		<damage amount="1" system="pilot" effect="fire"/>
+             		<damage amount="1" system="shields" effect="fire"/>
+             		<damage amount="1" system="room" effect="breach"/>
+					<damage amount="1" system="random" effect="breach"/>
+					<item_modify>
+						<item type="missile" min="-1" max="-1"/>
+					</item_modify>
+					<autoReward level="LOW">scrap_only</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true" req="COMBAT_BEAM_DRONE_LIST">
+				<text id="event_ROCK_STARSHIP_MINE_c1_c3_choice"/>
+				<event>
+					<text id="event_ROCK_STARSHIP_MINE_c1_c3_text"/>
+					<item_modify>
+						<item type="drones" min="-1" max="-1"/>
+					</item_modify>
+					<autoReward level="LOW">scrap_only</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true" req="ROCK_ARMOR">
+				<text id="event_ROCK_STARSHIP_MINE_TAT_PLATE"/>
+				<event>
+					<text id="event_ROCK_STARSHIP_MINE_TAT_PLATED"/>
+					<autoReward level="LOW">scrap_only</autoReward>
+             		<damage amount="0" system="pilot" effect="fire"/>
+            	    <damage amount="0" system="shields" effect="fire"/>
+            	    <damage amount="0" system="room" effect="breach"/>
+            	    <damage amount="0" system="room" effect="breach"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="engines" lvl="5">
+		<text id="event_ROCK_STARSHIP_MINE_c2_choice"/>
+		<event>
+			<text id="event_ROCK_STARSHIP_MINE_c2_text"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="WEAPON_PREIGNITE">
+		<text id="event_ROCK_STARSHIP_MINE_TAT_IGNITE"/>
+		<event>
+			<text id="event_ROCK_STARSHIP_MINE_TAT_IGNITED"/>
+			<autoReward level="LOW">scrap_only</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="cloaking">
+		<text id="event_ROCK_STARSHIP_MINE_TAT_CLOAK"/>
+		<event>
+			<text id="event_ROCK_STARSHIP_MINE_TAT_CLOAKED"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="ENERGY_SHIELD">
+		<text id="event_ROCK_STARSHIP_MINE_TAT_ZOLTAN"/>
+		<event>
+			<text id="event_ROCK_STARSHIP_MINE_TAT_ZOLTANED"/>
+		</event>
+	</choice>
+</event>
+
+<!--ROCK_FIGHT_ASTEROID (Rock EXCLUSIVE)-->
+
+<!--ROCK_PIRATE_ASTEROID (Rock/Pirate)-->
+
+<!--ROCK_PIRATE_SUN (Rock/Zoltan)-->
+
+<!--ROCK_QUEST_MARRIAGE_START (Rock EXCLUSIVE)-->
+
+<!--ROCK_BOARDERS_SHIP (Rock/Mantis)-->
+
+<!--ROCK_BOARDERS_ASTEROID (Rock/Pirate)-->
+
+<!--ROCK_BOARDERS_SUN (Zoltan/Rock)-->
+
+<!--TAT_ROCK_STORE-->
+<event name="TAT_ROCK_STORE" unique="true">
+	<text id="TAT_ROCK_STORE_INTRO"/>
+	<environment type="asteroid"/>
+	<store/>
+	<customStore>TAT_ROCK_STORE_STORE</customStore>
+</event>
+
+<!--TAT_ROCK_GOV-->
+<eventList name="TAT_ROCK_GOV" unique="true">
+	<event>
+		<text id="ROCK_GOV_INTRO"/>
+		<weapon name="BOMB_HEAL"/>
+	</event>
+	<event>
+		<text id="ROCK_GOV_INTRO"/>
+		<weapon name="LASER_CHAINGUN_2"/>
+	</event>
+	<event>
+		<text id="ROCK_GOV_INTRO"/>
+		<weapon name="BEAM_TATSCYTHE"/>
+	</event>
+	<event>
+		<text id="ROCK_GOV_INTRO"/>
+		<augment name="LIFE_SCANNER"/>
+	</event>
+</eventList>
+
+<event name="TAT_ROCK_CHURCH" unique="true">
+	<text id="TAT_ROCK_CHURCH_INTRO"/>
+	<choice>
+		<text id="TAT_ROCK_CHURCH_25"/>
+		<event>
+			<text id="TAT_ROCK_CHURCH_INSIDE"/>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event>
+					<text id="TAT_ROCK_CHURCH_25ED1"/>
+            	  	<crewMember amount="1" type="rock" id="name_TATKragg"/>
+				</event>
+				<event>
+					<text id="TAT_ROCK_CHURCH_25ED2"/>
+            	    <damage amount="-5"/>
+				</event>
+				<event>
+					<text id="TAT_ROCK_CHURCH_25ED3"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_ROCK_CHURCH_40"/>
+		<event>
+			<text id="TAT_ROCK_CHURCH_INSIDE"/>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event>
+					<text id="TAT_ROCK_CHURCH_40ED1"/>
+            	  	<crewMember amount="1" type="rock" repair="2" id="name_TATOmen"/>
+				</event>
+				<event>
+					<text id="TAT_ROCK_CHURCH_40ED2"/>
+            	    <damage amount="-8"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_ROCK_CHURCH_55"/>
+		<event>
+			<text id="TAT_ROCK_CHURCH_INSIDE"/>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event>
+					<text id="TAT_ROCK_CHURCH_55ED1"/>
+            	  	<crewMember amount="1" type="rock" all_skills="2" id="name_TATElder"/>
+            	    <damage amount="-5"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_ROCK_CHURCH_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+<text name="name_TATKragg">Kragg Ooben</text>
+<text name="name_TATOmen">Omen Elm</text>
+<text name="name_TATElder">Elder Esk</text>
+
+<!--TAT_ROCK_PULSAR (Rock EXCLUSIVE)-->
+<event name="TAT_ROCK_PULSAR" unique="true">
+	<text id="TAT_ROCK_PULSAR_INTRO"/>
+	<environment type="pulsar"/>
+	<ship load="ROCK_SHIP" hostile="true"/>
+</event>
+
+<!--TAT_ROCK_STORM-->
+<event name="TAT_ROCK_STORM" unique="true">
+	<text id="TAT_ROCK_STORM_INTRO"/>
+	<environment type="storm"/>
+	<ship load="ROCK_SHIP" hostile="true"/>
+</event>

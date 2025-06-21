@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Crystal Sector-->
+<!--Store-->
+<eventList name="STORES_CRYSTAL">
+	<event load="STORE_CRYSTAL"/>
+	<event load="STORE"/>
+</eventList>
+
+<!--Nothing-->
+<eventList name="NOTHING_CRYSTAL_LIST">
+	<event load="NOTHING_CRYSTAL"/>
+	<event load="NOTHING"/>
+</eventList>
+
+<!--Items-->
+<eventList name="ITEMS_CRYSTAL">
+	<event load="CRYSTAL_CACHE"/>
+	<event load="CRYSTAL_SCRAP_EXCITED"/>
+	<event load="CRYSTAL_HUMAN_TESTS"/>
+	<event load="CRYSTAL_CHATTY"/>
+	<event load="CRYSTAL_HELP_DIG"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_CRYSTAL">
+	<event load="CRYSTAL_MANTIS_CRYSTAL"/>
+	<event load="CRYSTAL_REBEL_CRYSTAL"/>
+	<event load="CRYSTAL_PIRATE_CRYSTAL"/>
+	<event load="CRYSTAL_REBEL_CRYSTAL2"/>
+	<event load="CRYSTAL_FED"/>
+	<event load="CRYSTAL_FED_DESERTER"/>
+	<event load="CRYSTAL_REQUEST"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_CRYSTAL">
+	<event load="CRYSTAL_CONVOY"/>
+	<event load="CRYSTAL_HUNTER"/>
+	<event load="CRYSTAL_REBEL"/>
+	<event load="CRYSTAL_AUTO"/>
+	<event load="CRYSTAL_FIGHT"/>
+	<event load="TAT_CRYSTAL_ASTEROID"/>
+	<event load="TAT_CRYSTAL_STAR"/>
+	<event load="TAT_CRYSTAL_NEUTRON"/>
+	<event load="TAT_CRYSTAL_STORM"/>
+	<event load="TAT_CRYSTAL_SLUG"/>
+	<event load="TAT_CRYSTAL_LANIUS"/>
+	<event load="TAT_CRYSTAL_ASB"/>
+</eventList>
+
+
+<!--CRYSTAL_CACHE (Crystal, Passive, No hazard, Nothing, no distress)-->
+<event name="CRYSTAL_CACHE" unique="true">
+	<text id="event_CRYSTAL_CACHE_text"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_CACHE_c1_choice"/>
+		<event load="CRYSTAL_CACHE_BREAK"/>
+	</choice>
+	<choice hidden="true" req="WEAPONS_MISSILES">
+		<text id="event_CRYSTAL_CACHE_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_CACHE_c2_text"/>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_CACHE_c2_c1_choice"/>
+				<event load="CRYSTAL_CACHE_LIST"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="BOMBS_BREACH">
+		<text id="event_CRYSTAL_CACHE_TATBOMB"/>
+		<event>
+			<text id="event_CRYSTAL_CACHE_c2_text"/>
+			<item_modify>
+				<item type="missiles" min="-1" max="-1"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_CACHE_c2_c1_choice"/>
+				<event load="CRYSTAL_CACHE_LIST"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="crystal">
+		<text id="event_CRYSTAL_CACHE_c3_choice"/>
+		<event>
+			<text id="event_CRYSTAL_CACHE_c3_text"/>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_CACHE_c2_c1_choice"/>
+				<event load="CRYSTAL_CACHE_LIST"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--CRYSTAL_SCRAP_EXCITED (Crystal, Passive, No hazard, Inhabited planet, no distress)-->
+<event name="CRYSTAL_SCRAP_EXCITED" unique="true">
+	<text id="event_CRYSTAL_SCRAP_EXCITED_text"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_SCRAP_EXCITED_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_SCRAP_EXCITED_c1_text"/>
+			<item_modify>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_SCRAP_EXCITED_c1_c1_choice"/>
+				<event>
+					<text id="event_CRYSTAL_SCRAP_EXCITED_c1_c1_text"/>
+					<crewMember amount="1" repair="2" class="crystal"/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_SCRAP_EXCITED_c1_c2_choice"/>
+				<event load="CRYSTAL_SCRAP_EXCITED_LIST"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_SCRAP_EXCITED_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_SCRAP_EXCITED_c2_text"/>
+		</event>
+	</choice>
+</event>
+<eventList name="CRYSTAL_SCRAP_EXCITED_LIST">
+	<event>
+		<text id="event_CRYSTAL_SCRAP_EXCITED_LIST_1_text"/>
+		<weapon name="BOMB_LOCK"/>
+	</event>
+	<event>
+		<text id="event_CRYSTAL_SCRAP_EXCITED_LIST_2_text"/>
+		<weapon name="CRYSTAL_BURST_1"/>
+	</event>
+	<event>
+		<text id="event_CRYSTAL_SCRAP_EXCITED_LIST_2_text"/>
+		<weapon name="CRYSTAL_BURST_2"/>
+	</event>
+	<event>
+		<text id="event_CRYSTAL_SCRAP_EXCITED_LIST_2_text"/>
+		<weapon name="CRYSTAL_HEAVY_1"/>
+	</event>
+	<event>
+		<text id="event_CRYSTAL_SCRAP_EXCITED_LIST_2_text"/>
+		<weapon name="CRYSTAL_HEAVY_2"/>
+	</event>
+</eventList>
+
+<!--CRYSTAL_FIGHT (Crystal, Hostile, No Hazard, Ship, No distress)-->
+<!--CRYSTAL_CONVOY (Crystal, Hostile, No Hazard, Ship, No distress)-->
+<ship name="CRYSTAL_CONVOY" auto_blueprint="SHIPS_CRYSTAL">
+	<surrender  chance="0" min="2" max="4">
+		<text id="ship_CRYSTAL_CONVOY_surrender_text"/>
+		<choice hidden="true">
+			<text id="ship_CRYSTAL_CONVOY_surrender_c1_choice"/>
+			<event>
+				<text id="ship_CRYSTAL_CONVOY_surrender_c1_text"/>
+				<ship hostile="false"/>
+				<choice hidden="true">
+					<text id="continue"/>
+					<event>
+						<text id="ship_CRYSTAL_CONVOY_surrender_c1_c1_text"/>
+						<autoReward level="LOW">fuel</autoReward>
+						<damage amount="-8"/>
+					</event>
+					<event>
+						<text id="ship_CRYSTAL_CONVOY_surrender_TAT1_text"/>
+						<autoReward level="LOW">missiles</autoReward>
+						<damage amount="-8"/>
+					</event>
+					<event>
+						<text id="ship_CRYSTAL_CONVOY_surrender_TAT1_text"/>
+						<autoReward level="LOW">droneparts</autoReward>
+						<damage amount="-8"/>droneparts
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="ship_CRYSTAL_CONVOY_surrender_c2_choice"/>
+			<event>
+				<text id="ship_CRYSTAL_CONVOY_surrender_c2_text"/>
+			</event>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="ship_CRYSTAL_CONVOY_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_CRYSTAL_CONVOY_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--CRYSTAL_HUNTER (Crystal, Hostile, No Hazard, Ship, No distress)-->
+<ship name="CRYSTAL_HUNTER" auto_blueprint="SHIPS_CRYSTAL">
+	<surrender  chance="0.5" min="2" max="4">
+		<text id="ship_CRYSTAL_HUNTER_surrender_text"/>
+		<choice hidden="true">
+			<text id="ship_CRYSTAL_HUNTER_surrender_c1_choice"/>
+			<event>
+				<ship hostile="false"/>
+				<text id="ship_CRYSTAL_HUNTER_surrender_c1_text"/>
+				<crewMember amount="1" combat="2" class="human" id="name_TATAlex"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="ship_CRYSTAL_HUNTER_surrender_c2_choice"/>
+			<event>
+				<text id="ship_CRYSTAL_HUNTER_surrender_c2_text"/>
+			</event>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="ship_CRYSTAL_HUNTER_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_CRYSTAL_HUNTER_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+<text name="name_TATAlex">Alex Emhon</text>
+
+<!--CRYSTAL_REBEL (Crystal, Hostile, No Hazard, Ship, No distress)-->
+<event name="CRYSTAL_REBEL" unique="true">
+	<text id="event_CRYSTAL_REBEL_text"/>
+	<ship load="CRYSTAL_REBEL_TATSHIP" hostile="true"/>
+</event>
+<ship name="CRYSTAL_REBEL_TATSHIP" auto_blueprint="SHIPS_REBEL">
+	<destroyed>
+		<text id="CRYSTAL_REBEL_TATSHIP_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="CRYSTAL_REBEL_TATSHIP_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--CRYSTAL_AUTO (Crystal, Hostile, No Hazard, Ship, No distress)-->
+<event name="CRYSTAL_AUTO" unique="true">
+	<text id="event_CRYSTAL_AUTO_text"/>
+	<environment type="PDS" target="all"/>
+	<ship load="REBEL_AUTO" hostile="true"/>
+</event>
+
+<!--CRYSTAL_REBEL_CRYSTAL (Crystal, Neutral, No Hazard, Ship (actually diplays no ship), No distress)-->
+<event name="CRYSTAL_REBEL_CRYSTAL" unique="true">
+	<ship load="REBEL" hostile="false"/>
+	<text id="event_CRYSTAL_REBEL_CRYSTAL_text"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_REBEL_CRYSTAL_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_REBEL_CRYSTAL_c1_text"/>
+			<ship load="REBEL_CRYSTAL_REBEL_CRYSTAL" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_REBEL_CRYSTAL_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_REBEL_CRYSTAL_c2_text"/>
+			<modifyPursuit amount="1"/>
+			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_REBEL_CRYSTAL_c3_choice"/>
+		<event>
+			<text id="event_CRYSTAL_REBEL_CRYSTAL_c3_text"/>
+		</event>
+	</choice>
+</event>
+<ship name="REBEL_CRYSTAL_REBEL_CRYSTAL" auto_blueprint="SHIPS_REBEL_ELITE">
+	<destroyed>
+		<text id="ship_REBEL_CRYSTAL_REBEL_CRYSTAL_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="CRYSTAL_SAVED"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_REBEL_CRYSTAL_REBEL_CRYSTAL_destroyed_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="CRYSTAL_SAVED"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<!--CRYSTAL_MANTIS_CRYSTAL (Crystal, Neutral, No Hazard, Ship, No distress)-->
+<event name="CRYSTAL_MANTIS_CRYSTAL" unique="true">
+	<text id="event_CRYSTAL_MANTIS_CRYSTAL_text"/>
+	<ship load="MANTIS_CRYSTAL" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_MANTIS_CRYSTAL_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_MANTIS_CRYSTAL_c1_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_MANTIS_CRYSTAL_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_MANTIS_CRYSTAL_c2_text"/>
+			<event/>
+		</event>
+	</choice>
+</event>
+<ship name="MANTIS_CRYSTAL" auto_blueprint="SHIPS_MANTIS" unique="true">
+	<destroyed>
+		<text id="ship_MANTIS_CRYSTAL_destroyed_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="CRYSTAL_TATMANTIS_SAVED"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_MANTIS_CRYSTAL_deadCrew_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="CRYSTAL_TATMANTIS_SAVED"/>
+		</choice>
+	</deadCrew>
+</ship>
+<event name="CRYSTAL_TATMANTIS_SAVED">
+	<ship load="CRYSTAL_SHIP" hostile="false"/>
+	<text id="CRYSTAL_TATMANTIS_SAVED_text"/>
+	<event>
+		<text id="CRYSTAL_TATMANTIS_SAVED2_text"/>
+		<augment name="RANDOM"/>
+	</event>
+	<event>
+		<text id="CRYSTAL_TATMANTIS_SAVED3_text"/>
+		<drone name="RANDOM"/>
+	</event>
+</event>
+
+<!--CRYSTAL_PIRATE_CRYSTAL (Crystal, Neutral, No Hazard, Ship, No distress)-->
+<event name="CRYSTAL_PIRATE_CRYSTAL" unique="true">
+	<text id="event_CRYSTAL_PIRATE_CRYSTAL_text"/>
+	<ship load="PIRATE_CRYSTAL" hostile="false"/>
+	<environment type="PDS" target="enemy"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_PIRATE_CRYSTAL_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_PIRATE_CRYSTAL_c1_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_PIRATE_CRYSTAL_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_PIRATE_CRYSTAL_c2_text"/>
+			<event/>
+		</event>
+	</choice>
+</event>
+<ship name="PIRATE_CRYSTAL" auto_blueprint="SHIPS_PIRATE">
+	<surrender  chance="0.5" min="2" max="5">
+		<text id="ship_PIRATE_CRYSTAL_SURRENDERTAT"/>
+		<choice>
+			<text id="ship_PIRATE_CRYSTAL_SURRENDEREDTAT"/>
+			<event>
+				<autoReward level="MED">standard</autoReward>
+			</event>
+		</choice>
+		<choice>
+			<text id="ship_PIRATE_CRYSTAL_SURRENDERED2TAT"/>
+			<event/>
+		</choice>
+	</surrender>
+	<escape chance="0.5" min="3" max="5" >
+		<text load="ship_PIRATE_CRYSTAL_ESCAPETAT"/>
+	</escape>
+	<destroyed>
+		<text id="ship_PIRATE_CRYSTAL_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_PIRATE_CRYSTAL_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--CRYSTAL_REBEL_CRYSTAL2 (Crystal, Neutral, No Hazard, Ship?, No distress)-->
+<event name="CRYSTAL_REBEL_CRYSTAL2" unique="true">
+	<text id="event_CRYSTAL_REBEL_CRYSTAL2_text"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_REBEL_CRYSTAL2_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_REBEL_CRYSTAL2_c1_text"/>
+			<environment type="PDS" target="player"/>
+			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_REBEL_CRYSTAL2_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_REBEL_CRYSTAL2_c2_text"/>
+			<event/>
+		</event>
+	</choice>
+</event>
+
+<!--CRYSTAL_FED (Crystal, Neutral, No Hazard, Ship, Distress)-->
+<event name="CRYSTAL_FED" unique="true">
+	<distressBeacon/>
+	<text id="event_CRYSTAL_FED_text"/>
+	<ship load="CRYSTAL_FED" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_FED_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_FED_c1_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_FED_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_FED_c2_text"/>
+		</event>
+	</choice>
+</event>
+
+<!--CRYSTAL_HUMAN_TESTS (Crystal, Passive, No Hazard, No Ship, No Distress)-->
+<event name="CRYSTAL_HUMAN_TESTS" unique="true">
+	<text id="event_CRYSTAL_HUMAN_TESTS_text"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_HUMAN_TESTS_c1_choice"/>
+		<event load="CRYSTAL_HUMAN_TESTS_ACCEPT"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_HUMAN_TESTS_c2_choice"/>
+		<event load="CRYSTAL_HUMAN_TESTS_REFUSE"/>
+	</choice>
+	<choice hidden="true" req="rock">
+		<text id="event_CRYSTAL_HUMAN_TESTS_c3_choice"/>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c3_text"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice req="medbay" lvl="3" hidden="true">
+		<text id="event_CRYSTAL_HUMAN_TESTS_TATMED"/>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">weapon</autoReward>
+		</event>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">drone</autoReward>
+		</event>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">augment</autoReward>
+		</event>
+	</choice>
+	<choice req="clonebay" lvl="3" hidden="true">
+		<text id="event_CRYSTAL_HUMAN_TESTS_TATCLONE"/>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">weapon</autoReward>
+		</event>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">drone</autoReward>
+		</event>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">augment</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="BACKUP_DNA">
+		<text id="event_CRYSTAL_HUMAN_TESTS_c4_choice"/>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">weapon</autoReward>
+		</event>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">drone</autoReward>
+		</event>
+		<event>
+			<text id="event_CRYSTAL_HUMAN_TESTS_c4_text"/>
+			<autoReward level="MED">augment</autoReward>
+		</event>
+	</choice>
+</event>
+
+<!--CRYSTAL_CHATTY (Crystal, Neutral, No Hazard, Ship, No Distress)-->
+<!--CRYSTAL_REQUEST-->
+<event name="CRYSTAL_REQUEST" unique="true">
+	<text id="event_CRYSTAL_REQUEST_text"/>
+	<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="false"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event>
+			<text id="event_CRYSTAL_REQUEST_c1_text"/>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_REQUEST_c1_c1_choice"/>
+				<event>
+					<text id="event_CRYSTAL_REQUEST_c1_c1_text"/>
+					<autoReward level="HIGH">scrap_only</autoReward>
+					<modifyPursuit amount="1"/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_REQUEST_c1_c2_choice"/>
+				<event load="CRYSTAL_REQUEST_LIST"/>
+			</choice>
+			<choice hidden="true" req="FLEET_DISTRACTION">
+				<text id="event_CRYSTAL_REQUEST_c1_c3_choice"/>
+				<event>
+					<text id="event_CRYSTAL_REQUEST_c1_c3_text"/>
+					<autoReward level="HIGH">scrap_only</autoReward>
+					<modifyPursuit amount="-1"/>
+				</event>
+			</choice>
+			<choice hidden="true" req="FTL_JUMPER">
+				<text id="event_CRYSTAL_REQUEST_TATFTL"/>
+				<event>
+					<text id="event_CRYSTAL_REQUEST_TATFTLED"/>
+					<autoReward level="HIGH">scrap_only</autoReward>
+					<modifyPursuit amount="-1"/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_REQUEST_c1_c4_choice"/>
+				<event>
+					<text id="event_CRYSTAL_REQUEST_c1_c4_text"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<eventList name="CRYSTAL_REQUEST_LIST">
+	<event>
+		<text id="event_CRYSTAL_REQUEST_LIST_1_text"/>
+		<autoReward level="HIGH">scrap_only</autoReward>
+		<modifyPursuit amount="-1"/>
+	</event>
+	<event>
+		<text id="event_CRYSTAL_REQUEST_LIST_2_text"/>
+		<ship hostile="true"/>
+		<boarders min="2" max="2" class="crystal"/>
+	</event>
+</eventList>
+
+<!--CRYSTAL_HELP_DIG (Crystal, Passive, No Hazard, No Ship, No Distress)-->
+<event name="CRYSTAL_HELP_DIG" unique="true">
+	<text id="event_CRYSTAL_HELP_DIG_text"/>
+	<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_CRYSTAL_HELP_DIG_c1_choice"/>
+		<event>
+			<text id="event_CRYSTAL_HELP_DIG_c1_text"/>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_HELP_DIG_c1_c1_choice"/>
+				<event>
+					<text id="event_CRYSTAL_HELP_DIG_c1_c1_text"/>
+					<autoReward level="MED">fuel</autoReward>
+					<removeCrew>
+						<clone>false</clone>
+						<text></text>
+					</removeCrew>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="event_CRYSTAL_HELP_DIG_c1_c2_choice"/>
+				<event>
+					<text id="event_CRYSTAL_HELP_DIG_c1_c2_text"/>
+					<ship hostile="true"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="event_CRYSTAL_HELP_DIG_c1_c3_choice"/>
+				<event>
+					<text id="event_CRYSTAL_HELP_DIG_c1_c3_text"/>
+					<modifyPursuit amount="1"/>
+					<choice hidden="true">
+						<text id="event_CRYSTAL_HELP_DIG_c1_c1_choice"/>
+						<event>
+							<text id="event_CRYSTAL_HELP_DIG_c1_c1_text"/>
+							<autoReward level="HIGH">fuel</autoReward>
+							<removeCrew>
+								<clone>false</clone>
+								<text></text>
+							</removeCrew>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text id="event_CRYSTAL_HELP_DIG_c1_c2_choice"/>
+						<event>
+							<text id="event_CRYSTAL_HELP_DIG_c1_c2_text"/>
+							<ship hostile="true"/>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text id="event_CRYSTAL_HELP_DIG_c1_c3_choice"/>
+						<event>
+							<text id="event_CRYSTAL_HELP_DIG_c1_c3_c3_text"/>
+							<modifyPursuit amount="1"/>
+							<autoReward level="MED">fuel</autoReward>
+							<augment name="CRYSTAL_SHARDS"/>
+							<weapon name="CRYSTAL_HEAVY_2"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="teleporter">
+		<text id="event_CRYSTAL_HELP_DIG_TATTELE"/>
+		<event>
+			<text id="event_CRYSTAL_HELP_DIG_TATTELED"/>
+			<autoReward level="HIGH">fuel</autoReward>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_CRYSTAL_HELP_DIG_c2_choice"/>
+		<event>
+			<text id="event_CRYSTAL_HELP_DIG_c2_text"/>
+		</event>
+	</choice>
+</event>
+
+<!--BOARDERS_CRYSTAL-->
+<event name="BOARDERS_CRYSTAL" unique="false">
+	<text load="BOARDERS_CRYSTAL"/>
+	<boarders min="6" max="6" class="crystal"/>
+</event>
+
+<!--TAT_CRYSTAL_ASTEROID-->
+<event name="TAT_CRYSTAL_ASTEROID" unique="true">
+	<environment type="asteroid"/>
+	<ship load="TAT_CRYSTAL_ASTEROID_SHIP" hostile="true"/>
+	<text id="TAT_CRYSTAL_ASTEROID_INTRO"/>
+</event>
+<ship name="TAT_CRYSTAL_ASTEROID_SHIP" auto_blueprint="SHIPS_CRYSTAL">
+	<surrender chance="0.5" min="2" max="6">
+		<text id="TAT_CRYSTAL_ASTEROID_SHIP_SURRENDER"/>
+		<choice>
+			<text id="TAT_CRYSTAL_ASTEROID_SHIP_SURRENDERED"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">stuff</autoReward>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="TAT_CRYSTAL_ASTEROID_SHIP_SURRENDERNO"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="TAT_CRYSTAL_ASTEROID_SHIP_DESTROYED"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_CRYSTAL_ASTEROID_SHIP_DEAD"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</deadCrew>
+</ship>
+
+<!--TAT_CRYSTAL_STAR-->
+<event name="TAT_CRYSTAL_STAR" unique="true">
+	<img back="No_Stars" planet="NONE"/>
+	<text id="TAT_CRYSTAL_STAR_INTRO"/>
+	<environment type="sun"/>
+	<ship load="TAT_CRYSTAL_STAR_SHIP" hostile="true"/>
+</event>
+<ship name="TAT_CRYSTAL_STAR_SHIP" auto_blueprint="SHIPS_CRYSTAL">
+	<surrender chance="0" min="2" max="4">
+		<text id="TAT_CRYSTAL_STAR_SHIP_SURRENDER"/>
+		<choice>
+			<text id="TAT_CRYSTAL_STAR_SHIP_SURRENDERED"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">stuff</autoReward>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="TAT_CRYSTAL_STAR_SHIP_SURRENDERNO"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="TAT_CRYSTAL_STAR_SHIP_DESTROYED"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_CRYSTAL_STAR_SHIP_DEAD"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</deadCrew>
+</ship>
+
+<!--TAT_CRYSTAL_NEUTRON-->
+<event name="TAT_CRYSTAL_NEUTRON" unique="true">
+	<text id="TAT_CRYSTAL_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<ship load="TAT_CRYSTAL_NEUTRON_SHIP" hostile="true"/>
+</event>
+<ship name="TAT_CRYSTAL_NEUTRON_SHIP" auto_blueprint="SHIPS_CRYSTAL">
+	<escape chance="0.5" min="2" max="6" >
+		<text load="TAT_CRYSTAL_NEUTRON_SHIP_ESCAPE"/>
+	</escape>
+	<surrender chance="0.5" min="2" max="4">
+		<text id="TAT_CRYSTAL_NEUTRON_SHIP_SURRENDER"/>
+		<choice>
+			<text id="TAT_CRYSTAL_NEUTRON_SHIP_SURRENDERED"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">stuff</autoReward>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="TAT_CRYSTAL_NEUTRON_SHIP_SURRENDERNO"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="TAT_CRYSTAL_NEUTRON_SHIP_DESTROYED"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_CRYSTAL_NEUTRON_SHIP_DEAD"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</deadCrew>
+</ship>
+
+<!--TAT_CRYSTAL_STORM-->
+<event name="TAT_CRYSTAL_STORM" unique="true">
+	<text id="TAT_CRYSTAL_STORM_INTRO"/>
+	<environment type="storm"/>
+	<ship load="TAT_CRYSTAL_STORM_SHIP" hostile="true"/>
+</event>
+<ship name="TAT_CRYSTAL_STORM_SHIP" auto_blueprint="SHIPS_CRYSTAL">
+	<escape chance="0.5" min="2" max="6" >
+		<text id="TAT_CRYSTAL_STORM_SHIP_ESCAPE"/>
+	</escape>
+	<surrender chance="0.5" min="2" max="4">
+		<text id="TAT_CRYSTAL_STORM_SHIP_SURRENDER"/>
+		<choice>
+			<text id="TAT_CRYSTAL_STORM_SHIP_SURRENDERED"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">stuff</autoReward>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="TAT_CRYSTAL_STORM_SHIP_SURRENDERNO"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="TAT_CRYSTAL_STORM_SHIP_DESTROYED"/>
+		<event>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_CRYSTAL_STORM_SHIP_DEAD"/>
+		<event>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</deadCrew>
+</ship>
+
+<!--TAT_CRYSTAL_SLUG-->
+<event name="TAT_CRYSTAL_SLUG" unique="true">
+	<ship load="SLUG" hostile="false"/>
+	<environment type="nebula"/>
+	<text id="TAT_CRYSTAL_SLUG_INTRO"/>
+	<choice>
+		<text id="TAT_CRYSTAL_SLUG_ACCEPT"/>
+		<event>
+			<text id="TAT_CRYSTAL_SLUG_ACCEPTED"/>
+			<autoReward level="LOW">standard</autoReward>
+			<ship hostile="true"/>
+			<damage amount="1" system="oxygen" effect="fire"/>
+			<damage amount="1" system="engines" effect="breach"/>
+			<damage amount="1" system="doors" effect="breach"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_CRYSTAL_SLUG_REFUSE"/>
+		<event>
+			<text id="TAT_CRYSTAL_SLUG_REFUSED"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event>
+
+<!--TAT_CRYSTAL_LANIUS-->
+<event name="TAT_CRYSTAL_LANIUS" unique="true">
+	<text id="TAT_CRYSTAL_LANIUS_INTRO"/>
+	<ship load="LANIUS" hostile="true"/>
+</event>
+
+<!--TAT_CRYSTAL_ASB-->
+<event name="TAT_CRYSTAL_ASB" unique="true">
+	<img back="BG_DARK" planet="PLANET"/>
+	<text id="TAT_CRYSTAL_ASB_INTRO"/>
+	<environment type="PDS" target="player"/>
+	<ship load="SHIPS_CRYSTAL" hostile="true"/>
+</event>

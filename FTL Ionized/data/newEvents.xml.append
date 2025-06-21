@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eventList name="NEUTRAL">  <!-- This event list is hardcoded to fill out a sector if it ran out of all other calls for that sector -->
+	<event load="FIND_WEAPON"/>
+	<event load="FIND_DRONE"/>
+	<event load="FREE_ITEMS"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="REFUEL_STATION"/>
+	<event load="FUELING_STATION"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="FUEL_FOR_DRONE"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="TRADER_CIV"/>
+	<event load="QUEST_ESCORT"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="AUTO_WARNING"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="ASTEROID_DERELICT_SHIP"/><!-- CRYSTAL UNLOCK-->
+	<event load="REFUGEE_NO_DISTRESS"/>
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="PIRATE_BRIBER"/>
+	<event load="DONOR_PLAGUE"/>
+	<event load="TAVERN_HIRE"/>
+	<event load="TRADER_UPGRADES"/>
+	<event load="TRADER_UPGRADES_EXCHANGE"/>
+	<event load="REFUGEE_GHOST"/>
+	<event load="FLOATING_CARGO"/>
+	<event load="REFUGEE_DISTRESS"/>
+	<event load="EMPTY_STATION2"/>
+	<event load="TAT_SECRET_CRYSTAL"/>
+	<event load="TAT_SECRET_CRYSTAL_VS_CRYSTAL"/>
+	<event load="STORM_ZOLTAN_SUPPLY_CHOICE"/>
+	<event load="LANIUS_DISTRESS_TRAP"/>
+	<event load="LANIUS_TRADER_TRANSLATOR"/>
+</eventList>
+
+<eventList name="EXIT_LIST"><!-- This event list is hardcoded to fill out a sector if it ran out of all other calls for that sector-->
+	<event load="FIND_WEAPON"/>
+	<event load="FIND_DRONE"/>
+	<event load="FREE_ITEMS"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="REFUEL_STATION"/>
+	<event load="FUELING_STATION"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="FUEL_FOR_DRONE"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="TRADER_CIV"/>
+	<event load="QUEST_ESCORT"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="AUTO_WARNING"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="ASTEROID_DERELICT_SHIP"/><!-- CRYSTAL UNLOCK-->
+	<event load="REFUGEE_NO_DISTRESS"/>
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="PIRATE_BRIBER"/>
+	<event load="DONOR_PLAGUE"/>
+	<event load="TAVERN_HIRE"/>
+	<event load="TRADER_UPGRADES"/>
+	<event load="TRADER_UPGRADES_EXCHANGE"/>
+	<event load="REFUGEE_GHOST"/>
+	<event load="FLOATING_CARGO"/>
+	<event load="REFUGEE_DISTRESS"/>
+	<event load="EMPTY_STATION2"/>
+	<event load="TAT_SECRET_CRYSTAL"/>
+	<event load="TAT_SECRET_CRYSTAL_VS_CRYSTAL"/>
+	<event load="STORM_ZOLTAN_SUPPLY_CHOICE"/>
+	<event load="LANIUS_DISTRESS_TRAP"/>
+	<event load="LANIUS_TRADER_TRANSLATOR"/>
+	<event load="TAT_FEDERATION_VS_FEDERATION"/>
+</eventList>
+
+
+<!--TAVERN_HIRE (Filler)-->
+ <event name="TAVERN_HIRE" unique="true">
+	<text load="TAVERN_HIRE_TEXT"/>
+	<choice>
+		<text id="event_TAVERN_HIRE_c1_choice"/>
+		<event>
+			<crewMember amount="1"/>
+			<item_modify>
+				<item type="scrap" min="-40" max="-20"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_TAVERN_HIRE_c1_choice"/>
+		<event>
+			<crewMember amount="1"/>
+			<item_modify>
+				<item type="scrap" min="-40" max="-20"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_TAVERN_HIRE_c1_choice"/>
+		<event>
+			<crewMember amount="1"/>
+			<item_modify>
+				<item type="scrap" min="-40" max="-20"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_TAVERN_HIRE_c1_choice"/>
+		<event>
+			<crewMember amount="1"/>
+			<item_modify>
+				<item type="scrap" min="-40" max="-20"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_TAVERN_HIRE_c1_choice"/>
+		<event>
+			<crewMember amount="1"/>
+			<item_modify>
+				<item type="scrap" min="-40" max="-20"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_TAVERN_HIRE_c3_choice"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TRADER_UPGRADES_EXCHANGE (Filler)-->
+
+<!--TRADER_UPGRADES (Filler)-->
+
+<!--HELP_MINERS (Federation/Zoltan/Engi sectors) Give missiles for stuff-->
+<event name="HELP_MINERS" unique="true">
+	<text id="event_HELP_MINERS_text"/>
+	<choice hidden="true" req="WEAPONS_MISSILES">
+		<text id="event_HELP_MINERS_c1_choice"/>
+		<event>
+			<text id="event_HELP_MINERS_c1_text"/>
+			<choice hidden="true">
+				<text id="event_HELP_MINERS_c1_c1_choice"/>
+				<event load="HELP_MINERS_1"/>
+			</choice>
+			<choice hidden="true">
+				<text id="event_HELP_MINERS_c1_c2_choice"/>
+				<event load="HELP_MINERS_2"/>
+			</choice>
+			<choice hidden="true">
+				<text id="event_HELP_MINERS_c1_c3_choice"/>
+				<event>
+					<text id="event_HELP_MINERS_c1_c3_text"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_HELP_MINERS_c1_c1_choice"/>
+		<event load="HELP_MINERS_1"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_HELP_MINERS_c1_c2_choice"/>
+		<event load="HELP_MINERS_2"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_HELP_MINERS_c1_c3_choice"/>
+		<event>
+			<text id="event_HELP_MINERS_c1_c3_text"/>
+		</event>
+	</choice>
+</event>
+
+<!--REFUGEE_GHOST (Filler)-->
+<eventList name="REFUGEE_GHOST_LIST">
+	<event>
+		<text id="event_REFUGEE_GHOST_LIST_1_text"/>
+	</event>
+	<event>
+		<text id="event_REFUGEE_GHOST_LIST_2_text"/>
+		<autoReward level="MED">missiles</autoReward>
+	</event>
+	<event>
+		<text id="event_REFUGEE_GHOST_LIST_3_text"/>
+		<crewMember amount="1"/>
+	</event>
+	<event>
+		<text id="event_REFUGEE_GHOST_LIST_5_text"/>
+		<boarders min="6" max="6" class="random"/>
+	</event>
+</eventList>
+
+<!--REFUGEE_DISTRESS (Filler)-->
+<!--EMPTY_STATION2 (Filler)-->
+<eventList name="EMPTY_STATION2_LIST">
+	<event>
+		<text id="event_EMPTY_STATION2_LIST_1_text"/>
+	</event>
+	<event>
+		<text id="event_EMPTY_STATION2_LIST_2_text"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_EMPTY_STATION2_LIST_3_text"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_EMPTY_STATION2_LIST_4_text"/>
+		<choice hidden="true" req="clonebay">
+			<text id="event_EMPTY_STATION2_LIST_4_c1_choice"/>
+			<event>
+				<text id="event_EMPTY_STATION2_LIST_4_c1_text"/>
+				<choice hidden="true">
+					<text id="continue"/>
+					<event load="EMPTY_STATION2_CLONE"/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="event_EMPTY_STATION2_LIST_4_c2_choice"/>
+			<event>
+				<text id="event_EMPTY_STATION2_LIST_4_c2_text"/>
+				<autoReward level="LOW">scrap_only</autoReward>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="event_EMPTY_STATION2_LIST_5_text"/>
+		<boarders min="4" max="4" class="random"/>
+		<ship load="PIRATE" hostile="true"/>
+	</event>
+	<event>
+		<text id="event_EMPTY_STATION2_LIST_6_text"/>
+		<boarders min="4" max="4" class="random"/>
+		<environment type="PDS" target="player"/>
+	</event>
+</eventList>
+
+<!--WRECKAGE_EVENT (Abandoned/Engi/Zoltan Occupied/Homeworlds)-->
+<!--QUEST_CONSTRUCTIONYARD (Engi/Zoltan/Federation Occupied/Homeworlds)-->
+<!--ROCK_SLUG_ARGUMENT (Rock Controlled/Homeworlds)-->
+<!--ROCK_SLUG_ARGUMENT_NEBULA (Slug Controlled/Homeworlds)-->
+<!--TERRAFORMING_SCAN (Uncharted/Nebula/Federation sectors)-->
+<event name="TERRAFORMING_SCAN"  unique="true">
+	<text id="event_TERRAFORMING_SCAN_text"/>
+	<choice>
+		<text id="event_TERRAFORMING_SCAN_c1_choice"/>
+		<event>
+			<text id="event_TERRAFORMING_SCAN_c1_text"/>
+			<choice>
+				<text id="event_TERRAFORMING_SCAN_c1_c1_choice"/>
+				<event load="NORMAL_SCAN_TERRAFORMING"/>
+			</choice>
+			<choice req="sensors" lvl="2" hidden="true">
+				<text id="event_TERRAFORMING_SCAN_c1_c2_choice"/>
+				<event load="HIGH_SCAN_TERRAFORMING"/>
+			</choice>
+			<choice req="ADV_SCANNERS" hidden="true">
+				<text id="event_TERRAFORMING_SCAN_ADV"/>
+				<event load="HIGH_SCAN_TERRAFORMING"/>
+			</choice>
+			<choice req="energy" hidden="true">
+				<text id="event_TERRAFORMING_SCAN_c1_c3_choice"/>
+				<event load="HIGH_SCAN_TERRAFORMING"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_TERRAFORMING_SCAN_c2_choice"/>
+		<event>
+			<text id="event_TERRAFORMING_SCAN_c2_text"/>
+			<choice>
+				<text id="event_TERRAFORMING_SCAN_c2_c1_choice"/>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--REBEL_CHECKPOINT (Rock/Slug/Pirate Controlled/Rebel Controlled/Stronghold)-->
+<eventList name="REBEL_BRIBE_RESULT">
+	<event>
+		<text id="event_REBEL_BRIBE_RESULT_1_text"/>
+	</event>
+	<event>
+		<text id="event_REBEL_BRIBE_RESULT_3_text"/>
+		<weapon name="STANDARD_WEAPONS"/>
+	</event>
+	<event>
+		<text id="event_REBEL_BRIBE_RESULT_3_text"/>
+		<drone name="DRONES_STANDARD"/>
+	</event>
+	<event>
+		<text id="event_REBEL_BRIBE_RESULT_3_text"/>
+		<augment name="RANDOM"/>
+	</event>
+	<event>
+		<text id="event_REBEL_BRIBE_RESULT_4_text"/>
+		<ship load="REBEL" hostile="true"/>
+	</event>
+</eventList>
+
+<!--REBEL_HELPERS (Battlegrounds/Abandoned/Pirate Controlled/Rebel Controlled/Stronghold)-->
+<!--ROGUE_REBEL (Zoltan/Engi/Slug Federation Controlled/Homeworlds)-->

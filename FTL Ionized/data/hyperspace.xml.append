@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<showNumericalWeaponCooldown enabled="true"/>
+<redesignedWeaponTooltips enabled="true"/>
+<redesignedAugmentTooltips enabled="true"/>
+<extraShipInfo missileCount="true" droneCount="true" crewLimit="false"/>
+<enemyPreigniterFix enabled="true"/>
+<alternateCrewMovement enabled="true"/>
+
+<crew>
+<!--Aliens (NO EMPTY SPACES INSIDE powerEffect, CRASHES GAME, humans crash game?)-->
+<!--Human-->
+<!--<race name="human">
+   <moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+   <skills>
+      <piloting req="8"/>
+      <engines req="8"/>
+      <shields req="28"/>
+      <weapons req="33"/>
+      <repair req="9"/>
+      <combat req="4"/>
+   </skills>
+   <powerEffect>
+      <powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+      <temporaryEffect>
+       <duration>4</duration>
+       <moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+       <repairSpeed>1.2</repairSpeed>
+       <damageMultiplier>1.2</damageMultiplier>
+       <resistsMindControl>true</resistsMindControl>
+       <skills>
+          <piloting req="1"/>
+          <engines req="1"/>
+          <shields req="1"/>
+          <weapons req="1"/>
+       </skills>
+       <buttonText id="button_lockdown">LOCK IN</buttonText>
+       <tooltip id="power_ready"></tooltip>
+       <cooldownColor r="255" g="255" b="0"/>
+      </temporaryEffect>
+      <cooldownColor r="25" g="25" b="255"/>
+      <powerSounds>
+				<powerSound>lockdown1</powerSound>
+        <powerSound>lockdown2</powerSound>
+      </powerSounds>
+      <effectAnim>explosion_crystal</effectAnim>
+   </powerEffect>
+ </race>-->
+
+<!--Engi-->
+	<race name="engi">
+		<repairSpeed>1.5</repairSpeed>
+		<damageMultiplier>0.5</damageMultiplier>
+		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
+		<allDamageTakenMultiplier>0.8</allDamageTakenMultiplier>
+		<powerEffect name="DeIonize">
+			<replaceGroupName>IonTatAbility</replaceGroupName>
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<friendlyFire>true</friendlyFire>
+			<ion>-4</ion>
+			<cooldownColor r="125" g="125" b="125"/>
+			<buttonText>De-Ionize</buttonText>
+			<tooltip>Removes up to 4 ion damage from a room.</tooltip>
+		</powerEffect>
+		<powerEffect name="Ionize">
+			<replaceGroupName>IonTatAbility</replaceGroupName>
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<friendlyFire>false</friendlyFire>
+			<ion>4</ion>
+			<cooldownColor r="155" g="155" b="155"/>
+			<buttonText>Ionize</buttonText>
+			<tooltip>Gives 4 ion damage to a room.</tooltip>
+		</powerEffect>
+		<deathEffect>
+			<ion>3</ion>
+		</deathEffect>
+		<deathSounds>
+			<deathSound>engiDeath</deathSound>
+		</deathSounds>
+	</race>
+
+<!--Zoltan-->
+ <race name="energy">
+   <bonusPower>1</bonusPower>
+   <maxHealth>75</maxHealth>
+   <repairSpeed>0.75</repairSpeed>
+   <damageMultiplier>0.75</damageMultiplier>
+   <sabotageSpeedMultiplier>0.75</sabotageSpeedMultiplier>
+   <powerEffect name="Dematerialize">
+      <powerCharges>1</powerCharges>
+      <jumpCooldown>full</jumpCooldown>
+      <cooldown>0</cooldown>
+     <temporaryEffect>
+       <duration>4</duration>
+       <cooldownColor r="255" g="255" b="0"/>
+       <invulnerable>true</invulnerable>
+       <canRepair>false</canRepair>
+       <canMan>false</canMan>
+       <canFight>false</canFight>
+       <canSabotage>false</canSabotage>
+       <canPhaseThroughDoors>true</canPhaseThroughDoors>
+     </temporaryEffect>
+     <cooldownColor r="0" g="255" b="0"/>
+      <buttonText>Dematerialize</buttonText>
+			<tooltip>Becomes intangible.</tooltip>
+   </powerEffect>
+   <hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+   <hasDeathExplosion>true</hasDeathExplosion>
+   <deathEffect>
+			<persDamage>1</persDamage>
+			<friendlyFire>false</friendlyFire>
+   </deathEffect>
+   <deathSounds>
+			<deathSound>energyDeath</deathSound>
+   </deathSounds>
+ </race>
+
+<!--Mantis-->
+	<race name="mantis">
+		<repairSpeed>0.5</repairSpeed>
+		<damageMultiplier>1.5</damageMultiplier>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<moveSpeedMultiplier>1.0</moveSpeedMultiplier>
+		<stunMultiplier>0.5</stunMultiplier>
+    <allDamageTakenMultiplier>1.2</allDamageTakenMultiplier>
+    <healSpeed>1.3</healSpeed>
+    <cloneSpeedMultiplier>1.3</cloneSpeedMultiplier>
+    <powerEffect name="Screech">
+      <powerCharges>1</powerCharges>
+      <jumpCooldown>full</jumpCooldown>
+      <cooldown>0</cooldown>
+     <stunChance>10</stunChance>
+     <friendlyFire>true</friendlyFire>
+     <cooldownColor r="255" g="0" b="0"/>
+      <buttonText>Screech</buttonText>
+			<tooltip>Stuns everyone in the room.</tooltip>
+   </powerEffect>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>mantisDeath</deathSound>
+		</deathSounds>
+		<shootingSounds>
+			<shootingSound>mantisSpit1</shootingSound>
+			<shootingSound>mantisSpit2</shootingSound>
+			<shootingSound>mantisSpit3</shootingSound>
+		</shootingSounds>
+ </race>
+
+<!--Slug-->
+	<race name="slug">
+		<moveSpeedMultiplier>0.75</moveSpeedMultiplier>
+		<isTelepathic>true</isTelepathic>
+		<resistsMindControl>true</resistsMindControl>
+		<detectsLifeforms>true</detectsLifeforms>
+		<stunMultiplier>0.5</stunMultiplier>
+		<truePassiveHealAmount>0.5</truePassiveHealAmount>
+		<passiveHealDelay>5</passiveHealDelay>
+		<powerEffect name="Concealed Charges">
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<breachChance>10</breachChance>
+			<friendlyFire>true</friendlyFire>
+			<cooldownColor r="255" g="75" b="75"/>
+			<buttonText>Concealed Charges</buttonText>
+			<tooltip>Creates a breach in the room.</tooltip>
+		</powerEffect>
+	</race>
+
+<!--Rockmen-->
+	<race name="rock">
+		<maxHealth>150</maxHealth>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<fireRepairMultiplier>2.0</fireRepairMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
+		<canBurn>false</canBurn>
+		<powerEffect name="Adrenaline">
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<temporaryEffect>
+				<duration>4</duration>
+				<cooldownColor r="255" g="255" b="0"/>
+				<moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+			</temporaryEffect>
+			<cooldownColor r="255" g="100" b="0"/>
+			<buttonText>Adrenaline</buttonText>
+			<tooltip>Increases movement speed.</tooltip>
+		</powerEffect>
+		<animBase>rock</animBase>
+		<repairSounds animSoundFrame="5">
+			<repairSound>rockThud1</repairSound>
+			<repairSound>rockThud2</repairSound>
+			<repairSound>rockThud3</repairSound>
+		</repairSounds>
+		<deathSounds>
+			<deathSound>rockDeath</deathSound>
+		</deathSounds>
+		<shootingSounds>
+			<shootingSound>rockThrow1</shootingSound>
+			<shootingSound>rockThrow2</shootingSound>
+			<shootingSound>rockThrow3</shootingSound>
+		</shootingSounds>
+	</race>
+
+<!--Crystal-->
+	<race name="crystal">
+		<maxHealth>100</maxHealth>
+		<allDamageTakenMultiplier>0.5</allDamageTakenMultiplier>
+		<moveSpeedMultiplier>0.75</moveSpeedMultiplier>
+		<fireRepairMultiplier>1.0</fireRepairMultiplier>
+		<suffocationModifier>1.0</suffocationModifier>
+		<stunMultiplier>0.75</stunMultiplier>
+		<powerEffect>
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<lockdown>true</lockdown>
+			<buttonText id="button_lockdown">LOCKDOWN</buttonText>
+			<tooltip id="power_ready"></tooltip>
+			<cooldownColor r="133" g="231" b="237"/>
+			<powerSounds>
+				<powerSound>lockdown1</powerSound>
+				<powerSound>lockdown2</powerSound>
+			</powerSounds>
+			<effectAnim>explosion_crystal</effectAnim>
+		</powerEffect>
+		<animBase>rock</animBase>
+		<repairSounds animSoundFrame="5">
+			<repairSound>rockThud1</repairSound>
+			<repairSound>rockThud2</repairSound>
+			<repairSound>rockThud3</repairSound>
+		</repairSounds>
+		<deathSounds>
+			<deathSound>crystalDeath</deathSound>
+		</deathSounds>
+		<shootingSounds>
+			<shootingSound>rockThrow1</shootingSound>
+			<shootingSound>rockThrow2</shootingSound>
+			<shootingSound>rockThrow3</shootingSound>
+		</shootingSounds>
+	</race>
+
+<!--Lanius-->
+	<race name="anaerobic">
+		<maxHealth>110</maxHealth>
+		<moveSpeedMultiplier>1.1</moveSpeedMultiplier>
+		<oxygenChangeSpeed>-0.5</oxygenChangeSpeed>
+		<canSuffocate>false</canSuffocate>
+		<powerEffect name="Metabolize">
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<temporaryEffect>
+				<duration>4</duration>
+				<cooldownColor r="255" g="255" b="0"/>
+				<oxygenChangeSpeed>1</oxygenChangeSpeed>
+				<trueHealAmount>4</trueHealAmount>
+			</temporaryEffect>
+			<cooldownColor r="150" g="150" b="150"/>
+			<buttonText>Metabolize</buttonText>
+			<tooltip>Heals and releases O2.</tooltip>
+		</powerEffect>
+		<repairSounds>
+			<repairSound>shrikeRepair</repairSound>
+		</repairSounds>
+		<deathSounds>
+			<deathSound>shrikeDeath</deathSound>
+		</deathSounds>
+	</race>
+
+<!--Aumia-->
+	<race name="aumia">
+		<maxHealth>150</maxHealth>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<repairSpeed>1.25</repairSpeed>
+		<damageMultiplier>1.25</damageMultiplier>
+		<sabotageSpeedMultiplier>1.25</sabotageSpeedMultiplier>
+		<fireDamageMultiplier>2.0</fireDamageMultiplier>
+		<fireRepairMultiplier>0.6</fireRepairMultiplier>
+		<oxygenChangeSpeed>0.5</oxygenChangeSpeed>
+		<powerEffect name="HealingSpell">
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<temporaryEffect>
+				<duration>4</duration>
+				<cooldownColor r="255" g="255" b="0"/>
+				<healCrewAmount>5</healCrewAmount>
+				<oxygenChangeSpeed>-1</oxygenChangeSpeed>
+			</temporaryEffect>
+			<cooldownColor r="0" g="100" b="0"/>
+			<buttonText>Healing Spell</buttonText>
+			<tooltip>Consumes 02 to Heal everyone in the room.</tooltip>
+		</powerEffect>
+		<animBase>rock</animBase>
+		<repairSounds animSoundFrame="5">
+			<repairSound>rockThud1</repairSound>
+			<repairSound>rockThud2</repairSound>
+			<repairSound>rockThud3</repairSound>
+		</repairSounds>
+		<deathSounds>
+			<deathSound>rockDeath</deathSound>
+		</deathSounds>
+		<shootingSounds>
+			<shootingSound>rockThrow1</shootingSound>
+			<shootingSound>rockThrow2</shootingSound>
+			<shootingSound>rockThrow3</shootingSound>
+		</shootingSounds>
+	</race>
+
+<!--Emen-->
+	<race name="emen">
+		<canSuffocate>false</canSuffocate>
+		<fireDamageMultiplier>0.5</fireDamageMultiplier>
+		<stunMultiplier>0.5</stunMultiplier>
+		<skills>
+			<piloting req="26"/>
+			<engines req="26"/>
+			<shields req="100"/>
+			<weapons req="116"/>
+			<repair req="32"/>
+			<combat req="14"/>
+		</skills>
+		<canPunch>false</canPunch>
+		<deathEffect>
+			<fireChance>10</fireChance>
+		</deathEffect>
+	</race>
+
+<!--Repair drone-->
+	<race name="repair" drone="REPAIR">
+		<healSpeed>0.2</healSpeed>
+		<repairSpeed>1.5</repairSpeed>
+		<damageMultiplier>0.5</damageMultiplier>
+		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
+		<maxHealth>150</maxHealth>
+		<canMan>true</canMan>
+		<canFight>true</canFight>
+		<canRepair>true</canRepair>
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+	</race>
+
+<!--DMG drone-->
+	<race name="battle" drone="BATTLE">
+		<healSpeed>0.2</healSpeed>
+		<repairSpeed>0.5</repairSpeed>
+		<damageMultiplier>1.5</damageMultiplier>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<canSabotage>true</canSabotage>
+		<canMan>true</canMan>
+		<canFight>true</canFight>
+		<canRepair>true</canRepair>
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+	</race>
+
+<!--Ion drone-->
+	<race name="boarder_ion" drone="BOARDER_ION">
+		<healSpeed>0.2</healSpeed>
+    	<maxHealth>150</maxHealth>
+		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
+	</race>
+</crew>
+
+<!--Custom Systems-->
+<customSystems>
+	<system id="temporal">
+		<speed>
+			<level1>
+				<duration>10</duration>
+				<cooldown>2</cooldown>
+				<strength>2</strength>
+			</level1>
+			<level2>
+				<duration>7</duration>
+				<cooldown>2</cooldown>
+				<strength>4</strength>
+			</level2>
+			<level3>
+				<duration>5</duration>
+				<cooldown>2</cooldown>
+				<strength>8</strength>
+			</level3>
+		</speed>
+		<slow>
+			<level1>
+				<duration>10</duration>
+				<cooldown>2</cooldown>
+				<strength>0.25</strength>
+			</level1>
+			<level2>
+				<duration>17</duration>
+				<cooldown>2</cooldown>
+				<strength>0.12</strength>
+			</level2>
+			<level3>
+				<duration>25</duration>
+				<cooldown>2</cooldown>
+				<strength>0.06</strength>
+			</level3>
+		</slow>
+	</system>
+	<system id="mind">
+		<level damageBoost="1.0" healthBoost="0.0" duration="14.0" lock="4" count="1"/>
+		<level damageBoost="1.3" healthBoost="20.0" duration="20.0" lock="4" count="1"/>
+		<level damageBoost="1.6" healthBoost="40.0" duration="26.0" lock="4" count="1"/>  
+		<level damageBoost="1.9" healthBoost="60.0" duration="32.0" lock="4" count="1"/>  
+		<level damageBoost="2.2" healthBoost="80.0" duration="38.0" lock="4" count="1"/>  
+	</system>
+	<system id="clone">
+		<level jumpHP="8" jumpHPPercent="0" cloneHPPercent="100" skillLossPercent="10" cloneSpeed="12" deathSpeed="6"/>
+		<level jumpHP="16" jumpHPPercent="0" cloneHPPercent="100" skillLossPercent="10" cloneSpeed="9" deathSpeed="6"/>
+		<level jumpHP="25" jumpHPPercent="0" cloneHPPercent="100" skillLossPercent="10" cloneSpeed="7" deathSpeed="6"/>
+		<level jumpHP="36" jumpHPPercent="0" cloneHPPercent="100" skillLossPercent="10" cloneSpeed="0" deathSpeed="6"/><!--ot cannot be above 0? why?-->
+	</system>
+</customSystems>
+
+<!--Custom Sector types
+<sectorMap>
+	<sectorList>
+		<FEDERATION chance="3"/>
+		<REBEL chance="3"/>
+		<ENGI chance="2"/>
+		<ZOLTAN chance="2"/>
+		<MANTIS chance="2"/>
+		<SLUG chance="2"/>
+		<ROCKMEN chance="2"/>
+		<LANIUS chance="1"/>
+		<PIRATE chance="3"/>
+		<CONTESTED chance="3"/>
+		<UNCHARTED chance="1"/>
+	</sectorList>
+</sectorMap>-->
+
+
+<ships hideFirstShipPage="false">
+	<hangarAnims>
+		<anim x="100" y="100">custom_anim</anim>
+	</hangarAnims>
+	<shipOrder>
+		<ship>PLAYER_SHIP_ANAEROBIC_3</ship>
+	</shipOrder>
+	<ship name="PLAYER_SHIP_ANAEROBIC_3" b="false" c="false" secret="false" noAppend="false" splitUnlockQuestAchievement="false" splitVictoryAchievement="false">
+		<unlock variant="a">
+			<type>1</type>
+			<value>5</value>
+    	</unlock>
+		<arrow variant="a" direction="right" image="arrow_5_right.png" tooltip="ship_unlock_sector5">PLAYER_SHIP_UNLOCKME</arrow>
+    	<showShipAchievements>true</showShipAchievements>
+	</ship>
+	<customShip name="PLAYER_SHIP_ANAEROBIC_3">
+	</customShip>
+</ships>
+
+<!--Drones that you get when you buy DC-->
+<store>
+	<freeDrones>
+	</freeDrones>
+</store>
+
+<!--Store-->
+<customStore id="TAT_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+		</item>
+		<item>
+		</item>
+		<item>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+		</item>
+		<item>
+		</item>
+		<item>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+		</item>
+		<item>
+		</item>
+		<item>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+		</item>
+		<item>
+		</item>
+		<item>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+		</item>
+		<item>
+		</item>
+		<item>
+		</item>
+	</category>
+</customStore>
+
+<!--Engi Store-->
+<customStore id="TAT_ENGI_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+			<blueprint>ION_STUN</blueprint>
+		</item>
+		<item>
+			<blueprint>BOMB_ION</blueprint>
+		</item>
+		<item>
+			<blueprint>MISSILES_1</blueprint>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+			<blueprint>ANTI_DRONE</blueprint>
+		</item>
+		<item>
+			<blueprint>BOARDER_ION</blueprint>
+		</item>
+		<item>
+			<blueprint>TAT_ION_DRONE</blueprint>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+			<blueprint>NANO_MEDBAY</blueprint>
+		</item>
+		<item>
+			<blueprint>DRONE_SPEED</blueprint>
+		</item>
+		<item>
+			<blueprint>ION_ARMOR</blueprint>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+			<blueprint>drones</blueprint>
+		</item>
+		<item>
+			<blueprint>hacking</blueprint>
+		</item>
+		<item>
+			<blueprint>cloaking</blueprint>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+			<blueprint>engi</blueprint>
+		</item>
+		<item>
+			<blueprint>emen</blueprint>
+		</item>
+		<item>
+			<blueprint>slug</blueprint>
+		</item>
+	</category>
+</customStore>
+
+<!--Federation Store-->
+<customStore id="TAT_FEDERATION_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+			<blueprint>LASER_BURST_3</blueprint>
+		</item>
+		<item>
+			<blueprint>BOMB_1</blueprint>
+		</item>
+		<item>
+			<blueprint>MISSILES_2</blueprint>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+			<blueprint>COMBAT_1</blueprint>
+		</item>
+		<item>
+			<blueprint>DEFENSE_1</blueprint>
+		</item>
+		<item>
+			<blueprint>BATTLE</blueprint>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+			<blueprint>SYSTEM_CASING</blueprint>
+		</item>
+		<item>
+			<blueprint>FTL_JUMPER</blueprint>
+		</item>
+		<item>
+			<blueprint>FTL_JAMMER</blueprint>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+			<blueprint>drones</blueprint>
+		</item>
+		<item>
+			<blueprint>artillery</blueprint>
+		</item>
+		<item>
+			<blueprint>cloaking</blueprint>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+			<blueprint>human</blueprint>
+		</item>
+		<item>
+			<blueprint>engi</blueprint>
+		</item>
+		<item>
+			<blueprint>energy</blueprint>
+		</item>
+	</category>
+</customStore>
+
+<!--Zoltan Store-->
+<customStore id="TAT_ZOLTAN_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+			<blueprint>BEAM_FIRE</blueprint>
+		</item>
+		<item>
+			<blueprint>BOMB_FIRE</blueprint>
+		</item>
+		<item>
+			<blueprint>ION_TATFIRE</blueprint>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+			<blueprint>COMBAT_FIRE</blueprint>
+		</item>
+		<item>
+			<blueprint>DRONE_SHIELD</blueprint>
+		</item>
+		<item>
+			<blueprint>COMBAT_BEAM</blueprint>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+			<blueprint>FIRE_EXTINGUISHERS</blueprint>
+		</item>
+		<item>
+			<blueprint>ENERGY_SHIELD</blueprint>
+		</item>
+		<item>
+			<blueprint>ZOLTAN_BYPASS</blueprint>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+			<blueprint>artillery</blueprint>
+		</item>
+		<item>
+			<blueprint>hacking</blueprint>
+		</item>
+		<item>
+			<blueprint>mind</blueprint>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+			<blueprint>energy</blueprint>
+		</item>
+		<item>
+			<blueprint>rock</blueprint>
+		</item>
+		<item>
+			<blueprint>emen</blueprint>
+		</item>
+	</category>
+</customStore>
+
+<!--Mantis Store-->
+<customStore id="TAT_MANTIS_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+			<blueprint>BOMB_HEAL</blueprint>
+		</item>
+		<item>
+			<blueprint>BEAM_BIO</blueprint>
+		</item>
+		<item>
+			<blueprint>ION_STUN</blueprint>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+			<blueprint>BOARDER</blueprint>
+		</item>
+		<item>
+			<blueprint>BOARDER_ION</blueprint>
+		</item>
+		<item>
+			<blueprint>REPAIR</blueprint>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+			<blueprint>CREW_STIMS</blueprint>
+		</item>
+		<item>
+			<blueprint>TELEPORT_HEAL</blueprint>
+		</item>
+		<item>
+			<blueprint>O2_MASKS</blueprint>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+			<blueprint>teleporter</blueprint>
+		</item>
+		<item>
+			<blueprint>mind</blueprint>
+		</item>
+		<item>
+			<blueprint>artillery</blueprint>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+			<blueprint>mantis</blueprint>
+		</item>
+		<item>
+			<blueprint>rock</blueprint>
+		</item>
+		<item>
+			<blueprint>aumia</blueprint>
+		</item>
+	</category>
+</customStore>
+
+<!--Slug Store-->
+<customStore id="TAT_SLUG_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+			<blueprint>BOMB_ION</blueprint>
+		</item>
+		<item>
+			<blueprint>BOMB_STUN</blueprint>
+		</item>
+		<item>
+			<blueprint>ION_STUN</blueprint>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+			<blueprint>ANTI_DRONE</blueprint>
+		</item>
+		<item>
+			<blueprint>BOARDER_ION</blueprint>
+		</item>
+		<item>
+			<blueprint>DEFENSE_2</blueprint>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+			<blueprint>SLUG_GEL</blueprint>
+		</item>
+		<item>
+			<blueprint>FIRE_EXTINGUISHERS</blueprint>
+		</item>
+		<item>
+			<blueprint>HACKING_STUN</blueprint>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+			<blueprint>hacking</blueprint>
+		</item>
+		<item>
+			<blueprint>mind</blueprint>
+		</item>
+		<item>
+			<blueprint>cloaking</blueprint>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+			<blueprint>slug</blueprint>
+		</item>
+		<item>
+			<blueprint>energy</blueprint>
+		</item>
+		<item>
+			<blueprint>emen</blueprint>
+		</item>
+	</category>
+</customStore>
+
+<!--Rock Store-->
+<customStore id="TAT_ROCK_STORE_STORE">
+	<hullRepair>
+		<price min="2" max="4"/>
+		<sectorScaled/>
+	</hullRepair>
+	<resource>
+		<type>fuel</type>
+		<count min="3" max="7"/>
+		<price>3</price>
+	</resource>
+	<resource>
+		<type>missiles</type>
+		<count min="2" max="6"/>
+		<price>6</price>
+	</resource>
+	<resource>
+		<type>drones</type>
+		<count min="2" max="4"/>
+		<price>8</price>
+	</resource>
+	<category type="WEAPONS">
+		<item>
+			<blueprint>BOMB_HEAL</blueprint>
+		</item>
+		<item>
+			<blueprint>BOMB_HEAL_SYSTEM</blueprint>
+		</item>
+		<item>
+			<blueprint>MISSILES_1</blueprint>
+		</item>
+	</category>
+	<category type="DRONES"> 
+		<item>
+			<blueprint>DEFENSE_1</blueprint>
+		</item>
+		<item>
+			<blueprint>DEFENSE_2</blueprint>
+		</item>
+		<item>
+			<blueprint>SHIP_REPAIR</blueprint>
+		</item>
+	</category>
+	<category type="AUGMENTS">
+		<item>
+			<blueprint>ROCK_ARMOR</blueprint>
+		</item>
+		<item>
+			<blueprint>SYSTEM_CASING</blueprint>
+		</item>
+		<item>
+			<blueprint>SHIELD_RECHARGE</blueprint>
+		</item>
+	</category>
+	<category type="SYSTEMS">
+		<item>
+			<blueprint>teleporter</blueprint>
+		</item>
+		<item>
+			<blueprint>drones</blueprint>
+		</item>
+		<item>
+			<blueprint>artillery</blueprint>
+		</item>
+	</category>
+	<category type="CREW">
+		<item>
+			<blueprint>rock</blueprint>
+		</item>
+		<item>
+			<blueprint>engi</blueprint>
+		</item>
+		<item>
+			<blueprint>aumia</blueprint>
+		</item>
+	</category>
+</customStore>
+
+<!--Lanius Store-->

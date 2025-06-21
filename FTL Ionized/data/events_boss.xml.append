@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Abandoned Sector Events-->
+<!--Stores-->
+<eventList name="STORES_ABANDONED">
+	<event load="TAT_STORE_ABANDONED"/>
+	<event load="STORE"/>
+	<event load="TAT_STORE_NEBULA"/>
+</eventList>
+<!--TAT_STORE_ABANDONED-->
+<event name="TAT_STORE_ABANDONED" unique="false">
+	<text load="TAT_STORE_ABANDONED_INTRO"/>
+	<store/>
+</event>
+<textList name="TAT_STORE_ABANDONED_INTRO">
+	<text id="TAT_STORE_ABANDONED_1"/>
+	<text id="TAT_STORE_ABANDONED_2"/>
+	<text id="TAT_STORE_ABANDONED_3"/>
+	<text id="TAT_STORE_ABANDONED_4"/>
+	<text id="TAT_STORE_ABANDONED_5"/>
+</textList>
+
+<!--Nothing-->
+<eventList name="NOTHING_ABANDONED_LIST">
+	<event load="NOTHING_ABANDONED"/>
+	<event load="NOTHING"/>
+	<event load="NEBULA_EMPTY"/>
+</eventList>
+<textList name="NOTHING_ABANDONED">
+	<text id="NOTHING_ABANDONED_1"/>
+	<text id="NOTHING_ABANDONED_2"/>
+	<text id="NOTHING_ABANDONED_3"/>
+	<text id="NOTHING_ABANDONED_4" planet="PLANET_UNPOPULATED"/>
+	<text id="NOTHING_ABANDONED_5"/>
+	<text id="NOTHING_ABANDONED_6"/>
+</textList>
+
+<!--Passive-->
+<eventList name="ITEMS_ABANDONED">
+	<event load="STRANDED_BEACON"/>
+	<event load="ENGI_FLEET_DELAY"/>
+	<event load="TAT_REBEL_REFUEL"/>
+	<event load="NEBULA_BATTLEFIELD"/>
+	<event load="TAT_REKT_AUTO"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_ABANDONED">
+	<event load="TAT_PIRATES_SCRAPPING"/>
+	<event load="WRECKAGE_EVENT"/>
+	<event load="REBEL_HELPERS"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_ABANDONED">
+	<event load="BOARDERS_ASTEROID_GHOST"/>
+	<event load="GHOST_SHIP"/>
+	<event load="TRAP_BEACON"/>
+	<event load="TAT_ASB_VS_FEDERATION"/>
+	<event load="lanius_fight"/>
+</eventList>
+
+
+
+
+
+
+
+<!--Battlegrounds Sector-->
+<!--Stores-->
+<eventList name="TAT_STORES_BATTLE">
+	<event load="TAT_STORE_BATTLE"/>
+	<event load="STORE"/>
+	<event load="TAT_STORE_NEBULA"/>
+</eventList>
+<!--TAT_STORE_ABANDONED-->
+<event name="TAT_STORE_BATTLE" unique="false">
+	<text load="TAT_STORE_BATTLE_INTRO"/>
+	<store/>
+</event>
+<textList name="TAT_STORE_BATTLE_INTRO">
+	<text id="TAT_STORE_BATTLE_1"/>
+	<text id="TAT_STORE_BATTLE_2"/>
+	<text id="TAT_STORE_BATTLE_3"/>
+	<text id="TAT_STORE_BATTLE_4"/>
+	<text id="TAT_STORE_BATTLE_5"/>
+</textList>
+
+<!--Empty-->
+<eventList name="NOTHING_BATTLE_LIST">
+	<event load="NOTHING_BATTLE"/>
+	<event load="NOTHING"/>
+	<event load="NEBULA_EMPTY"/>
+</eventList>
+<textList name="NOTHING_BATTLE">
+	<text id="NOTHING_BATTLE_1"/>
+	<text id="NOTHING_BATTLE_2"/>
+	<text id="NOTHING_BATTLE_3"/>
+	<text id="NOTHING_BATTLE_4"/>
+	<text id="NOTHING_BATTLE_5"/>
+	<text id="NOTHING_BATTLE_6"/>
+</textList>
+
+<!--Passive-->
+<eventList name="ITEMS_BATTLE">
+	<event load="TAT_FEDERATION_EVACUATION"/>
+	<event load="TAT_REBEL_REFUEL"/>
+	<event load="TAT_REKT_AUTO"/>
+	<event load="TAT_FED_UPRISING"/>
+	<event load="TAT_REBEL_UPRISING"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_BATTLE">
+	<event load="REBEL_HELPERS"/>
+	<event load="BOSS_SCOUT_RESCUE"/>
+	<event load="BOSS_FLEETS_BOTH"/>
+	<event load="TAT_PIRATES_SCRAPPING"/>
+	<event load="TAT_FED_BOMBED"/>
+	<event load="ALISON_DEFECTOR"/>
+	<event load="TAT_FEDERATION_DISABLED"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_BATTLE">
+	<event load="BOARDERS"/>
+	<event load="BOARDERS_REBEL_SHIP"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_SUN"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<event load="TAT_VS_ASB_REBEL"/>
+	<event load="TAT_ASB_REBEL_AUTO"/>
+	<event load="TAT_ASB_ALLY_VS_REBEL"/>
+	<event load="TAT_REBEL_ELITE_SUN"/>
+	<event load="TAT_REBEL_ELITE_ASTEROID"/>
+	<event load="TAT_REBEL_ELITE_NEUTRON"/>
+	<event load="TAT_REBEL_ELITE_STORM"/>
+	<event load="TAT_FLEET_SUN"/>
+	<event load="TAT_FLEET_ASTEROIDS"/>
+	<event load="TAT_FLEET_NEUTRON"/>
+	<event load="TAT_ASB_ALL"/>
+	<event load="TAT_ASB_VS_FEDERATION"/>
+	<event load="TAT_REBEL_VS_FLEET"/>
+</eventList>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Last Stand Sector Events-->
+
+<eventList name="BOSS_ITEMS">
+	<event load="TAT_FED_BOMBED"/>
+	<event load="TAT_FED_UPRISING"/>
+	<event load="TAT_FEDERATION_EVACUATION"/>
+</eventList>
+
+<eventList name="BOSS_HOSTILE">
+	<event load="BOSS_SCOUT"/>
+	<event load="REBEL"/>
+	<event load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<event load="TAT_VS_ASB_REBEL"/>
+	<event load="TAT_ASB_ALLY_VS_REBEL"/>
+	<event load="TAT_FLEET_NEUTRON"/>
+	<event load="BOARDERS"/>
+	<event load="BOARDERS_REBEL_SHIP"/>
+	<event load="TAT_REBEL_ELITE_SUN"/>
+	<event load="TAT_REBEL_ELITE_ASTEROID"/>
+	<event load="TAT_REBEL_ELITE_NEUTRON"/>
+	<event load="TAT_REBEL_ELITE_STORM"/>
+	<event load="TAT_FLEET_SUN"/>
+	<event load="TAT_FLEET_ASTEROIDS"/>
+	<event load="TAT_FLEET_NEUTRON"/>
+	<event load="TAT_ASB_ALL"/>
+	<event load="TAT_ASB_REBEL_AUTO"/>
+	<event load="TAT_REBEL_VS_FLEET"/>
+</eventList>
+
+<eventList name="BOSS_NEUTRAL">
+	<event load="BOSS_FLEETS_BOTH"/>
+	<event load="BOSS_FLEETS_FED"/>
+	<event load="BOSS_SCOUT_RESCUE"/>
+	<event load="SQUAT_REFUEL_STATION"/>
+	<event load="ENGI_VS_REBEL"/>
+	<event load="ZOLTAN_VS_REBEL"/>
+	<event load="MANTIS_VS_REBEL"/>
+	<event load="SLUG_VS_REBEL"/>
+	<event load="ROCK_VS_REBEL"/>
+	<event load="CRYSTAL_VS_REBEL"/>
+	<event load="LANIUS_VS_REBEL"/>
+	<event load="PIRATE_VS_REBEL"/>
+	<event load="TAT_PIRATES_SCRAPPING"/>
+</eventList>
+
+<!--BOSS_SCOUT (Last Stand/Battlegrounds)-->
+<event name="BOSS_SCOUT" unique="true">
+	<text load="BOSS_SCOUT"/>
+	<ship load="REBEL_AND_AUTO" hostile="true"/>
+</event>
+
+<!--BOSS_SCOUT_RESCUE (Last Stand/Battlegrounds)-->
+<event name="BOSS_SCOUT_RESCUE" unique="true">
+	<text load="BOSS_SCOUT_RESCUE"/>
+	<choice>
+		<text id="event_BOSS_SCOUT_RESCUE_c1_choice"/>
+		<event>
+			<text id="event_BOSS_SCOUT_RESCUE_c1_text"/>
+			<ship load="BOSS_SCOUT_RESCUE" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_BOSS_SCOUT_RESCUE_c2_choice"/>
+		<event>
+			<text id="event_BOSS_SCOUT_RESCUE_c2_text"/>
+		</event>
+	</choice>
+</event>
+<eventList name="BOSS_SCOUT_RESCUE_LIST">  <!-- what the player gets for rescuing the ship-->
+	<event>
+		<text id="event_BOSS_SCOUT_RESCUE_LIST_1_text"/>
+	</event>
+	<event>
+		<text id="event_BOSS_SCOUT_RESCUE_LIST_2_text"/>
+		<damage amount="-8"/>
+	</event>
+	<event>
+		<text id="event_BOSS_SCOUT_RESCUE_LIST_3_text"/>
+		<autoReward level="MED">stuff</autoReward>
+	</event>
+	<event>
+		<text id="event_BOSS_SCOUT_RESCUE_TATSTORE"/>
+		<store/>
+	</event>
+</eventList>
+
+<!--BOSS_FLEETS_FED ("nothing" event)-->
+<event name="BOSS_FLEETS_FED" unique="true">
+	<fleet>fed</fleet>
+	<text load="BOSS_FLEETS_FED"/>
+</event>
+
+<!--BOSS_FLEETS_BOTH (Last Stand/Battlegrounds, Neutral)-->
+<event name="BOSS_FLEETS_BOTH" unique="true">
+	<fleet>battle</fleet>
+	<text load="BOSS_FLEETS_BOTH"/>
+	<choice>
+		<text id="BOSS_FLEETS_BOTH_TATFIGHT"/>
+		<event>
+			<ship load="LONG_ELITE" hostile="true"/>
+			<environment type="PDS" target="all"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="BOSS_FLEETS_BOTH_TATLEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--BOSS_FLEETS_BOTH_FIGHT (Last Stand/Battlegrounds, Hostile)-->
+<event name="BOSS_FLEETS_BOTH_FIGHT" unique="true">
+	<fleet>battle</fleet>
+	<text load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<ship load="BOSS_FLEETS_REBEL" hostile="true"/>
+</event>
+
+<!--BOSS_FLEETS_REBEL (Taken over beacons)-->
+<event name="BOSS_FLEETS_REBEL">
+	<fleet>rebel</fleet>
+	<text load="BOSS_FLEETS_REBEL"/>
+	<ship load="LONG_ELITE" hostile="true"/>
+	<environment type="PDS" target="player"/>
+</event>
+
+<!--Last Stand Custom Events-->
+<!--TAT_ENGI_VS_REBEL-->
+<event name="ENGI_VS_REBEL" unique="true">
+	<text id="ENGI_VS_REBEL_INTRO"/>
+	<ship load="ENGI_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="ENGI_VS_REBEL_SHIP" auto_blueprint="SHIPS_CIRCLE">
+	<destroyed>
+		<text id="ENGI_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ENGI_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="ENGI_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ENGI_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="ENGI_VS_REBEL_EVENT_END">
+	<text id="ENGI_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="ENGI_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="ENGI_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="ENGI_VS_REBEL_AUG"/>
+				<event>
+					<augment name="NANO_MEDBAY"/>
+					<text id="ENGI_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ENGI_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="engi"/>
+					<text id="ENGI_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ENGI_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="BATTLE"/>
+					<text id="ENGI_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ENGI_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="LASER_BURST_1"/>
+					<text id="ENGI_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_ZOLTAN_VS_REBEL-->
+<event name="ZOLTAN_VS_REBEL" unique="true">
+	<text id="ZOLTAN_VS_REBEL_INTRO"/>
+	<ship load="ZOLTAN_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="ZOLTAN_VS_REBEL_SHIP" auto_blueprint="SHIPS_ZOLTAN">
+	<destroyed>
+		<text id="ZOLTAN_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ZOLTAN_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="ZOLTAN_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ZOLTAN_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="ZOLTAN_VS_REBEL_EVENT_END">
+	<text id="ZOLTAN_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="ZOLTAN_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="ZOLTAN_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="ZOLTAN_VS_REBEL_AUG"/>
+				<event>
+					<augment name="ZOLTAN_BYPASS"/>
+					<text id="ZOLTAN_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ZOLTAN_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="energy"/>
+					<text id="ZOLTAN_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ZOLTAN_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="DRONE_SHIELD"/>
+					<text id="ZOLTAN_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ZOLTAN_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="BEAM_1"/>
+					<text id="ZOLTAN_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_MANTIS_VS_REBEL-->
+<event name="MANTIS_VS_REBEL" unique="true">
+	<text id="MANTIS_VS_REBEL_INTRO"/>
+	<ship load="MANTIS_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="MANTIS_VS_REBEL_SHIP" auto_blueprint="SHIPS_MANTIS">
+	<destroyed>
+		<text id="MANTIS_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="MANTIS_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="MANTIS_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="MANTIS_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="MANTIS_VS_REBEL_EVENT_END">
+	<text id="MANTIS_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="MANTIS_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="MANTIS_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="MANTIS_VS_REBEL_AUG"/>
+				<event>
+					<augment name="CREW_STIMS"/>
+					<text id="MANTIS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="MANTIS_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="mantis"/>
+					<text id="MANTIS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="MANTIS_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="BOARDER_ION"/>
+					<text id="MANTIS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="MANTIS_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="BOMB_1"/>
+					<text id="MANTIS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_SLUG_VS_REBEL-->
+<event name="SLUG_VS_REBEL" unique="true">
+	<text id="SLUG_VS_REBEL_INTRO"/>
+	<ship load="SLUG_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="SLUG_VS_REBEL_SHIP" auto_blueprint="SHIPS_JELLY">
+	<destroyed>
+		<text id="SLUG_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="SLUG_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="SLUG_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="SLUG_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="SLUG_VS_REBEL_EVENT_END">
+	<text id="SLUG_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="SLUG_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="SLUG_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="SLUG_VS_REBEL_AUG"/>
+				<event>
+					<augment name="SLUG_GEL"/>
+					<text id="SLUG_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="SLUG_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="slug"/>
+					<text id="SLUG_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="SLUG_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="ANTI_DRONE"/>
+					<text id="SLUG_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="SLUG_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="BOMB_ION"/>
+					<text id="SLUG_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_ROCK_VS_REBEL-->
+<event name="ROCK_VS_REBEL" unique="true">
+	<text id="ROCK_VS_REBEL_INTRO"/>
+	<ship load="ROCK_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="ROCK_VS_REBEL_SHIP" auto_blueprint="SHIPS_ROCK">
+	<destroyed>
+		<text id="ROCK_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ROCK_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="ROCK_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ROCK_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="ROCK_VS_REBEL_EVENT_END">
+	<text id="ROCK_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="ROCK_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="ROCK_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="ROCK_VS_REBEL_AUG"/>
+				<event>
+					<augment name="ROCK_ARMOR"/>
+					<text id="ROCK_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ROCK_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="rock"/>
+					<text id="ROCK_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ROCK_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="COMBAT_FIRE"/>
+					<text id="ROCK_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="ROCK_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="MISSILES_2_PLAYER"/>
+					<text id="ROCK_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_CRYSTAL_VS_REBEL-->
+<event name="CRYSTAL_VS_REBEL" unique="true">
+	<text id="CRYSTAL_VS_REBEL_INTRO"/>
+	<ship load="CRYSTAL_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="CRYSTAL_VS_REBEL_SHIP" auto_blueprint="SHIPS_CRYSTAL">
+	<destroyed>
+		<text id="CRYSTAL_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="CRYSTAL_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="CRYSTAL_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="CRYSTAL_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="CRYSTAL_VS_REBEL_EVENT_END">
+	<text id="CRYSTAL_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text load="CRYSTAL_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="CRYSTAL_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="CRYSTAL_VS_REBEL_AUG"/>
+				<event>
+					<augment name="CRYSTAL_SHARDS"/>
+					<text id="CRYSTAL_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="CRYSTAL_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="crystal"/>
+					<text id="CRYSTAL_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="CRYSTAL_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="DEFENSE_1"/>
+					<text id="CRYSTAL_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="CRYSTAL_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="CRYSTAL_BURST_1"/><!--later change to 1 power weapon-->
+					<text id="CRYSTAL_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_LANIUS_VS_REBEL-->
+<event name="LANIUS_VS_REBEL" unique="true">
+	<text id="LANIUS_VS_REBEL_INTRO"/>
+	<ship load="LANIUS_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="LANIUS_VS_REBEL_SHIP" auto_blueprint="SHIPS_LANIUS">
+	<destroyed>
+		<text id="LANIUS_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="LANIUS_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="LANIUS_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="LANIUS_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="LANIUS_VS_REBEL_EVENT_END">
+	<text id="LANIUS_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="LANIUS_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="LANIUS_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="LANIUS_VS_REBEL_AUG"/>
+				<event>
+					<augment name="O2_MASKS"/>
+					<text id="LANIUS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="LANIUS_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="anaerobic"/>
+					<text id="LANIUS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="LANIUS_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="BOARDER"/>
+					<text id="LANIUS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="LANIUS_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="TATSHOTGUN"/><!--later change to non burst weapon-->
+					<text id="LANIUS_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_PIRATE_VS_REBEL-->
+<event name="PIRATE_VS_REBEL" unique="true">
+	<text id="PIRATE_VS_REBEL_INTRO"/>
+	<ship load="PIRATE_VS_REBEL_SHIP" hostile="true"/>
+</event>
+<ship name="PIRATE_VS_REBEL_SHIP" auto_blueprint="FED_BOMBER_P">
+	<destroyed>
+		<text id="PIRATE_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="PIRATE_VS_REBEL_EVENT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="PIRATE_VS_REBEL_SHIP_dead"/>
+		<autoReward level="LOW">standard</autoReward>
+		<event>
+			<event load="ROCK_VS_REBEL_EVENT_END"/>
+		</event>
+	</deadCrew>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>
+<eventList name="PIRATE_VS_REBEL_EVENT_END">
+	<text id="PIRATE_VS_REBEL_END"/>
+	<choice hidden="true">
+		<text id="PIRATE_VS_REBEL_PRECHOICE"/>
+		<event>
+			<text id="PIRATE_VS_REBEL_CHOICE"/>
+			<choice>
+				<text id="PIRATE_VS_REBEL_AUG"/>
+				<event>
+					<augment name="DEFENSE_SCRAMBLER"/>
+					<text id="PIRATE_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="PIRATE_VS_REBEL_CREW"/>
+				<event>
+					<crewMember amount="1" all_skills="1" class="human"/>
+					<text id="PIRATE_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="PIRATE_VS_REBEL_DRONE"/>
+				<event>
+					<drone name="COMBAT_1"/>
+					<text id="PIRATE_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+			<choice>
+				<text id="PIRATE_VS_REBEL_WEAP"/>
+				<event>
+					<weapon name="LASER_BURST_1"/><!--later change to non burst weapon-->
+					<text id="PIRATE_VS_REBEL_ENDED"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</eventList>
+
+<!--TAT_VS_ASB_REBEL (Last Stand/Battlegrounds/Rebel Controlled/Stronghold)-->
+<event name="TAT_VS_ASB_REBEL" unique="true">
+	<fleet>rebel</fleet>
+	<img back="BG_DARK" planet="PLANET_POPULATED"/>
+	<text load="VS_ASB_REBEL_START"/>
+	<ship load="REBEL" hostile="true"/>
+	<environment type="PDS" target="player"/>
+</event>
+<textList name="VS_ASB_REBEL_START">
+	<text id="VS_ASB_REBEL_START_1"/>
+	<text id="VS_ASB_REBEL_START_2"/>
+	<text id="VS_ASB_REBEL_START_3"/>
+	<text id="VS_ASB_REBEL_START_4"/>
+</textList>
+
+<!--TAT_ASB_ALLY_VS_REBEL (Last Stand/Battlegrounds/Federation Controlled/Stronghold)-->
+<event name="TAT_ASB_ALLY_VS_REBEL" unique="true">
+	<fleet>fed</fleet>
+	<text id="TAT_ASB_ALLY_VS_REBEL_START"/>
+	<ship load="TAT_ASB_ALLY_VS_REBEL_SHIP" hostile="true"/>
+	<environment type="PDS" target="enemy"/>
+</event>
+<ship name="TAT_ASB_ALLY_VS_REBEL_SHIP" auto_blueprint="SHIPS_REBEL_AND_AUTO">
+	<destroyed>
+		<text id="TAT_ASB_ALLY_VS_REBEL_SHIP_DESTROYED"/>
+		<autoReward level="LOW">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_ASB_ALLY_VS_REBEL_SHIP_DEAD"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--TAT_FEDERATION_EVACUATION (Last Stand/Battlegrounds/Federation Controlled/Stronghold)-->
+<event name="TAT_FEDERATION_EVACUATION" unique="true">
+	<fleet>fed</fleet>
+	<img back="BG_DARK" planet="PLANET_POPULATED"/>
+	<text id="FEDERATION_EVACUATION_START"/>
+	<choice hidden="true">
+		<text id="FEDERATION_EVACUATION_HELP"/>
+		<event>
+			<text id="FEDERATION_EVACUATION_HELPED"/>
+			<autoReward level="HIGH">standard</autoReward>
+			<modifyPursuit amount="1"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="FLEET_DISTRACTION">
+		<text id="FEDERATION_EVACUATION_BUOY"/>
+		<event>
+			<text id="FEDERATION_EVACUATION_BUOYED"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="ADV_SCANNERS">
+		<text id="FEDERATION_EVACUATION_SCAN"/>
+		<event>
+			<text id="FEDERATION_EVACUATION_SCANED"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="FEDERATION_EVACUATION_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_REBEL_ELITE_SUN (Rebel sectors/Last Stand/Battlegrounds)-->
+<event name="TAT_REBEL_ELITE_SUN" unique="true">
+	<environment type="sun"/>
+	<text id="REBEL_ELITE_SUN_START"/>
+	<ship load="LONG_ELITE" hostile="true"/>
+</event>
+
+<!--TAT_REBEL_ELITE_ASTEROID (Rebel sectors/Last Stand/Battlegrounds)-->
+<event name="TAT_REBEL_ELITE_ASTEROID" unique="true">
+	<environment type="asteroid"/>
+	<text id="REBEL_ELITE_ASTEROID_START"/>
+	<ship load="LONG_ELITE" hostile="true"/>
+</event>
+
+<!--TAT_REBEL_ELITE_NEUTRON (Rebel sectors/Last Stand/Battlegrounds)-->
+<event name="TAT_REBEL_ELITE_NEUTRON" unique="true">
+	<environment type="pulsar"/>
+	<text id="REBEL_ELITE_NEUTRON_START"/>
+	<ship load="LONG_ELITE" hostile="true"/>
+</event>
+
+<!--TAT_REBEL_ELITE_STORM (Rebel sectors/Last Stand/Battlegrounds)-->
+<event name="TAT_REBEL_ELITE_STORM" unique="true">
+	<environment type="storm"/>
+	<text id="REBEL_ELITE_STORM_START"/>
+	<ship load="LONG_ELITE" hostile="true"/>
+</event>
+
+<!--TAT_PIRATES_SCRAPPING (Last Stand/Contested/Abandoned/Rebel controlled/Federation Controlled) Add debree field when that hazard becomes real-->
+<event name="TAT_PIRATES_SCRAPPING" unique="true">
+	<text id="PIRATES_SCRAPPING_START"/>
+	<choice hidden="true">
+		<text id="PIRATES_SCRAPPING_FIGHT"/>
+		<event>
+			<text id="PIRATES_SCRAPPING_FIGHTFIGHT"/>
+			<ship load="PIRATE_TATSCRAPPING" hostile="true"/>
+		</event>
+		<event>
+			<text id="PIRATES_SCRAPPING_FIGHTSCATTER"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+		<event>
+			<text id="PIRATES_SCRAPPING_FIGHTSWARMED"/>
+			<damage amount="1" system="room" effect="fire"/>
+			<damage amount="1" system="room" effect="fire"/>
+			<damage amount="1" system="room" effect="breach"/>
+			<damage amount="1" system="room" effect="breach"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="PIRATES_SCRAPPING_SCRAP"/>
+		<event>
+			<text id="PIRATES_SCRAPPING_SCRAPFIGHT"/>
+			<ship load="PIRATE_TATSCRAPPING" hostile="true"/>
+		</event>
+		<event>
+			<text id="PIRATES_SCRAPPING_SCRAPSCRAP"/>
+			<autoReward level="MED">stuff</autoReward>
+		</event>
+		<event>
+			<text id="PIRATES_SCRAPPING_SCRAPSWARMED"/>
+			<damage amount="1" system="room" effect="fire"/>
+			<damage amount="1" system="room" effect="breach"/>
+			<damage amount="1" system="room" effect="breach"/>
+		</event>
+	</choice>
+</event>
+<ship name="PIRATE_TATSCRAPPING" auto_blueprint="SHIPS_PIRATE"><!--Pirate Ship-->
+	<escape chance="0" min="2" max="6" >
+		<text id="PIRATE_TATSCRAPPING_ESCAPE"/>
+		<event>
+			<text id="PIRATES_SCRAPPING_FIGHTFIGHT_END"/>
+		</event>
+	</escape>
+	<destroyed>
+		<text id="PIRATE_TATSCRAPPING_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+		<event>
+			<text id="PIRATES_SCRAPPING_FIGHTFIGHT_END"/>
+		</event>
+	</destroyed>
+	<deadCrew>
+		<text id="PIRATE_TATSCRAPPING_DEAD"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<event>
+			<text id="PIRATES_SCRAPPING_FIGHTFIGHT_END"/>
+		</event>
+	</deadCrew>
+</ship>
+
+<!--last stand debree field event?-->
+<!--TAT_FED_BOMBED (Last stand/Battlegrounds/Federation Controlled/Stronghold)-->
+<event name="TAT_FED_BOMBED" unique="true">
+	<text id="TAT_FED_BOMBED_INTRO"/>
+	<choice hidden="true" req="medbay" lvl="3">
+		<text id="TAT_FED_BOMBED_MED"/>
+		<event>
+			<text id="TAT_FED_BOMBED_MEDED"/>
+			<autoReward level="MED">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="REPAIR">
+		<text id="TAT_FED_BOMBED_REPAIR_DRONE"/>
+		<event>
+			<text id="TAT_FED_BOMBED_REPAIR_DRONED"/>
+			<autoReward level="MED">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="BOMB_HEAL">
+		<text id="TAT_FED_BOMBED_HEAL"/>
+		<event>
+			<text id="TAT_FED_BOMBED_HEALED"/>
+			<remove name="BOMB_HEAL"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="BOMB_HEAL_SYSTEM">
+		<text id="TAT_FED_BOMBED_REPAIR"/>
+		<event>
+			<text id="TAT_FED_BOMBED_REPAIRED"/>
+			<item type="missiles" min="-10" max="-10"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="anaerobic">
+		<text id="TAT_FED_BOMBED_LANIUS"/>
+		<event>
+			<text id="TAT_FED_BOMBED_LANIUSED"/>
+			<autoReward level="MED">stuff</autoReward>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_FED_BOMBED_NO"/>
+		<event>
+			<text id="TAT_FED_BOMBED_NOED"/>
+		<event>
+	</choice>
+</event>
+
+<!--TAT_FLEET_SUN (Last Stand/Battlegrounds/Rebel Controlled/Stronghold)-->
+<event name="TAT_FLEET_SUN" unique="true">
+	<img back="BG_DARK" planet="PLANET_POPULATED_SMALL"/>
+	<fleet>rebel</fleet>
+	<text id="TAT_FLEET_SUN_INTRO"/>
+	<environment type="sun"/>
+	<environment type="PDS" target="player"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--TAT_FLEET_ASTEROIDS (Last Stand/Battlegrounds/Rebel Controlled/Stronghold-->
+<event name="TAT_FLEET_ASTEROIDS" unique="true">
+	<fleet>rebel</fleet>
+	<text id="TAT_FLEET_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<environment type="PDS" target="player"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--TAT_FLEET_NEUTRON (Last Stand/Battlegrounds/Rebel Controlled/Stronghold-->
+<event name="TAT_FLEET_NEUTRON" unique="true">
+	<img back="BG_DARK" planet="PLANET_POPULATED_SMALL"/>
+	<fleet>rebel</fleet>
+	<text id="TAT_FLEET_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<environment type="PDS" target="player"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--TAT_ASB_ALL (Last Stand/Battlegrounds/Federation/Rebel)-->
+<event name="TAT_ASB_ALL" unique="true">
+	<fleet>battle</fleet>
+	<text id="TAT_ASB_ALL_INTRO"/>
+	<environment type="PDS" target="all"/>
+	<ship load="TAT_ASB_ALL_SHIP" hostile="true"/>
+</event>
+<ship name="TAT_ASB_ALL_SHIP" auto_blueprint="SHIPS_REBEL_AND_AUTO">
+	<destroyed>
+		<text id="LANIUS_VS_REBEL_SHIP_destroyed"/>
+		<autoReward level="LOW">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="LANIUS_VS_REBEL_SHIP_dead"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--Ally asb + other hazards-->
+<!--Neutral asb + other hazards-->

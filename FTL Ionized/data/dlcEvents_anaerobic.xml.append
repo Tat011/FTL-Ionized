@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Lanius Sectors Events-->
+<!--Stores-->
+<eventList name="STORES_LANIUS">
+	<event load="STORE_LANIUS"/>
+</eventList>
+
+<!--Nothing-->
+<eventList name="NOTHING_LANIUS_LIST">
+	<event load="NOTHING_LANIUS"/>
+	<event load="LANIUS_DISTRESS_EMPTY"/>
+	<event load="LANIUS_DISTRESS_TOOLATE"/>
+	<event load="LANIUS_DISTRESS_TRAP"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="ITEM_LANIUS">
+	<event load="LANIUS_FREE_STUFF"/>
+	<event load="LANIUS_RESEARCHER_CONTACT"/>
+	<event load="LANIUS_TRADER"/>
+	<event load="LANIUS_RESEARCHER_CRAFT"/>
+	<event load="DONOR_PONY"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_LANIUS">
+	<event load="LANIUS_CIVILIAN"/>
+	<event load="LANIUS_PIRATE_CIVILIAN"/>
+	<event load="LANIUS_SOLO_SALVAGE"/>
+	<event load="LANIUS_SCARED_CIVILIAN"/>
+	<event load="LANIUS_AUTO_REBEL"/>
+	<event load="LANIUS_GROUP_AUTO"/>
+	<event load="LANIUS_BEACON_EATER"/>
+	<event load="LANIUS_DORMANT_EVENT"/> 
+	<event load="LANIUS_FUELING_STATION"/>
+	<event load="LANIUS_DISTRESS_FIGHT"/>
+	<event load="LANIUS_SLUG_DISTRESS"/>
+	<event load="LANIUS_MANTIS_DISTRESS"/>
+	<event load="LANIUS_ROCK_DISTRESS"/>
+	<event load="LANIUS_HARVESTER"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_LANIUS">
+	<event load="LANIUS_FIGHT"/>
+	<event load="LANIUS_REBEL_FIGHT"/>
+	<event load="LANIUS_PIRATE_FIGHT"/>
+	<event load="LANIUS_FIGHT_ASTEROID"/>
+	<event load="LANIUS_FIGHT_PULSAR"/>
+	<event load="LANIUS_NOBOARDERS_PDS"/>
+	<event load="LANIUS_BOARDERS"/>
+	<event load="LANIUS_PIRATE_BOARDERS"/>
+	<event load="TAT_LANIUS_BOARDERS"/>
+</eventList>
+
+<!--Controlled only-->
+<eventList name="LANIUS_CONTROLLED">
+	<event load="REBEL_VS_FEDERATION"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+	<event load="STORE_RESCUE"/>
+</eventList>
+
+<!--Home only-->
+<eventList name="LANIUS_HOMEWORLDS">
+</eventList>
+
+<!--STORE_LANIUS-->
+
+<!--NOTHING_LANIUS-->
+
+<!--LANIUS_DISTRESS_FIGHT (EXCLUSIVE)-->
+<ship name="LANIUS_CIVILIAN" auto_blueprint="SHIPS_LANIUS">
+	<escape chance="0.4" min="2" max="5" >
+		<text id="LANIUS_CIVILIAN_DISTRESS_SHIP_TAT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_CIVILIAN_DISTRESS_SHIP_TAT_ESCAPED"/>
+		<choice hidden="true">
+			<text id="ship_LANIUS_CIVILIAN_destroyed_c1_choice"/>
+			<event load="SAVE_CIVILIAN_LIST"/>
+		</choice>
+	</gotaway>
+	<surrender  chance="0.4" min="2" max="4">
+		<text id="LANIUS_CIVILIAN_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_CIVILIAN_TAT_SURRENDERY"/>
+			<event>
+				<text id="LANIUS_CIVILIAN_TAT_END"/>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+				<choice hidden="true">
+					<text id="ship_LANIUS_CIVILIAN_destroyed_c1_choice"/>
+					<event load="SAVE_CIVILIAN_LIST"/>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_CIVILIAN_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="ship_LANIUS_CIVILIAN_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_CIVILIAN_destroyed_c1_choice"/>
+			<event load="SAVE_CIVILIAN_LIST"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_LANIUS_CIVILIAN_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_CIVILIAN_destroyed_c1_choice"/>
+			<event load="SAVE_CIVILIAN_LIST"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_DISTRESS_EMPTY (Empty)-->
+
+<!--LANIUS_DISTRESS_TOOLATE (Empty)-->
+
+<!--LANIUS_DISTRESS_TRAP (Empty)-->
+
+<!--LANIUS_SLUG_DISTRESS (Lanius/Slug/Uncharted)-->
+<event name="LANIUS_SLUG_DISTRESS" unique="true">
+	<text id="event_LANIUS_SLUG_DISTRESS_text"/>
+	<distressBeacon/>
+	<ship load="LANIUS_SLUG_DISTRESS_SHIP" hostile="false"/>
+	<choice>
+		<text id="event_LANIUS_SLUG_DISTRESS_c1_choice"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_SLUG_DISTRESS_c2_choice"/>
+		<event>
+			<text id="event_LANIUS_SLUG_DISTRESS_c2_text"/>
+		</event>
+	</choice>
+</event>
+<ship name="LANIUS_SLUG_DISTRESS_SHIP" auto_blueprint="SHIPS_LANIUS"><!--Lanius Ship-->
+	<escape chance="0.4" min="2" max="5" >
+		<text id="LANIUS_SLUG_DISTRESS_SHIP_TAT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_SLUG_DISTRESS_SHIP_TAT_ESCAPED"/>
+		<choice hidden="true">
+			<text id="ship_LANIUS_SLUG_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_SLUG_DISTRESS_END"/>
+		</choice>
+	</gotaway>
+	<surrender  chance="0.4" min="2" max="4">
+		<text id="LANIUS_SLUG_DISTRESS_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_SLUG_DISTRESS_TAT_SURRENDERY"/>
+			<event>
+				<text id="LANIUS_SLUG_DISTRESS_END"/>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+				<choice hidden="true">
+					<text id="ship_LANIUS_SLUG_DISTRESS_SHIP_destroyed_c1_choice"/>
+					<event load="LANIUS_SLUG_DISTRESS_END"/>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_SLUG_DISTRESS_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="ship_LANIUS_SLUG_DISTRESS_SHIP_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_SLUG_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_SLUG_DISTRESS_END"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_LANIUS_SLUG_DISTRESS_SHIP_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_SLUG_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_SLUG_DISTRESS_END"/>
+		</choice>
+	</deadCrew>
+</ship>
+<eventList name="LANIUS_SLUG_DISTRESS_END"><!--Event End-->
+	<event>
+		<text id="event_LANIUS_SLUG_DISTRESS_END_1_text"/>
+	</event>
+	<event>
+		<ship load="JELLY" hostile="false"/>
+		<text id="event_LANIUS_SLUG_DISTRESS_END_2_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<ship load="JELLY" hostile="false"/>
+		<text id="LANIUS_SLUG_DISTRESS_TAT_AUGMENT"/>
+		<augment name="RANDOM"/>
+	</event>
+</eventList>
+
+<!--LANIUS_MANTIS_DISTRESS (Lanius/Mantis/Uncharted)-->
+<event name="LANIUS_MANTIS_DISTRESS" unique="true">
+	<text id="event_LANIUS_MANTIS_DISTRESS_text"/>
+	<distressBeacon/>
+	<ship load="LANIUS_MANTIS_DISTRESS_SHIP" hostile="false"/>
+	<choice>
+		<text id="event_LANIUS_MANTIS_DISTRESS_c1_choice"/>
+		<event>
+			<text id="event_LANIUS_MANTIS_DISTRESS_c1_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_MANTIS_DISTRESS_c2_choice"/>
+		<event>
+			<text id="event_LANIUS_MANTIS_DISTRESS_c2_text"/>
+		</event>
+	</choice>
+</event>
+<ship name="LANIUS_MANTIS_DISTRESS_SHIP" auto_blueprint="SHIPS_LANIUS"><!--Lanius Ship-->
+	<escape chance="0.4" min="2" max="5" >
+		<text id="LANIUS_MANTIS_DISTRESS_SHIP_TAT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_MANTIS_DISTRESS_SHIP_TAT_ESCAPED"/>
+		<choice hidden="true">
+			<text id="ship_LANIUS_MANTIS_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_MANTIS_DISTRESS_END"/>
+		</choice>
+	</gotaway>
+	<surrender  chance="0.4" min="2" max="4">
+		<text id="LANIUS_MANTIS_DISTRESS_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_MANTIS_DISTRESS_TAT_SURRENDERY"/>
+			<event>
+				<text id="LANIUS_MANTIS_DISTRESS_END"/>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+				<choice hidden="true">
+					<text id="ship_LANIUS_MANTIS_DISTRESS_SHIP_destroyed_c1_choice"/>
+					<event load="LANIUS_MANTIS_DISTRESS_END"/>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_MANTIS_DISTRESS_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="ship_LANIUS_MANTIS_DISTRESS_SHIP_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_MANTIS_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_MANTIS_DISTRESS_END"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_LANIUS_MANTIS_DISTRESS_SHIP_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_MANTIS_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_MANTIS_DISTRESS_END"/>
+		</choice>
+	</deadCrew>
+</ship>
+<eventList name="LANIUS_MANTIS_DISTRESS_END"><!--Event End-->
+	<event>
+		<ship load="MANTIS" hostile="false"/>
+		<text id="event_LANIUS_MANTIS_DISTRESS_END_1_text"/>
+		<autoReward level="MED">missiles</autoReward>
+	</event>
+	<event>
+		<ship load="MANTIS" hostile="false"/>
+		<text id="event_LANIUS_MANTIS_DISTRESS_END_2_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<ship load="MANTIS" hostile="false"/>
+		<text id="LANIUS_MANTIS_DISTRESS_TAT_WEAPON"/>
+		<weapon name="RANDOM"/>
+	</event>
+</eventList>
+
+<!--LANIUS_ROCK_DISTRESS (Lanius/Rock/Uncharted)-->
+<event name="LANIUS_ROCK_DISTRESS" unique="true">
+	<text id="event_LANIUS_ROCK_DISTRESS_text"/>
+	<distressBeacon/>
+	<ship load="LANIUS_ROCK_DISTRESS_SHIP" hostile="false"/>
+	<choice>
+		<text id="event_LANIUS_ROCK_DISTRESS_c1_choice"/>
+		<event>
+			<text id="event_LANIUS_ROCK_DISTRESS_c1_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_ROCK_DISTRESS_c2_choice"/>
+		<event>
+			<text id="event_LANIUS_ROCK_DISTRESS_c2_text"/>
+		</event>
+	</choice>
+</event>
+<ship name="LANIUS_ROCK_DISTRESS_SHIP" auto_blueprint="SHIPS_LANIUS"><!--Lanius Ship-->
+	<escape chance="0.4" min="2" max="5" >
+		<text id="LANIUS_ROCK_DISTRESS_SHIP_TAT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_ROCK_DISTRESS_SHIP_TAT_ESCAPED"/>
+		<choice hidden="true">
+			<text id="ship_LANIUS_ROCK_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_ROCK_DISTRESS_END"/>
+		</choice>
+	</gotaway>
+	<surrender  chance="0.4" min="2" max="4">
+		<text id="LANIUS_ROCK_DISTRESS_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_ROCK_DISTRESS_TAT_SURRENDERY"/>
+			<event>
+				<text id="LANIUS_ROCK_DISTRESS_END"/>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+				<choice hidden="true">
+					<text id="ship_LANIUS_ROCK_DISTRESS_SHIP_destroyed_c1_choice"/>
+					<event load="LANIUS_ROCK_DISTRESS_END"/>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_ROCK_DISTRESS_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="ship_LANIUS_ROCK_DISTRESS_SHIP_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_ROCK_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_ROCK_DISTRESS_END"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_LANIUS_ROCK_DISTRESS_SHIP_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_ROCK_DISTRESS_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_ROCK_DISTRESS_END"/>
+		</choice>
+	</deadCrew>
+</ship>
+<eventList name="LANIUS_ROCK_DISTRESS_END"><!--Event End-->
+	<event>
+		<ship load="ROCK" hostile="false"/>
+		<text id="event_LANIUS_ROCK_DISTRESS_END_1_text"/>
+	</event>
+	<event>
+		<text id="event_LANIUS_ROCK_DISTRESS_END_2_text"/>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<ship load="ROCK" hostile="false"/>
+		<text id="LANIUS_ROCK_DISTRESS_TAT_AUGMENT"/>
+		<augment name="RANDOM"/>
+	</event>
+</eventList>
+
+<!--LANIUS_FREE_STUFF (EXCLUSIVE)-->
+
+<!--LANIUS_RESEARCHER_CONTACT (EXCLUSIVE)-->
+
+<!--LANIUS_RESEARCHER_CRAFT (Lanius/Uncharted/Nebula)-->
+
+<!--LANIUS_TRADER_TRANSLATOR (FILLER, Passive)-->
+<event name="LANIUS_TRADER_TRANSLATOR" unique="true">
+	<text id="event_LANIUS_TRADER_TRANSLATOR_text"/>
+	<choice>
+		<text id="event_LANIUS_TRADER_LIST_TAT_FUEL"/>
+		<event>
+			<text id="event_LANIUS_TRADER_LIST_1_text"/>
+			<item_modify>
+				<item type="fuel" min="-7" max="-3"/>
+				<item type="scrap" min="15" max="30"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_TRADER_LIST_TAT_MISSILE"/>
+		<event>
+			<text id="event_LANIUS_TRADER_LIST_1_text"/>
+			<item_modify>
+				<item type="missiles" min="-7" max="-3"/>
+				<item type="scrap" min="20" max="40"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_TRADER_LIST_TAT_DRONE"/>
+		<event>
+			<text id="event_LANIUS_TRADER_LIST_1_text"/>
+			<item_modify>
+				<item type="drones" min="-7" max="-3"/>
+				<item type="scrap" min="20" max="40"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_TRADER_TRANSLATOR_c2_choice"/>
+		<event>
+			<text id="event_LANIUS_TRADER_TRANSLATOR_c2_text"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_LANIUS_TRADER_TRANSLATOR_c3_choice"/>
+		<event>
+			<text id="event_LANIUS_TRADER_TRANSLATOR_c3_text"/>
+			<choice hidden="true">
+				<text id="event_LANIUS_TRADER_TRANSLATOR_c3_c1_choice"/>
+				<event>
+					<text id="event_LANIUS_TRADER_TRANSLATOR_c3_c1_text"/>
+					<crewMember amount="1" class="anaerobic" id="name_Translator"/>
+					<item_modify>
+						<item type="scrap" min="-40" max="-40"/>
+					</item_modify>
+				</event>
+			</choice>
+			<choice>
+				<text id="event_LANIUS_TRADER_TRANSLATOR_c3_c2_choice"/>
+				<event>
+					<text id="event_LANIUS_TRADER_TRANSLATOR_c3_c2_text"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--LANIUS_TRADER (EXCLUSIVE, Passive)-->
+<event name="LANIUS_TRADER" unique="true">
+	<ship load="LANIUS" hostile="false"/>
+	<text load="LANIUS_TRADER_TEXT"/>
+	<choice>
+		<text id="event_LANIUS_TRADER_LIST_TAT_FUEL"/>
+		<event>
+			<text id="event_LANIUS_TRADER_LIST_1_text"/>
+			<item_modify>
+				<item type="fuel" min="-7" max="-3"/>
+				<item type="scrap" min="15" max="30"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_TRADER_LIST_TAT_MISSILE"/>
+		<event>
+			<text id="event_LANIUS_TRADER_LIST_1_text"/>
+			<item_modify>
+				<item type="missiles" min="-7" max="-3"/>
+				<item type="scrap" min="20" max="40"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_TRADER_LIST_TAT_DRONE"/>
+		<event>
+			<text id="event_LANIUS_TRADER_LIST_1_text"/>
+			<item_modify>
+				<item type="drones" min="-7" max="-3"/>
+				<item type="scrap" min="20" max="40"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_LANIUS_TRADER_c2_choice"/>
+		<event>
+			<text id="event_LANIUS_TRADER_c2_text"/>
+		</event>
+	</choice>
+</event>
+
+<!--LANIUS_FIGHT (EXCLUSIVE)-->
+<event name="LANIUS_FIGHT" unique="true">
+	<text load="LANIUS_FIGHT_TEXT"/>
+	<ship load="LANIUS_SHIP" hostile="true"/>
+</event>
+
+<!--LANIUS_REBEL_FIGHT (EXCLUSIVE)-->
+<event name="LANIUS_REBEL_FIGHT" unique="true">
+	<text load="LANIUS_REBEL_FIGHT_TEXT"/>
+	<ship load="LANIUS_REBEL_FIGHT_SHIP" hostile="true"/>
+</event>
+<ship name="LANIUS_REBEL_FIGHT_SHIP" auto_blueprint="SHIPS_REBEL"><!--Rebel Ship-->
+	<escape chance="0.5" min="2" max="5" >
+		<text id="LANIUS_REBEL_FIGHT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_REBEL_FIGHT_ESCAPED"/>
+	</gotaway>
+	<surrender  chance="0.5" min="2" max="4">
+		<text id="LANIUS_REBEL_FIGHT_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_REBEL_FIGHT_TAT_SURRENDERY"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">stuff</autoReward>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_REBEL_FIGHT_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="LANIUS_REBEL_FIGHT_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="LANIUS_REBEL_FIGHT_DEAD"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_PIRATE_FIGHT (EXCLUSIVE)-->
+<event name="LANIUS_PIRATE_FIGHT" unique="true">
+	<text load="LANIUS_PIRATE_FIGHT_TEXT"/>
+	<ship load="LANIUS_PIRATE_FIGHT_SHIP" hostile="true"/>
+</event>
+<ship name="LANIUS_PIRATE_FIGHT_SHIP" auto_blueprint="SHIPS_PIRATE"><!--Pirate Ship-->
+	<escape chance="0.6" min="2" max="5" >
+		<text id="LANIUS_PIRATE_FIGHT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_PIRATE_FIGHT_ESCAPED"/>
+	</gotaway>
+	<surrender  chance="0.6" min="2" max="4">
+		<text id="LANIUS_PIRATE_FIGHT_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_PIRATE_FIGHT_TAT_SURRENDERY"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">stuff</autoReward>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_PIRATE_FIGHT_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="LANIUS_PIRATE_FIGHT_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="LANIUS_PIRATE_FIGHT_DEAD"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_FIGHT_ASTEROID (Lanius/Rock)-->
+<event name="LANIUS_FIGHT_ASTEROID" unique="true">
+	<text id="event_LANIUS_FIGHT_ASTEROID_text"/>
+	<ship load="LANIUS_FIGHT_ASTEROID_SHIP" hostile="true"/>
+	<environment type="asteroid"/>
+</event>
+<ship name="LANIUS_FIGHT_ASTEROID_SHIP" auto_blueprint="SHIPS_LANIUS"><!--Lanius Ship-->
+	<escape chance="0.6" min="2" max="5" >
+		<text id="LANIUS_FIGHT_ASTEROID_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_FIGHT_ASTEROID_ESCAPED"/>
+	</gotaway>
+	<surrender  chance="0.6" min="2" max="4">
+		<text id="LANIUS_FIGHT_ASTEROID_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_FIGHT_ASTEROID_TAT_SURRENDERY"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_FIGHT_ASTEROID_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="LANIUS_FIGHT_ASTEROID_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="LANIUS_FIGHT_ASTEROID_DEAD"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_FIGHT_PULSAR (Lanius/Engi)-->
+<event name="LANIUS_FIGHT_PULSAR" unique="true">
+	<text id="event_LANIUS_FIGHT_PULSAR_text"/>
+	<ship load="LANIUS_FIGHT_PULSAR_SHIP" hostile="true"/>
+	<environment type="pulsar"/>
+</event>
+<ship name="LANIUS_FIGHT_PULSAR_SHIP" auto_blueprint="SHIPS_LANIUS"><!--Lanius Ship-->
+	<escape chance="0.4" min="2" max="5" >
+		<text id="LANIUS_FIGHT_PULSAR_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_FIGHT_PULSAR_ESCAPED"/>
+	</gotaway>
+	<surrender  chance="0.4" min="2" max="4">
+		<text id="LANIUS_FIGHT_PULSAR_TAT_SURRENDER"/>
+		<choice>
+			<text id="LANIUS_FIGHT_PULSAR_TAT_SURRENDERY"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+			</event>
+		</choice>
+		<choice>
+			<text id="LANIUS_FIGHT_PULSAR_TAT_SURRENDERN"/>
+			<event/>
+		</choice>
+	</surrender>
+	<destroyed>
+		<text id="LANIUS_FIGHT_PULSAR_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="LANIUS_FIGHT_PULSAR_DEAD"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_NOBOARDERS_PDS (EXCLUSIVE, Hostile, Ally ASB)-->
+<ship name="LANIUS_BOARDERS_PDS" auto_blueprint="SHIPS_LANIUS"><!--Lanius Ship-->
+	<escape chance="0.4" min="2" max="5" >
+		<text id="LANIUS_BOARDERS_PDS_TAT_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="LANIUS_BOARDERS_PDS_TAT_ESCAPED"/>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="LANIUS_BOARDERS_PDS_LIST"/>
+		</choice>
+	</gotaway>
+	<destroyed>
+		<text id="ship_LANIUS_BOARDERS_PDS_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="LANIUS_BOARDERS_PDS_LIST"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_LANIUS_BOARDERS_PDS_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="LANIUS_BOARDERS_PDS_LIST"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_HARVESTER (Lanius/Rock)-->
+<ship name="LANIUS_HARVESTER_SHIP" auto_blueprint="SHIPS_LANIUS">
+	<destroyed>
+		<text id="ship_LANIUS_HARVESTER_SHIP_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_HARVESTER_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_HARVESTER_SHIP_LIST"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_LANIUS_HARVESTER_SHIP_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="ship_LANIUS_HARVESTER_SHIP_destroyed_c1_choice"/>
+			<event load="LANIUS_HARVESTER_SHIP_LIST"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<!--LANIUS_CIVILIAN (Lanius/Federation)-->
+
+<!--LANIUS_PIRATE_CIVILIAN (EXCLUSIVE)-->
+
+<!--LANIUS_SOLO_SALVAGE (EXCLUSIVE)-->
+
+<!--LANIUS_SCARED_CIVILIAN (Lanius/Federation)-->
+
+<!--LANIUS_AUTO_REBEL (Lanius/Rebel/Uncharted)-->
+
+<!--LANIUS_GROUP_AUTO (Lanius/Rebel)-->
+
+<!--LANIUS_BEACON_EATER (Lanius/Uncharted/Nebula)-->
+
+<!--LANIUS_DORMANT_EVENT (EXCLUSIVE)-->
+
+<!--LANIUS_FUELING_STATION (EXCLUSIVE)-->
+<eventList name="LANIUS_FUELING_STATION_LIST">
+	<event>
+		<text id="event_LANIUS_FUELING_STATION_LIST_1_text"/>
+		<ship load="LANIUS_FUELING_STATION_SHIP" hostile="true"/>
+		<boarders breach="true" min="4" max="4" class="anaerobic"/>
+	</event>
+	<event>
+		<text id="event_LANIUS_FUELING_STATION_LIST_2_text"/>
+		<ship load="LANIUS_FUELING_STATION_SHIP" hostile="true"/>
+		<damage amount="3" system="engines"/>
+	</event>
+	<event>
+		<text id="event_LANIUS_FUELING_STATION_LIST_3_text"/>
+		<item_modify>
+			<item type="fuel" min="3" max="5"/>
+		</item_modify>
+		<choice>
+			<text id="continue"/>
+			<event/>
+		</choice>
+		<choice req="sensors" lvl="2" hidden="true" max_group="0">
+			<text id="event_LANIUS_FUELING_STATION_LIST_3_c2_choice"/>
+			<event>
+				<text id="event_LANIUS_FUELING_STATION_LIST_3_c2_text"/>
+				<item_modify>
+					<item type="fuel" min="1" max="3"/>
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="sensors" lvl="3" hidden="true" max_group="0">
+			<text id="event_LANIUS_FUELING_STATION_LIST_3_c3_choice"/>
+			<event>
+				<text id="event_LANIUS_FUELING_STATION_LIST_3_c3_text"/>
+				<item_modify>
+					<item type="fuel" min="2" max="3"/>
+					<item type="drones" min="1" max="3"/>
+				</item_modify>
+			</event>
+		</choice>
+	</event>
+</eventList>
+
+<!--LANIUS_PIRATE_BOARDERS-->
+<event name="LANIUS_PIRATE_BOARDERS" unique="true">
+	<text id="event_LANIUS_PIRATE_BOARDERS_text"/>
+	<boarders breach="false" min="6" max="6" class="human"/>
+</event>
+
+<!--LANIUS_BOARDERS-->
+<event name="LANIUS_BOARDERS" unique="true">
+	<text>You detect a small craft in an otherwise empty area and move in to examine it. It appears to be the husk of a Lanius ship barely holding together. As you are closely scanning it for useful materials, six figures climb out from the wreckage and launch themselves the short distance onto your ship. An explosive vibration rocks the ship and Lanius lifeforms are detected on board!</text>
+	<boarders breach="true" min="6" max="6" class="anaerobic"/>
+</event>
+
+<!--TAT_LANIUS_ASB-->
+<event name="TAT_LANIUS_ASB" unique="true">
+	<img back="BG_DARK" planet="PLANET"/>
+	<text id="TAT_LANIUS_ASB_INTRO"/>
+	<environment type="PDS" target="player"/>
+	<ship load="SHIPS_LANIUS" hostile="true"/>
+</event>
+
+<!--TAT_LANIUS_NEBULA-->
+<event name="TAT_LANIUS_NEBULA" unique="true">
+	<text id="TAT_LANIUS_NEBULA_INTRO"/>
+	<environment type="nebula"/>
+	<ship load="SHIPS_LANIUS" hostile="true"/>
+</event>
+
+<!--TAT_LANIUS_STORM-->
+<event name="TAT_LANIUS_STORM" unique="true">
+	<text id="TAT_LANIUS_STORM_INTRO"/>
+	<environment type="storm"/>
+	<ship load="SHIPS_LANIUS" hostile="true"/>
+</event>

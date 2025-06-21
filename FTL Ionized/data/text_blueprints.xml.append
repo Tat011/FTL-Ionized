@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Crew-->
+<!--Humans-->
+<text name="crew_human_desc">Hailing from earth, Humans are known for their adaptability.</text>
+<text name="crew_human_power_1">100 HP</text>
+<text name="crew_human_power_2">100% Movement speed</text>
+<text name="crew_human_power_3">100% Repair speed/Fire suppression</text>
+<text name="crew_human_power_4">100% Damage dealt</text>
+<text name="crew_human_power_5">50% Skill requirements</text>
+<text name="crew_human_power_6">Ability: "Lock in"; increases move, repair and damage speed, as well as gives max manning skills and mind control resistance for 4 seconds</text>
+
+<!--Engis-->
+<text name="crew_engi_desc">It's unclear if the Engi are partly organic or entirely mechanical, but it's well known that they are exceptional with computers.</text>
+<text name="crew_engi_power_1">100 HP</text>
+<text name="crew_engi_power_2">100% Movement speed</text>
+<text name="crew_engi_power_3">150% Repair speed/Fire suppression</text>
+<text name="crew_engi_power_4">50% Combat damage.</text>
+<text name="crew_engi_power_5">20% Damage reduction</text>
+<text name="crew_engi_power_6">Catches on fire on death</text>
+<text name="crew_engi_power_7">Ability: "Ionize"/"DeIonize"; adds or removes 4 ion damage, depending on if you're on your ship or the enemy ship.</text>
+
+<!--Zoltan-->
+<text name="crew_energy_desc">Zoltans are beings of pure energy that can power ship systems with their bodies.</text>
+<text name="crew_energy_power_1">75 HP</text>
+<text name="crew_energy_power_2">100% Movement speed</text>
+<text name="crew_energy_power_3">75% Repair speed/Fire suppression</text>
+<text name="crew_energy_power_4">75% Damage dealt</text>
+<text name="crew_energy_power_5">Provides power to occupied system</text>
+<text name="crew_energy_power_6">Explodes on death, dealing 15 damage to enemy crew</text>
+<text name="crew_energy_power_7">Ability: "Dematerialize"; becomes invulnerable for 4 seconds, cannot fight/repair/man systems but can go through walls.</text>
+
+<!--Mantis-->
+<text name="crew_mantis_desc">The Mantis of Kirrakthas disregard for individual lives led to their evolution as a vicious warrior race.</text>
+<text name="crew_mantis_power_1">100 HP</text>
+<text name="crew_mantis_power_2">100% Movement speed</text>
+<text name="crew_mantis_power_3">75% Repair speed/Fire suppression</text>
+<text name="crew_mantis_power_4">125% Damage dealt</text>
+<text name="crew_mantis_power_5">50% Stun duration</text>
+<text name="crew_mantis_power_6">Ability: "Screech"; stuns everyone in the room exept the caster</text>
+
+<!--Slug-->
+<text name="crew_slug_power_1">100 HP</text>
+<text name="crew_slug_power_2">75% Movement speed</text>
+<text name="crew_slug_power_3">100% Repair speed/Fire suppression</text>
+<text name="crew_slug_power_4">100% Damage dealt</text>
+<text name="crew_slug_power_5">50% Stun duration</text>
+<text name="crew_slug_power_6">HP regeneration when not taking damage</text>
+<text name="crew_slug_power_7">Telepathic powers reveal adjacent rooms and all lifeforms, even when sensors are down</text>
+<text name="crew_slug_power_8">Immune to mind control</text>
+<text name="crew_slug_power_9">Ability: "Concealed Charges"; creates a breach.</text>
+
+<!--Rockman-->
+<text name="crew_rock_power_1">150 HP</text>
+<text name="crew_rock_power_2">50% Movement speed</text>
+<text name="crew_rock_power_3">100% Repair speed</text>
+<text name="crew_rock_power_4">200% Fire suppression</text>
+<text name="crew_rock_power_5">100% Damage dealt</text>
+<text name="crew_rock_power_6">Immune to fire damage</text>
+<text name="crew_rock_power_7">50% Stun duration</text>
+<text name="crew_rock_power_8">Ability: "Adrenaline"; Movement speed becomes 125% for 4 seconds</text>
+
+<!--Crystal-->
+<text name="crew_crystal_desc">Ancient relatives of the Rockmen, the Crystals isolated themselves ages ago</text>
+<text name="crew_crystal_power_1">100 HP</text>
+<text name="crew_crystal_power_2">75% Movement speed</text>
+<text name="crew_crystal_power_3">100% Repair speed/Fire suppression</text>
+<text name="crew_crystal_power_4">100% Damage dealt</text>
+<text name="crew_crystal_power_5">50% Damage resistance</text>
+<text name="crew_crystal_power_6">25% Stun duration</text>
+<text name="crew_crystal_power_7">Ability: "Lockdown"; prevents room entry and exit</text>
+
+<!--Lanius-->
+<text name="crew_anaerobic_desc">These anaerobic beings are capable of molding metal to their will.</text>
+<text name="crew_anaerobic_power_1">110 HP</text>
+<text name="crew_anaerobic_power_2">85% Movement speed</text>
+<text name="crew_anaerobic_power_3">100% Repair speed/Fire suppression</text>
+<text name="crew_anaerobic_power_4">100% Damage dealt</text>
+<text name="crew_anaerobic_power_5">Drains oxygen from rooms and takes no suffocation damage</text>
+<text name="crew_anaerobic_power_6">Ability: "Metabolize"; heals themselves, releasing oxygen in the process</text>
+
+<!--Aumia-->
+<text name="crew_aumia_title">Aumia</text>
+<text name="crew_aumia_short">Aumia</text>
+<text name="crew_aumia_desc">The Aumia are reclusive tree-like beings that combine technology and magic.</text>
+<text name="crew_aumia_power_1">150 HP</text>
+<text name="crew_aumia_power_2">50% Movement speed</text>
+<text name="crew_aumia_power_3">125% Repair speed</text>
+<text name="crew_aumia_power_4">50% Fire suppression</text>
+<text name="crew_aumia_power_5">125% Damage dealt</text>
+<text name="crew_aumia_power_6">200% fire damage</text>
+<text name="crew_aumia_power_7">Generates oxygen</text>
+<text name="crew_aumia_power_8">Ability: "Healing Spell"; ally crew in room heals 4 HP per second for 4 seconds</text>
+
+<!--Emen-->
+<text name="crew_emen_title">Emen Drone</text>
+<text name="crew_emen_short">Emen</text>
+<text name="crew_emen_desc">The Emen are robotic beings that absconded from the Federation to live independently.</text>
+<text name="crew_emen_power_1">100 HP</text>
+<text name="crew_emen_power_2">100% Movement speed</text>
+<text name="crew_emen_power_3">100% Repair speed</text>
+<text name="crew_emen_power_4">100% Fire suppression</text>
+<text name="crew_emen_power_5">100% Damage dealt</text>
+<text name="crew_emen_power_6">50% Fire damage and Stun duration</text>
+<text name="crew_emen_power_7">Immune to suffocation</text>
+<text name="crew_emen_power_8">200% skill requirements</text>
+<text name="crew_emen_power_9">Ability: ????</text>
+
+<!--Weapons-->
+<!--Artillery-->
+<text name="weapon_ARTILLERY_TATLASER_title">Laser Artillery</text>
+<text name="weapon_ARTILLERY_TATLASER_short">Laser Artillery</text>
+<text name="weapon_ARTILLERY_TATLASER_desc">This artillery fires 5 laser shots that have a guaranteed Fire/Breach/Stun effect.</text>
+<text name="weapon_ARTILLERY_TATLASER_tooltip">Fires 5 lasers of 1 damage.</text>
+
+<text name="weapon_ARTILLERY_TATMISSILE_title">Missile Artillery</text>
+<text name="weapon_ARTILLERY_TATMISSILE_short">Missile Artillery</text>
+<text name="weapon_ARTILLERY_TATMISSILE_desc">This artillery fires 5 missile shots that have a guaranteed Fire/Breach/Stun effect.</text>
+<text name="weapon_ARTILLERY_TATMISSILE_tooltip">Fires 5 missiles of 1 damage.</text>
+
+<text name="weapon_ARTILLERY_TATBOMB_title">Bomb Artillery</text>
+<text name="weapon_ARTILLERY_TATBOMB_short">Bomb Artillery</text>
+<text name="weapon_ARTILLERY_TATBOMB_desc">This artillery fires 5 bomb shots that have a guaranteed Fire/Breach/Stun effect.</text>
+<text name="weapon_ARTILLERY_TATBOMB_tooltip">Fires 5 missiles of 1 damage.</text>
+
+<text name="weapon_ARTILLERY_TATION_title">Ion Artillery</text>
+<text name="weapon_ARTILLERY_TATION_short">Ion Artillery</text>
+<text name="weapon_ARTILLERY_TATION_desc">This artillery fires 5 ion shots that have a guaranteed Fire/Breach/Stun effect.</text>
+<text name="weapon_ARTILLERY_TATION_tooltip">Fires 5 missiles of 2 ion damage.</text>
+
+<!--Lasers-->
+<!--Basic Laser 1-->
+<text name="weapon_LASER_BURST_1_title">Basic Laser Mark I (Mercury)</text>
+<text name="weapon_LASER_BURST_1_short">Basic Laser I</text>
+<text name="weapon_LASER_BURST_1_desc">Weak but fast charging laser.</text>
+
+<!--Basic Laser 2-->
+<text name="weapon_LASER_TAT2_title">Basic Laser Mark II (Jupiter)</text>
+<text name="weapon_LASER_TAT2_short">Basic Laser II</text>
+<text name="weapon_LASER_TAT2_desc">A standard combat weapon commonly seen pretty much everywhere.</text>
+<text name="weapon_LASER_TAT2_tooltip">Fires 2 lasers of 1 damage.</text>
+
+<!--Basic Laser 3-->
+<text name="weapon_LASER_TAT3_title">Basic Laser Mark III (Saturn)</text>
+<text name="weapon_LASER_TAT3_short">Basic Laser III</text>
+<text name="weapon_LASER_TAT3_desc">A more expensive version of the basic laser II that fires three shots.</text>
+<text name="weapon_LASER_TAT3_tooltip">Fires 3 lasers of 1 damage.</text>
+
+<!--Basic Laser 4-->
+<text name="weapon_LASER_TAT4_title">Basic Laser Mark IV (Caelus)</text>
+<text name="weapon_LASER_TAT4_short">Basic Laser IV</text>
+<text name="weapon_LASER_TAT4_desc">A four power, four shot laser weapon, for when one needs good firepower fast.</text>
+<text name="weapon_LASER_TAT4_tooltip">Fires 4 lasers of 1 damage.</text>
+
+<!--Burst Laser 1-->
+<text name="LASER_BURST_2_A_title">Burst Laser Mark I (Proserpina)</text>
+
+<!--Burst Laser 2-->
+<text name="weapon_LASER_BURST_3_title">Burst Laser Mark II (Ceres)</text>
+<text name="weapon_LASER_BURST_3_desc">Improved version of the burst laser that fires three shots per charge, commonly used in Federation cruisers.</text>
+
+<!--Burst Laser 3 []-->
+<text name="weapon_LASER_BURST_5_title">Burst Laser Mark III (Juno)</text>
+
+<!--Burst Laser 4-->
+<text name="weapon_LASER_BURST_TAT4_title">Burst Laser Mark IV (Ops)</text>
+<text name="weapon_LASER_BURST_TAT4_short">Burst Laser IV</text>
+<text name="weapon_LASER_BURST_TAT4_desc">Pushing the limits of laser technology, this weapon fires five shots per charge.</text>
+<text name="weapon_LASER_BURST_TAT4_tooltip">Fires 5 lasers of 1 damage.</text>
+
+<!--Heavy Laser 1-->
+<text name="weapon_LASER_HEAVY_1_title">Heavy Laser Mark I (Cyclops)</text>
+<text name="weapon_LASER_HEAVY_1_short">Heavy Laser I</text>
+<text name="weapon_LASER_HEAVY_1_desc">Heavy lasers can wreak more havoc than their burst laser counterparts, provided the enemy ship is exposed.</text>
+
+<!--Heavy Laser 2-->
+<text name="weapon_LASER_HEAVY_2_title">Heavy Laser Mark II (Juturna)</text>
+<text name="weapon_LASER_HEAVY_2_short">Heavy Laser II</text>
+<text name="weapon_LASER_HEAVY_2_desc">This heavy laser fires two shots in quick succession, it is frequently found on heavy assault Federation ships.</text>
+
+<!--Heavy Laser 3-->
+<text name="weapon_LASER_HEAVY_TAT3_title">Heavy Laser Mark III (Salacia)</text>
+<text name="weapon_LASER_HEAVY_TAT3_short">Heavy Laser III</text>
+<text name="weapon_LASER_HEAVY_TAT3_desc">This heavy laser fires three shots and is capable of decimating an unprotected ship, favored by the Rockmen.</text>
+<text name="weapon_LASER_HEAVY_TAT3_tooltip">Fires 3 lasers of 2 damage.</text>
+
+<!--Heavy Laser 4-->
+<text name="weapon_LASER_HEAVY_TAT4_title">Heavy Laser Mark IV (Neptune)</text>
+<text name="weapon_LASER_HEAVY_TAT4_short">Heavy Laser IV</text>
+<text name="weapon_LASER_HEAVY_TAT4_desc">This heavy laser fires four shots and is capable of decimating an unprotected ship, rarely seen outside of large cruisers.</text>
+<text name="weapon_LASER_HEAVY_TAT4_tooltip">Fires 4 lasers of 2 damage.</text>
+
+<!--Smasher Laser 1-->
+<text name="weapon_LASER_HULL_TAT1_title">Smasher Laser Mark I (Melinoe)</text>
+<text name="weapon_LASER_HULL_TAT1_short">Smasher Laser I</text>
+<text name="weapon_LASER_HULL_TAT1_desc">A compact smasher laser that fires a single shot, for precize firing.</text>
+<text name="weapon_LASER_HULL_TAT1_tooltip">Fires a laser that deals either 2 system/hull damage.</text>
+
+<!--Smasher Laser 2-->
+<text name="weapon_LASER_HULL_1_title">Smasher Laser Mark II (Pluto)</text>
+<text name="weapon_LASER_HULL_1_short">Smasher Laser II</text>
+<text name="weapon_LASER_HULL_1_desc">A powerful laser designed that damages either a system or hull, favored by the Slugs.</text>
+<text name="weapon_LASER_HULL_1_tooltip">Fires 2 lasers that deal either 2 system/hull damage.</text>
+
+<!--Smasher Laser 3-->
+<text name="weapon_LASER_HULL_2_title">Smasher Laser Mark III (Janus)</text>
+<text name="weapon_LASER_HULL_2_short">Smasher Laser III</text>
+<text name="weapon_LASER_HULL_2_desc">This powerful counterpart to the Hull Smasher Mark I fires more projectiles per shot and is generally very a flexible weapon.</text>
+<text name="weapon_LASER_HULL_2_tooltip">Fires 3 lasers that deal either 2 system/hull damage.</text>
+
+<!--Smasher Laser 4-->
+<text name="weapon_LASER_HULL_TAT4_title">Smasher Laser Mark IV (Terra)</text>
+<text name="weapon_LASER_HULL_TAT4_short">Smasher Laser IV</text>
+<text name="weapon_LASER_HULL_TAT4_desc">The most powerful smasher laser, developed by the Slugs for use against the Rebel fleet.</text>
+<text name="weapon_LASER_HULL_TAT4_tooltip">Fires 4 lasers that deal either 2 system/hull damage.</text>
+
+<!--Chain Burst Laser 1-->
+<text name="weapon_LASER_CHAINGUN_title">Chain Burst Laser Mark I (Venus)</text>
+<text name="weapon_LASER_CHAINGUN_short">Chain B. Laser I</text>
+
+<!--Chain Laser 4-->
+<text name="weapon_LASER_CHAINGUN_2_title">Chain Laser Mark IV (Vulcan)</text>
+<text name="weapon_LASER_CHAINGUN_2_short">Chain Laser IV</text>
+
+<!--Charger Laser 1-->
+<text name="weapon_LASER_CHARGEGUN_title">Charger Laser Mark I (Liber)</text>
+<text name="weapon_LASER_CHARGEGUN_short">Charger Laser I</text>
+
+<!--Charger 2-->
+<text name="weapon_LASER_CHARGEGUN_2_title">Charger Laser Mark IV (Mars)</text>
+<text name="weapon_LASER_CHARGEGUN_2_short">Charger Laser IV</text>
+
+<!--Beams-->
+<!--Mini-Beam-->
+<text name="weapon_BEAM_1_title">Basic Beam Mark I (Spear)</text>
+<text name="weapon_BEAM_1_short">Basic Beam I</text>
+
+<!--Basic Beam 2-->
+<text name="weapon_BEAM_TAT2_title">Basic Beam Mark II (Lance)</text>
+<text name="weapon_BEAM_TAT2_short">Basic Beam II</text>
+<text name="weapon_BEAM_TAT2_desc">A step up from the Basic Beam, this one causes a bigger cut but requires more power.</text>
+<text name="weapon_BEAM_TAT2_tooltip">Fires a beam that cuts through multiple rooms.</text>
+
+<!--Basic Beam 3-->
+<text name="weapon_BEAM_LONG_title">Basic Beam Mark III (Pike)</text>
+<text name="weapon_BEAM_LONG_short">Basic Beam III</text>
+
+<!--Basic Beam 4-->
+<text name="weapon_BEAM_TAT4_title">Basic Beam Mark IV (Kontos)</text>
+<text name="weapon_BEAM_TAT4_short">Basic Beam IV</text>
+<text name="weapon_BEAM_TAT4_desc">Can cut any ship in half if allowed to.</text>
+<text name="weapon_BEAM_TAT4_tooltip">Fires a beam that cuts through multiple rooms.</text>
+
+<!--Burst Beam 1-->
+<text name="weapon_BEAM_BIDENT_title">Burst Beam Mark I (Bident)</text>
+<text name="weapon_BEAM_BIDENT_short">Burst Beam I</text>
+<text name="weapon_BEAM_BIDENT_desc">This beam weapon fires two beams instead of one.</text>
+<text name="weapon_BEAM_BIDENT_tooltip">Fires two beams that cut through multiple rooms.</text>
+
+<!--Burst Beam 2-->
+<text name="weapon_BEAM_TRIDENT_title">Burst Beam Mark II (Trident)</text>
+<text name="weapon_BEAM_TRIDENT_short">Burst Beam II</text>
+<text name="weapon_BEAM_TRIDENT_desc">This beam weapon fires three beams instead of one.</text>
+<text name="weapon_BEAM_TRIDENT_tooltip">Fires three beams that cut through multiple rooms.</text>
+
+<!--Burst Beam 3-->
+<text name="weapon_BEAM_QUADENT_title">Burst Beam Mark III (Quadent)</text>
+<text name="weapon_BEAM_QUADENT_short">Burst Beam III</text>
+<text name="weapon_BEAM_QUADENT_desc">This beam weapon fires four beams instead of one.</text>
+<text name="weapon_BEAM_QUADENT_tooltip">Fires four beams that cut through multiple rooms.</text>
+
+<!--Smasher Beam-->
+<text name="weapon_BEAM_HULL_title">Smasher Beam Mark I (Bardiche)</text>
+<text name="weapon_BEAM_HULL_short">Smasher Beam I</text>
+
+<!--Heavy Beam-->
+<text name="weapon_BEAM_2_title">Heavy Beam Mark I (Halbert)</text>
+<text name="weapon_BEAM_2_short">Heavy Beam I</text>
+
+<!--Power Beam-->
+<text name="weapon_BEAM_3_title">Power Beam (Glaive)</text>
+<text name="weapon_BEAM_3_short">Power Beam</text>
+
+<!--Super Beam-->
+<text name="weapon_TATSCYTHE_title">Super Beam (Scythe)</text>
+<text name="weapon_TATSCYTHE_short">Super Beam</text>
+<text name="weapon_TATSCYTHE_desc">This super-weapon fires a beam that deals four damage per room and can pierce three layers of shields.</text>
+<text name="weapon_TATSCYTHE_tooltip">SUPER BEAM!!!!!!</text>
+
+<!--Fire Beam [Bayonet]-->
+<text name="weapon_BEAM_FIRE_title">Fire Beam Mark I (Bayonet)</text>
+<text name="weapon_BEAM_FIRE_short">Fire Beam I</text>
+
+<!--Anti-Bio Beam [Harpoon]-->
+<text name="weapon_BEAM_BIO_title">Anti-Bio Beam Mark I (Harpoon)</text>
+<text name="weapon_BEAM_BIO_short">Anti-Bio Beam I</text>
+
+<!--Breach Beam-->
+<text name="weapon_BEAM_TATBREACH_title">Breach Beam Mark I (Javelin)</text>
+<text name="weapon_BEAM_TATBREACH_short">Breach Beam I</text>
+<text name="weapon_BEAM_TATBREACH_desc">This beam reliably tears up the enemy hull for maximum disruption.</text>
+<text name="weapon_BEAM_TATBREACH_tooltip">Fires a beam that causes breaches.</text>
+
+<!--Chain Heavy Beam-->
+<text name="weapon_BEAM_TATCHAIN_title">Chain Heavy Beam (Panabas)</text>
+<text name="weapon_BEAM_TATCHAIN_short">Chain Heavy Beam</text>
+<text name="weapon_BEAM_TATCHAIN_desc">This beam charges up its damage the more it fires.</text>
+<text name="weapon_BEAM_TATCHAIN_tooltip">Fires a beam that increases in damage.</text>
+
+<!--Chain Burst Beam-->
+<text name="weapon_BEAM_TATLOCK_title">Chain Burst Beam (Bident)</text>
+<text name="weapon_BEAM_TATLOCK_short">Chain Burst Beam</text>
+<text name="weapon_BEAM_TATLOCK_desc">This beam increases in length the more it fires.</text>
+<text name="weapon_BEAM_TATLOCK_tooltip">Fires a beam that increases in legth.</text>
+
+<!--Ion-->
+<!--Ion Blast-->
+<text name="weapon_ION_1_title">Basic Ion Mark I (Ullr)</text>
+<text name="weapon_ION_1_short">Basic Ion I</text>
+
+<!--Ion Blast 2-->
+<text name="weapon_ION_4_title">Basic Ion Mark II (Forseti)</text>
+<text name="weapon_ION_4_short">Basic Ion II</text>
+
+<!--Basic Ion 3-->
+<text name="weapon_ION_TAT3_title">Basic Ion Mark III (Tyr)</text>
+<text name="weapon_ION_TAT3_short">Basic Ion III</text>
+<text name="weapon_ION_TAT3_desc">This ion weapon shoots three projectiles for maximum shield breakage.</text>
+<text name="weapon_ION_TAT3_tooltip">Fires three ion shots.</text>
+
+<!--Basic Ion 4-->
+<text name="weapon_ION_TAT4_title">Basic Ion Mark IV (Baldr)</text>
+<text name="weapon_ION_TAT4_short">Basic Ion IV</text>
+<text name="weapon_ION_TAT4_desc">Pushing the limits of ionization, this weapon shoots four ion shots in a single volley.</text>
+<text name="weapon_ION_TAT4_tooltip">Fires four ion shots.</text>
+
+<!--Burst Ion 1-->
+<text name="weapon_ION_TATBURST1_title">Burst Ion Mark I (Alcis)</text>
+<text name="weapon_ION_TATBURST1_short">Burst Ion I</text>
+<text name="weapon_ION_TATBURST1_desc">A burst ion weapon that fires two shots for one power, reliable but slow.</text>
+<text name="weapon_ION_TATBURST1_tooltip">Fires two ion shots while costing 1 power.</text>
+
+<!--Burst Ion 2-->
+<text name="weapon_ION_TATBURST2_title">Burst Ion Mark II (Mooi)</text>
+<text name="weapon_ION_TATBURST2_short">Burst Ion II</text>
+<text name="weapon_ION_TATBURST2_desc">A burst ion weapon that fires three shots for one power, reliable but slow.</text>
+<text name="weapon_ION_TATBURST2_tooltip">Fires three ion shots while costing 1 power.</text>
+
+<!--Burst Ion 3-->
+<text name="weapon_ION_TATBURST3_title">Burst Ion Mark III (Thor)</text>
+<text name="weapon_ION_TATBURST3_short">Burst Ion III</text>
+<text name="weapon_ION_TATBURST3_desc">A burst ion weapon that fires four shots for one power, reliable but slow.</text>
+<text name="weapon_ION_TATBURST3_tooltip">Fires four ion shots while costing 1 power.</text>
+
+<!--Burst Ion 4-->
+<text name="weapon_ION_TATBURST4_title">Burst Ion Mark IV (Odin)</text>
+<text name="weapon_ION_TATBURST4_short">Burst Ion IV</text>
+<text name="weapon_ION_TATBURST4_desc">A burst ion weapon that fires five shots for one power, reliable but slow.</text>
+<text name="weapon_ION_TATBURST4_tooltip">Fires five ion shots while costing 1 power.</text>
+
+<!--Heavy Ion 1 (Vili)-->
+<text name="weapon_ION_2_title">Heavy Ion Mark I (Vili)</text>
+<text name="weapon_ION_2_short">Heavy Ion I</text>
+<text name="weapon_ION_2_desc">A more powerful ion weapon that uses more power, typically seen in heavy engi assault ships.</text>
+
+<!--Heavy Ion 2 (Magni)-->
+<text name="weapon_ION_TATHEAVY2_title">Heavy Ion Mark II (Magni)</text>
+<text name="weapon_ION_TATHEAVY2_short">Power Ion II</text>
+<text name="weapon_ION_TATHEAVY2_desc">A doubly more powerful ion weapon that fires two heavy ion shots, slow but disables systems for a long time.</text>
+<text name="weapon_ION_TATHEAVY2_tooltip">Fires 2 ion shots that deals 2 ion damage.</text>
+
+<!--Heavy Ion 3 (Loki)-->
+<text name="weapon_ION_TATHEAVY3_title">Heavy Ion Mark III (Loki)</text>
+<text name="weapon_ION_TATHEAVY3_short">Power Ion III</text>
+<text name="weapon_ION_TATHEAVY3_desc">A triply more powerful ion weapon that fires three heavy ion shots ensuring maximum disruption.</text>
+<text name="weapon_ION_TATHEAVY3_tooltip">Fires 3 ion shots that deals 2 ion damage.</text>
+
+<!--Heavy Ion 4 (Farbauti)-->
+<text name="weapon_ION_TATHEAVY4_title">Heavy Ion Mark IV (Farbauti)</text>
+<text name="weapon_ION_TATHEAVY4_short">Power Ion IV</text>
+<text name="weapon_ION_TATHEAVY4_desc">Experimental ion weapon that requires heavy power use but deals unparaleled ion damage.</text>
+<text name="weapon_ION_TATHEAVY4_tooltip">Fires 4 ion shots that deals 2 ion damage.</text>
+
+<!--Power Ion (Vor)-->
+<text name="weapon_ION_TATPOWER_title">Power Ion (Vor)</text>
+<text name="weapon_ION_TATPOWER_short">Power Ion</text>
+<text name="weapon_ION_TATPOWER_desc">A more powerful ion weapon that fires a single, very disruptive shot.</text>
+<text name="weapon_ION_TATPOWER_tooltip">Fires an ion shot that deals 3 ion damage.</text>
+
+<!--Super Ion (Syn)-->
+<text name="weapon_ION_TATSUPER_title">Super Ion (Syn)</text>
+<text name="weapon_ION_TATSUPER_short">Super Ion</text>
+<text name="weapon_ION_TATSUPER_desc">Developed by the Engi for use against the Rebel fleet, this ion weapon deals maximum ion damage.</text>
+<text name="weapon_ION_TATSUPER_tooltip">Fires an ion shot that deals 4 ion damage.</text>
+
+<!--Ion Stunner-->
+<text name="weapon_ION_STUN_title">Stun Ion Mark I (Freyr)</text>
+<text name="weapon_ION_STUN_short">Stun Ion I</text>
+
+<!--Charge Ion-->
+<text name="weapon_ION_CHARGEGUN_title">Charge Ion Mark II (Heimdallr)</text>
+<text name="weapon_ION_CHARGEGUN_short">Charge Ion II</text>
+
+<!--Chain Ion-->
+<text name="weapon_ION_CHAINGUN_title">Chain Ion Mark I (Vioarr)</text>
+<text name="weapon_ION_CHAINGUN_short">Chain Ion I</text>
+
+<!--Chain Ion 2-->
+<text name="weapon_ION_TAT_CHAINGUN_2_title">Chain Ion Mark II (Ve)</text>
+<text name="weapon_ION_TAT_CHAINGUN_2_short">Chain Ion II</text>
+<text name="weapon_ION_TAT_CHAINGUN_2_desc">This chain ion weapon has been overcharged for greater effectiveness. Warranty void if taken out of the box.</text>
+<text name="weapon_ION_TAT_CHAINGUN_2_tooltip">Fires an ion shot that increases in damage.</text>
+
+<!--Fire Ion-->
+<text name="weapon_ION_TATFIRE_title">Fire Ion Mark I (Dellingr)</text>
+<text name="weapon_ION_TATFIRE_short">Fire Ion I</text>
+<text name="weapon_ION_TATFIRE_desc">This ion weapon has been charged to the right voltage to reliably cause electrical fires.</text>
+<text name="weapon_ION_TATFIRE_tooltip">Fires an ion shot that creates a fire.</text>
+
+<!--Breach Ion-->
+<text name="weapon_ION_TATBREACH_title">Breach Ion Mark I (Hoor)</text>
+<text name="weapon_ION_TATBREACH_short">Breach Ion I</text>
+<text name="weapon_ION_TATBREACH_desc">This supercharged ion weapon can create breaches.</text>
+<text name="weapon_ION_TATBREACH_tooltip">Fires an ion shot that creates a breach.</text>
+
+<!--Missiles-->
+<!--Distruptor Missile Leto-->
+<text name="weapon_MISSILES_1_title">Distruptor Missile (Leto)</text>
+<text name="weapon_MISSILES_1_short">Distruptor Missile</text>
+<text name="weapon_MISSILES_1_desc">The disruptor missile deals no system damage but wreaks havoc nonetheless.</text>
+
+<!--Stun Missile (Gorgon)-->
+<text name="weapon_MISSILES_TATSTUN_title">Stun Missile (Gorgon)</text>
+<text name="weapon_MISSILES_TATSTUN_short">Stun Missile</text>
+<text name="weapon_MISSILES_TATSTUN_desc">An upgraded Leto, this missile is also capable of stunning crew for longer periods of time.</text>
+<text name="weapon_MISSILES_TATSTUN_tooltip">Fires a Missile that stuns, among other things.</text>
+
+<!--Basic Missile 1 [Artemis]-->
+<text name="weapon_MISSILES_2_PLAYER_title">Basic Missile Mark I (Artemis)</text>
+<text name="weapon_MISSILES_2_PLAYER_short">Basic Missile I</text>
+
+<!--Pegasus Burst (Basic Missile 2 [Pegasus])-->
+<text name="weapon_MISSILES_BURST_title">Basic Missile Mark II (Pegasus)</text>
+<text name="weapon_MISSILES_BURST_short">Basic Missile II</text>
+
+<!--Basic Missile 3 (Satyr)-->
+<text name="weapon_MISSILES_TAT3_title">Basic Missile Mark III (Satyr)</text>
+<text name="weapon_MISSILES_TAT3_short">Basic Missile III</text>
+<text name="weapon_MISSILES_TAT3_desc">Breakthroughs in explosive refinement allows for three missiles to be launched for the cost of one, at a power cost.</text>
+<text name="weapon_MISSILES_TAT3_tooltip">Fires 3 Missiles.</text>
+
+<!--Basic Missile 4 (Daedalus)-->
+<text name="weapon_MISSILES_TAT4_title">Basic Missile Mark IV (Daedalus)</text>
+<text name="weapon_MISSILES_TAT4_short">Basic Missile IV</text>
+<text name="weapon_MISSILES_TAT4_desc">For when three missiles aren't enough, this launcher fires four.</text>
+<text name="weapon_MISSILES_TAT4_tooltip">Fires 4 Missiles.</text>
+
+<!--Hermes (Heavy Missile 1 [Hermes])-->
+<text name="weapon_MISSILES_3_title">Heavy Missile Mark I (Hermes)</text>
+<text name="weapon_MISSILES_3_short">Heavy Missile I</text>
+
+<!--Breach Missile (Power Missile 1 [Apollo])-->
+<text name="weapon_MISSILES_BREACH_title">Power Missile (Apollo)</text>
+<text name="weapon_MISSILES_BREACH_short">Power Missile</text>
+
+<!--Hull Missile (Smasher Missile [Athena])-->
+<text name="weapon_MISSILES_HULL_title">Smasher Missile (Athena)</text>
+<text name="weapon_MISSILES_HULL_short">Smasher Missile</text>
+
+<!--Swarm Missiles-->
+<text name="weapon_MISSILE_CHARGEGUN_title">Charge Missile Mark II (Hera)</text>
+<text name="weapon_MISSILE_CHARGEGUN_short">Charge Missile II</text>
+
+<!--Small Bomb (Basic Bomb 1)-->
+<text name="weapon_BOMB_1_title">Basic Bomb Mark I (Bastet)</text>
+<text name="weapon_BOMB_1_short">Basic Bomb I</text>
+
+<!--Basic Bomb 2-->
+<text name="weapon_BOMB_TAT2_title">Basic Bomb Mark II (Sekhmet)</text>
+<text name="weapon_BOMB_TAT2_short">Basic Bomb II</text>
+<text name="weapon_BOMB_TAT2_desc">This version of the Basic Bomb can deliver two bombs for the price of one, not good for the economy.</text>
+<text name="weapon_BOMB_TAT2_tooltip">Fires 2 Bombs.</text>
+
+<!--Basic Bomb 3-->
+<text name="weapon_BOMB_TAT3_title">Basic Bomb Mark III (Sobek)</text>
+<text name="weapon_BOMB_TAT3_short">Basic Bomb III</text>
+<text name="weapon_BOMB_TAT3_desc">A further refined Basic Bomb that can create three bombs for the price of one, frequently seen on Mantis Disruptors.</text>
+<text name="weapon_BOMB_TAT3_tooltip">Fires 3 Bombs.</text>
+
+<!--Basic Bomb 4-->
+<text name="weapon_BOMB_TAT4_title">Basic Bomb Mark IV (Osiris)</text>
+<text name="weapon_BOMB_TAT4_short">Basic Bomb IV</text>
+<text name="weapon_BOMB_TAT4_desc">Stretching the limits of efficiency, this Basic Bomb fires four bombs for the cost of one.</text>
+<text name="weapon_BOMB_TAT4_tooltip">Fires 4 Bombs.</text>
+
+
+<!--Breach Bomb 1-->
+<text name="weapon_BOMB_BREACH_1_title">Breach Bomb Mark I (Nephthys)</text>
+<text name="weapon_BOMB_BREACH_1_short">Breach Bomb I</text>
+
+<!--Breach Bomb 2-->
+<text name="weapon_BOMB_BREACH_2_title">Breach Bomb Mark II (Isis)</text>
+<text name="weapon_BOMB_BREACH_2_short">Breach Bomb II</text>
+
+<!--Fire Bomb-->
+<text name="weapon_BOMB_FIRE_title">Fire Bomb Mark I (Isis)</text>
+<text name="weapon_BOMB_FIRE_short">Fire Bomb I</text>
+
+<!--Ion Bomb-->
+<text name="weapon_BOMB_ION_title">Ion Bomb Mark I (Shu)</text>
+<text name="weapon_BOMB_ION_short">Ion Bomb I</text>
+
+<!--Stun Bomb-->
+<text name="weapon_BOMB_STUN_title">Stun Bomb Mark I (Shu)</text>
+<text name="weapon_BOMB_STUN_short">Stun Bomb I</text>
+
+<!--Healing Burst-->
+<text name="weapon_BOMB_HEAL_title">Healing Burst (Serket)</text>
+<text name="weapon_BOMB_HEAL_short">Healing Burst</text>
+
+<!--Repair Burst-->
+<text name="weapon_BOMB_HEAL_SYSTEM_title">Repair Burst (Unut)</text>
+<text name="weapon_BOMB_HEAL_SYSTEM_short">Repair Burst</text>
+
+<!--Crystal Lockdown Bomb-->
+<text name="weapon_BOMB_LOCK_title">Crystal Lockdown Bomb (Geb)</text>
+<text name="weapon_BOMB_LOCK_short">Lockdown Bomb</text>
+
+<!--Flack 1-->
+<text name="weapon_TATSHOTGUN_title">Flack I</text>
+<text name="weapon_TATSHOTGUN_short">Flack I</text>
+<text name="weapon_TATSHOTGUN_desc">A shotgun-like weapon that fires debris at your oponent, a favorite of pirates.</text>
+<text name="weapon_TATSHOTGUN_tooltip">Fires 2 Flack projectiles.</text>
+
+<!--Flack 2-->
+<text name="weapon_SHOTGUN_title">Flack II</text>
+<text name="weapon_SHOTGUN_short">Flack II</text>
+
+<!--Flack 3-->
+<text name="weapon_SHOTGUN_2_title">Flack III</text>
+<text name="weapon_SHOTGUN_2_short">Flack III</text>
+
+<!--Flack 4-->
+<text name="weapon_TATSHOTGUN_4_title">Flack IV</text>
+<text name="weapon_TATSHOTGUN_4_short">Flack IV</text>
+<text name="weapon_TATSHOTGUN_4_desc">A high capacity Flack weapon that ejects a wave of debris at the enemy.</text>
+<text name="weapon_TATSHOTGUN_4_tooltip">Fires 5 Flack projectiles.</text>
+
+<!--Crystal Burst 1-->
+<text name="weapon_CRYSTAL_BURST_1_title">Burst Crystal Mark I</text>
+<text name="weapon_CRYSTAL_BURST_1_short">Burst Crystal I</text>
+
+<!--Crystal Burst 2-->
+<text name="weapon_CRYSTAL_BURST_2_title">Burst Crystal Mark II</text>
+<text name="weapon_CRYSTAL_BURST_2_short">Burst Crystal II</text>
+
+<!--Heavy Crystal 1-->
+<text name="weapon_CRYSTAL_HEAVY_1_title">Heavy Crystal Mark I</text>
+<text name="weapon_CRYSTAL_HEAVY_1_short">Heavy Crystal I</text>
+
+<!--Heavy Crystal 2-->
+<text name="weapon_CRYSTAL_HEAVY_2_title">Heavy Crystal Mark II</text>
+<text name="weapon_CRYSTAL_HEAVY_2_short">Heavy Crystal II</text>
+
+<!--Ships-->
+<!--Federation-->
+<text name="text_FED_SCOUT_A_class">Federation Scout A</text>
+<text name="text_FED_SCOUT_A_P_class">Pirated Federation Scout A</text>
+<text name="text_FED_SCOUT_B_class">Federation Scout B</text>
+<text name="text_FED_SCOUT_B_P_class">Pirated Federation Scout B</text>
+<text name="text_FED_SCOUT_C_class">Federation Scout C</text>
+<text name="text_FED_SCOUT_C_P_class">Pirated Federation Scout C</text>
+<text name="text_FED_SCOUT_D_class">Federation Scout D</text>
+<text name="text_FED_SCOUT_D_P_class">Pirated Federation Scout D</text>
+<text name="text_FED_SCOUT_E_class">Federation Scout E</text>
+<text name="text_FED_SCOUT_E_P_class">Pirated Federation Scout E</text>
+
+<text name="text_FED_INTERCEPTOR_A_class">Federation Interceptor A</text>
+<text name="text_FED_INTERCEPTOR_A_P_class">Pirated Interceptor Scout A</text>
+<text name="text_FED_INTERCEPTOR_B_class">Federation Interceptor B</text>
+<text name="text_FED_INTERCEPTOR_B_P_class">Pirated Federation Interceptor B</text>
+<text name="text_FED_INTERCEPTOR_C_class">Federation Interceptor C</text>
+<text name="text_FED_INTERCEPTOR_C_P_class">Pirated Federation Interceptor C</text>
+<text name="text_FED_INTERCEPTOR_D_class">Federation Interceptor D</text>
+<text name="text_FED_INTERCEPTOR_D_P_class">Pirated Federation Interceptor D</text>
+<text name="text_FED_INTERCEPTOR_E_class">Federation Interceptor E</text>
+<text name="text_FED_INTERCEPTOR_E_P_class">Pirated Federation Interceptor E</text>
+
+<!--Rebels-->
+<text name="text_REBEL_SCOUT_A_class">Rebel Scout A</text>
+<text name="text_REBEL_SCOUT_A_P_class">Pirated Rebel Scout A</text>
+<text name="text_REBEL_SCOUT_A_ELITE_class">Elite Rebel Scout A</text>
+<text name="text_REBEL_SCOUT_A_AUTO_class">Rebel Auto-Scout A</text>
+<text name="text_REBEL_SCOUT_B_class">Rebel Scout B</text>
+<text name="text_REBEL_SCOUT_B_P_class">Pirated Rebel Scout B</text>
+<text name="text_REBEL_SCOUT_B_ELITE_class">Elite Rebel Scout B</text>
+<text name="text_REBEL_SCOUT_B_AUTO_class">Rebel Auto-Scout B</text>
+<text name="text_REBEL_SCOUT_C_class">Rebel Scout C</text>
+<text name="text_REBEL_SCOUT_C_P_class">Pirated Rebel Scout C</text>
+<text name="text_REBEL_SCOUT_C_ELITE_class">Elite Rebel Scout C</text>
+<text name="text_REBEL_SCOUT_C_AUTO_class">Rebel Auto-Scout C</text>
+<text name="text_REBEL_SCOUT_D_class">Rebel Scout D</text>
+<text name="text_REBEL_SCOUT_D_P_class">Pirated Rebel Scout D</text>
+<text name="text_REBEL_SCOUT_D_ELITE_class">Elite Rebel Scout D</text>
+<text name="text_REBEL_SCOUT_D_AUTO_class">Rebel Auto-Scout D</text>
+<text name="text_REBEL_SCOUT_E_class">Rebel Scout E</text>
+<text name="text_REBEL_SCOUT_E_P_class">Pirated Rebel Scout E</text>
+<text name="text_REBEL_SCOUT_E_ELITE_class">Elite Rebel Scout E</text>
+<text name="text_REBEL_SCOUT_E_AUTO_class">Rebel Auto-Scout E</text>
+
+<text name="text_REBEL_INTERCEPTOR_A_class">Rebel Interceptor A</text>
+<text name="text_REBEL_INTERCEPTOR_A_P_class">Pirated Rebel Scout A</text>
+<text name="text_REBEL_INTERCEPTOR_A_ELITE_class">Elite Rebel Interceptor A</text>
+<text name="text_REBEL_INTERCEPTOR_A_AUTO_class">Rebel Auto-Interceptor A</text>
+<text name="text_REBEL_INTERCEPTOR_B_class">Rebel Interceptor B</text>
+<text name="text_REBEL_INTERCEPTOR_B_P_class">Pirated Rebel Interceptor B</text>
+<text name="text_REBEL_INTERCEPTOR_B_ELITE_class">Elite Rebel Interceptor B</text>
+<text name="text_REBEL_INTERCEPTOR_B_AUTO_class">Rebel Auto-Interceptor B</text>
+<text name="text_REBEL_INTERCEPTOR_C_class">Rebel Interceptor C</text>
+<text name="text_REBEL_INTERCEPTOR_C_P_class">Pirated Rebel Interceptor C</text>
+<text name="text_REBEL_INTERCEPTOR_C_ELITE_class">Elite Rebel Interceptor C</text>
+<text name="text_REBEL_INTERCEPTOR_C_AUTO_class">Rebel Auto-Interceptor C</text>
+<text name="text_REBEL_INTERCEPTOR_D_class">Rebel Interceptor D</text>
+<text name="text_REBEL_INTERCEPTOR_D_P_class">Pirated Rebel Interceptor D</text>
+<text name="text_REBEL_INTERCEPTOR_D_ELITE_class">Elite Rebel Interceptor D</text>
+<text name="text_REBEL_INTERCEPTOR_D_AUTO_class">Rebel Auto-Interceptor D</text>
+<text name="text_REBEL_INTERCEPTOR_E_class">Rebel Interceptor E</text>
+<text name="text_REBEL_INTERCEPTOR_E_P_class">Pirated Rebel Interceptor E</text>
+<text name="text_REBEL_INTERCEPTOR_E_ELITE_class">Elite Rebel Interceptor E</text>
+<text name="text_REBEL_INTERCEPTOR_E_AUTO_class">Rebel Auto-Interceptor E</text>
+
+<!--Engi-->
+<text name="text_CIRCLE_SCOUT_A_class">Engi Scout A</text>
+<text name="text_CIRCLE_SCOUT_A_P_class">Pirated Engi Scout A</text>
+<text name="text_CIRCLE_SCOUT_B_class">Engi Scout B</text>
+<text name="text_CIRCLE_SCOUT_B_P_class">Pirated Engi Scout B</text>
+<text name="text_CIRCLE_SCOUT_C_class">Engi Scout C</text>
+<text name="text_CIRCLE_SCOUT_C_P_class">Pirated Engi Scout C</text>
+<text name="text_CIRCLE_SCOUT_D_class">Engi Scout D</text>
+<text name="text_CIRCLE_SCOUT_D_P_class">Pirated Engi Scout D</text>
+<text name="text_CIRCLE_SCOUT_E_class">Engi Scout E</text>
+<text name="text_CIRCLE_SCOUT_E_P_class">Pirated Engi Scout E</text>
+
+<text name="text_CIRCLE_FIGHTER_A_class">Engi Fighter A</text>
+<text name="text_CIRCLE_FIGHTER_A_P_class">Pirated Engi Fighter A</text>
+<text name="text_CIRCLE_FIGHTER_B_class">Engi Fighter B</text>
+<text name="text_CIRCLE_FIGHTER_B_P_class">Pirated Engi Fighter B</text>
+<text name="text_CIRCLE_FIGHTER_C_class">Engi Fighter C</text>
+<text name="text_CIRCLE_FIGHTER_C_P_class">Pirated Engi Fighter C</text>
+<text name="text_CIRCLE_FIGHTER_D_class">Engi Fighter D</text>
+<text name="text_CIRCLE_FIGHTER_D_P_class">Pirated Engi Fighter D</text>
+
+<!--Zoltan-->
+<text name="text_ZOLTAN_SCOUT_A_class">Zoltan Scout A</text>
+<text name="text_ZOLTAN_SCOUT_A_P_class">Pirated Zoltan Scout A</text>
+<text name="text_ZOLTAN_SCOUT_B_class">Zoltan Scout B</text>
+<text name="text_ZOLTAN_SCOUT_B_P_class">Pirated Zoltan Scout B</text>
+<text name="text_ZOLTAN_SCOUT_C_class">Zoltan Scout C</text>
+<text name="text_ZOLTAN_SCOUT_C_P_class">Pirated Zoltan Scout C</text>
+<text name="text_ZOLTAN_SCOUT_D_class">Zoltan Scout D</text>
+<text name="text_ZOLTAN_SCOUT_D_P_class">Pirated Zoltan Scout D</text>
+<text name="text_ZOLTAN_SCOUT_E_class">Zoltan Scout E</text>
+<text name="text_ZOLTAN_SCOUT_E_P_class">Pirated Zoltan Scout E</text>
+
+<text name="text_ZOLTAN_RIGGER_A_class">Zoltan Rigger A</text>
+<text name="text_ZOLTAN_RIGGER_A_P_class">Pirated Zoltan Rigger A</text>
+<text name="text_ZOLTAN_RIGGER_B_class">Zoltan Rigger B</text>
+<text name="text_ZOLTAN_RIGGER_B_P_class">Pirated Zoltan Rigger B</text>
+<text name="text_ZOLTAN_RIGGER_C_class">Zoltan Rigger C</text>
+<text name="text_ZOLTAN_RIGGER_C_P_class">Pirated Zoltan Rigger C</text>
+
+<!--Mantis-->
+<text name="text_MANTIS_SCOUT_A_class">Mantis Scout A</text>
+<text name="text_MANTIS_SCOUT_A_P_class">Pirated Mantis Scout A</text>
+<text name="text_MANTIS_SCOUT_B_class">Mantis Scout B</text>
+<text name="text_MANTIS_SCOUT_B_P_class">Pirated Mantis Scout B</text>
+<text name="text_MANTIS_SCOUT_C_class">Mantis Scout C</text>
+<text name="text_MANTIS_SCOUT_C_P_class">Pirated Mantis Scout C</text>
+<text name="text_MANTIS_SCOUT_D_class">Mantis Scout D</text>
+<text name="text_MANTIS_SCOUT_D_P_class">Pirated Mantis Scout D</text>
+<text name="text_MANTIS_SCOUT_E_class">Mantis Scout E</text>
+<text name="text_MANTIS_SCOUT_E_P_class">Pirated Mantis Scout E</text>
+
+<text name="text_MANTIS_FIGHTER_A_class">Mantis Fighter A</text>
+<text name="text_MANTIS_FIGHTER_A_P_class">Pirated Mantis Fighter A</text>
+<text name="text_MANTIS_FIGHTER_B_class">Mantis Fighter B</text>
+<text name="text_MANTIS_FIGHTER_B_P_class">Pirated Mantis Fighter B</text>
+<text name="text_MANTIS_FIGHTER_C_class">Mantis Fighter C</text>
+<text name="text_MANTIS_FIGHTER_C_P_class">Pirated Mantis Fighter C</text>
+<text name="text_MANTIS_FIGHTER_D_class">Mantis Fighter D</text>
+<text name="text_MANTIS_FIGHTER_D_P_class">Pirated Mantis Fighter D</text>
+
+<text name="text_MANTIS_ASSAULT_A_class">Mantis Assault A</text>
+<text name="text_MANTIS_ASSAULT_A_P_class">Pirated Mantis Assault A</text>
+<text name="text_MANTIS_ASSAULT_B_class">Mantis Assault B</text>
+<text name="text_MANTIS_ASSAULT_B_P_class">Pirated Mantis Assault B</text>
+<text name="text_MANTIS_ASSAULT_C_class">Mantis Assault C</text>
+<text name="text_MANTIS_ASSAULT_C_P_class">Pirated Mantis Assault C</text>
+
+<!--Slug-->
+<text name="text_JELLY_SCOUT_A_class">Slug Scout A</text>
+<text name="text_JELLY_SCOUT_A_P_class">Pirated Slug Scout A</text>
+<text name="text_JELLY_SCOUT_B_class">Slug Scout B</text>
+<text name="text_JELLY_SCOUT_B_P_class">Pirated Slug Scout B</text>
+<text name="text_JELLY_SCOUT_C_class">Slug Scout C</text>
+<text name="text_JELLY_SCOUT_C_P_class">Pirated Slug Scout C</text>
+<text name="text_JELLY_SCOUT_D_class">Slug Scout D</text>
+<text name="text_JELLY_SCOUT_D_P_class">Pirated Slug Scout D</text>
+<text name="text_JELLY_SCOUT_E_class">Slug Scout E</text>
+<text name="text_JELLY_SCOUT_E_P_class">Pirated Slug Scout E</text>
+
+<text name="text_JELLY_ASSAULT_A_class">Slug Assault A</text>
+<text name="text_JELLY_ASSAULT_A_P_class">Pirated Slug Assault A</text>
+<text name="text_JELLY_ASSAULT_B_class">Slug Assault B</text>
+<text name="text_JELLY_ASSAULT_B_P_class">Pirated Slug Assault B</text>
+<text name="text_JELLY_ASSAULT_C_class">Slug Assault C</text>
+<text name="text_JELLY_ASSAULT_C_P_class">Pirated Slug Assault C</text>
+
+<text name="text_JELLY_RIGGER_A_class">Slug Rigger A</text>
+<text name="text_JELLY_RIGGER_A_P_class">Pirated Slug Rigger A</text>
+<text name="text_JELLY_RIGGER_B_class">Slug Rigger B</text>
+<text name="text_JELLY_RIGGER_B_P_class">Pirated Slug Rigger B</text>
+<text name="text_JELLY_RIGGER_C_class">Slug Rigger C</text>
+<text name="text_JELLY_RIGGER_C_P_class">Pirated Slug Rigger C</text>
+
+<!--Rock-->
+<text name="text_ROCK_SCOUT_A_class">Rock Scout A</text>
+<text name="text_ROCK_SCOUT_A_P_class">Pirated Rock Scout A</text>
+<text name="text_ROCK_SCOUT_B_class">Rock Scout B</text>
+<text name="text_ROCK_SCOUT_B_P_class">Pirated Rock Scout B</text>
+<text name="text_ROCK_SCOUT_C_class">Rock Scout C</text>
+<text name="text_ROCK_SCOUT_C_P_class">Pirated Rock Scout C</text>
+<text name="text_ROCK_SCOUT_D_class">Rock Scout D</text>
+<text name="text_ROCK_SCOUT_D_P_class">Pirated Rock Scout D</text>
+<text name="text_ROCK_SCOUT_E_class">Rock Scout E</text>
+<text name="text_ROCK_SCOUT_E_P_class">Pirated Rock Scout E</text>
+
+<text name="text_ROCK_FIGHTER_A_class">Rock Fighter A</text>
+<text name="text_ROCK_FIGHTER_A_P_class">Pirated Rock Fighter A</text>
+<text name="text_ROCK_FIGHTER_B_class">Rock Fighter B</text>
+<text name="text_ROCK_FIGHTER_B_P_class">Pirated Rock Fighter B</text>
+<text name="text_ROCK_FIGHTER_C_class">Rock Fighter C</text>
+<text name="text_ROCK_FIGHTER_C_P_class">Pirated Rock Fighter C</text>
+<text name="text_ROCK_FIGHTER_D_class">Rock Fighter D</text>
+<text name="text_ROCK_FIGHTER_D_P_class">Pirated Rock Fighter D</text>
+
+<text name="text_ROCK_ASSAULT_A_class">Rock Assault A</text>
+<text name="text_ROCK_ASSAULT_A_P_class">Pirated Rock Assault A</text>
+<text name="text_ROCK_ASSAULT_B_class">Rock Assault B</text>
+<text name="text_ROCK_ASSAULT_B_P_class">Pirated Rock Assault B</text>
+<text name="text_ROCK_ASSAULT_C_class">Rock Assault C</text>
+<text name="text_ROCK_ASSAULT_C_P_class">Pirated Rock Assault C</text>
+
+<!--Crystal-->
+<text name="text_CRYSTAL_SCOUT_A_class">Crystal Scout A</text>
+<text name="text_CRYSTAL_SCOUT_A_P_class">Pirated Crystal Scout A</text>
+<text name="text_CRYSTAL_SCOUT_B_class">Crystal Scout B</text>
+<text name="text_CRYSTAL_SCOUT_B_P_class">Pirated Crystal Scout B</text>
+<text name="text_CRYSTAL_SCOUT_C_class">Crystal Scout C</text>
+<text name="text_CRYSTAL_SCOUT_C_P_class">Pirated Crystal Scout C</text>
+<text name="text_CRYSTAL_SCOUT_D_class">Crystal Scout D</text>
+<text name="text_CRYSTAL_SCOUT_D_P_class">Pirated Crystal Scout D</text>
+<text name="text_CRYSTAL_SCOUT_E_class">Crystal Scout E</text>
+<text name="text_CRYSTAL_SCOUT_E_P_class">Pirated Crystal Scout E</text>
+
+<text name="text_CRYSTAL_RIGGER_A_class">Crystal Rigger A</text>
+<text name="text_CRYSTAL_RIGGER_A_P_class">Pirated Crystal Rigger A</text>
+<text name="text_CRYSTAL_RIGGER_B_class">Crystal Rigger B</text>
+<text name="text_CRYSTAL_RIGGER_B_P_class">Pirated Crystal Rigger B</text>
+<text name="text_CRYSTAL_RIGGER_C_class">Crystal Rigger C</text>
+<text name="text_CRYSTAL_RIGGER_C_P_class">Pirated Crystal Rigger C</text>
+
+<!--Lanius-->
+<text name="text_ANAEROBIC_SCOUT_A_class">Lanius Scout A</text>
+<text name="text_ANAEROBIC_SCOUT_A_P_class">Pirated Lanius Scout A</text>
+<text name="text_ANAEROBIC_SCOUT_B_class">Lanius Scout B</text>
+<text name="text_ANAEROBIC_SCOUT_B_P_class">Pirated Lanius Scout B</text>
+<text name="text_ANAEROBIC_SCOUT_C_class">Lanius Scout C</text>
+<text name="text_ANAEROBIC_SCOUT_C_P_class">Pirated Lanius Scout C</text>
+<text name="text_ANAEROBIC_SCOUT_D_class">Lanius Scout D</text>
+<text name="text_ANAEROBIC_SCOUT_D_P_class">Pirated Lanius Scout D</text>
+<text name="text_ANAEROBIC_SCOUT_E_class">Lanius Scout E</text>
+<text name="text_ANAEROBIC_SCOUT_E_P_class">Pirated Lanius Scout E</text>
+
+<text name="text_ANAEROBIC_ASSAULT_A_class">Lanius Assault A</text>
+<text name="text_ANAEROBIC_ASSAULT_A_P_class">Pirated Lanius Assault A</text>
+<text name="text_ANAEROBIC_ASSAULT_B_class">Lanius Assault B</text>
+<text name="text_ANAEROBIC_ASSAULT_B_P_class">Pirated Lanius Assault B</text>
+<text name="text_ANAEROBIC_ASSAULT_C_class">Lanius Assault C</text>
+<text name="text_ANAEROBIC_ASSAULT_C_P_class">Pirated Lanius Assault C</text>
+
+<!--Emen-->
+<text name="text_EMEN_SCOUT_A_class">Emen Scout A</text>
+<text name="text_EMEN_SCOUT_A_P_class">Pirated Emen Scout A</text>
+<text name="text_EMEN_SCOUT_B_class">Emen Scout B</text>
+<text name="text_EMEN_SCOUT_B_P_class">Pirated Emen Scout B</text>
+<text name="text_EMEN_SCOUT_C_class">Emen Scout C</text>
+<text name="text_EMEN_SCOUT_C_P_class">Pirated Emen Scout C</text>
+<text name="text_EMEN_SCOUT_D_class">Emen Scout D</text>
+<text name="text_EMEN_SCOUT_D_P_class">Pirated Emen Scout D</text>
+<text name="text_EMEN_SCOUT_E_class">Emen Scout E</text>
+<text name="text_EMEN_SCOUT_E_P_class">Pirated Emen Scout E</text>
+
+<text name="text_EMEN_FIGHTER_A_class">Emen Fighter A</text>
+<text name="text_EMEN_FIGHTER_A_P_class">Pirated Emen Fighter A</text>
+<text name="text_EMEN_FIGHTER_B_class">Emen Fighter B</text>
+<text name="text_EMEN_FIGHTER_B_P_class">Pirated Emen Fighter B</text>
+<text name="text_EMEN_FIGHTER_C_class">Emen Fighter C</text>
+<text name="text_EMEN_FIGHTER_C_P_class">Pirated Emen Fighter C</text>
+<text name="text_EMEN_FIGHTER_D_class">Emen Fighter D</text>
+<text name="text_EMEN_FIGHTER_D_P_class">Pirated Emen Fighter D</text>

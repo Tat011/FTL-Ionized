@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Slug Sectors Events-->
+<!--Stores-->
+<eventList name="NEBULA_STORES_SLUG">
+	<event load="NEBULA_STORE_SLUG"/>
+	<event load="TAT_STORE_SLUG"/>
+</eventList>
+
+<!--Nothing-->
+<eventList name="NEBULA_NOTHING_SLUG_LIST">
+	<event load="NEBULA_NOTHING_SLUG"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="NEBULA_ITEMS_SLUG">
+	<event load="TAT_PIRATE_STATION"/>
+	<event load="STRANDED_BEACON"/>
+	<event load="SLUG_DISTRESS_QUESTION"/>
+	<event load="SLUG_DISTRESS_RESCUE"/>
+	<event load="NEBULA_BATTLEFIELD"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEBULA_NEUTRAL_SLUG">
+	<event load="ROCK_SLUG_ARGUMENT_NEBULA"/>
+	<event load="NEBULA_SLUG_FAKE_STORE"/>
+	<event load="SLUG_DISTRESS_ROCK"/>
+	<event load="SLUG_DISTRESS_MANTIS"/>
+	<event load="SLUG_DRINK"/>
+	<event load="QUEST_SLUG_PIRATE_TRAP"/>
+	<event load="SLUG_DISTRESS_TRICK"/>
+	<event load="REFUGEE_NO_DISTRESS_SLUG"/>
+	<event load="REFUGEE_DISTRESS_SLUG"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="NEBULA_HOSTILE_SLUG">
+	<event load="DONOR_BLACK_RAVEN"/>
+	<event load="TAT_ENGI_SLUG_NEUTRON"/>
+	<event load="NEBULA_SLUG_CHOOSE_DEATH"/>
+	<event load="NEBULA_SLUG_HULLFIX"/>
+	<event load="NEBULA_SLUG_FIGHT"/>
+	<event load="NEBULA_SLUG_MANTIS"/>
+	<event load="NEBULA_SLUG_PIRATE"/>
+	<event load="NEBULA_SLUG_DOORS"/>
+	<event load="NEBULA_SLUG_OXYGEN"/>
+	<event load="NEBULA_SLUG_MEDBAY"/>
+	<event load="STORM_SLUG_FIGHT"/>
+	<event load="SLUG_DISTRESS_PILOTING"/>
+	<event load="TAT_LANIUS_BOARDERS"/>
+	<event load="TAT_LANIUS_NEBULA"/>
+	<event load="TAT_EMEN_STORM"/>
+</eventList>
+
+<!--Controlled only-->
+<eventList name="EBULA_SLUG_CONTROLLED">
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/>
+	<event load="BOARDERS_HACKING"/>
+	<event load="REBEL_CHECKPOINT"/>
+	<event load="ENGI_MONSTER"/>
+	<event load="ROGUE_REBEL"/>
+	<event load="PIRATE_STATION_CROPS"/>
+</eventList>
+
+<!--homeworld only-->
+<eventList name="EBULA_SLUG_HOMEWORLDS">
+	<event load="NEBULA_SLUG_FIGHT_UNLOCK"/><!--Slug Ship-->
+	<event load="TAT_NEBULA_FILTRATION"/>
+</eventList>
+
+<!--NEUTRAL_SLUG_NO_NEBULA-->
+<eventList name="NEUTRAL_SLUG_NO_NEBULA">
+	<event load="LANIUS_SLUG_DISTRESS"/>
+	<event load="EMEN_NEUTRAL"/>
+	<event load="ASTEROID_EXPLORE"/>
+</eventList>
+
+<!--HOSTILE_SLUG_NO_NEBULA-->
+<eventList name="HOSTILE_SLUG_NO_NEBULA">
+	<event load="SLUG_FIGHT"/>
+	<event load="SLUG_MANTIS"/>
+	<event load="SLUG_PIRATE"/>
+	<event load="SLUG_REBEL"/>
+	<event load="EMEN_HOSTILE"/>
+	<event load="SLUG_EMEN_CHOICE"/>
+	<event load="TAT_SLUG_UNCHARTED"/>
+	<event load="TAT_SLUG_ASTEROID"/>
+	<event load="TAT_SLUG_NEUTRON"/>
+	<event load="TAT_SLUG_SUN"/>
+	<event load="TAT_SLUG_ASB"/>
+</eventList>
+
+
+<!--NOTHING_SLUG-->
+
+<!--NEBULA_NOTHING_SLUG-->
+
+<!--NEBULA_STORE_SLUG-->
+
+<!--SLUG_FIGHT (EXCLUSIVE, NO Nebula)-->
+
+<!--SLUG_MANTIS (EXCLUSIVE, NO Nebula)-->
+
+<!--SLUG_PIRATE (EXCLUSIVE, NO Nebula)-->
+<event name="SLUG_PIRATE" unique="true">
+	<text load="SLUG_PIRATE"/>
+	<ship load="PIRATE" hostile="true"/>
+</event>
+
+<!--SLUG_REBEL (EXCLUSIVE, NO Nebula)-->
+<event name="SLUG_REBEL" unique="true">
+	<text load="SLUG_REBEL"/>
+	<ship load="REBEL" hostile="true"/>
+</event>
+
+<!--NEBULA_SLUG_CHOOSE_DEATH (EXCLUSIVE, Nebula)-->
+<event name="NEBULA_SLUG_CHOOSE_DEATH" unique="true">
+	<text id="event_NEBULA_SLUG_CHOOSE_DEATH_text"/>
+	<environment type="nebula"/>
+	<choice hidden="true">
+		<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c1_choice"/>
+		<event>
+			<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c1_text"/>
+			<ship load="JELLY_STATUS_SHIELDS" hostile="true"/>
+			<status type="divide" target="player" system="shields" amount="2"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c2_choice"/>
+		<event>
+			<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c2_text"/>
+			<ship load="JELLY_STATUS_OXYGEN" hostile="true"/>
+			<status type="divide" target="player" system="oxygen" amount="2"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c3_choice"/>
+		<event>
+			<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c3_text"/>
+			<ship load="JELLY_STATUS_WEAPONS" hostile="true"/>
+			<status type="divide" target="player" system="weapons" amount="2"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_SLUG_CHOOSE_DEATH_TAT_OTHER"/>
+		<event>
+			<text id="event_NEBULA_SLUG_CHOOSE_DEATH_TAT_OTHERED"/>
+			<ship load="JELLY_STATUS_OTHER" hostile="true"/>
+			<status type="divide" target="player" system="doors" amount="2"/>
+			<status type="divide" target="player" system="mind" amount="2"/>
+			<status type="divide" target="player" system="drones" amount="2"/>
+			<status type="divide" target="player" system="cloaking" amount="2"/>
+			<status type="divide" target="player" system="battery" amount="2"/>
+			<status type="divide" target="player" system="teleporter" amount="2"/>
+			<status type="divide" target="player" system="artillery" amount="2"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c4_choice"/>
+		<event>
+			<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c4_text"/>
+			<item_modify>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true" req="hacking">
+		<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c5_choice"/>
+		<event>
+			<text id="event_NEBULA_SLUG_CHOOSE_DEATH_c5_text"/>
+			<ship load="JELLY_STATUS_HACKING" hostile="true"/>
+			<status type="limit" target="player" system="hacking" amount="0"/>
+		</event>
+	</choice>
+</event>
+<ship name="JELLY_STATUS_OTHER" auto_blueprint="SHIPS_JELLY"><!--Slug Ship-->
+	<destroyed>
+		<text id="ship_JELLY_STATUS_DOORS_destroyed_text"/>
+		<autoReward level="MED">standard</autoReward>
+			<status type="clear" target="player" system="doors" amount="100"/>
+			<status type="clear" target="player" system="mind" amount="100"/>
+			<status type="clear" target="player" system="drones" amount="100"/>
+			<status type="clear" target="player" system="cloaking" amount="100"/>
+			<status type="clear" target="player" system="battery" amount="100"/>
+			<status type="clear" target="player" system="teleporter" amount="100"/>
+			<status type="clear" target="player" system="artillery" amount="100"/>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_JELLY_STATUS_DOORS_deadCrew_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+			<status type="clear" target="player" system="doors" amount="100"/>
+			<status type="clear" target="player" system="mind" amount="100"/>
+			<status type="clear" target="player" system="drones" amount="100"/>
+			<status type="clear" target="player" system="cloaking" amount="100"/>
+			<status type="clear" target="player" system="battery" amount="100"/>
+			<status type="clear" target="player" system="teleporter" amount="100"/>
+			<status type="clear" target="player" system="artillery" amount="100"/>
+	</deadCrew>
+</ship>
+
+<!--NEBULA_SLUG_HULLFIX (sLUG/uNCHARTED, Nebula)-->
+
+<!--NEBULA_SLUG_FAKE_STORE (EXCLUSIVE, Nebula)-->
+<eventList name="NEBULA_SLUG_FAKE_STORE_LIST">  <!-- if you stay for the whole thing -->
+	<event>
+		<text id="event_NEBULA_SLUG_FAKE_STORE_LIST_1_text"/>
+		<item_modify>
+			<item type="fuel" min="5" max="5"/>
+		</item_modify>
+		<store/>
+	</event>
+	<event>
+		<text id="event_NEBULA_SLUG_FAKE_STORE_LIST_2_text"/>
+		<ship load="JELLY_STATUS_WEAPONS" hostile="true"/>
+		<boarders min="2" max="2" class="slug"/>
+		<status type="limit" target="player" system="weapons" amount="0"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_SLUG_FAKE_STORE_LIST_3_text"/>
+		<ship load="JELLY" hostile="true"/>
+		<boarders min="4" max="4" class="slug"/>
+	</event>
+</eventList>
+<eventList name="NEBULA_SLUG_FAKE_STORE_LEAVING">  <!-- if you try and leave early, maybe attack-->
+	<event>
+		<text id="event_NEBULA_SLUG_FAKE_STORE_LEAVING_1_text"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_SLUG_FAKE_STORE_LEAVING_2_text"/>
+		<ship load="JELLY" hostile="true"/>
+		<boarders min="4" max="4" class="slug"/>
+	</event>
+</eventList>
+
+<!--NEBULA_SLUG_FIGHT (EXCLUSIVE)-->
+<event name="NEBULA_SLUG_FIGHT" unique="true">
+	<text load="NEBULA_SLUG_FIGHT"/>
+	<ship load="JELLY" hostile="true"/>
+	<environment type="nebula"/>
+</event>
+
+<!--NEBULA_SLUG_MANTIS (EXCLUSIVE)-->
+
+<!--NEBULA_SLUG_PIRATE (EXCLUSIVE)-->
+
+<!--NEBULA_SLUG_DOORS (EXCLUSIVE)-->
+
+<!--NEBULA_SLUG_OXYGEN (EXCLUSIVE)-->
+
+<!--NEBULA_SLUG_MEDBAY (EXCLUSIVE)-->
+
+<!--STORM_SLUG_FIGHT (slug/nebula)-->
+<event name="STORM_SLUG_FIGHT" unique="true">
+	<text load="STORM_SLUG_FIGHT"/>
+	<ship load="JELLY" hostile="true"/>
+	<environment type="storm"/>
+</event>
+
+<!--SLUG_DISTRESS_ROCK (Slug/rock, Nebula)-->
+
+<!--SLUG_DISTRESS_QUESTION (Slug/Nebula, Nebula) possible add long ranged scanners blue option-->
+
+<!--SLUG_DISTRESS_MANTIS (Slug/Mantis)-->
+
+<!--SLUG_DRINK (EXCLUSIVE)-->
+
+<!--QUEST_SLUG_PIRATE_TRAP (Slug/Pirate)-->
+
+<!--SLUG_DISTRESS_RESCUE (Slug/Uncharted/Nebula)-->
+<event name="SLUG_DISTRESS_RESCUE" unique="true">
+	<distressBeacon/>
+	<text id="event_SLUG_DISTRESS_RESCUE_text"/>
+	<environment type="nebula"/>
+	<choice>
+		<text id="event_SLUG_DISTRESS_RESCUE_c1_choice"/>
+		<event>
+			<text id="event_SLUG_DISTRESS_RESCUE_c1_text"/>
+			<item_modify>
+				<item type="scrap" min="-55" max="-55"/>
+			</item_modify>
+			<crewMember amount="1" class="slug" id="name_Slocknog"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SLUG_DISTRESS_RESCUE_c2_choice"/>
+		<event load="SLUG_DISTRESS_RESCUE_LIST"/>
+	</choice>
+</event>
+
+<!--SLUG_DISTRESS_TRICK (EXCLUSIVE)-->
+<event name="SLUG_DISTRESS_TRICK" unique="true">
+	<distressBeacon/>
+	<text id="event_SLUG_DISTRESS_TRICK_text"/>
+	<environment type="nebula"/>
+	<ship load="JELLY" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_SLUG_DISTRESS_TRICK_c1_choice"/>
+		<event load="SLUG_DISTRESS_TRICK_LIST"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SLUG_DISTRESS_TRICK_c2_choice"/>
+		<event>
+			<text id="event_SLUG_DISTRESS_TRICK_c2_text"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="mantis">
+		<text id="event_SLUG_DISTRESS_TRICK_c3_choice"/>
+		<event>
+			<text id="event_SLUG_DISTRESS_TRICK_c3_text"/>
+			<autoReward level="HIGH">scrap_only</autoReward>
+		</event>
+	</choice>
+</event>
+<eventList name="SLUG_DISTRESS_TRICK_LIST">
+	<event>
+		<text id="event_SLUG_DISTRESS_TRICK_LIST_1_text"/>
+		<ship hostile="true"/>
+		<boarders min="6" max="6" class="slug"/>
+	</event>
+	<event>
+		<text id="event_SLUG_DISTRESS_TRICK_LIST_1_text"/>
+		<ship hostile="true"/>
+		<boarders min="4" max="4" class="slug"/>
+		<status type="limit" target="player" system="medbay" amount="1"/>
+		<status type="limit" target="player" system="clonebay" amount="1"/>
+		<status type="limit" target="player" system="doors" amount="0"/>
+		<status type="limit" target="player" system="mind" amount="0"/>
+		<status type="limit" target="player" system="drones" amount="0"/>
+		<status type="limit" target="player" system="weapons" amount="0"/>
+	</event>
+	<event>
+		<text id="event_SLUG_DISTRESS_TRICK_LIST_3_text"/>
+		<autoReward level="HIGH">scrap_only</autoReward>
+	</event>
+</eventList>
+
+<!--SLUG_DISTRESS_PILOTING (EXCLUSIVE)-->
+
+<!--NEBULA_BATTLEFIELD (Slug/Nebula/Abandoned)-->
+<event name="SECRET_WORD_ABADOTH_CONCLUSION">
+	<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_text"/>
+	<choice>
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c1_choice"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c1_text"/>
+			<ship load="ZOLTAN_RIGGER_B" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_TAT1"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c1_text"/>
+			<ship load="ZOLTAN_RIGGER_B" hostile="true"/>
+		</event>
+	</choice>
+	<choice req="engi" hidden="true">
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c2_choice"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c2_text"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c3_choice"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c1_text"/>
+			<ship load="ZOLTAN_RIGGER_B" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c4_choice"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c4_text"/>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c5_choice"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c1_text"/>
+			<ship load="ZOLTAN_RIGGER_B" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_TAT2"/>
+		<event>
+			<text id="event_SECRET_WORD_ABADOTH_CONCLUSION_c1_text"/>
+			<ship load="ZOLTAN_RIGGER_B" hostile="true"/>
+		</event>
+	</choice>
+</event>
+
+<!--Custom events here-->
+<!--TAT_STORE_SLUG-->
+<event name="TAT_STORE_SLUG" unique="true">
+	<text id="TAT_STORE_SLUG_INTRO"/>
+	<environment type="storm"/>
+	<store/>
+	<customStore>TAT_SLUG_STORE_STORE</customStore>
+</event>
+
+<!--SLUG_EMEN_CHOICE (Emen/Slug/Nebula)-->
+<event name="SLUG_EMEN_CHOICE" unique="true">
+	<environment type="nebula"/>
+	<text id="SLUG_EMEN_CHOICE_INTRO"/>
+	<choice>
+		<text id="SLUG_EMEN_CHOICE_SLUG"/>
+		<event>
+			<text id="SLUG_EMEN_CHOICE_SLUGED"/>
+			<ship load="SLUG_EMEN_CHOICE_SHIPS_SLUG" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="SLUG_EMEN_CHOICE_EMEN"/>
+		<event>
+			<text id="SLUG_EMEN_CHOICE_EMENED"/>
+			<ship load="SLUG_EMEN_CHOICE_SHIPS_EMEN" hostile="true"/>
+		</event>
+	</choice>
+</event>
+<ship name="SLUG_EMEN_CHOICE_SHIPS_SLUG" auto_blueprint="SHIPS_JELLY"><!--Slug Ship-->
+	<destroyed>
+		<text id="SLUG_EMEN_CHOICE_SHIPS_SLUG_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="SLUG_EMEN_CHOICE_SHIPS_SLUG_DEAD"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+<ship name="SLUG_EMEN_CHOICE_SHIPS_EMEN" auto_blueprint="SHIPS_EMEN"><!--Emen Ship-->
+	<destroyed>
+		<text id="SLUG_EMEN_CHOICE_SHIPS_EMEN_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="SLUG_EMEN_CHOICE_SHIPS_EMEN_DEAD"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--EMEN_HOSTILE (Emen/Slug/Uncharted)-->
+<event name="EMEN_HOSTILE" unique="true">
+	<text id="EMEN_HOSTILE_INTRO"/>
+	<ship load="EMEN_SHIP_DEFAULT" hostile="true"/>
+</event>
+
+<!--EMEN_NEUTRAL (Emen/Slug/Uncharted)-->
+<event name="EMEN_NEUTRAL" unique="true">
+	<text id="EMEN_NEUTRAL_INTRO"/>
+	<ship load="EMEN_SHIP_DEFAULT" hostile="false"/>
+	<choice>
+		<text id="EMEN_NEUTRAL_INTERVENE"/>
+		<event>
+			<text id="EMEN_NEUTRAL_INTERVENED"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="EMEN_NEUTRAL_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
+<!--TAT_SLUG_ASTEROID (Rock, Slug)-->
+<event name="TAT_SLUG_ASTEROID" unique="true">
+	<text id="TAT_SLUG_ASTEROID_INTRO"/>
+	<environment type="asteroid"/>
+	<ship load="JELLY" hostile="true"/>
+</event>
+
+<!--TAT_SLUG_NEUTRON (Slug)-->
+<event name="TAT_SLUG_NEUTRON" unique="true">
+	<text id="TAT_SLUG_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<ship load="JELLY" hostile="true"/>
+</event>
+
+<!--TAT_SLUG_ENGI_NEUTRON (Engi)-->
+<event name="TAT_SLUG_ENGI_NEUTRON" unique="true">
+	<text id="TAT_SLUG_ENGI_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<ship load="JELLY" hostile="true"/>
+</event>
+
+<!--TAT_SLUG_SUN (Zoltan/Slug)-->
+<event name="TAT_SLUG_SUN" unique="true">
+	<img back="No_Stars" planet="NONE"/>
+	<text id="TAT_SLUG_SUN_INTRO"/>
+	<environment type="sun"/>
+	<ship load="JELLY" hostile="true"/>
+</event>
+
+<!--TAT_SLUG_ASB-->
+<event name="TAT_SLUG_ASB" unique="true">
+	<img back="BG_DARK" planet="PLANET"/>
+	<text id="TAT_SLUG_ASB_INTRO"/>
+	<environment type="PDS" target="player"/>
+	<ship load="JELLY" hostile="true"/>
+</event>

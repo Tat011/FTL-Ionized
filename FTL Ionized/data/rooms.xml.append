@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Rooms-->
+<!--Kestrel A-->
+<roomLayout name="tat_room_shields_1">
+	<computerGlow x="53" y="41" dir="RIGHT" />
+</roomLayout>

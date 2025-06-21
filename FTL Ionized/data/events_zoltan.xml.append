@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Zoltan Sector Events-->
+<!--Stores-->
+<eventList name="STORES_ZOLTAN">
+	<event load="TAT_ZOLTAN_STORE"/>
+	<event load="STORE_ZOLTAN"/>
+</eventList>
+
+<!--Nothing-->
+<eventList name="NOTHING_ZOLTAN_LIST">
+	<event load="NOTHING_ZOLTAN"/>
+	<event load="NOTHING"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="ITEMS_ZOLTAN"><!--Overriden in dlcEventsOverwrite-->
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+	<event load="HELP_MINERS"/>
+	<event load="QUEST_CONSTRUCTIONYARD"/>
+	<event load="ZOLTAN_DISTRESS_SHELL"/>
+	<event load="ZOLTAN_ODD_MOON"/>
+	<event load="NEBULA_ZOLTAN_EYE"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_ZOLTAN">
+	<event load="WRECKAGE_EVENT"/> <!--Nebula + debree?-->
+	<event load="ROCK_ZOLTAN_HELP"/>
+	<event load="ZOLTAN_CREW_STUDY"/>
+	<event load="ZOLTAN_DISTRESS_MANTIS"/>
+	<event load="ZOLTAN_TRADE_HUB"/>
+	<event load="ZOLTAN_LIFERAFT"/>
+	<event load="ZOLTAN_SCIENCE_DOCK"/>
+	<event load="ZOLTAN_CREW_SCAN"/>
+	<event load="STORM_ZOLTAN_SUPPLY_CHOICE"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_ZOLTAN"><!--Overriden in dlcEventsOverwrite-->
+	<event load="ZOLTAN_FIGHT"/>
+	<event load="ZOLTAN_PIRATE"/>
+	<event load="ZOLTAN_MANTIS"/>
+	<event load="ZOLTAN_ENGI"/>
+	<event load="ZOLTAN_ASTEROID"/>
+	<event load="ZOLTAN_RIFT_FIGHT"/>
+	<event load="NEBULA_ZOLTAN_ROCK"/>
+	<event load="ZOLTAN_BOARDERS"/>
+	<event load="ZOLTAN_BOARDERS_MANTIS"/>
+	<event load="AUTO_SUN"/>
+	<event load="PIRATE_SUN"/>
+	<event load="ROCK_BOARDERS_SUN"/>
+	<event load="TAT_SLUG_SUN"/>
+	<event load="TAT_REBEL_SUN"/>
+	<event load="TAT_ENGI_SUN"/>
+	<event load="TAT_ZOLTAN_SUN"/>
+	<event load="TAT_ZOLTAN_NEUTRON"/>
+	<event load="TAT_ZOLTAN_ASB"/>
+</eventList>
+
+<!--Controlled Only-->
+<eventList name="ZOLTAN_CONTROLLED">
+	<event load="MERCHANT_REQUEST"/>
+	<event load="QUEST_MANTIS_INVASION"/>
+	<event load="ROGUE_REBEL"/>
+	<event load="ENGI_STATION_DISTRESS"/>
+	<event load="DONOR_MANTIS_CHASE"/>
+	<event load="MANTIS_FIGHT_CHOICE"/>
+	<event load="REBEL"/>
+	<event load="TAT_FEDERATION_VS_FEDERATION"/>
+</eventList>
+
+<!--Homewolrds only-->
+<eventList name="ZOLTAN_HOMEWORLDS">
+	<event load="QUEST_CREWDEAD"/>
+	<event load="ZOLTAN_PEACE_QUEST"/><!--Ship quest-->
+	<event load="DISTRESS_INFESTATION"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+</eventList>
+
+
+<!--ZOLTAN_DISTRESS_MANTIS (Zoltan/Mantis)-->
+
+<!--ZOLTAN_DISTRESS_SHELL (Zoltan/Federation)-->
+
+<!--ZOLTAN_TRADE_HUB (EXCLUSIVE)-->
+
+<!--ZOLTAN_ODD_MOON (Zoltan/Uncharted)-->
+
+<!--ZOLTAN_FIGHT (EXCLUSIVE)-->
+<event name="ZOLTAN_FIGHT" unique="true">
+	<text load="ZOLTAN_FIGHT"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>
+
+<!--ZOLTAN_PIRATE (EXCLUSIVE)-->
+<event name="ZOLTAN_PIRATE" unique="true">
+	<text load="ZOLTAN_PIRATE"/>
+	<ship load="PIRATE" hostile="true"/>
+</event>
+
+<!--ZOLTAN_MANTIS (EXCLUSIVE)-->
+
+<!--ZOLTAN_ENGI (Zoltan/Engi)-->
+
+<!--ZOLTAN_ASTEROID (Zoltan/Rock)-->
+
+<!--ZOLTAN_LIFERAFT (Zoltan/Pirate)-->
+
+<!--ZOLTAN_SCIENCE_DOCK (Zoltan/Federation)-->
+
+<!--ZOLTAN_RIFT_FIGHT (Zoltan/Uncharted/Nebula)-->
+<event name="ZOLTAN_RIFT_FIGHT" unique="true">
+	<text id="event_ZOLTAN_RIFT_FIGHT_text"/>
+	<choice hidden="true">
+		<text id="event_ZOLTAN_RIFT_FIGHT_c1_choice"/>
+		<event>
+			<text id="event_ZOLTAN_RIFT_FIGHT_c1_text"/>
+			<ship load="ZOLTAN_RIFT_MANTIS" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_ZOLTAN_RIFT_FIGHT_c2_choice"/>
+		<event>
+			<text id="event_ZOLTAN_RIFT_FIGHT_c2_text"/>
+			<ship load="ZOLTAN_RIFT_SLUG" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_ZOLTAN_RIFT_FIGHT_c3_choice"/>
+		<event>
+			<text id="event_ZOLTAN_RIFT_FIGHT_c3_text"/>
+			<ship load="ZOLTAN_RIFT_ROCK" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_ENGI_RIFT_FIGHT_TAT"/>
+		<event>
+			<text id="event_ENGI_RIFT_FIGHT_TATED"/>
+			<ship load="ENGI_RIFT_SHIP" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_LANIUS_RIFT_FIGHT_TAT"/>
+		<event>
+			<text id="event_LANIUS_RIFT_FIGHT_TATED"/>
+			<ship load="LANIUS_RIFT_SHIP" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_EMEN_RIFT_FIGHT_TAT"/>
+		<event>
+			<text id="event_EMEN_RIFT_FIGHT_TATED"/>
+			<ship load="EMEN_RIFT_SHIP" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="event_REBEL_RIFT_FIGHT_TAT"/>
+		<event>
+			<text id="event_REBEL_RIFT_FIGHT_TATED"/>
+			<ship load="REBEL_RIFT_SHIP" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>None of the above.</text>
+		<event>
+			<text>The Zoltan is quiet for a moment, and then yells, "You asked for it!" A huge wormhole opens, and from within it looms a Crystalline ship, prepared for war.</text>
+			<ship load="ZOLTAN_RIFT_CRYSTAL" hostile="true"/>
+		</event>
+		<event>
+			<text>The Zoltan is quiet for a moment, and then yells, "You asked for it!" A huge wormhole opens, and from within it a Federation ship emerges!</text>
+			<ship load="ZOLTAN_RIFT_CRYSTAL" hostile="true"/>
+		</event>
+	</choice>
+</event>
+<ship name="ENGI_RIFT_SHIP" auto_blueprint="SHIPS_ENGI">
+	<destroyed>
+		<text id="ship_ZOLTAN_RIFT_ROCK_destroyed_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_ZOLTAN_RIFT_ROCK_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</deadCrew>
+</ship>
+<ship name="LANIUS_RIFT_SHIP" auto_blueprint="SHIPS_LANIUS">
+	<destroyed>
+		<text id="ship_ZOLTAN_RIFT_ROCK_destroyed_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_ZOLTAN_RIFT_ROCK_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</deadCrew>
+</ship>
+<ship name="EMEN_RIFT_SHIP" auto_blueprint="SHIPS_EMEN">
+	<destroyed>
+		<text id="ship_ZOLTAN_RIFT_ROCK_destroyed_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_ZOLTAN_RIFT_ROCK_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</deadCrew>
+</ship>
+<ship name="REBEL_RIFT_SHIP" auto_blueprint="SHIPS_REBEL_AND_AUTO">
+	<destroyed>
+		<text id="ship_ZOLTAN_RIFT_ROCK_destroyed_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_ZOLTAN_RIFT_ROCK_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</deadCrew>
+</ship>
+<ship name="ZOLTAN_RIFT_CRYSTAL" auto_blueprint="SHIPS_CRYSTAL">
+	<destroyed>
+		<text id="ship_ZOLTAN_RIFT_ROCK_destroyed_text"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="ship_ZOLTAN_RIFT_ROCK_deadCrew_text"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="ZOLTAN_RIFT_SUCCESS"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<!--ZOLTAN_CREW_SCAN (EXCLUSIVE)-->
+<eventList name="ZOLTAN_CREW_SCAN_LIST">
+	<event>
+		<text id="event_ZOLTAN_CREW_SCAN_LIST_1_text"/>
+	</event>
+	<event>
+		<text id="event_ZOLTAN_CREW_SCAN_LIST_2_text"/>
+		<choice>
+			<text id="event_ZOLTAN_CREW_SCAN_LIST_2_c1_choice"/>
+			<event>
+				<text id="event_ZOLTAN_CREW_SCAN_LIST_2_c1_text"/>
+				<removeCrew>
+					<clone>false</clone>
+					<text id="event_ZOLTAN_CREW_SCAN_LIST_2_c1_c0_clone"/>
+				</removeCrew>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="event_ZOLTAN_CREW_SCAN_LIST_2_c2_choice"/>
+			<event>
+				<text id="event_ZOLTAN_CREW_SCAN_LIST_2_c2_text"/>
+				<ship load="ZOLTAN_CREW_SCAN" hostile="true"/>
+				<boarders min="4" max="4" class="energy"/>
+				<status type="limit" target="player" system="weapons" amount="5"/>
+			</event>
+		</choice>
+	</event>
+</eventList>
+
+<!--NEBULA_ZOLTAN_ROCK (EXCPLUSIVE)-->
+
+<!--NEBULA_ZOLTAN_EYE (Zoltan/Uncharted/Nebula)-->
+<event name="NEBULA_ZOLTAN_EYE" unique="true">
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+	<text id="event_NEBULA_ZOLTAN_EYE_text"/>
+	<environment type="nebula"/>
+	<choice hidden="true">
+		<text id="event_NEBULA_ZOLTAN_EYE_c1_choice"/>
+		<event load="NEBULA_ZOLTAN_EYE_LIST"/>
+	</choice>
+	<choice>
+		<text id="event_NEBULA_ZOLTAN_EYE_c2_choice"/>
+		<event>
+			<text id="event_NEBULA_ZOLTAN_EYE_c2_text"/>
+		</event>
+	</choice>
+</event>
+<eventList name="NEBULA_ZOLTAN_EYE_LIST">
+	<event>
+		<text id="event_NEBULA_ZOLTAN_EYE_LIST_1_text"/>
+		<weapon name="BOMB_HEAL"/>
+		<weapon name="BOMB_HEAL_SYSTEM"/>
+	</event>
+	<event>
+		<text id="NEBULA_ZOLTAN_EYE_LIST_TAT_FIGHT"/>
+		<ship hostile="true"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_ZOLTAN_EYE_LIST_2_text"/>
+	</event>
+	<event>
+		<text id="event_NEBULA_ZOLTAN_EYE_LIST_3_text"/>
+		<autoReward level="HIGH">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_NEBULA_ZOLTAN_EYE_LIST_4_text"/>
+		<removeCrew>
+			<clone>false</clone>
+			<text id="event_NEBULA_ZOLTAN_EYE_LIST_4_c0_clone"/>
+		</removeCrew>
+	</event>
+	<event>
+		<text id="NEBULA_ZOLTAN_EYE_LIST_FLEET"/>
+		<modifyPursuit amount="-2"/>
+	</event>
+</eventList>
+
+<!--STORM_ZOLTAN_SUPPLY_CHOICE (FILLER)-->
+
+<!--ZOLTAN_BOARDERS (EXCLUSIVE)-->
+<event name="ZOLTAN_BOARDERS" unique="true">
+	<text id="event_ZOLTAN_BOARDERS_text"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+	<boarders min="6" max="6" class="energy"/>
+</event>
+
+<!--ZOLTAN_BOARDERS_MANTIS (EXCLUSIVE)-->
+<event name="ZOLTAN_BOARDERS_MANTIS" unique="true">
+	<text id="event_ZOLTAN_BOARDERS_MANTIS_text"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+	<boarders min="6" max="6" class="mantis"/>
+</event>
+
+<!--TAT_ZOLTAN_STORE-->
+<event name="TAT_ZOLTAN_STORE" unique="true">
+	<text id="TAT_ZOLTAN_STORE_INTRO"/>
+	<environment type="sun"/>
+	<store/>
+	<customStore>TAT_ZOLTAN_STORE_STORE</customStore>
+</event>
+
+<!--TAT_ZOLTAN_SUN (Zoltan/Federation)-->
+<event name="TAT_ZOLTAN_SUN" unique="true">
+	<img back="No_Stars" planet="NONE"/>
+	<text id="TAT_ZOLTAN_SUN_INTRO"/>
+	<environment type="sun"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>
+
+<!--TAT_ZOLTAN_NEUTRON (Zoltan/Engi)-->
+<event name="TAT_ZOLTAN_NEUTRON" unique="true">
+	<text id="TAT_ZOLTAN_NEUTRON_INTRO"/>
+	<environment type="pulsar"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>
+
+<!--TAT_ZOLTAN_ASB-->
+<event name="TAT_ZOLTAN_ASB" unique="true">
+	<img back="BG_DARK" planet="PLANET"/>
+	<text id="TAT_ZOLTAN_ASB_INTRO"/>
+	<environment type="PDS" target="player"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>
+
+<!--TAT_ZOLTAN_NEBULA-->
+<event name="TAT_ZOLTAN_NEBULA" unique="true">
+	<text id="TAT_ZOLTAN_NEBULA_INTRO"/>
+	<environment type="nebula"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>
+
+<!--TAT_ZOLTAN_STORM-->
+<event name="TAT_ZOLTAN_STORM" unique="true">
+	<text id="TAT_ZOLTAN_STORM_INTRO"/>
+	<environment type="storm"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>

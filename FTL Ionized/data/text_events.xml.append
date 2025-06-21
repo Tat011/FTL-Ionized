@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EMEN SHIPS-->
+<text name="EMEN_SHIP_DEFAULT_SURRENDER">The Emen ship shows you its cargo and offers to surrender.</text>
+<text name="EMEN_SHIP_DEFAULT_SURRENDERY">Accept their surrender.</text>
+<text name="EMEN_SHIP_DEFAULT_SURRENDERN">Reject  their surrender.</text>
+<text name="EMEN_SHIP_DEFAULT_ESCAPE">The Emen ship is powering its hyperdrive and moving towards the beacon.</text>
+<text name="EMEN_SHIP_DEFAULT_GOTAWAY">The Emen ship escaped, leaving you empty handed.</text>
+<text name="EMEN_SHIP_DEFAULT_DESTROYED">The Emen ship explodes, scatteringg fragments of machinery everywhere.</text>
+<text name="EMEN_SHIP_DEFAULT_DEAD">With their drones down, nothing is stopping you from de-activating the ship's systems and scrapping it.</text>
+
+<!--Federation sector start-->
+<text name="START_BEACON_TATDERATION_1">As you enter Federation space you suddenly feel better about your chances, but you should still be on your guard.</text>
+<text name="START_BEACON_TATDERATION_2">You are happy to be in Federation space but with the Federation's resources at their limit you know help will be limited.</text>
+<text name="START_BEACON_TATDERATION_3">As you return to this Federation sector you are relieved but well aware your stay will be temporary.</text>
+
+<!--Federation home sector start-->
+<text name="START_BEACON_TATHOMEDERATION_1">This core Federation sector has been going strong despite the war, you hope it stays that way.</text>
+<text name="START_BEACON_TATHOMEDERATION_2">Despite this being a core Federation sector you doubt you'll be safe from the Rebel fleet, you better keep moving.</text>
+<text name="START_BEACON_TATHOMEDERATION_3">This Federation military stronghold should be safer to traverse than the alternatives, but these days that doesn't mean much.</text>
+
+<!--Lanius home start-->
+<text name="START_BEACON_TATLANIUS_1">The fabled origin point of the Lanius, you need to be careful around here if you don't want your ship to be consumed.</text>
+<text name="START_BEACON_TATLANIUS_2">Most factions avoid this sector on account of it being the homeworlds of the Lanius, perhaps you can use that to your advantage.</text>
+<text name="START_BEACON_TATLANIUS_3">Not much is known about the home of the Lanius on account of their reclusivity and aggression when hungry, perhaps you can change that.</text>
+<text name="START_BEACON_TATLANIUS_4">This scarcely visited sector is home of the Lanius, you'll have to make this visit fast if you don't want to be in the middle of a Lanius/Rebel conflict.</text>
+
+<!--Pirate Sector start-->
+<text name="text_START_BEACON_PIRATE_2">This sector used to be under Federation control but was lost during the rebelion, now the closest thing to law here are the different bands of pirates.</text>
+<text name="text_START_BEACON_PIRATE_3">A border world, pirates carved out their own space from multiple factions here. You should keep a low profile.</text>
+
+<!--Pirate Stronghold start-->
+<text name="START_BEACON_TATPIRATE_1">This sector has been under pirate control since even before the rebelion and with the other sectors in chaos the pirates here have only strengthened.</text>
+<text name="START_BEACON_TATPIRATE_2">This somewhat isolated region was thrown into chaos at the start of the rebellion. Even in peacetime it was always beset by pirates but now it houses a center of operations for countless pirate fleets.</text>
+<text name="START_BEACON_TATPIRATE_3">If the reports are true, this area has been under the control of pirates for quite some time. Some traders still attempt to trade with the few settlements that remain, but they do so at great risk.</text>
+<text name="START_BEACON_TATPIRATE_4">This sector is the hub for all pirate activity, multi-sector organized crime is typically is directed from here as even military forces avoid this area.</text>
+
+<!--Abandoned Sector start-->
+<text name="START_BEACON_TATABANDONED_1">This sector was fiercely fought over in the past but is now an abandoned wasteland due to the sheer scale of the destruction.</text>
+<text name="START_BEACON_TATABANDONED_2">Outside of some severely underfunded cleanup crews, this sector has layed abandoned since the early days of the Rebelion due to the scale of the conflict.</text>
+<text name="START_BEACON_TATABANDONED_3">Little besides scrap and scavengers remain here as a result of the Federation/Rebel conflict that took place here, you should not linger here.</text>
+<text name="START_BEACON_TATABANDONED_4">This sector was so devastated by the war it has been declared a no-go zone by the Federation, the Rebels on the other hand have no problem risking their ships here to get to you.</text>
+
+<!--Battlegrounds Sector start-->
+<text name="START_BEACON_TATBATTLE_1">This sector lays in the middle of the Federation/Rebel conflict, expect actual warships.</text>
+<text name="START_BEACON_TATBATTLE_2">You hoped to avoid the brunt of the conflict, yet here you are. You need to avoid the worst of the fighting if you are to complete your missile.</text>
+<text name="START_BEACON_TATBATTLE_3">This sector is of high interest to both sectors and so it is being fiercely fought over, you need to lay low to survive.</text>
+<text name="START_BEACON_TATBATTLE_4">This sector is already being devastated by the ongoing conflict, hopefully it doesn't become another abandoned sector.</text>
+
+<!--Uncharted Sector start-->
+<text name="START_BEACON_TATUNCHARTED_1">This sector lays is in the early stages of exploration and is unclaimed by any one faction, you shouldn't expect not to find anyone though.</text>
+<text name="START_BEACON_TATUNCHARTED_2">A faraway sector that hasn't yet been taken over by any specific faction, don't expect no conflict however.</text>
+<text name="START_BEACON_TATUNCHARTED_3">This mostly unexplored sector has little infrastructure and more weird things to find, don't get complacent.</text>
+<text name="START_BEACON_TATUNCHARTED_4">The frontier of the galaxy, this sector is physically too far away for other factions to meaningfully hold, for now.</text>
+
+<!--Non specific events-->
+<!--ASTEROID_EXPLORE-->
+<text name="event_ASTEROID_EXPLORE_RESULTS_5_text">The asteroid field proved more dangerous than expected. You need to do something before the asteroids get through your defenses.</text>
+<text name="event_ASTEROID_EXPLORE_TATDEALWITHIT">Attempt evasive maneuvers.</text>
+<text name="event_ASTEROID_EXPLORE_TATDEALTIT">Your crew tried their best to avoid the asteroids but several got through, you manage to escape but you think that perhaps you should have been more careful.</text>
+
+<text name="event_ASTEROID_EXPLORE_TATSHIELDS">(Level 6 shields) Divert power to your shields.</text>
+<text name="event_ASTEROID_EXPLORE_TATSHIELDED">Some asteroids got through but your shields most of the damage and you manage to escape, all things considered it could have been worse.</text>
+<text name="event_ASTEROID_EXPLORE_TATSHIELDS2">(Level 10 shields) Divert power to your shields.</text>
+<text name="event_ASTEROID_EXPLORE_TATSHIELDED2">Your shields fully protected you from the barrage of asteroids, you're thankful you spent so much scrap on them.</text>
+
+<text name="event_ASTEROID_EXPLORE_TATZOLTAN">(Zoltan Shield) Block them with your Zoltan Shield.</text>
+<text name="event_ASTEROID_EXPLORE_TATZOLTANED">Your Zoltan Shield protected you from several asteroids but eventually gave out, you manage to escape but ship took some damage.</text>
+<text name="event_ASTEROID_EXPLORE_TATROCK">(Rock Plating) Protect your hull with your Rock Plating.</text>
+<text name="event_ASTEROID_EXPLORE_TATROCKED">Your Rock Plating protected your hull integrity but your systems took a beating, all things considered it could have been worse.</text>
+<text name="event_ASTEROID_EXPLORE_TATSTEALTH">(Titanium System Casing) Protect your systems with your Titanium System Casing.</text>
+<text name="event_ASTEROID_EXPLORE_TATSTEALTHED">Your System Casing protected your systems but your hull took a beating, all things considered it could have been worse.</text>
+
+<text name="event_ASTEROID_EXPLORE_TATDRONE">(Defense Drone) Destroy them with your Defense Drone.</text>
+<text name="event_ASTEROID_EXPLORE_TATDRONED">Your Drone surprized you by blocking most of the incoming asteroids, Engi engineering is not to be scoffed at.</text>
+
+<text name="event_ASTEROID_EXPLORE_RESULTS_6_text">A pirate ship emerges from the asteroid field and hails you, "Surrender your goods, with these asteroids it wouldn't be wise to attempt to fight us. If you co-operate we'll help you get out of the field and nothing gets damaged."</text>
+<text name="event_ASTEROID_EXPLORE_TATFIGHT">Fight the pirate.</text>
+<text name="event_ASTEROID_EXPLORE_TATFIGHTING">"Your funeral" The pirate says before shutting off comms.</text>
+<text name="event_ASTEROID_EXPLORE_TATSURRENDER">Surrender some of your goods.</text>
+<text name="event_ASTEROID_EXPLORE_TATSURRENDERED">You surrender some of your goods and the pirate helps you exit the asteroid field safely, they proceed to jump away without a word.</text>
+
+<text name="event_ASTEROID_EXPLORE_c3_text">You carefully extract as much usable material as possible from the nearest asteroids on the edges of the field while waiting for the FTL to charge.</text>
+
+<text name="ship_PIRATE_TATASTEROID_surrender_text">The ship hails you, "Clearly your ship can handle this field better than ours, we surrender and ask only for our lives."</text>
+<text name="ship_PIRATE_TATASTEROID_surrender_c1_choice">Accept their surrender.</text>
+<text name="ship_PIRATE_TATASTEROID_surrender_c2_choice">Continue your assault.</text>
+<text name="ship_PIRATE_TATASTEROID_destroyed_text">The ship joins the asteroid field as it explodes into shrapnel.</text>
+<text name="ship_PIRATE_TATASTEROID_dead_text">With the crew dead you scrap what you can before the ship drifts into a large asteroid.</text>
+
+<!--MERCENARY-->
+<text name="event_MERCENARY_TATBUY">Buy 10 missiles for 30 scrap.</text>
+<text name="event_MERCENARY_TATBUYING">They exchange the goods without saying much.</text>
+<text name="event_MERCENARY_TATSELL">Sell 10 missiles for 30 scrap.</text>
+<text name="event_MERCENARY_TATSELLING">They exchange the goods without saying much.</text>
+
+<text name="ship_PIRATE_TATMERCENARY_escape_text">The mercenary ship immediately begins charging their FTL drive.</text>
+<text name="ship_PIRATE_TATMERCENARY_escapeD_text">The mercenary jumps off.</text>
+<text name="ship_PIRATE_TATMERCENARY_surrender_text">The mercenary ship hails you and its captain surrenders.</text>
+<text name="ship_PIRATE_TATMERCENARY_surrender_c1_choice">Accept their surrender.</text>
+<text name="ship_PIRATE_TATMERCENARY_surrender_c2_choice">Continue your assault.</text>
+<text name="ship_PIRATE_TATMERCENARY_destroyed_text">The mercenary ship explodes and you move in to scrap the remains.</text>
+<text name="ship_PIRATE_TATMERCENARY_dead_text">With the crew dead you're free to scrap the ship.</text>
+
+<!--CROPS-->
+<text name="event_PIRATE_STATION_CROPS_TATHACK">(Level 5 Hacking) Hack their engines.</text>
+<text name="event_PIRATE_STATION_CROPS_TATHACKED">While their attention is concentrated on the settlement you send a drone and hack their engines, shutting them off and sending them tumbling towards the planet surface. What follows is quite the spectacle as the vessel collides with the ground and explodes, sending shrapnel everywhere. You move in to scrap the remains.</text>
+
+<!--FRIENDLY_BEACON-->
+<text name="event_RANDOM_GIFT_TAT1">"Thank the Gods. We can finally get out of here! We're jumping straight home so take this extra drone. We won't need it, hopefully."</text>
+<text name="event_RANDOM_GIFT_TAT2">"Thank the Gods. We can finally get out of here! We're jumping straight home so take this extra augment. We won't need it, hopefully."</text>
+
+<!--STRANDED_BEACON-->
+<text name="event_MADMAN_1_text">Once back in orbit, the man turns increasingly violent. Eventually he turns on your crew and nearly manages to kill one before you even have the chance to subdue him.</text>
+
+<!--TRAP_BEACON-->
+<text name="text_TRAP_BEACON_TEXT_1">You arrive at the beacon and immediately detect a pirate ship firing at you. It seems this distress beacon was a trap!</text>
+<text name="text_TRAP_BEACON_TEXT_2">"Haha! I knew someone would fall into our dastardly trap!" It appears this distress beacon was nothing but a decoy for a pirate ambush.</text>
+<text name="text_TRAP_BEACON_TEXT_3">Your cockpit lights up with warning signals as a missile strikes your hull. You are being targeted by a nearby ship. The distress call was a lure to attract unwitting ships into weapons range.</text>
+<text name="text_TRAP_BEACON_TEXT_4">As soon as you arrive at the distress signal, shots are fired toward your ship. A trap! A nearby pirate ship hails you, "Surrender your goods and we wont turn your hull into your favorite cheese."</text>
+
+<text name="event_TRAP_BEACON_TATFIGHT">Fight the pirate.</text>
+<text name="event_TRAP_BEACON_TATFIGHTING">"You over-estimate your chances" The pirate captain says before shutting off comms.</text>
+<text name="event_TRAP_BEACON_TATSURRENDER">Surrender some cargo.</text>
+<text name="event_TRAP_BEACON_TATSURRENDERED">You jettison some of your cargo in thir direction, they collect it without taking their weapons off of you then jump away.</text>
+
+<!--CIVILIAN_ASTEROIDS_BEACON-->
+<text name="event_CIVILIAN_ASTEROIDS_BEACON_TATBOMB">(Repair Burst) Teleport a Repair Bomb into their shield system.</text>
+<text name="CIVILIAN_ASTEROIDS_BEACON_TATBOMBED">(Repair Burst) Teleport a Repair Bomb into their shield system.</text>
+<text name="event_CIVILIAN_ASTEROIDS_BEACON_TATGETBOMBED">Your repairs keep their ship stable enough to allow them to escape the asteroid field. They message you with map coordinates, "You're that Federation ship the Rebels are after, aren't you? I can't offer much but I heard there was a Federation loyalist base nearby. Maybe they can help you?".</text>
+
+<!--DISTRESS_TRAPPED_MINER-->
+<text name="event_DISTRESS_TRAPPED_MINER_TATWARP">(Crew Teleporter) Offer to teleport them off their ship.</text>
+<text name="event_DISTRESS_TRAPPED_MINER_TATWARPED">The pirates are quickly teleported into your ship where they ask to be dropped off at the nearest inhabited planet, one of them offers to join your crew "It's certainly safer than the alternative".</text>
+
+<!--DISTRESS_INFESTATION (Giant Alien Spiders)-->
+<text name="event_DISTRESS_INFESTATION_TATMANTIS">(Mantis Crew-Member) Your mantis crew-member looks excited.</text>
+<text name="event_DISTRESS_INFESTATION_TATMANTISED">"We hunted creatures like these all the time back in Kirrakthas" Your Mantis says while instructing your crew in how to defeat the spiders. When you go in they get the drop on you by dropping from the vents but you're eventually able to beat them without any casualties. "May my ancestors be proud!" The Mantis exclaims, the owners of the station express their gratitude and offer compensation.</text>
+<text name="event_DISTRESS_INFESTATION_TATROCK">(Rockman Crew-Member) Your Rockman crew-member is looking at you sternly.</text>
+<text name="event_DISTRESS_INFESTATION_TATROCKED">The Rockman volunteers to go first and draw their attention, "They cannot kill me". Rockman in front, you send in your crew and you watch as spiders start swarming your Rockman who doesn't falter, after some time your crew is able to finish them all off. "I told you so" The Rockman proudly adds when they return, the owners of the station express their gratitude and offer compensation.</text>
+
+<!--DISTRESS_SATELLITE_DEFENSE-->
+<text name="event_DISTRESS_SATELLITE_DEFENSE_c1_c6_choice">(Hacking System) Hack the satellite.</text>
+<text name="event_DISTRESS_SATELLITE_DEFENSE_c1_c6_text">You launch a hacking drone in its direction, which passes through undetected and shuts off the satellite when it lands. The station's inhabitants thank you for keeping it intact.</text>
+
+<text name="event_DISTRESS_SATELLITE_DEFENSE_TATDRONE">(Combat Drone) Deploy your combat drone.</text>
+<text name="event_DISTRESS_SATELLITE_DEFENSE_TATDRONED">You launch a combat drone in its direction, which evades the satellite's fire and destroys it when it goes in range. The station's inhabitants thank you but don't seem particularly thrilled.</text>
+
+<!--DISTRESS_STATION_FIRE-->
+<text name="event_DISTRESS_STATION_FIRE_TATEXTINGUISH">(Fire Suppression) Use your fire suppression augmentation.</text>
+<text name="event_DISTRESS_STATION_FIRE_TATEXTINGUISHED">Your fire suppression system interfaces with theirs, whatever kept it from working in the first place must have been a software error because after sincronizing with it, it began firing again, putting out the fire. The station's crew are thankful for fixing their fire suppression.</text>
+
+<!--DISTRESS_STATION_DISEASE-->
+<text name="event_DISTRESS_STATION_DISEASE_TATMANTIS">(Mantis Crew-Member) Send your Mantis crew-memeber to prevent a riot.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATMANTISED">The Mantis is unlikely to catch a human disease, you send it in and it's able to maintain the peace with some surprisingly thoughtful words, though you suspect its large forelegs also played a role. The station's leaders leaders offer a reward and assure you they will try to find a cure as soon as possible.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATZOLTAN">(Zoltan Crew-Member) Send your Zoltan crew-memeber to sort the ill.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATZOLTANED">Being a being of pure energy, it's impossible for the Zoltan to contract the disease. When you send it in, it's able to instantly catch the infected's attention with it's glowing body, after which it is able to easily organize them into many different categories for easier processing. The station's leaders leaders offer a reward and assure you they will try to find a cure as soon as possible.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATSLUG">(Slug Crew-Member) Send your Slug crew-memeber to redirect the crowds.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATSLUGED">The Slug is unlikely to catch a human disease, you send it in and it instantly gets to work splitting the crowds to more managable levels and using it's telepathy to identify and isolate the more violent members. Within a few hours the situation is diffused and the station owners offer compensation for your help.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATCRYSTAL">(Crystal Crew-Member) Send your Crystal crew-memeber to prevent a riot.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATCRYSTALED">It's unlikely the Crystal's impressive immune system is susceptible to a human virus so you send it in. It is able to intimidate the workers long enough for the colony forces to set up a quarantine. Their leaders offer a reward and assure you they will try to find a cure as soon as possible.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATLANIUS">(Lanius Crew-Member) Send your Slug crew-memeber to fortify the station.</text>
+<text name="event_DISTRESS_STATION_DISEASE_TATLANIUSED">Your Lanius crew-member immediately gets to work crafting barricades and medical equipment from spare scrap, within a few hours the station has everything it needs to handle the disease. The station's leaders offer a reward and assure you they will try to find a cure as soon as possible.</text>
+
+<!--BOARDERS-->
+<text name="text_BOARDERS_TEXT_5">As you arrive, you become aware of a small pirate outpost near the beacon. You are hardly able to bark an order before a small team is beamed aboard your ship. They must have been expecting you...</text>
+
+<!--BOARDERS_HACKING-->
+<text name="event_BOARDERS_HACKING_text">You catch a glimpse of a strange signal coming from a space station before a hacking pulse unlike anything you've seen before shuts off several of your systems. As you try to get your bearings, you hear hostiles beam onto your ship.</text>
+
+<!--STATION_SICK-->
+<text name="event_STATION_SICK_c4_choice">(Level 2 Sensors) Run advanced life scans.</text>
+
+<!--FUEL_FOR_DRONE-->
+<text name="text_FUEL_FOR_DRONE_1">A nearby space station hails you. "Greetings! Your arrival is most fortuitous. We recently came across some extra drones and missiles. If you have some fuel, perhaps we can make a deal?"</text>
+<text name="text_FUEL_FOR_DRONE_2">A strange vessel approaches. A digital message appears on your view-screen: "This is an automated merchant. Refill this vessel with fuel and it will supply you with drones or missiles."</text>
+<text name="text_FUEL_FOR_DRONE_3">You arrive in the sector and are greeted by a science vessel waiting by the beacon. They hail you, "We find ourselves low on fuel and have a proposition."</text>
+<text name="event_FUEL_FOR_DRONE_c1_choice">Buy drones.</text>
+<text name="event_FUEL_FOR_DRONE_TATMISSILES">Buy missiles.</text>
+
+<!--REFUEL_STATION-->
+<text name="event_REFUEL_STATION_TAT24">Buy 2 fuel for 4 scrap.</text>
+<text name="event_REFUEL_STATION_TAT48">Buy 4 fuel for 8 scrap.</text>
+<text name="event_REFUEL_STATION_TAT510">Buy 5 fuel for 10 scrap.</text>
+<text name="event_REFUEL_STATION_TAT714">Buy 7 fuel for 14 scrap.</text>
+<text name="event_REFUEL_STATION_TAT816">Buy 8 fuel for 16 scrap.</text>
+
+<!--REPAIR_STATION-->
+<text name="event_REPAIR_STATION_TAT15">Repair 15 damage.</text>
+<text name="event_REPAIR_STATION_TATDRONE">Buy a System Repair Drone.</text>
+<text name="event_REPAIR_STATION_TATDRONE2">Buy a Hull Repair Drone.</text>
+
+<!--SELL_MISSILES_STATION-->
+<text name="event_SELL_MISSILES_STATION_TAT60">Sell 20 missiles for 60 scrap.</text>
+
+<!--SELL_DRONES_STATION-->
+<text name="event_SELL_DRONES_STATION_TAT9">Sell 9 drone parts for 36 scrap.</text>
+<text name="event_SELL_DRONES_STATION_TAT15">Sell 15 drone parts for 60 scrap.</text>
+
+<!--GHOST_SHIP-->
+<text name="text_GHOST_SHIP_TEXT_3">Another ship is jumping away with it's distress signal on just as you arrive. You don't see anything nearby except a drifting, abandoned vessel.</text>
+
+<!--QUEST_ESCORT-->
+<text name="event_QUEST_ESCORT_ARRIVE_1_text">As soon as you arrive in the beacon several hacking drones hit your ship and disable several of your auxiliary systems as a rebel ship comes into view, it's a trap!</text>
+<text name="event_QUEST_ESCORT_ARRIVE_TATPIRATE">Almost as soon as you arrive in the beacon a shot from an Anti-Ship Battery skimms past you, dangerously close. A pirate ship approaches you, weapons locked. "Do you know how much money the rebelion is offering for your destruction? It's a lot, now I'm feeling generous so if you surrender and let me take your cargo, I'll blow up your ship and let you guys go, how does that sound?" You're not willing to give up on your mission.</text>
+<text name="ship_PIRATE_TATTRAP_destroyed_text">The ship breaks apart but the Anti-Ship Battery keeps firing, you need to jump away before they land a hit.</text>
+<text name="ship_PIRATE_TATTRAP_dead_text">The crew is deadbut the Anti-Ship Battery keeps firing, you need to jump away before they land a hit.</text>
+
+<!--QUEST_MANTIS_INVASION-->
+<text name="event_QUEST_MANTIS_INVASION_c1_choice">Fight one of their scouts.</text>
+<text name="event_QUEST_MANTIS_INVASION_TATLEAVE">Leave before they see you.</text>
+<text name="event_QUEST_MANTIS_INVASION_c3_choice">(Bomb Weapon) Teleport bombs into key structures.</text>
+
+<!--QUEST_CREWDEAD-->
+<text name="event_QUEST_CREWDEAD_START_TATFIREBEAM">(Fire Beam) Offer to burn the crew out.</text>
+<text name="QUEST_CREWDEAD_START_TATFIREION">(Fire Ion) Offer to burn the crew out.</text>
+<text name="event_QUEST_CREWDEAD_START_TATBOARD">(Boarding Drone) Offer to board their ship.</text>
+
+<!--DEAD_CREW_SLAVER-->
+<text name="event_DEAD_CREW_SLAVER_1_text">You find a number of slaves in the cargo hold. They look at you questioningly and one asks if they're to be released. You could use more crew but they need to be willing to help in order for this to work.</text>
+<text name="event_DEAD_CREW_SLAVER_1_c1_choice">Ask the Mantis to join your crew and release the rest.</text>
+<text name="event_DEAD_CREW_SLAVER_1_c2_choice">Ask the Rockman to join your crew and release the rest.</text>
+<text name="event_DEAD_CREW_SLAVER_1_c3_choice">Ask the Engi to join your crew and release the rest.</text>
+<text name="event_DEAD_CREW_SLAVER_TATHUMAN">Ask the Human to join your crew and release the rest.</text>
+<text name="event_DEAD_CREW_SLAVER_TATHUMANED">"You're Federation, right? I've always wanted to serve in their fleet!" The Human exitedly joins your crew.</text>
+<text name="event_DEAD_CREW_SLAVER_TATZOLTAN">Ask the Zoltan to join your crew and release the rest.</text>
+<text name="event_DEAD_CREW_SLAVER_TATZOLTANED">"If you kill more of these damned pirates I'll help you unconditionally." The Zoltan looks pissed, you assure it that many pirates will be fought along the way.</text>
+<text name="event_DEAD_CREW_SLAVER_TATSLUG">Ask the Slug to join your crew and release the rest.</text>
+<text name="event_DEAD_CREW_SLAVER_TATSLUGED">"The Federation asssks for my services? Very amusing, I sssupose the least I could do is help after you risked yourself for us."</text>
+<text name="event_DEAD_CREW_SLAVER_TATLANIUS">(Lanius Crew-Memeber) Your Lanius crew-member wants to show you something.</text>
+<text name="event_DEAD_CREW_SLAVER_TATLANIUSED">The Lanius shows you what looks like a half melted metal statue, however after the Lanius feeds it scrap it reshapes into another Lanius. Both of them exchange a few words in their language and the new Lanius offers to join your crew.</text>
+
+<!--ZOLTAN_CREW_STUDY-->
+<text name="event_ZOLTAN_CREW_STUDY_TATCLONE">(Advanced Clonebay) Give them your medical records.</text>
+<text name="event_ZOLTAN_CREW_STUDY_TATDNA">(Backup DNA Bank) Give them your medical records.</text>
+
+<!--ROCK_CRYSTAL_BEACON-->
+<text name="event_ROCK_CRYSTAL_BEACON_TATFIGHT">As you start to break it apart some kind of crystal looking ship emerges from the field and powers weapons!</text>
+
+<!--DONOR_BLACK_RAVEN-->
+<text name="event_DONOR_BLACK_RAVEN_MC">(Mind Control System) Engage in a duel of the mind.</text>
+<text name="event_DONOR_BLACK_RAVEN_MCED">"Your machine cannot withstand my might!" The Slug said as he closed and you turn on your machine, nothing happens for at first but after a while Nights begins grunting in pain and says "I yield! I yield, If this is the caliber of equipment you keep, there iss no way we can defeat you. Take thisss and let us leave in shame."</text>
+<text name="event_DONOR_BLACK_RAVEN_MCL">"Your machine cannot withstand my might!" The Slug said as he closed and you turn on your machine, nothing happens for at first but after a while your machine begins smoking and then breaks down. "Hah! It'll take more than that to defeat me! Let the real battle begin!"</text>
+
+<!--ALISON_DEFECTOR-->
+<text name="event_ALISON_DEFECTOR_TATSLUG">(Slug Crew-Member) Have your Slug crew-member asses their intentions.</text>
+<text name="event_ALISON_DEFECTOR_TATSLUGW">Your Slug concentrates while the defector looks nervous, "He'sss being genuine" The Slug says.</text>
+<text name="event_ALISON_DEFECTOR_TATSLUGL">As soon as your Slug closes its eyes the stowaway takes out a blaster and starts firing!</text>
+
+<!--TAT_SECRET_CRYSTAL-->
+<text name="TAT_SECRET_CRYSTAL_INTRO">You see a ship of a class you have never seen before overgrown with crystals, they hail you "Sorry about this, but we cannot afford to be seen."</text>
+<text name="TAT_SECRET_CRYSTAL_DESTROYED">The ship explodes into millions of tiny crystal shards.</text>
+<text name="TAT_SECRET_CRYSTAL_DEAD">You manage to shut down the ship and begin the process of dismantling it.</text>
+
+<!--TAT_SECRET_CRYSTAL_VS_CRYSTAL-->
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_INTRO">You spot 2 ships of a model you've never seen before, from the crystals floating everywhere its not hard to tell one of them is decimating the other.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_FIGHT">Intervene.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_FIGHTER">You get in between the two ships, the aggresor doesn't hesitate to shoot you too.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_LEAVE">Let them be.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_DESTROYED">The crystaline ship's reactor explodes, killing what remains of the crew and leaving the ship literally powerless.</text><!--The hostile crystaline ship explodes into a million tiny crystal shards.-->
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_DEAD">The hostile crystaline ship powers down, useless without its crew.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_END_TEXT">"Sorry you were involved in all these, we are trying to escape our people but they don't take kindly to defectors. Here, take this in exchange for helping us and leaving the other ship for us to use."</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_END_TEXT2">"Sorry you were involved in all these, we are trying to escape our people but they don't take kindly to defectors. Let one of us join you, we think it is best for us to split three ways."</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_ESCAPE">The crystaline ship asumes a defensive position, you asume they are looking for an escape.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_ESCAPED">The ship escapes, but at least the other crystal ship survived.</text>
+
+<!--Last Stand Events-->
+<!--BOSS_SCOUT_RESCUE-->
+<text name="event_BOSS_SCOUT_RESCUE_TATSTORE">You are hailed "Thanks for the help friend! Unfortunately we got hit bad during the attack so how about we exchange some of our technology for scrap we can use for repairs?"</text>
+
+<!--BOSS_FLEETS_BOTH-->
+<text name="text_BOSS_FLEETS_BOTH_1">Sensors indicate evidence of a huge battle nearby, but the immediate vicinity seems quiet. You consider laying low and keeping out of the fighting.</text>
+<text name="text_BOSS_FLEETS_BOTH_2">You arrive to find two fleets crashing against each other. Sensors are tracking the extent of the carnage. You consider quietly waiting for the FTL drive to charge, knowing that the best way you can help is by completing your mission.</text>
+<text name="text_BOSS_FLEETS_BOTH_5">You don't need advanced Sensors to tell there is a battle going on. You look out of the window quietly, waiting to jump. There's not much you can do to help in this fight.</text>
+<text name="text_BOSS_FLEETS_BOTH_6">Two fleets are volleying shots at each other. Luckily, no one seems interested in your ship.</text>
+<text name="BOSS_FLEETS_BOTH_TATFIGHT">Engage anyway.</text>
+<text name="BOSS_FLEETS_BOTH_TATLEAVE">Lay low.</text>
+
+<!--ENGI_VS_REBEL-->
+<text name="ENGI_VS_REBEL_INTRO">You stumble upon a small fleet of Engi ships slugging it out with a larger fleet of rebels, there are Engi drones everywhere and more are being deployed every second. Before you have time to fully assess the situation an engi ship locks on to you, scans show it's been boarded!</text>
+<text name="ENGI_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy an Engi ship but it's not like you had a choice.</text>
+<text name="ENGI_VS_REBEL_SHIP_dead">With the crew dead hopefully the Engi can take back their ship.</text>
+<text name="ENGI_VS_REBEL_END">The battle died down as you were fighting with the Engi as the victors. They send the following message: "Gratitude for assistance, more Engi ships incoming. Objective?"</text>
+<text name="ENGI_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="ENGI_VS_REBEL_CHOICE">"Federation survival is primary directive. Authorize assistance."</text>
+<text name="ENGI_VS_REBEL_AUG">Select the Engi augment.</text>
+<text name="ENGI_VS_REBEL_CREW">Select an Engi crew-member.</text>
+<text name="ENGI_VS_REBEL_DRONE">Select an Anti-Personnel drone.</text>
+<text name="ENGI_VS_REBEL_WEAP">Select a Basic Ion.</text>
+<text name="ENGI_VS_REBEL_ENDED">"Selection: perceptive. Initiating tranfer procedure"</text>
+
+<!--ZOLTAN_VS_REBEL-->
+<text name="ZOLTAN_VS_REBEL_INTRO">You see a small fleet of Zoltan ships fighting a larger fleet of Rebels, their shields are holding strong but you don't know how long that will last, to your surprise a Zoltan ship locks on to you, scans show it's been boarded despite it's shield!</text>
+<text name="ZOLTAN_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy a Zoltan ship but it's not like you had a choice.</text>
+<text name="ZOLTAN_VS_REBEL_SHIP_dead">With the crew dead hopefully the Zoltan can take back their ship.</text>
+<text name="ZOLTAN_VS_REBEL_END">When you look around you are pleased to find the Zoltan are victorious. They hail you, "You have not lost yet, tell the Federation reinforcements are coming their way."</text>
+<text name="ZOLTAN_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="ZOLTAN_VS_REBEL_CHOICE">"You helped us, now we help you. That's the Federation way."</text>
+<text name="ZOLTAN_VS_REBEL_AUG">Select the Zoltan Shield Bypass augment.</text>
+<text name="ZOLTAN_VS_REBEL_CREW">Select a Zoltan crew-member.</text>
+<text name="ZOLTAN_VS_REBEL_DRONE">Select a Shield Overcharger drone.</text>
+<text name="ZOLTAN_VS_REBEL_WEAP">Select a Mini-Beam.</text>
+<text name="ZOLTAN_VS_REBEL_ENDED">"Safe travel, soldier."</text>
+
+<!--MANTIS_VS_REBEL-->
+<text name="MANTIS_VS_REBEL_INTRO">A fierce battle is raging between a Mantis fleet and a Rebel fleet, or at least you think there is because even though not much is going on in space, their erratic movements are giving a different idea. Before you can decide on a course of action a Mantis ship locks on to you, it seems their crew was overpowered!</text>
+<text name="MANTIS_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy the ship of an ally but it's not like you had a choice.</text>
+<text name="MANTIS_VS_REBEL_SHIP_dead">With the crew dead hopefully the Mantis can take back their ship.</text>
+<text name="MANTIS_VS_REBEL_END">You won the fight but it seems the Mantis fleet is losing ground, they hail you "Not all Mantises are ok with this war, Fight on!"</text>
+<text name="MANTIS_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="MANTIS_VS_REBEL_CHOICE">"Pick something and go! We'll hold them off until our last breath!" Your sensors show they are pointing an escape pod in your direction.</text>
+<text name="MANTIS_VS_REBEL_AUG">Select the Mantis augment.</text>
+<text name="MANTIS_VS_REBEL_CREW">Select a Mantis crew-member.</text>
+<text name="MANTIS_VS_REBEL_DRONE">Select an Ion Intruder drone.</text>
+<text name="MANTIS_VS_REBEL_WEAP">Select a Basic Bomb.</text>
+<text name="MANTIS_VS_REBEL_ENDED">The pod also contains a full manifest of their fleet, they seem to be serious about this.</text>
+
+<!--SLUG_VS_REBEL-->
+<text name="SLUG_VS_REBEL_INTRO">You find yourself in the middle of a small Rebel fleet, their weapons go from pointing at a nearby Slug ship to pointing towards you but as they're charging a fleet of Slug ships uncloak! The Rebel ships get distracted in the chaos but the original Slug ship moves to intercept you.</text>
+<text name="SLUG_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy the ship of an ally but it's not like you had a choice.</text>
+<text name="SLUG_VS_REBEL_SHIP_dead">With the crew dead hopefully the Mantis can take back their ship.</text>
+<text name="SLUG_VS_REBEL_END">It's hard to tell how many Slug ships are still around due to all the cloaking but the rebels are being driven back, "Thanksss for the opening, believe it or not we're here to help the Federation. The Rebels have had it coming ever since they invaded our nebulasss."</text>
+<text name="SLUG_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="SLUG_VS_REBEL_CHOICE">"You'll find some of our equipment most useful."</text>
+<text name="SLUG_VS_REBEL_AUG">Select the Slug augment.</text>
+<text name="SLUG_VS_REBEL_CREW">Select a Slug crew-member.</text>
+<text name="SLUG_VS_REBEL_DRONE">Select an Anti-Combat drone.</text>
+<text name="SLUG_VS_REBEL_WEAP">Select an Ion Bomb.</text>
+<text name="SLUG_VS_REBEL_ENDED">"Take them by surprise!"</text>
+
+<!--ROCK_VS_REBEL-->
+<text name="ROCK_VS_REBEL_INTRO">A Rebel ship locks on to you but is sent flying when a large Rock ship rams it at full speed. It seems you jumped into the middle of a fight between the two factions. As you try to get your bearings a Rock ship occupied by Rebel soldiers attacks!</text>
+<text name="ROCK_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy the ship of an ally but it's not like you had a choice.</text>
+<text name="ROCK_VS_REBEL_SHIP_dead">With the crew dead hopefully the Rockmen can take back their ship.</text>
+<text name="ROCK_VS_REBEL_END">You get hailed by one of the bigger Rock ships "What dishonor to attack with another's ship, stunts like this is why we are here to help the Federation"</text>
+<text name="ROCK_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="ROCK_VS_REBEL_CHOICE">"The Rock choose isolationism but we choose strength in unity, take one of these and go. We'll keep as much of the fleet off your back as we can."</text>
+<text name="ROCK_VS_REBEL_AUG">Select the Rock augment.</text>
+<text name="ROCK_VS_REBEL_CREW">Select a Rockman crew-member.</text>
+<text name="ROCK_VS_REBEL_DRONE">Select a Fire drone.</text>
+<text name="ROCK_VS_REBEL_WEAP">Select a Basic Missile.</text>
+<text name="ROCK_VS_REBEL_ENDED">"Don't fail, we are all counting on you"</text>
+
+<!--CRYSTAL_VS_REBEL-->
+<text name="CRYSTAL_VS_REBEL_INTRO">You spot a small Rebel fleet retreating from a much larger fleet that you cannot identify, a crystalline ship similar to that of the pursuers separates from the Rebel fleet and engages you.</text>
+<text name="CRYSTAL_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy the ship of an ally but it's not like you had a choice.</text>
+<text name="CRYSTAL_VS_REBEL_SHIP_dead">With the crew dead hopefully this fleet can take back their ship.</text>
+<text name="CRYSTAL_VS_REBEL_END">A being made of crystal appears in your comms, "You don't know who we are but we have been watching, and we watch no more. We're here to help"</text>
+<text name="CRYSTAL_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="CRYSTAL_VS_REBEL_CHOICE">"It is time for us to reveal ourselves, we cannot allow the other sectors to be plunged into darkness."</text>
+<text name="CRYSTAL_VS_REBEL_AUG">Select the Crystal augment.</text>
+<text name="CRYSTAL_VS_REBEL_CREW">Select a Crystal crew-member.</text>
+<text name="CRYSTAL_VS_REBEL_DRONE">Select a Defense drone.</text>
+<text name="CRYSTAL_VS_REBEL_WEAP">Select a Crystal Burst.</text>
+<text name="CRYSTAL_VS_REBEL_ENDED">"We'll be right behind you."</text>
+
+<!--LANIUS_VS_REBEL-->
+<text name="LANIUS_VS_REBEL_INTRO">The Rebels are harassing what looks like a small Lanius fleet, but scatter when several Lanius motherships jump in, the Rebels seem to have taken over one of the smaller ships though and now they are pointing it at you.</text>
+<text name="LANIUS_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy the ship of an ally but it's not like you had a choice.</text>
+<text name="LANIUS_VS_REBEL_SHIP_dead">With the crew dead hopefully the Lanius can take back their ship.</text>
+<text name="LANIUS_VS_REBEL_END">One of the motherships transmits you a live feed, in it a Lanius makes a gesture you are unsure the meaning of and shows you a collage of images of Lanius ships being destroyed by Rebel ships.</text>
+<text name="LANIUS_VS_REBEL_PRECHOICE">Attempt to explain your mission.</text>
+<text name="LANIUS_VS_REBEL_CHOICE">You send over information about the Rebel Flagship, you're unsure if they understood the message at first but they display four images of equipment and look at you expectantly. It seems they want you to choose.</text>
+<text name="LANIUS_VS_REBEL_AUG">Select Titanium System Casing augment.</text>
+<text name="LANIUS_VS_REBEL_CREW">Select a Lanius crew-member.</text>
+<text name="LANIUS_VS_REBEL_DRONE">Select a Boarding drone.</text>
+<text name="LANIUS_VS_REBEL_WEAP">Select a Flack.</text>
+<text name="LANIUS_VS_REBEL_ENDED">The Lanius get to work.</text>
+
+<!--PIRATE_VS_REBEL-->
+<text name="PIRATE_VS_REBEL_INTRO">You see a fleet of small pirate vessels swarming a smaller fleet of larger Rebel ships, their comms are unencrypted so you are able to hear all sorts of expletives from their captains as well as commands like "Flank them there! THERE!", "GO!" and  "Shoot faster!" You don't get to listen to more as a pirate ship charges towards you, scans indicate it's been boarded!</text>
+<text name="PIRATE_VS_REBEL_SHIP_destroyed">It doesn't feel great to destroy the ship of an "ally" but it's not like you had a choice.</text>
+<text name="PIRATE_VS_REBEL_SHIP_dead">With the crew dead hopefully the pirates can take back their ship.</text>
+<text name="PIRATE_VS_REBEL_END">One of the pirate ships hails you, "Perfect opportunity for a good scraping, don't ya think? Don't worry, we're not going to hurt ya. We're here to fight the Rebels too, our non-human crew is threatened by them and you don't threaten our crew if you don't want a fight!"</text>
+<text name="PIRATE_VS_REBEL_PRECHOICE">Explain your mission.</text>
+<text name="PIRATE_VS_REBEL_CHOICE">"Ha! Hitting them right where it hurts! Take one of these and make your shot count!"</text>
+<text name="PIRATE_VS_REBEL_AUG">Select Defense Scrambler augment.</text>
+<text name="PIRATE_VS_REBEL_CREW">Select a Human crew-member.</text>
+<text name="PIRATE_VS_REBEL_DRONE">Select a Combat drone.</text>
+<text name="PIRATE_VS_REBEL_WEAP">Select a Basic Laser.</text>
+<text name="PIRATE_VS_REBEL_ENDED">"Give'em Hell!"</text>
+
+<!--ASB_REBEL-->
+<text name="VS_ASB_REBEL_START_1">To your dismay, Rebels have taken over this planet and are pointing a Federation ASB at you!</text>
+<text name="VS_ASB_REBEL_START_2">The Rebels have set up a forward base here and are pointing a freshly built ASB at you!</text>
+<text name="VS_ASB_REBEL_START_3">As soon as you arrive you start being fired at from the nearby Rebel controlled planet, battle stations!</text>
+<text name="VS_ASB_REBEL_START_4">A Rebel ship engages you with a nearby ASB providing them support fire, you are going to have to make this quick.</text>
+
+<!--ASB_ALLY_VS_REBEL-->
+<text name="TAT_ASB_ALLY_VS_REBEL_START">You jump in to find a swarm of Rebel scouts harassing a Federation fleet, one of them pulls away and engages you.</text>
+<text name="TAT_ASB_ALLY_VS_REBEL_SHIP_DESTROYED">The Rebel ship explodes and you look back at the fleet only to find that the ammount of Rebel fighters has increased, better to get out before this becomes a full on warzone.</text>
+<text name="TAT_ASB_ALLY_VS_REBEL_SHIP_DEAD">With the Rebel ship disabled you look back at the fleet only to find that the ammount of Rebel fighters has increased, better to get out before this becomes a full on warzone.</text>
+
+<!--FEDERATION_EVACUATION-->
+<text name="FEDERATION_EVACUATION_START">The planet here is in full evacuation due to the incoming Rebel fleet, but there is way too many people than the available transports can carry and the civilians are getting desperate.</text>
+<text name="FEDERATION_EVACUATION_HELP">Spend some time helping evacuate.</text>
+<text name="FEDERATION_EVACUATION_HELPED">Civilians shouldn't have to bear the brunt of this war, you spent several hours transporting citizens from the planet surface to the large transport ships. When you're done the military personnel hand you some leftover equipment as compensation.</text>
+<text name="FEDERATION_EVACUATION_BUOY">(Distraction Buoys) Deploy your buoys to slow the Rebel advance on this beacon.</text>
+<text name="FEDERATION_EVACUATION_BUOYED">You deploy the buoys all around the planet, the military commanders of the planet hail you, "Where did you get the budget for those? Either way this is going to go a long way in helping beat the Rebels back."</text>
+<text name="FEDERATION_EVACUATION_SCAN">(Long-Ranged Scanners) Give the ships updated telemetry on nearby beacons.</text>
+<text name="FEDERATION_EVACUATION_SCANED">You share your intel with the Federation fleet, they thank you for the updated information and give you some of their resources.</text>
+<text name="FEDERATION_EVACUATION_LEAVE">Leave, you have important things to do.</text>
+
+<!--REBEL_ELITE_SUN-->
+<text name="REBEL_ELITE_SUN_START">This beacon is dangerously close to a nearby star, but this doesn't stop the Rebels from stationing an elite ship here as an ambush.</text>
+
+<!--REBEL_ELITE_ASTEROID-->
+<text name="REBEL_ELITE_ASTEROID_START">This beacon resides in the middle of an asteroid field, but this doesn't stop the Rebels from stationing an elite ship here as an ambush.</text>
+
+<!--REBEL_ELITE_NEUTRON-->
+<text name="REBEL_ELITE_NEUTRON_START">This beacon is dangerously close to a neutron star, but this doesn't stop the Rebels from stationing an elite ship here as an ambush.</text>
+
+<!--REBEL_ELITE_STORM-->
+<text name="REBEL_ELITE_STORM_START">This beacon resides in the middle of a plasma storm, but this doesn't stop the Rebels from stationing an elite ship here as an ambush.</text>
+
+<!--PIRATES_SCRAPPING-->
+<text name="PIRATES_SCRAPPING_START">You see a band of pirates scrapping the debree field of a Federation/Rebel battle.</text>
+<text name="PIRATES_SCRAPPING_FIGHT">Engage them.</text>
+<text name="PIRATES_SCRAPPING_FIGHTSCATTER">The pirates immediately scatter, leaving the field for yourself.</text>
+<text name="PIRATES_SCRAPPING_FIGHTFIGHT">The pirate you engage powers its weapons, while the others continue scrapping.</text>
+<text name="PIRATES_SCRAPPING_FIGHTFIGHT_END">You turn to see that the other pirates hurried to finish scrapping while you were distracted and jumped away.</text>
+<text name="PIRATES_SCRAPPING_FIGHTSWARMED">As you approach one of the pirates with your weapons drawn all the other pirates notice and begin swarming you! Unable to fight so many ships at once, you retreat until they stop attacking you and return to the debree field.</text>
+<text name="PIRATES_SCRAPPING_SCRAP">Try to scrap yourself.</text>
+<text name="PIRATES_SCRAPPING_SCRAPFIGHT">As you approach the debree field one of the bigger pirate ships sees you and attacks!</text>
+<text name="PIRATES_SCRAPPING_SCRAPSCRAP">You scrap some of the debree field, the pirates mostly ignore you.</text>
+<text name="PIRATES_SCRAPPING_SCRAPSWARMED">As you approach the debree field all the pirates turn around and begin swarming you! Unable to fight so many ships at once, you retreat until they stop attacking you and return to the debree field.</text>
+
+<text name="PIRATE_TATSCRAPPING_ESCAPE">The pirate ship begins powering its hyperdrive, it's trying to escape.</text>
+<text name="PIRATE_TATSCRAPPING_DESTROYED">The pirate ship explodes and becomes one with the debree field.</text>
+<text name="PIRATE_TATSCRAPPING_DEAD">With the pirates dead you move the ship out of the debree field and scrap it.</text>
+
+<!--FED_BOMBED-->
+<text name="TAT_FED_BOMBED_INTRO">You find a Federation settlement that's been heavily bombed by Rebel forces, most important infrastructure is heavily damaged or destroyed to the point where you are not sure how long they will last in this state. They hail you "You're Federation, right? do you have any supplies you can donate? we could really use them."</text>
+<text name="TAT_FED_BOMBED_NO">You have no way to help.</text>
+<text name="TAT_FED_BOMBED_NOED">You apologize and tell them you don't have anything they could use.</text>
+<text name="TAT_FED_BOMBED_MED">(Level 3 Medbay) Have your Medbay synthesize medical supplies.</text>
+<text name="TAT_FED_BOMBED_MEDED">You set your medbay to produce a variety of different medicinal chemicals and get to work distributing them, after a while you've provided enough to hopefully last them until the next Federation transport arrives. The settlement is thankful and offers some supplies they can't use due to lack of infrastructure.</text>
+<text name="TAT_FED_BOMBED_REPAIR_DRONE">(Repair Drone) Send in your Repair Drone for repairs.</text>
+<text name="TAT_FED_BOMBED_REPAIR_DRONED">You send in your crew with your repair drone and are able to get some basic infrastructure working again in under a hyperdrive cycle, this should hopefully keep them in the clear until the next Federation transport arrives. The settlement is thankful and offers some supplies they can't use due to lack of infrastructure.</text>
+<text name="TAT_FED_BOMBED_HEAL">(Healing Burst) Donate your Healing Burst to the settlement.</text>
+<text name="TAT_FED_BOMBED_HEALED">You give them your Healing Burst and instruct them on how to operate them, this should hopefully keep them in the clear until the next Federation transport arrives. The settlement is thankful and offers some supplies they can't use due to lack of infrastructure.</text>
+<text name="TAT_FED_BOMBED_REPAIR">(Repair Burst) Use your Repair Burst to repair some of the damage.</text>
+<text name="TAT_FED_BOMBED_REPAIRED">You target several of their key structures and repair some of the damage, this should hopefully keep them in the clear until the next Federation transport arrives. The settlement is thankful and offers some supplies they can't use due to lack of infrastructure.</text>
+<text name="TAT_FED_BOMBED_LANIUS">(Lanius Crew-Member) Have your Lanius crew convert their scrap into equipment.</text>
+<text name="TAT_FED_BOMBED_LANIUSED">Your Lanius gets to work fabricating all kinds of basic equipment from spare scrap, after a while you've provided enough to hopefully last them until the next Federation transport arrives. The settlement is thankful and offers some supplies they can't use due to lack of infrastructure.</text>
+
+<!--Crystal Sector-->
+<!--CRYSTAL_CACHE-->
+<text name="event_CRYSTAL_CACHE_c2_choice">(Missiles) Use a Missile to cause a breach.</text>
+<text name="event_CRYSTAL_CACHE_TATBOMB">(Breach Bomb) Use a Breach Bomb to cause a breach.</text>
+<text name="event_CRYSTAL_CACHE_c2_text">Your warheads dislodge and shatter a massive shard of crystal, leaving your away team enough space to climb down and take a look.</text>
+
+<!--CRYSTAL_CONVOY-->
+<text name="ship_CRYSTAL_CONVOY_surrender_TAT1_text">They apologize for their hasty response to your presence and spend some time restocking and repairing both ships.</text>
+
+<!--CRYSTAL_REBEL-->
+<text name="CRYSTAL_REBEL_TATSHIP_destroyed_text">The Rebel ship experiences rapid dissasebly, leaving you with scrap to collect.</text>
+<text name="CRYSTAL_REBEL_TATSHIP_deadCrew_text">With the crew dead you're free to tear the ship apart for valuables.</text>
+
+<!--CRYSTAL_AUTO-->
+<text name="event_CRYSTAL_AUTO_text">The Rebels must have sent their automated scouts to find you as one jumps in and immediately moves to attack. This isn't your only concern however as a nearby Crystal military base sees the commotion and begins firing at the both of you.</text>
+
+<!--CRYSTAL_MANTIS_CRYSTAL-->
+<text name="event_CRYSTAL_MANTIS_CRYSTAL_c1_choice">You activate your impulse engines and fly between the Mantis and their prey, they hail you. "Out of the way! finally we have the chance to hunt something new and you wont take it away from us!"</text>
+<text name="ship_MANTIS_CRYSTAL_destroyed_text">As the ship explodes you are happy that they won't kill any more Crystals but upset at how they are only here because of you.</text>
+<text name="ship_MANTIS_CRYSTAL_deadCrew_text">With the Mantis crew dead you are happy that they won't kill any more Crystals but upset at how they are only here because of you.</text>
+<text name="CRYSTAL_TATMANTIS_SAVED_text">"Those guys where vicious. If that's what's waiting for us outside then maybe we should remain isolated. Regardless we appreciate your help, we'll be keeping what remains of the ship and you can have this:"</text>
+<text name="CRYSTAL_TATMANTIS_SAVED2_text">They give you an augment.</text>
+<text name="CRYSTAL_TATMANTIS_SAVED3_text">They give you a drone.</text>
+
+<!--CRYSTAL_PIRATE_CRYSTAL-->
+<text name="event_CRYSTAL_PIRATE_CRYSTAL_text">You find a non Crystal pirate ship sieging a Crystal space station, as you approach the ship hails you, "Where the hell are we? You know what? who cares." They arm weapons.</text>
+<text name="ship_PIRATE_CRYSTAL_SURRENDERTAT">"Ok! ok! We give up! Just tell us how to leave this place."</text>
+<text name="ship_PIRATE_CRYSTAL_SURRENDEREDTAT">Accept their surrender.</text>
+<text name="ship_PIRATE_CRYSTAL_SURRENDERED2TAT">Reject their surrender.</text>
+<text name="ship_PIRATE_CRYSTAL_ESCAPETAT">You have a feeling they didn't intend to hail you "Yeah I know we don't know where we'll end up! Just punch it anyway!" It seems they want to jump away.</text>
+<text name="ship_PIRATE_CRYSTAL_destroyed_text">Their ship explodes, one less problem for the Crystals to worry about. You attempt to message the station but they reject your hails.</text>
+<text name="ship_PIRATE_CRYSTAL_deadCrew_text">Their crew is dead, one less problem for the Crystals to worry about. You attempt to message the station but they reject your hails.</text>
+
+<!--CRYSTAL_FED-->
+<!--CRYSTAL_FED_DESERTER-->
+<!--CRYSTAL_HUMAN_TESTS-->
+<text name="event_CRYSTAL_HUMAN_TESTS_TATMED">(Lvl 3 Medbay) Offer your medical records.</text>
+<text name="event_CRYSTAL_HUMAN_TESTS_TATCLONE">(Lvl 3 Clonebay) Offer your medical records.</text>
+
+<!--CRYSTAL_CHATTY-->
+<!--CRYSTAL_REQUEST-->
+<text name="event_CRYSTAL_REQUEST_TATFTL">(Adv. FTL Navigation) Accept the scrap but give them falsified flight plans.</text>
+<text name="event_CRYSTAL_REQUEST_TATFTLED">Your advanced navigation computer allows you to create a very convincing flight plan. They accept it as true and give you the scrap. The deception may not be the most honorable tactic but staying ahead of the fleet is your highest priority.</text>
+
+<!--CRYSTAL_HELP_DIG-->
+<text name="event_CRYSTAL_HELP_DIG_TATTELE">(Crew Teleporter System) Teleport the men out.</text>
+<text name="event_CRYSTAL_HELP_DIG_TATTELED">Your teleporter warps the crystaline beings out, "You just saved us a lot opf trouble, here, have this."</text>
+
+<!--BOARDERS_CRYSTAL-->
+<!--TAT_CRYSTAL_ASTEROID-->
+<text name="TAT_CRYSTAL_ASTEROID_INTRO">You arrive at an asteroid field where a decrepid looking crystal ship "greets" you, "This are my asteroids! MINE! You hear me! Stop coming here!" They arm their weapons and you do the same.</text>
+<text name="TAT_CRYSTAL_ASTEROID_SHIP_SURRENDER">"Fine! FINE! You can traverse my field as long as you leave me alone!"</text>
+<text name="TAT_CRYSTAL_ASTEROID_SHIP_SURRENDERED">Accept their surrender.</text>
+<text name="TAT_CRYSTAL_ASTEROID_SHIP_SURRENDERNO">Continue the attack.</text>
+<text name="TAT_CRYSTAL_ASTEROID_SHIP_DESTROYED">The crystal ship creaks and groans before clanly falling apart.</text>
+<text name="TAT_CRYSTAL_ASTEROID_SHIP_DEAD">With the angry Crystal and his crew dead you scrap some of it before it crashes into a large asteroid.</text>
+
+<!--TAT_CRYSTAL_STAR-->
+<text name="TAT_CRYSTAL_STAR_INTRO">The Crystals have placed this beacon dangerously close to a neraby star, as you start preparing your hyperdrive a scorched Crystal ship hails you "You will be tested here, outsider, don't hold back"</text>
+<text name="TAT_CRYSTAL_STAR_SHIP_SURRENDER">"You have proven yourself a worthy oponent, we yield."</text>
+<text name="TAT_CRYSTAL_STAR_SHIP_SURRENDERED">Accept their surrender.</text>
+<text name="TAT_CRYSTAL_STAR_SHIP_SURRENDERNO">Don't hold back.</text>
+<text name="TAT_CRYSTAL_STAR_SHIP_DESTROYED">The crystal ship explodes, its charred hull now indistinguishable from nearby asteroids.</text>
+<text name="TAT_CRYSTAL_STAR_SHIP_DEAD">With the Crystal crew dead you scrap what you can of the ship before it begins falling into the sun.</text>
+
+<!--TAT_CRYSTAL_NEUTRON-->
+<text name="TAT_CRYSTAL_NEUTRON_INTRO">A Crystal ship immediately locks onto you, "Do you have any idea how many will die because of your actions? Your rebels are after us now!"</text>
+<text name="TAT_CRYSTAL_NEUTRON_SHIP_ESCAPE">You detect they're charging up their hyperdrive in order to escape.</text>
+<text name="TAT_CRYSTAL_NEUTRON_SHIP_SURRENDER">"Are you gonna kill us too and give those rebels an easier time?"</text>
+<text name="TAT_CRYSTAL_NEUTRON_SHIP_SURRENDERED">Accept their surrender.</text>
+<text name="TAT_CRYSTAL_NEUTRON_SHIP_SURRENDERNO">Maintain the assault.</text>
+<text name="TAT_CRYSTAL_NEUTRON_SHIP_DESTROYED">The crystal ship explodes, sending you one last message filled with insults and expletives.</text>
+<text name="TAT_CRYSTAL_NEUTRON_SHIP_DEAD">With the Crystal crew dead you scrap what you can of the ship before it begins falling into the star.</text>
+
+<!--TAT_CRYSTAL_STORM-->
+<text name="TAT_CRYSTAL_STORM_INTRO">As you see your power be drained from your ship a Crystal ship engages you, refusing all hails.</text>
+<text name="TAT_CRYSTAL_STORM_SHIP_ESCAPE">You detect they're charging up their hyperdrive in order to escape.</text>
+<text name="TAT_CRYSTAL_STORM_SHIP_SURRENDER">They hail you in order to unconditionallly surrender.</text>
+<text name="TAT_CRYSTAL_STORM_SHIP_SURRENDERED">Accept their surrender.</text>
+<text name="TAT_CRYSTAL_STORM_SHIP_SURRENDERNO">Maintain the assault.</text>
+<text name="TAT_CRYSTAL_STORM_SHIP_DESTROYED">The crystal ship explodes, their parts floating off into the nebula.</text>
+<text name="TAT_CRYSTAL_STORM_SHIP_DEAD">With the Crystal crew dead you scrap what you can of the ship.</text>
+
+<!--TAT_CRYSTAL_SLUG-->
+<text name="TAT_CRYSTAL_SLUG_INTRO">Where there's a nebula there's a slug, you are hailed by a slug ship "Are you the onesss that opened the gate? thisss opens so many opportunities for us. Here, have thisss as a token of our gratitude."</text>
+<text name="TAT_CRYSTAL_SLUG_ACCEPT">Accept their gift.</text>
+<text name="TAT_CRYSTAL_SLUG_ACCEPTED">No sooner they exit your ship some of the crates they sent you explode, they were rigged!</text>
+<text name="TAT_CRYSTAL_SLUG_REFUSE">Reject their gift.</text>
+<text name="TAT_CRYSTAL_SLUG_REFUSED">As soon as you reject them they shut comms and power weapons, it seems they had ill intent all along.</text>
+
+<!--TAT_CRYSTAL_LANIUS-->
+<text name="TAT_CRYSTAL_LANIUS_INTRO">A Crystal ship hails you before jumping away, "The Lanius are here, you should leave, outsiders." They were not wrong, as you charge your hyperdrive a Lanius ship spots you and engages.</text>
+
+<!--TAT_CRYSTAL_ASB-->
+<text name="TAT_CRYSTAL_ASB_INTRO">You stumble upon an outpost on high alert, "Fire on all the outsider causing chaos on our sector!" A Crystal ship moves in.</text>
+
+<!--TAT_FLEET_SUN-->
+<text name="TAT_FLEET_SUN_INTRO">You warp in orbit of a planet which is itself in a very close orbit of a star, this has not stopped people from settling there nor has it stopped the Rebels from launching a full scale invasion here.</text>
+
+<!--TAT_FLEET_ASTEROIDS-->
+<text name="TAT_FLEET_ASTEROIDS_INTRO">You are surrounded by large asteroids and larger Rebel ships, it seems this beacon is of strategic importance as they are willing to position a fleet here.</text>
+
+<!--TAT_FLEET_NEUTRON-->
+<text name="TAT_FLEET_NEUTRON_INTRO">You warp in orbit of a planet which is itself in orbit of a neutron star, unfortunately the rebels have already begun a full scale invasion here and have deployed a ship in your direction.</text>
+
+<!--TAT_ASB_ALL-->
+<text name="TAT_ASB_ALL_INTRO">You are greeted by chaos as a huge fight between the Rebels and Federation rages on, you hope to go unnoticed but a Rebel ship quickly intercepts you.</text>
+
+<!--ENGI_SURRENDER-->
+<text name="event_ENGI_SURRENDER_TATFIGHT">Before they get to transfer anything another Engi ship jumps in and powers weapons!</text>
+
+<!--ENGI_MANTIS_FIGHT-->
+<text name="ENGI_MANTIS_FIGHT_SHIP_ESCAPE">The Mantis ship is powering its hyperdrive and trying to escape!</text>
+<text name="ENGI_MANTIS_FIGHT_END">An Engi ship jumps in "Slaver neutralized? appreciation dispached."</text>
+<text name="ENGI_MANTIS_FIGHT_DESTROYED">The Mantis ship explodes into many razor sharp pieces.</text>
+<text name="ENGI_MANTIS_FIGHT_DEAD">With the crew dead you are free to dissasemble the ship.</text>
+
+<!--TAT_ENGI_MANTIS_FIGHT-->
+<text name="TAT_ENGI_MANTIS_FIGHT_INTRO">You arrive at a pulsar system only to find a Mantis ship raiding a semi-destroyed Engi station. When they see you, the ship springs to life and charges at you.</text>
+<text name="TAT_ENGI_MANTIS_FIGHT_SHIP_SURRENDER">The Mantis ship stops firing and points some escape pods with cargo in your direction, it seems to be willing to surrender.</text>
+<text name="TAT_ENGI_MANTIS_FIGHT_SHIP_SURRENDERED">Accept their surrender.</text>
+<text name="TAT_ENGI_MANTIS_FIGHT_SHIP_SURRENDERED2">Blow them up.</text>
+<text name="TAT_ENGI_MANTIS_FIGHT_SHIP_ESCAPE">The Mantis ship is powering its hyperdrive, they seem to be willing to leave the Mantis on the station stranded.</text>
+<text name="TAT_ENGI_MANTIS_FIGHT_SHIP_DESTROYED">The Mantis ship explodes, and when a chunk of the ship collides with it so does the station.</text>
+<text name="TAT_ENGI_MANTIS_FIGHT_SHIP_DEAD">With the Mantis ship neutralized you scan the station to find the only survivors are the Mantis raiders who seem very angry at you.</text>
+
+<!--ENGI_STATION_DISTRESS-->
+<!--DISTRESS_ENGI_REBEL-->
+<text name="event_DISTRESS_ENGI_REBEL_RESULT_c2_choice">Give them 30 scrap, 2 missiles, 2 drones and 2 fuel.</text>
+
+<!--ENGI_SEX-->
+<text name="event_ENGI_SEX_TAT_SENSOR">(Lvl 2 Sensors) Scan the ships.</text>
+<text name="event_ENGI_SEX_TAT_SENSORED">You aren't sure how to interpret the data but you learn that this is an intentional maneuver of some kind and that neither ship is at risk of critical damage. Perhaps it's best for you to leave, not before taking some of nearby debree.</text>
+<text name="event_ENGI_SEX_TAT_EMEN">(Emen Crew-Member) Have your Emen crew-member analize the situation.</text>
+<text name="event_ENGI_SEX_TAT_EMENED">After going over your limited data your Emen crew informs you that this is actually standard practise for Engi ships and that it's best to just leave them alone, this doesn't stop you however from collecting the debree that floated in your direction.</text>
+<text name="ship_ENGI_SEX_SHIP_AGAIN">As soon as the ship stopped funtioning the other ship turns its weapons towards you!</text>
+<text name="ship_ENGI_SEX_SHIP_2_destroyed_text">The second ship explodes, leaving you surrounded in a large field of debree.</text>
+<text name="ship_ENGI_SEX_SHIP_2_deadCrew_text">The second ship is down, leaving you both ships for scrapping.</text>
+
+<!--ENGI_VIRUS-->
+<text name="event_ENGI_VIRUS_TAT_EMEN">(Emen Crew-Member) Have your Emen crew purge the virus.</text>
+<text name="event_ENGI_VIRUS_TAT_EMENED">Your crew interfaces with the ship but the virus must have expected that as the Emen immediately shuts off and stops responding. Detecting activity on board your ship, the Engi vessel opens fire!</text>
+<text name="event_ENGI_VIRUS_REBORN_EMEN_text">Eventually your Emen crew wakes up again. It looks as if the virus fused with the Emen host and wants to travel with you... and it seems to have learned a great deal from its time on your ship.</text>
+
+<!--TAT_ENGI_STORE-->
+<text name="TAT_ENGI_STORE_INTRO">You find an engi merchant station in orbit around a neutron star, they hail, "assessment, our ion Equipment has been refined to maximum efficiency, acquire at reasonable price"</text>
+
+<!--TAT_ENGI_SUN-->
+<text name="TAT_ENGI_SUN_INTRO">An Engi station is in low orbit of this star, "Warning: restricted space violation, leave confidential area or be detained." They are not waiting for you to charge your hyperdrive.</text>
+
+<!--TAT_ENGI_ASTEROID-->
+<text name="TAT_ENGI_ASTEROID_INTRO">There's an Engi ship weaving through the asteroid field towards you, "Assesment: Instigator of Rebel invasion present, starting neutralization."</text>
+
+<!--TAT_ENGI_NEUTRON-->
+<text name="TAT_ENGI_NEUTRON_INTRO">An Engi ship is waiting for you at this pulsar, "Hyperdrive damaged, external source required. Force deemed necesary." It seems this is a fight.</text>
+
+<!--TAT_ENGI_ROCK_NEUTRON-->
+<text name="TAT_ENGI_ROCK_NEUTRON_INTRO">A rock ship charges at you, "You humonculy are an abomination of man! You can only be redeemed with fire!" Ok then.</text>
+
+<!--TAT_ENGI_SLUG_NEUTRON-->
+<text name="TAT_ENGI_SLUG_NEUTRON_INTRO">"Hello travelersss, our hyperdrive isss bust and we have been stuck orbiting this pulsar for days. I hope you understand we need yours more than you do."</text>
+
+<!--TAT_ENGI_STAR_NEUTRON-->
+<text name="TAT_ENGI_STAR_NEUTRON_INTRO">You immediately regret choosing this beacon when you see the binary star system nearby, and the rapidly approaching Engi ship that is only speaking in actual binary.</text>
+
+<!--TAT_ENGI_EMEN-->
+<text name="TAT_ENGI_EMEN_INTRO">An Emen ship and an Engi ship are at a standoff, you hail them and the Engi claim that the Emen were attempting to hack their ship while the Emen deny the alegation and claim the Engi were spying on them.</text>
+<text name="TAT_ENGI_EMEN_ENGI">Side with the Engi</text>
+<text name="TAT_ENGI_EMEN_ENGI_ENGI">"Federation: Innefective as usual." The Emen ship jumps away, and when you look back the Engi ship is gone too.</text>
+<text name="TAT_ENGI_EMEN_ENGI_EMEN">The Emen ship cuts off comms and powers up weapons.</text>
+<text name="TAT_ENGI_EMEN_EMEN">Side with the Emen</text>
+<text name="TAT_ENGI_EMEN_EMEN_ENGI">The Engi ship cuts off comms and powers up weapons.</text>
+<text name="TAT_ENGI_EMEN_EMEN_EMEN">"Assesment: Support of Federation pointless." The Engi ship shuts off, seemingly entering hybernation and the Emen ship jumps away.</text>
+<text name="TAT_ENGI_EMEN_LEAVE">Attempt to leave</text>
+<text name="TAT_ENGI_EMEN_LEAVE_ENGI">Offended a Federation ship wouldn't take their side, the Engi ship shuts off comms and attacks!</text>
+<text name="TAT_ENGI_EMEN_LEAVE_EMEN">Offended by your lack of commitment to this conflict, the Emen ship shuts off comms and attacks!</text>
+<text name="TAT_ENGI_EMEN_LEAVE_LEAVE">Both ships are too busy fighting with each other to notice you slowly backing away.</text>
+<text name="TAT_ENGI_EMEN_EMEN_SHIP_SURRENDER">The Emen ship seems to be looking to flee rather than fight, they are powering their hyperdrive.</text>
+<text name="TAT_ENGI_EMEN_ENGI_SHIP_SURRENDER">The Engi ship seems to be looking to flee rather than fight, they are powering their hyperdrive.</text>
+<text name="TAT_ENGI_EMEN_EMEN_SHIP_DESTROYED">With the Emen ship gone the Engi thank you and offer you a drone schematic.</text>
+<text name="TAT_ENGI_EMEN_ENGI_SHIP_DESTROYED">With the Engi ship gone the Emen thank you and offer you a weapon.</text>
+<text name="TAT_ENGI_EMEN_EMEN_SHIP_DEAD">With the Emen ship not a threat the Engi thank you and offer you a drone schematic.</text>
+<text name="TAT_ENGI_EMEN_ENGI_SHIP_DEAD">With the Engi ship not a threat the Emen thank you and offer you a weapon.</text>
+
+<!--TAT_ENGI_NEUTRON_ASTEROID-->
+<text name="TAT_ENGI_NEUTRON_ASTEROID_INTRO">You arrive at an asteroid ring orbiting a pulsar. An Engi ship approaches you, weapons drawn. "Violation of Engi quarantine protocol 1514, please remove yourselves." They don't seem keen on waiting for your hypedrive to charge.</text>
+
+<!--TAT_PIRATE_PULSAR-->
+<text name="TAT_PIRATE_PULSAR_INTRO">This neutron star seemed deserted at first but that changed when you spot a pirate station rising over the horizon, with a patrol ship on an intercept course.</text>
+
+<!--TAT_ENGI_BOARDING-->
+<text name="TAT_ENGI_BOARDING_INTRO">As soon as you arrive you hear a raiding party teleport in, Engi pirates!</text>
+
+<!--TAT_ENGI_ASB-->
+<text name="TAT_ENGI_ASB_INTRO">This beacon has a warning about a rogue Engi virus that overtook the area, however before you can jump an infected ship intercepts you.</text>
+
+<!--TAT_ENGI_NEBULA-->
+<text name="TAT_ENGI_NEBULA_INTRO">An Engi ship emerges from the clouds, "Pirate located: Initiating containment." You try to contact them but they refuse all hails.</text>
+
+<!--TAT_ENGI_STORM-->
+<text name="TAT_ENGI_STORM_INTRO">An Engi ship seems startled by your sudden appearance, "Enforcers already? Starting undetection." They seem to be outlaws hiding from other Engis.</text>
+
+<!--TERRAFORMING_SCAN (Uncharted)-->
+<text name="event_TERRAFORMING_SCAN_ADV">(Long Ranged Scanners) Set sensors to maximum and scan.</text>
+
+<!--TAT_NEBULA_FILTRATION-->
+<text name="TAT_NEBULA_FILTRATION_INTRO">"Greetings travelers! We are a recently constructed trade hub in this here sector and are in need of help, you see the air filters we have installed are defective and without proper functioning ones we are at risk of ending up with nebula dust all over the insides of the station. Perchance do you have a mathod to repair/replace them? We will compensate you most generously for the job."</text>
+<text name="TAT_NEBULA_FILTRATION_SCUFF">Attempt improvized repairs</text>
+<text name="TAT_NEBULA_FILTRATION_SCUFFED">Your crew takes a look at the ventilation system but it proves to be too complex for them to handle, after some time you are forced to give up.</text>
+<text name="TAT_NEBULA_FILTRATION_UNSCUFFED">One of your crew is familiar with the filters and is able to quickly diagnose the problem and make a plan to fix them which is implemented in time. "Eyyy, I knew you could do it! Now for what I imagine must be your favorite part."</text>
+<text name="TAT_NEBULA_FILTRATION_ENGI">(Engi Crew-Member) Have the Engi fix them.</text>
+<text name="TAT_NEBULA_FILTRATION_ENGIED">The Engi is familiar with the filters and is able to quickly diagnose the problem and make a plan to fix them which is implemented in time. "Eyyy, I knew you could do it! Now for what I imagine must be your favorite part."</text>
+<text name="TAT_NEBULA_FILTRATION_LANIUS">(Lanius Crew-Member) Have the Lanius raplace them.</text>
+<text name="TAT_NEBULA_FILTRATION_LANIUSED">The Lanius looks at the blueprints and gets to work printing new filters, after a while the station has more than enough. "Eyyy, I knew you could do it! Now for what I imagine must be your favorite part."</text>
+<text name="TAT_NEBULA_FILTRATION_DRONE">(Repair Drone) Fix them with your drone.</text>
+<text name="TAT_NEBULA_FILTRATION_DRONED">Your drone's sensors quickly detect the issue and it gets to work on fixing the filters, after a while the station has all its filters repaired. "Eyyy, I knew you could do it! Now for what I imagine must be your favorite part."</text>
+<text name="TAT_NEBULA_FILTRATION_BOMB">(Repair Bomb Weapon) Bomb their ventilation system.</text>
+<text name="TAT_NEBULA_FILTRATION_BOMBED">You deploy the nanite bomb at the heart of their ventilation system and watch the magic happen, with the filters repaired the station hails you. "Eyyy, I knew you could do it! Now for what I imagine must be your favorite part."</text>
+<text name="TAT_NEBULA_FILTRATION_LAME">Explain you cannot help and move on</text>
+
+<!--MANTIS_CREW-->
+<text name="event_MANTIS_CREW_LIST_1_text">The Mantis inside is FURIOUS. It starts swipin at your crew the moment it got out. Kill it before anyone is killed.</text>
+
+<!--TAT_MANTIS_PULSAR-->
+<text name="TAT_MANTIS_PULSAR_INTRO">You are not sure what a Mantis ship is doing in low orbit around a pulsar but you are sure that it changed its trajectory to a collision course with your ship.</text>
+
+<!--TAT_MANTIS_ASTEROIDS-->
+<text name="TAT_MANTIS_ASTEROIDS_INTRO">A Mantis ship rapidly approaches your location, "With my fire power and asteroids pummeling your ship, your hull is forfeit!"</text>
+
+<!--TAT_MANTIS_ASB-->
+<text name="TAT_MANTIS_ASB_INTRO">You arrive near a planet with a Mantis outpost, you hope they wont bother you but they immediately deploy a ship and start firing.</text>
+
+<!--TAT_MANTIS_STORM-->
+<text name="TAT_MANTIS_STORM_INTRO">"Hey you! Yes you! Congratulations! We are taking your ship."</text>
+
+<!--TAT_MANTIS_VS_ROCK-->
+<text name="TAT_MANTIS_VS_ROCK_INTRO">You spot a Mantis ship and a Rock ship trading shots in the distance.</text>
+<text name="TAT_MANTIS_VS_ROCK_CONTINUE">Intervene.</text>
+<text name="TAT_MANTIS_VS_ROCK_CONTINUED">"You dare interrupt our duel? Outragous!" The Mantis ship charges at you.</text>
+<text name="TAT_MANTIS_VS_ROCK_LEAVE">Let them do their thing.</text>
+<text name="TAT_MANTIS_VS_ROCK_MANTIS_DESTROYED">As soon as the Mantis ship stops firing the Rock ship, who was previously just observing, moves in to attack!</text>
+<text name="TAT_MANTIS_VS_ROCK_ROCK_DESTROYED">With the Rock ship destroyed you are now surrounded by a debree of ship parts.</text>
+<text name="TAT_MANTIS_VS_ROCK_ROCK_DEAD">With the Rock ship down you can now freely scrap both ships.</text>
+
+<!--TAT_REBEL_VS_MANTIS-->
+<text name="TAT_REBEL_VS_MANTIS_INTRO">A volley of laser shots speeds past you as you detect a Mantis and a Rebel ship aggressively fighting each other.</text>
+<text name="TAT_REBEL_VS_MANTIS_MANTIS">Help the Mantis.</text>
+<text name="TAT_REBEL_VS_MANTIS_MANTISED">You join in on the fight against your true enemy. Seeing you engage, the Mantis ship backs off the fight.</text>
+<text name="TAT_REBEL_VS_MANTIS_REBEL">Help the Rebel.</text>
+<text name="TAT_REBEL_VS_MANTIS_REBELED">You decide to help the Rebel take down your common enemy. Seeing you engage, the Rebel ship backs off the fight.</text>
+<text name="TAT_REBEL_VS_MANTIS_LEAVE">Let them fight.</text>
+<text name="TAT_REBEL_VS_MANTIS_REBEL_DESTROYED">With the Rebel ship down you approach the Mantis ship, "I suppose we should be... grateful." They say before leaving.</text>
+<text name="TAT_REBEL_VS_MANTIS_MANTIS_DESTROYED">With the Mantis ship down you approach the Rebel ship, "We will make an exeption... this time." They say before leaving.</text>
+
+<!--TAT_REBEL_UPRISING-->
+<text name="TAT_REBEL_UPRISING_INTRO">You see a large amount of smoke coming out of a nearby settlement, you approach to find there's a full on riot against the occupying Rebel forces taking place, the rioters are gaining ground but you have a feeling that when Rebel military reinforcements arrive things will turn sour fast.</text>
+<text name="TAT_REBEL_UPRISING_FIRE">Fire on the ground Rebel forces.</text>
+<text name="TAT_REBEL_UPRISING_FIRE1">You fire on the Rebels and cause severe damage and even more chaos before several rebel ships arrive, you have to leave before they catch up to you.</text>
+<text name="TAT_REBEL_UPRISING_FIRE2">You fire on the Rebels and they fire back with anti-ship batteries! you don't manage to cause much damage before several rebel ships arrive, you have to leave before they catch up to you.</text>
+<text name="TAT_REBEL_UPRISING_ARTILLERY">(Artillery System) Fire on the ground Rebel forces</text>
+<text name="TAT_REBEL_UPRISING_ARTILLERYED">You charge your artilery while unnoticed then fire a devastating blow on the Rebel forces, between you and the rioters they didn't stand a chance. At least until the reinforcements arrive.</text>
+<text name="TAT_REBEL_UPRISING_LEAVE">Don't intervene.</text>
+
+<!--TAT_FED_UPRISING-->
+<text name="TAT_FED_UPRISING_INTRO">You don't need scanners to see that there's a full on riot occurring in this Federation station, the rioters are carrying Rebel memorabilia which is all you need to know to strongly consider intervening.</text>
+<text name="TAT_FED_UPRISING_HELP">Help the Federation forces.</text>
+<text name="TAT_FED_UPRISING_HELPED1">You deploy your crew behind Rebel lines and take them completely by surprize, they scatter and become easy to subdue. For your help the station offers you some supplies.</text>
+<text name="TAT_FED_UPRISING_HELPED2">You deploy your crew behind Rebel lines and take them completely by surprize, they have been heavily entrenched for a long time though and don't let up, soon you are forced to retreat to avoid losing all of your crew.</text>
+<text name="TAT_FED_UPRISING_HELPED3">You deploy your crew behind Rebel lines but they aparently knew you were coming as you get ambushed as soon as you open the airlock.</text>
+<text name="TAT_FED_UPRISING_DRONE">Send your Anti-Personnel drone to assist.</text>
+<text name="TAT_FED_UPRISING_DRONED">You deploy your crew behind Rebel lines and with the help of your drone are able to cause enough mayhem for the Federation forces to gain the upper hand and subdue the riot. For your help the station offers you some supplies.</text>
+<text name="TAT_FED_UPRISING_LEAVE">Let it sort itself out.</text>
+
+<!--TAT_PIRATE_NO_FUEL-->
+<text name="TAT_PIRATE_NO_FUEL_INTRO">You find a pirate ship docked to the beacon, "Heyyy, you wouldn't happen to have spare fuel, would you? We've been stranded here for months, living off of the beacon's reserves, and no one has helped us so far." You are not convinced giving fuel to a pirate ship is a good idea but you also don't wish for them to be stuck until they die.</text>
+<text name="TAT_PIRATE_NO_FUEL_HELP">Help them.</text>
+<text name="TAT_PIRATE_NO_FUEL_HELP2">"Finally! Here, have some of our stuff in exchange."</text>
+<text name="TAT_PIRATE_NO_FUEL_HELP1">"Finally!" The pirates jump away.</text>
+<text name="TAT_PIRATE_NO_FUEL_NOHELP">Leave them to their fate.</text>
+<text name="TAT_PIRATE_NO_FUEL_NOHELP1">"Well then, I guess we'll just starve."</text>
+<text name="TAT_PIRATE_NO_FUEL_NOHELP2">"You know, you shouldn't antagonize someone who has full control of the nearby beacon." The pirate ship powers on and you detect the beacon firing at you!</text>
+<text name="TAT_PIRATE_NO_FUEL_NOHELP3">"You know, you shouldn't antagonize someone who has full control of the nearby beacon." The pirate ship powers on and you detect a hacking pulse coming from the beacon!</text>
+
+<!--TAT_PIRATE_VS_PIRATE-->
+<text name="TAT_PIRATE_VS_PIRATE_INTRO">You jump in to see pieces of pirate ships scattered everywhere, it seems pirates were fighting each other in this sector and there's now only two left</text>
+<text name="TAT_PIRATE_VS_PIRATE_CHOICE1">Side with the Mantis pirate ship and fight the Engi pirate ship.</text>
+<text name="TAT_PIRATE_VS_PIRATE_CHOICE2">Side with the Engi pirate ship and fight the Mantis pirate ship.</text>
+<text name="TAT_PIRATE_VS_PIRATE_CHOICED">As soon as you approach one of the pirate ships, the other jumps off. It seems it was looking for its chance to escape.</text>
+
+<!--TAT_PIRATE_STATION-->
+<text name="TAT_PIRATE_STATION_INTRO">You stumble on an small automated station with pirate markings, "Gamble on your fate!" your sensors detect the station is well armed but also well stocked.</text>
+<text name="TAT_PIRATE_STATION_GAMBLE">Gamble on your fate!</text>
+<text name="TAT_PIRATE_STATION_NOTHING">"You got outcome 0! Come again later pal!" The station enters hybernation mode.</text>
+<text name="TAT_PIRATE_STATION_BOARD">"You got outcome 1! You better have brought some blasters, buddy!" You detect a teleporter signal and hear banging noises in your ship.</text>
+<text name="TAT_PIRATE_STATION_SHIP">"You got outcome 2! Look out the window, chum!" An automated ship undocks from the station and charges at you.</text>
+
+<text name="TAT_PIRATE_STATION_DAMAGE">"You got outcome 3! We are beaming with happiness, friend!" A beam hits yout ship, damaging key systems.</text>
+<text name="TAT_PIRATE_STATION_HEAL">"You got outcome 4! Release the swarm, comrade!" A small fleet of repair bots exits the station and repairs your ship.</text>
+
+<text name="TAT_PIRATE_STATION_FIRE">"You got outcome 5! Fire in the hole, stranger!" A beam hits your ship, dealing no damage but setting several fires.</text>
+<text name="TAT_PIRATE_STATION_BREACH">"You got outcome 6! Go touch some space, bro!" A beam hits your ship, dealing no damage but creating several breaches.</text>
+<text name="TAT_PIRATE_STATION_HACK">"You got outcome 7! They don't call me the best shooter in this system for nothing, parnter!" You detect an ASB targeting your ship! you order to power up the hyperdrive and are told that your ship's engines have been hacked.</text>
+
+<text name="TAT_PIRATE_STATION_STEAL">"You got outcome 8! You better not check your cargo, bucko!" You check your cargo to find several items missing.</text>
+<text name="TAT_PIRATE_STATION_SCRAP">"You got outcome 9! Don't spend it all in one place, captain!" A pile of scrap materializes on your engines room.</text>
+<text name="TAT_PIRATE_STATION_FUEL">"You got outcome 10! Fuel for you! Use responsibly!" Conteniers of fuel meterialize on your weapons room, some of it looks stale but it should be usable.</text>
+<text name="TAT_PIRATE_STATION_MISSILES">"You got outcome 11! Boy would this be awkward if you weren't a military ship!" Your crew warns you when a pile of explosives materialize on your shields room, thankfully, a thorough examination confirmed they're innactive.</text>
+<text name="TAT_PIRATE_STATION_DRONES">"You got outcome 12! The best of friends!" You hear a loud bang as a pile of drone parts materializes behind you.</text>
+<text name="TAT_PIRATE_STATION_WEAPON">"You got outcome 13! Make sure goverment ships don't see you with one of these!" The station shoots a military grade ship weapon at your direction.</text>
+<text name="TAT_PIRATE_STATION_DRONE">"You got outcome 14! With friends like these, who needs weapons?" The station transmits a drone schematic.</text>
+<text name="TAT_PIRATE_STATION_AUGMENT">"You got outcome 15! Better! Faster! Stronger!" A drone delivers you an augment.</text>
+
+<text name="TAT_PIRATE_STATION_KILL">"You got outcome 16! Welcome to the crew, compadre!" You do a headcount only to realize one of your crew is missing.</text>
+<text name="TAT_PIRATE_STATION_KILLED">Scans show your missing crew is stuck on the station and not actually dead.</text>
+<text name="TAT_PIRATE_STATION_CREW">"You got outcome 17! Fresh off the oven, captain!" You see a pod with a person materialize in your bridge.</text>
+
+<text name="TAT_PIRATE_STATION_FLEET_SPEED">"You got outcome 18! Hello everyone! Juicy Federation ship here!" Your reciever detects its emiting this signal to all nearby beacons.</text>
+<text name="TAT_PIRATE_STATION_FLEET_DELAY">"You got outcome 19! "Go sneak somewhere, sneaky spy!" Your reciever detects its emiting all sorts of junk data to all nearby beacons.</text>
+
+<text name="TAT_PIRATE_STATION_REACTOR">"You got outcome 20! UNLIMITED POWER!" The station lobs a miniaturized nuclear reactor in your general direction.</text>
+
+<text name="TAT_PIRATE_STATION_HACKEM">(Hacking System) Attempt to hack the station.</text>
+<text name="TAT_PIRATE_STATION_YOURE_SO_SMART_ARENT_YOU">Your hacking drone is intercepted mid way by the station's defense system! "Nuh, uh!" the station broadcasts as you detect a power surge across its many systems.</text>
+
+<!--TAT_ASB_REBEL_AUTO-->
+<text name="TAT_ASB_REBEL_AUTO_INTRO">You find a Rebel military outpost, unfortunately, it also finds you.</text>
+
+<!--TAT_REBEL_REFUEL-->
+<text name="TAT_REBEL_REFUEL_INTRO">You find an automated Rebel refueling station, it looks unguarded.</text>
+<text name="TAT_REBEL_REFUEL_FUEL">Steal the fuel.</text>
+<text name="TAT_REBEL_REFUEL_FUELED">You take the fuel your ship can process then dump the rest.</text>
+<text name="TAT_REBEL_REFUEL_DELAY">Contaminate the fuel.</text>
+<text name="TAT_REBEL_REFUEL_DELAYED">You put dump part of your water reserves on the fuel, this should make it unusable but the Rebels won't know until they fuel up and use it.</text>
+
+<!--TAT_REBEL_SUN-->
+<text name="TAT_REBEL_SUN_INTRO">There's a worn down Rebel ship here. It's engaging you despite being heavily scorched, seemingly wanting to take you down with it.</text>
+
+<!--TAT_REBEL_ASTEROID-->
+<text name="TAT_REBEL_ASTEROID_INTRO">A Rebel captain appears on your feed "Normally we leave auto-ships stationed in these kinds of environments, but this is personal." A Rebel ship emerges from behind an asteroid and intercepts you.</text>
+
+<!--TAT_REBEL_NEUTRON-->
+<text name="TAT_REBEL_NEUTRON_INTRO">You recieve a message from the nearby Rebel ship, "We are coming, Federation. You may be able to beat me, but you cannot beat us all. We are many and you are just a few scattered remains." You prepare to engage.</text>
+
+<!--ROCK_LOOTING-->
+<text name="event_ROCK_LOOTING_STRIP_TAT_PIRATE">Mid scrapping a pirate ship jumps in and engages, it seems to want to scrap you both.</text>
+
+<!--ROCK_STARSHIP_MINE-->
+<text name="event_ROCK_STARSHIP_MINE_TAT_IGNITE">(Weapon Pre-Igniter) Shoot it down!</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_IGNITED">You fire all your weapons and one of them hits the mine, disabling it. That was too close for comfort.</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_CLOAK">(Cloaking system) Cloak the ship and hide!</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_CLOAKED">You cloak the ship and lay low, the mine speeds past you and hits an asteroid instead.</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_ZOLTAN">(Zoltan Shield) Block it with your shield.</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_ZOLTANED">The mine hits your shield and explodes spectacularly, the ship is shaken but undamaged. You should thank the Zoltans when you finish your mission.</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_PLATE">(Rock Armor Augmentation) Block any hull damage with your plating.</text>
+<text name="event_ROCK_STARSHIP_MINE_TAT_PLATED">The mine explodes, throwing your ship on a tailspin and damaging several of your systems, but the hull is intact and that's what matters.</text>
+
+<!--NEBULA_WEAPONS_TRADER (Nebula)-->
+<text name="event_NEBULA_WEAPONS_TRADER_TAT_DRONE">Purchase an unknown drone for 45 scrap.</text>
+<text name="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONED">You transfer the scrap and receive a drone in return. Lets hope it was worth it.</text>
+<text name="NEBULA_WEAPONS_TRADER_LIST_TAT_DRONED2">Once "convinced" to help he lowers the price and describes the drone. However, he eventually comes to his senses and confusedly takes back his discount. He is clearly unsure why he offered it in the first place.</text>
+<text name="event_NEBULA_WEAPONS_TRADER_TAT_AUGMENT">Purchase an unknown augment for 45 scrap.</text>
+<text name="event_NEBULA_WEAPONS_TRADER_TAT_AUGMENTED">You transfer the scrap and receive a weapon in return. Lets hope it was worth it.</text>
+<text name="event_NEBULA_WEAPONS_TRADER_TAT_AUGMENTED2">Once "convinced" to help he lowers the price and describes the augment. However, he eventually comes to his senses and confusedly takes back his discount. He is clearly unsure why he offered it in the first place.</text>
+
+<!--NEBULA_SLUG_CHOOSE_DEATH-->
+<text name="event_NEBULA_SLUG_CHOOSE_DEATH_TAT_OTHER">Secondary systems.</text>
+<text name="event_NEBULA_SLUG_CHOOSE_DEATH_TAT_OTHERED">"You think thisss will be the easier option? Ha!" Several of your systems go offfline.</text>
+
+<!--NEBULA_BATTLEFIELD (Slug/Nebula/Abandoned)-->
+<text name="event_SECRET_WORD_ABADOTH_CONCLUSION_TAT1">ADABOTH.</text>
+<text name="event_SECRET_WORD_ABADOTH_CONCLUSION_TAT2">ABATHOD.</text>
+
+<!--ZOLTAN_RIFT_FIGHT-->
+<text name="event_ENGI_RIFT_FIGHT_TAT">Engi.</text>
+<text name="event_ENGI_RIFT_FIGHT_TATED">"You think the Engi weak? You will learn!" A wormhole opens up and an Engi ship charges at you, drones at the ready.</text>
+<text name="event_LANIUS_RIFT_FIGHT_TAT">Lanius.</text>
+<text name="event_LANIUS_RIFT_FIGHT_TATED">"Then you will return to scrap!" You detect a Lanius ship emerging from a wormhole, emiting all sorts of incomprehensible radio signals.</text>
+<text name="event_EMEN_RIFT_FIGHT_TAT">Emen.</text>
+<text name="event_EMEN_RIFT_FIGHT_TATED">"They outsmarted you once and they will outsmart you again!" A rift opens up, spitting an Emen ship that promptly activates.</text>
+<text name="event_REBEL_RIFT_FIGHT_TAT">Rebel.</text>
+<text name="event_REBEL_RIFT_FIGHT_TATED">"The classic! But we all know how this one ends." A large rift opens up and you can see the rebel armada on the other side, it promptly closes but not before a ship makes it through.</text>
+
+<!--NEBULA_ZOLTAN_EYE-->
+<text name="NEBULA_ZOLTAN_EYE_LIST_TAT_FIGHT">"The eye rejects you, interloper." They power their weapons.</text>
+<text name="NEBULA_ZOLTAN_EYE_LIST_FLEET">As you approach, you see a breach in space, within it you can see yourself running from the Rebels after stealing their intelligence, dumping raw FTL fuel in the hyperdrive in a desperate attempt to outrun the Rebel fleet. You see a mirror you that stares back, sharing your surprized expression. You then see yourself confronting the Rebel Flagship, both ships taking heavy hits. The breach closes as the entire planet suddenly vanishes "The Eye recognizes your cause and has decided to face down the Rebel fleet."</text>
+
+<!--STORE_REBELSIDE_SEARCH_TAT_DIE-->
+<text name="STORE_REBELSIDE_SEARCH_TAT_DIE">They must have alerted the Rebels because you soon stumble upon a Rebel ship and the station begins firing at you!</text>
+
+<!--LANIUS_TRADER_TRANSLATOR (FILLER)-->
+<text name="event_LANIUS_TRADER_LIST_TAT_FUEL">Sell fuel.</text>
+<text name="event_LANIUS_TRADER_LIST_TAT_MISSILE">Sell missiles.</text>
+<text name="event_LANIUS_TRADER_LIST_TAT_DRONE">Sell drones.</text>
+
+<!--TAT_STORE_FEDERATION-->
+<text name="TAT_STORE_FEDERATION_1">You see a small Federation trading hub nearby, seeing that you are also Federation they warmly invite you too see their wares.</text>
+<text name="TAT_STORE_FEDERATION_2">This beacon is part of a huge station with many different modules, you can't stay here very long so you just check their stores.</text>
+<text name="TAT_STORE_FEDERATION_3">A large Federation cruiser is here, they offer some of their equipment in exchange for scrap for repairs.</text>
+<text name="TAT_STORE_FEDERATION_4">You see a Federation colonized planet bustling with activity, as you descend to its surface you think of what supplies would be best to buy.</text>
+
+<!--TAT_FEDERATION_EVIL-->
+<text name="TAT_FEDERATION_EVIL_INTRO">A Federation ship approaches you, you lower your guard until he says "Wouldn't it be great if I delivered that sensitive information you have? Well it wouldn't be great for you but I dont really care."</text>
+<text name="TAT_FEDERATION_EVIL_ESCAPE">The display turns on but instead of seeing the captain you see a fire consuming the room, not long after you detect their hyperdrive's charge.</text>
+<text name="TAT_FEDERATION_EVIL_ESCAPED">The Federation ship jumps away just in time to avoid a coronal emmision, you should probably leave too.</text>
+<text name="TAT_FEDERATION_EVIL_DESTROYED">The ship's generator overheats and explodes, leaving a debree field of dangerously hot metal.</text>
+<text name="TAT_FEDERATION_EVIL_DEAD">You disable the ship and have a small window to scrap it before the situation becomes too unsafe to continue.</text>
+
+<!--TAT_VS_FEDERATION_ASTEROIDS (Federation EXCLUSIVE)-->
+<text name="TAT_VS_FEDERATION_ASTEROIDS_INTRO">A Federation ship hails you, weapons drawn. "You are the reason the Rebels are invading this sector! Now we are all going die while you get to run away? How about no." They cut comms.</text>
+<text name="TAT_VS_FEDERATION_ASTEROIDS_DESTROYED">The ship explodes and collides with a large asteroid, scattering its pieces everywhere.</text>
+<text name="TAT_VS_FEDERATION_ASTEROIDS_DEAD">You shut down the ship's engines and scrap what you can before the hull gives out.</text>
+
+<!--TAT_VS_FEDERATION_PULSAR (Federation EXCLUSIVE)-->
+<text name="TAT_VS_FEDERATION_PULSAR_INTRO">As you are charging your drive, a Federation ship almost rams into you. They proceed to go for a second round, not responding to any hails.</text>
+<text name="TAT_VS_FEDERATION_PULSAR_DESTROYED">The ship's engines overheat and explode, scattering metal in all directions.</text>
+<text name="TAT_VS_FEDERATION_PULSAR_DEAD">With the crew down you turn off the ship and scrap what you can before it gets hit with the pulsar's beam.</text>
+
+<!--TAT_STORE_NEBULA-->
+<text name="TAT_STORE_NEBULA_1">You follow a signal through the nebula towards an outpost selling all kinds of stuff.</text>
+<text name="TAT_STORE_NEBULA_2">The beacon here has had several modules crudely added on top, one of them is advertising ship equipment.</text>
+<text name="TAT_STORE_NEBULA_3">You see a ship stationed in the nebula, advertising a store.</text>
+<text name="TAT_STORE_NEBULA_4">You see a Slug outpost on a nearby station advertising "The bessst pricesss".</text>
+<text name="TAT_STORE_NEBULA_5">A massive Engi ship emerges from the nebula and approaches you, announcing sales of some kind, you dock with the ship to find it's piloted by a single (very cheery) Engi with a small army of drones.</text>
+
+<!--TAT_STORE_ABANDONED-->
+<text name="TAT_STORE_ABANDONED_1">A group of scavengers has set up a shop inside a destroyed cruiser, it's probably worth a look.</text>
+<text name="TAT_STORE_ABANDONED_2">The beacon here has been crudely repaired and added to by a small group who claim to have salvage to sell.</text>
+<text name="TAT_STORE_ABANDONED_3">A massive scavenging ship is stationed here, selling their salvage.</text>
+<text name="TAT_STORE_ABANDONED_4">You see a Lanius ship that claims to have "reformated" the scrap here into useful schematics.</text>
+<text name="TAT_STORE_ABANDONED_5">There's a civilian ship nearby, "Here at Salvage and Salvage Co. we turn scrap into scrap for your benefit!" Seems like they're selling.</text>
+
+<!--NOTHING_ABANDONED-->
+<text name="NOTHING_ABANDONED_1">You see nothing but the husk of an already stripped large cruiser.</text>
+<text name="NOTHING_ABANDONED_2">The beacon here looks much more damaged and unstable than pre-jump scans showed, better to get out of here before you're left stranded.</text>
+<text name="NOTHING_ABANDONED_3">A group of scavengers is processing a destroyed Federation cruiser here, they don't respond to hails.</text>
+<text name="NOTHING_ABANDONED_4">You see a Rebel station nearby but closer inspection reveals it's in the process of falling from orbit to the planet, making an approach way too risky</text>
+<text name="NOTHING_ABANDONED_5">There's ruins on the nearby planet, but almost everything has been bombed to rubble then later scrapped.</text>
+<text name="NOTHING_ABANDONED_6">You see a very damaged pirate ship with no life signatures nearby, however when you appreach the ship somehow suddenly jumps away.</text>
+
+<!--TAT_FEDERATION_VS_FEDERATION-->
+<text name="TAT_FEDERATION_VS_FEDERATION_INTRO">You jump in to find a destroyed Federation ship, only moments later another Federation ship jumps in and assuming you are the perpetrator opens fire!</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_ESCAPE">The ship is following standard Federation protocol (unlike before) and is retreating.</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_ESCAPED">The ship retreats and you are not exactly sad you didn't have to destroy it.</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_SURRENDER">The Federation ship decides now to open comms "Are you going to kill us too, like you killed that other ship?"</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_SURRENDERY">Explain that you are innocent.</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_SURRENDERYES">"Oh, I'm terribly sorry" The captain looks flustered. "Let me give you some supplies and you can have the scrap from the other ship, just don't report this incident to command."</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_DESTROYED">The ship explodes and joins its brother, a grimm sight.</text>
+<text name="TAT_FEDERATION_VS_FEDERATION_DEAD">The crew is down and the ship begins to drift, you consider leaving the ship intact for the Federation to find but you have no control over who finds it.</text>
+
+<!--TAT_ASB_VS_FEDERATION-->
+<text name="TAT_ASB_VS_FEDERATION_INTRO">As soon as you jump in a Federation outpost acuses you of being a Rebel spy! "There are no Federation ships scheduled for arrival in this beacon any time soon." You try to explain your mission but they don't believe you and open fire.</text>
+<text name="TAT_ASB_VS_FEDERATION_DESTROYED">The Federation ship explodes, you should leave before the outpost gets reinforcements.</text>
+<text name="TAT_ASB_VS_FEDERATION_DEAD">The Federation ship falls silent, you should leave before the outpost gets reinforcements.</text>
+
+<!--TAT_ASB_VS_TRAITOR-->
+<text name="TAT_ASB_VS_TRAITOR_INTRO">You see a Federation outpost on full alert as a ship takes off and beggins running away with full throtle, "Get the traitor! They are running with classified information!" the station tells you through comms.</text>
+
+<!--TAT_EMEN_VS_FEDERATION (Federation/Emen)-->
+<text name="TAT_EMEN_VS_FEDERATION_INTRO">You spot an Emen scuadron harassing a worn down Federation fleet, you charge your weapons and engage one of them.</text>
+<text name="TAT_EMEN_VS_FEDERATION_ESCAPE">The Emen ship leads you away from the engagement and starts powering its hyperdrive.</text>
+<text name="TAT_EMEN_VS_FEDERATION_ESCAPED">The ship jumps, you hasten to get back to the fleet to see that they took care of the rest. Since you helped they offer some supplies.</text>
+<text name="TAT_EMEN_VS_FEDERATION_DESTROYED">The ship explodes, you hasten to get back to the fleet to see that they took care of the rest. Their commander wants to keep the remains of the Emen ships for research and offers some of their supplies instead.</text>
+<text name="TAT_EMEN_VS_FEDERATION_DEAD">The ship shuts down, you hasten to get back to the fleet to see that they took care of the rest. Their commander wants to keep the remains of the Emen ships for research and offers some of their supplies instead.</text>
+
+<!--TAT_REBEL_VS_FLEET (Federation/Battlegrounds/LAst Stand)-->
+<text name="TAT_REBEL_VS_FLEET_INTRO">You arrive in the middle of a Federation fleet, you think you are safe but, in an act of reckless disregard for its well being, a Rebel ship jumps in and guns it for your location!</text>
+<text name="TAT_REBEL_VS_FLEET_ESCAPE">The Rebel ship reconsiders its approach and begins disengaging.</text>
+<text name="TAT_REBEL_VS_FLEET_ESCAPED">The Rebel ship manages to jump away and you see several Rebel ships jump in to take its place, it's time to leave.</text>
+<text name="TAT_REBEL_VS_FLEET_DESTROYED">With your attacker destroyed you turn to the fleet and see Rebel reinforcements arrive, it's time to leave.</text>
+<text name="TAT_REBEL_VS_FLEET_DEAD">With your attacker down you turn to the fleet and see Rebel reinforcements arrive, it's time to leave.</text>
+
+<!--TAT_STORE_FEDERATION_LOCKED-->
+<text name="TAT_STORE_FEDERATION_LOCKED_INTRO">You look out the port window to see a large Federation supply ship offering military equipment in echange for scrap, sketchy but you can't afford to be picky.</text>
+
+<!--TAT_FEDERATION_DISABLED-->
+<text name="TAT_FEDERATION_DISABLED_INTRO">You see a Federation ship closely orbiting a gas giant, they message "Our ship is bust and considering this is enemy territory we are not going to be able to find a way to fix it, can we join your ship instead?"</text>
+<text name="TAT_FEDERATION_DISABLED_YES">Accept.</text>
+<text name="TAT_FEDERATION_DISABLED_YESED">As you're transfering the ship's crew and its remaining resources an Elite Rebel ship jumps in, "I thought we lost them!" Your new crew-members exclaim.</text>
+<text name="TAT_FEDERATION_DISABLED_NO">Deny.</text>
+
+<!--TAT_NEBULA_FEDERATION-->
+<text name="TAT_NEBULA_FEDERATION_INTRO">You jump near a station in a nebula, "Get the smuggler!" they transmit and a ship maneuvers to your position, you try to hail them but get no response.</text>
+
+<!--TAT_STORM_FEDERATION-->
+<text name="TAT_STORM_FEDERATION_INTRO">The Federation has sent us here to test your strength, prove it to us, or we will deliver the message for you.</text>
+
+<!--TAT_STORE_BATTLE-->
+<text name="TAT_STORE_BATTLE_1">Federation supply ships are stationed here, but they must be stretched thind because they're asking for payment to access the equipment.</text>
+<text name="TAT_STORE_BATTLE_2">A band of pirates have set up shop here and are selling weapons to both sides, your crew doesn't like this but you can't exactly afford to be picky.</text>
+<text name="TAT_STORE_BATTLE_3">There's a small equipment shop tethered to the beacon, seemingly ignoring the battles all around the sector.</text>
+<text name="TAT_STORE_BATTLE_4">A Slug ship is waiting for you at the beacon, "Greetingsss fighters, care to resupply?"</text>
+<text name="TAT_STORE_BATTLE_5">An automated Federation resupply station is here, interestingly it requires scrap to operate.</text>
+
+<!--NOTHING_BATTLE-->
+<text name="NOTHING_BATTLE_1">Despite this sector being fiercely fought over, this beacon is empty.</text>
+<text name="NOTHING_BATTLE_2">A refuge from the chaos, no ships are detected in the vicinity.</text>
+<text name="NOTHING_BATTLE_3">Only a few Federation ships are stationed here, you exchange pleasentries but you both have to go your own ways.</text>
+<text name="NOTHING_BATTLE_4">You are surprized by the complete lack of signatures on your sensors, this beacon must be relatively unimportant.</text>
+<text name="NOTHING_BATTLE_5">It seems the fighting has already ended here, there's nothing but a few destroyed cruisers, all scrapped already.</text>
+<text name="NOTHING_BATTLE_6">Only an evacuated settlement lays here, they seem to have taken everything valuable.</text>
+
+<!--TAT_MEET_THE_SPY-->
+<text name="TAT_MEET_THE_SPY_INTRO">At first the beacon and its vicinity seems empty, but you recognize some of what seems like radio static being actually a Federation code, once you reply a known Federation spy contacts you from the beacon "It's been forever since I've been in contact with the Federation, I remember your mission and helping you is the least I could do. My contacts allow me to pull quite a few strings in your favor but using multiple of these would blow my cover so you only get one."</text>
+<text name="TAT_MEET_THE_SPY_STUFF">Resources.</text>
+<text name="TAT_MEET_THE_SPY_STUFFED">You wait almost a full hyperdrive cycle before the spy contacts you again, "This is all I could gather in this short amount of time, now get going before they take notice."</text>
+<text name="TAT_MEET_THE_SPY_DELAY">Delay the fleet.</text>
+<text name="TAT_MEET_THE_SPY_DELAYED">You wait almost a full hyperdrive cycle before the spy contacts you again, "There are now sightings of your ship on the nearby nebula sector, now get going before they take notice."</text>
+<text name="TAT_MEET_THE_SPY_JOIN">Ask him to join.</text>
+<text name="TAT_MEET_THE_SPY_JOINED">"Wise choice, if I do say so myself." The spy gets on your ship.</text>
+
+<!--TAT_REKT_AUTO (Rebel/Battlegrounds/Abandoned)-->
+<text name="TAT_REKT_AUTO_INTRO">You spot a disabled Rebel auto ship in the distance, it's too damaged to fight you but it's still operational.</text>
+<text name="TAT_REKT_AUTO_SCRAP">Scrap it.</text>
+<text name="TAT_REKT_AUTO_SCRAPED">You are able to scrap the entire ship, but not before it sent out an emergency distress signal.</text>
+<text name="TAT_REKT_AUTO_HACK">(Hacking System) Hack the ship, then scrap it.</text>
+<text name="TAT_REKT_AUTO_HACKED">Your hacking system keeps the ship from emiting a distress signal while your crew physically disconnect its AI systems.</text>
+<text name="TAT_REKT_AUTO_LEAVE">Leave the ship alone.</text>
+<text name="SHIPS_REBEL_AUTO_LANIUS">Send out your Lanius.</text>
+<text name="SHIPS_REBEL_AUTO_EMEN">Send out your Emen.</text>
+<text name="SHIPS_REBEL_AUTO_LANIUSED">Your crew-member jumps out the airlock and floats towards the ship, going undetected by the ships sensors and disables the ship once inside, you feel prety jealous.</text>
+
+<!--TAT_ZOLTAN_SUN-->
+<text name="TAT_ZOLTAN_SUN_INTRO">Perhaps due to their status as energy beings, perhaps due to their shields, Zoltans are entirely unafraid of the searing heat of nearby stars. This rogue Zoltan is eager to engage you in what it sees as its home turf.</text>
+
+<!--TAT_ZOLTAN_NEUTRON-->
+<text name="TAT_ZOLTAN_NEUTRON_INTRO">A Zoltan ship is in high orbit of this neutron star, "Outsider, you are not welcome here. This is Zoltan territory you are intruding upon." They power their weapons.</text>
+
+<!--TAT_ZOLTAN_STORE-->
+<text name="TAT_ZOLTAN_STORE_INTRO">You find a Zoltan research station in close orbit of a star, they hail you "dangerous territory you found yourself In, friend. We have been studying the effects of fire on ships and stations, how about you purchase some of our equipment and fund our research?"</text>
+
+<!--TAT_ZOLTAN_ASB-->
+<text name="TAT_ZOLTAN_ASB_INTRO">You find a militarized Zoltan settlement, their weapons pointed at you. "We do not respect the authoritarian Zoltan goverment, and we wont submit to the Federation either!"</text>
+
+<!--TAT_ZOLTAN_NEBULA-->
+<text name="TAT_ZOLTAN_NEBULA_INTRO">"You are in violation of the Zoltan/Slug Nebula preservation act. Please submit for processing." You contact them but no explanation gets them to stand down.</text>
+
+<!--TAT_ZOLTAN_STORM-->
+<text name="TAT_ZOLTAN_STORM_INTRO">A Zoltan ship is laying in ambush, "You have inteligence of interest to the Zoltan military, give it up." You don't have time for this.</text>
+
+<!--TAT_STORE_MANTIS-->
+<text name="TAT_STORE_MANTIS_INTRO">There's a scrappy Mantis shop embedded in the beacon, "Greetings outsiders! Here at Isopod's Tik and Tik we offer the very best in boarding technology. Why don't you... take a look?"</text>
+
+<!--TAT_STORE_SLUG-->
+<text name="TAT_STORE_SLUG_INTRO">Despite the harsh nebula you see bright lights in the distance, you follow them to find a slug settlement offering equipment for travelers.</text>
+
+<!--SLUG_EMEN_CHOICE unfederated-->
+<text name="SLUG_EMEN_CHOICE_INTRO">You see an Emen and a Slug ship in the distance, "Choose." The Slug ship says.</text>
+<text name="SLUG_EMEN_CHOICE_SLUG">Slug.</text>
+<text name="SLUG_EMEN_CHOICE_SLUGED">"Have at it!" The Slug ship begins evasive maneuvers.</text>
+<text name="SLUG_EMEN_CHOICE_EMEN">Emen.</text>
+<text name="SLUG_EMEN_CHOICE_EMENED">"Your choice is noted." The Emen ship powers up.</text>
+<text name="SLUG_EMEN_CHOICE_SHIPS_SLUG_DESTROYED">With the Slug ship destroyed you turn to the Emen ship. "Your strength has been proven." they say before jumping away.</text>
+<text name="SLUG_EMEN_CHOICE_SHIPS_SLUG_DEAD">With the Slug ship down you turn to the Emen ship. "Your strength has been proven." they say before jumping away.</text>
+<text name="SLUG_EMEN_CHOICE_SHIPS_EMEN_DESTROYED">With the Emen ship destroyed you turn to the Slug ship. "We will be back for you." they say before jumping away.</text>
+<text name="SLUG_EMEN_CHOICE_SHIPS_EMEN_DEAD">With the Emen ship down you turn to the Slug ship. "We will be back for you." they say before jumping away.</text>
+
+<!--TAT_SLUG_ASTEROID-->
+<text name="TAT_SLUG_ASTEROID_INTRO">Slugs typically stay out of hazardous environments unless they see benefit in it, this one seems keen on ambushing unsuspecting passerbies.</text>
+
+<!--TAT_SLUG_NEUTRON-->
+<text name="TAT_SLUG_NEUTRON_INTRO">"You brought the Rebelsss to our door, outsider. Do you expect us to fight your battles for you? I can almost admire the sentiment."</text>
+
+<!--TAT_SLUG_ENGI_NEUTRON-->
+<text name="TAT_SLUG_ENGI_NEUTRON_INTRO">You see a dead Engi ship being raided by Slugs, "Here to join the party?" they say before engaging.</text>
+
+<!--TAT_SLUG_SUN-->
+<text name="TAT_SLUG_SUN_INTRO">Having weak radiation resistance, Slugs typically avoid being close to stars. This slug ship seems to have special shielding, which is why it feels confident attacking you.</text>
+
+<!--TAT_SLUG_ASB-->
+<text name="TAT_SLUG_ASB_INTRO">It seems the Slugs have set up a significant amount of infrastructure here despite this location not being a nebula, there are heavily armed stations in orbit of a planet with some kind of outpost. Suddenly alarms start blaring at the site and a ship takes off to intercept you!</text>
+
+<!--ROCK_GOV-->
+<text name="ROCK_GOV_INTRO">You're approach by a fancy looking Rock ship, "look while the goverment officialy denies the existence of the Rebels we know they are coming and we know they will steam roll us, you're Federation, right? Have this and make your stand.</text>
+
+<!--TAT_ROCK_STORE-->
+<text name="TAT_ROCK_STORE_INTRO">You find a Rock station that appears to be a pilgrimage Site, they hail you "fear not, we have no qualms with contacting outsiders, everyone should get the chance to safely experience the Alienum rings and we offer some equipment to aim in that goal"</text>
+
+<!--TAT_SLUG_UNCHARTED-->
+<text name="TAT_SLUG_UNCHARTED_INTRO">Almost as soon as you arrive you are rammed full force by a Slug ship, "Even here we can't essscape the Federation? Gaaagh! No more!".</text>
+<text name="TAT_SLUG_UNCHARTED_ESCAPE">"You are telling me we have to retreat even further in? Of courssse we do." It seems they are retreating.</text>
+<text name="TAT_SLUG_UNCHARTED_ESCAPED">The Slug ship jumps deeper into the nebula.</text>
+<text name="TAT_SLUG_UNCHARTED_SURRENDER">"Fine, Fine! You can invade our territory all you want, just let us live."</text>
+<text name="TAT_SLUG_UNCHARTED_SURRENDERY">Accept their surrender.</text>
+<text name="TAT_SLUG_UNCHARTED_SURRENDERN">Reject their surrender.</text>
+<text name="TAT_SLUG_UNCHARTED_DESTROYED">The Slug ship explodes, its pieces quicly drifting into the clouds of the nebula.</text>
+<text name="TAT_SLUG_UNCHARTED_DEAD">Without a pilot, the ship begins to drift deeper into the nebula.</text>
+
+<!--TAT_PIRATE_UNCHARTED-->
+<text name="TAT_PIRATE_UNCHARTED_INTRO">Pirates that, for whatever reason, avoid pirate sectors like to go to the relatively safe unclaimed areas instead, on a possibly related note, a pirate encampent is firing at you and has sent a ship your way.</text>
+<text name="TAT_PIRATE_UNCHARTED_ESCAPE">The pirate ship seems to have no problems leaving its comrades behind as it's charging for a jump.</text>
+<text name="TAT_PIRATE_UNCHARTED_ESCAPED">Ths ship makes a jump, and you should too to avoid the ASB.</text>
+<text name="TAT_PIRATE_UNCHARTED_DESTROYED">The pirate ship falls apart before your eyes, you should use this as an oportunity to escape.</text>
+<text name="TAT_PIRATE_UNCHARTED_DEAD">The pirate ship falls silent without a captain, you should use this as an oportunity to escape.</text>
+
+<!--TAT_PIRATE_POLICE-->
+<text name="TAT_PIRATE_POLICE_INTRO">You detect a ship hiding behind a particularly large beacon, when you go look a ship intercepts you "I'm not going back to jail Federation scum!"</text>
+<text name="TAT_PIRATE_POLICE_ESCAPE">"You won't catch me again!" They are readying for a jump.</text>
+<text name="TAT_PIRATE_POLICE_ESCAPED">"You suck!" The captain says before jumping away.</text>
+<text name="TAT_PIRATE_POLICE_DESTROYED">The criminal's ship desintegrates in an explosion.</text>
+<text name="TAT_PIRATE_POLICE_DEAD">The criminal's ship shuts down when its systems detect no crew.</text>
+
+<!--TAT_AUTO_UNCHARTED (Uncharted)-->
+<text name="TAT_AUTO_UNCHARTED_INTRO">This beacon is dangerously close to a nearby planet, a scan of the place reveals a crashed Rebel-Auto ship which despite clearly laying there for a long time springs to life and chases after you.</text>
+<text name="TAT_AUTO_UNCHARTED_ESCAPE">The drone's hyperdrive is aparently still functional as you detect its increasing energy signature.</text>
+<text name="TAT_AUTO_UNCHARTED_ESCAPED">The drone makes a jump and escapes.</text>
+<text name="TAT_AUTO_UNCHARTED_DESTROYED">The drone explodes, its pieces falling back into the planet.</text>
+
+<!--TAT_ROCK_ASB-->
+<text name="TAT_ROCK_ASB_INTRO">There are Rockmen here in the process of establishing a colony on the planet, they must have mistaken you for pirates as they are sending a ship your way, weapons ready.</text>
+<text name="TAT_ROCK_ASB_ESCAPE">The rock ship, sensing that it's losing, starts preparing to jump.</text>
+<text name="TAT_ROCK_ASB_ESCAPED">The rock ship leaves but you are still being fired at by the ASB.</text>
+<text name="TAT_ROCK_ASB_DESTROYED">The ship suffers an internal explosion and splits into three pieces.</text>
+<text name="TAT_ROCK_ASB_DEAD">The Rockmen are dead, leaving you with the ship.</text>
+
+<!--TAT_ROCK_CHURCH-->
+<text name="TAT_ROCK_CHURCH_INTRO">You see a Rock orbital station that, on closer inspection, advertises itself as a church. Since It's the only thing around (besides the plain looking beacon tethered to the station) you consider going inside but reconsider when they ask for a donation for access.</text>
+<text name="TAT_ROCK_CHURCH_25">Pay 25.</text>
+<text name="TAT_ROCK_CHURCH_INSIDE">You enter the church and have a look around, there are many modules and a good chunk of them are dedicated to different religious rituals, with the rest being either for station maintenance or to house the crew, who seem to live here permanently. The infrastructure is fairly low tech and you can see exposed pipes and wires everywhere, yet instead of feeling cobbled together and scuffed, it all feels coherent and exceedingly well maintained.</text>
+<text name="TAT_ROCK_CHURCH_25ED1">Since you don't share their faith there isn't much for you to actually do here though as you're leaving a disheveled Rockman runs after you, claiming that a vision told him to join your crew.</text>
+<text name="TAT_ROCK_CHURCH_40ED1">Since you don't share their faith there isn't much for you to actually do here though as you're leaving a pilgrim intercepts you and offers to join your crew, claiming to see you as the perfect oportunity to see the wider world.</text>
+<text name="TAT_ROCK_CHURCH_55ED1">Since you don't share their faith there isn't much for you to actually do here though as you're leaving one of the bishops (an ancient looking Rockwoman) stops you and offers to join your crew, stating that you showed the station that the Federation is open to their beliefs and so should be protected from the very much hostile to them Rebel forces.</text>
+<text name="TAT_ROCK_CHURCH_25ED2">Since you don't share their faith there isn't much for you to actually do here so you leave, and find out that the locals did some minor maintenance on your ship while you where away, aparently it's standard procedure for them to fix the ships of all pilgrims.</text>
+<text name="TAT_ROCK_CHURCH_40ED2">Since you don't share their faith there isn't much for you to actually do here so you leave, and find out that the locals did some maintenance on your ship while you where away, aparently it's standard procedure for them to fix the ships of all pilgrims but you got slightly better treatment due to your larger donation.</text>
+<text name="TAT_ROCK_CHURCH_25ED3">Since you don't share their faith there isn't much for you to actually do here so you leave.</text>
+<text name="TAT_ROCK_CHURCH_40">Pay 40.</text>
+<text name="TAT_ROCK_CHURCH_55">Pay 55.</text>
+<text name="TAT_ROCK_CHURCH_LEAVE">Just leave.</text>
+
+<!--TAT_ROCK_PULSAR-->
+<text name="TAT_ROCK_PULSAR_INTRO">You see a Rock ship patrolling a nearby pulsar, "You're trampling on holy ground, outsider. The mighty Neutron star will claim you for this infraction."</text>
+
+<!--TAT_ROCK_STORM-->
+<text name="TAT_ROCK_STORM_INTRO">A Rock ship blocks your path, "The Federation thinks it can go where it pleases, it needs to learn it doesn't own the world." They charge their guns.</text>
+
+<!--Lanius Events-->
+<!--LANIUS_DISTRESS_FIGHT-->
+<text name="LANIUS_CIVILIAN_DISTRESS_SHIP_TAT_ESCAPE">The Lanius ship didn't seem to be prepared for a real fight, it's trying to run away.</text>
+<text name="LANIUS_CIVILIAN_DISTRESS_SHIP_TAT_ESCAPED">The ship is gone and you are left alone with the civilian ship.</text>
+<text name="LANIUS_CIVILIAN_TAT_SURRENDER">The Lanius ship stops firing momentarily and instead flashes its lights at you, you get the feeling it wants to surrender.</text>
+<text name="LANIUS_CIVILIAN_TAT_SURRENDERY">Accept their surrender.</text>
+<text name="LANIUS_CIVILIAN_TAT_SURRENDERN">Maintain the assault.</text>
+<text name="LANIUS_CIVILIAN_TAT_END">With the Lanius ship out of the way, you contact the civilian ship.</text>
+<text name="ship_LANIUS_CIVILIAN_destroyed_text">The Lanius ship explodes, dispersing its hoard of metal throught space. You contact the civilian ship.</text>
+<text name="ship_LANIUS_CIVILIAN_deadCrew_text">The last of the Lanius melts into a puddle and with that you shut off its weapons. You contact the civilian ship.</text>
+
+<!--LANIUS_SLUG_DISTRESS-->
+<text name="LANIUS_SLUG_DISTRESS_SHIP_TAT_ESCAPE">The Lanius ship powers up its hyperdrive, ready to book it.</text>
+<text name="LANIUS_SLUG_DISTRESS_SHIP_TAT_ESCAPED">The ship warps, leaving only the Slug ship.</text>
+<text name="LANIUS_SLUG_DISTRESS_TAT_SURRENDER">The Lanius ship must not think this is worth it as they are surrendering.</text>
+<text name="LANIUS_SLUG_DISTRESS_TAT_SURRENDERY">Stop firing.</text>
+<text name="LANIUS_SLUG_DISTRESS_TAT_SURRENDERN">Keep firing.</text>
+<text name="LANIUS_SLUG_DISTRESS_END">Now that the Lanius ship is not a threat you contact the civilian ship.</text>
+<text name="ship_LANIUS_SLUG_DISTRESS_SHIP_destroyed_text">The Lanius ship bends in strange ways before exploding into a very sharp debree cloud.</text>
+<text name="ship_LANIUS_SLUG_DISTRESS_SHIP_deadCrew_text">You power down the ship after the last Lanius is disposed of.</text>
+<text name="LANIUS_SLUG_DISTRESS_TAT_AUGMENT">The Slugmen seem genuenly grateful as they offer one of their augmentations.</text>
+
+<!--LANIUS_MANTIS_DISTRESS-->
+<text name="LANIUS_MANTIS_DISTRESS_SHIP_TAT_ESCAPE">The Lanius are unwilling to fight any more and are looking to escape.</text>
+<text name="LANIUS_MANTIS_DISTRESS_SHIP_TAT_ESCAPED">The Lanius ship escapes from your grasp, not something the Mantis would be happy about but they can't exactly complain.</text>
+<text name="LANIUS_MANTIS_DISTRESS_TAT_SURRENDER">The Lanius ship was willing to fight the Mantis but not willing to fight you, they are surrendering.</text>
+<text name="LANIUS_MANTIS_DISTRESS_TAT_SURRENDERY">Stop firing.</text>
+<text name="LANIUS_MANTIS_DISTRESS_TAT_SURRENDERN">Keep firing.</text>
+<text name="LANIUS_MANTIS_DISTRESS_END">With the Lanius ship neutralized, you contact the Mantis ship.</text>
+<text name="ship_LANIUS_MANTIS_DISTRESS_SHIP_destroyed_text">As the Lanious ship explodes you hope it was a good idea to help the Mantis.</text>
+<text name="ship_LANIUS_MANTIS_DISTRESS_SHIP_deadCrew_text">As you power down their ship you hope it was a good idea to help the Mantis.</text>
+<text name="LANIUS_MANTIS_DISTRESS_TAT_WEAPON">The Mantis seem genuenly grateful as they offer one of their weapons.</text>
+
+<!--LANIUS_ROCK_DISTRESS -->
+<text name="LANIUS_ROCK_DISTRESS_SHIP_TAT_ESCAPE">You clearly hit them harder than they were expecting to as they are powering up their hypedrive for a jump.</text>
+<text name="LANIUS_ROCK_DISTRESS_SHIP_TAT_ESCAPED">The ship escapes, perhaps it's for the best. Though you think the Rockmen wouldn't agree.</text>
+<text name="LANIUS_ROCK_DISTRESS_TAT_SURRENDER">The Lanius are displaying images of scrap, they probably want to surrender.</text>
+<text name="LANIUS_ROCK_DISTRESS_TAT_SURRENDERY">Accept the scrap.</text>
+<text name="LANIUS_ROCK_DISTRESS_TAT_SURRENDERN">Reject the offer.</text>
+<text name="LANIUS_ROCK_DISTRESS_END">Now that the Lanius ship isn't a threat you contact the Rockmen.</text>
+<text name="ship_LANIUS_ROCK_DISTRESS_SHIP_destroyed_text">The Lanius ship creaks and bends in unnatural ways before breaking apart.</text>
+<text name="ship_LANIUS_ROCK_DISTRESS_SHIP_deadCrew_text">With the Lanius turned into scrap metal you are free to disable the ship.</text>
+<text name="LANIUS_ROCK_DISTRESS_TAT_AUGMENT">The Rockmen seem genuenly grateful as they offer one of their augments.</text>
+
+<!--LANIUS_REBEL_FIGHT-->
+<text name="LANIUS_REBEL_FIGHT_ESCAPE">The Rebel ship seems more willing to fight Lanius than you, its powering its warp.</text>
+<text name="LANIUS_REBEL_FIGHT_ESCAPED">The Rebel ship is gone, hopefully you can leave the sector before they inform the Rebel fleet.</text>
+<text name="LANIUS_REBEL_FIGHT_TAT_SURRENDER">"Alright, Alright. Let's stop fighting. It's better to focus on the metal freaks anyway.</text>
+<text name="LANIUS_REBEL_FIGHT_TAT_SURRENDERY">Agree to a surrender.</text>
+<text name="LANIUS_REBEL_FIGHT_TAT_SURRENDERN">No mercy for the rebels.</text>
+<text name="LANIUS_REBEL_FIGHT_DESTROYED">The Rebel ship explodes into many pieces that will inevitably attract the Lanius.</text>
+<text name="LANIUS_REBEL_FIGHT_DEAD">With the crew dead, the Rebel ship becomes food for the Lanius.</text>
+
+<!--LANIUS_PIRATE_FIGHT (EXCLUSIVE)-->
+<text name="LANIUS_PIRATE_FIGHT_ESCAPE">"These guys are stronger than the tin cans, punch it!" It's not hard to guess their intentions.</text>
+<text name="LANIUS_PIRATE_FIGHT_ESCAPED">The pirates run away like the cowards they are.</text>
+<text name="LANIUS_PIRATE_FIGHT_TAT_SURRENDER">"Bah! This isn't worth the effort. How about a truce?"</text>
+<text name="LANIUS_PIRATE_FIGHT_TAT_SURRENDERY">Agree to a surrender.</text>
+<text name="LANIUS_PIRATE_FIGHT_TAT_SURRENDERN">No mercy for pirates.</text>
+<text name="LANIUS_PIRATE_FIGHT_DESTROYED">The Pirates are no more as their ship's generatior explodes.</text>
+<text name="LANIUS_PIRATE_FIGHT_DEAD">The Pirate crew is no more and you are free to scrap their ship.</text>
+
+<!--LANIUS_FIGHT_ASTEROID (Lanius/Rock)-->
+<text name="LANIUS_FIGHT_ASTEROID_ESCAPE">Your sensors detect a surge of energy coming from the Lanius warpdrive, they're fleeing.</text>
+<text name="LANIUS_FIGHT_ASTEROID_ESCAPED">The Lanius ship jumps away and so do the other scavengers, leaving you alone with the asteroids and a scrapped settlement.</text>
+<text name="LANIUS_FIGHT_ASTEROID_TAT_SURRENDER">You see a video of the Lanius fixing a hole in their hull and holding a small asteroid up to the camera. They probably want to surrender.</text>
+<text name="LANIUS_FIGHT_ASTEROID_TAT_SURRENDERY">Accept their surrender.</text>
+<text name="LANIUS_FIGHT_ASTEROID_TAT_SURRENDERN">Press the advantage.</text>
+<text name="LANIUS_FIGHT_ASTEROID_DESTROYED">The Lanius ship suffers an internal explosion and drifts into a large asteroid.</text>
+<text name="LANIUS_FIGHT_ASTEROID_DEAD">The Lanius fought valiantly but you came out on top, now to scrap the ship before it drifts into the rocks.</text>
+
+<!--LANIUS_FIGHT_PULSAR (Lanius/Rock)-->
+<text name="LANIUS_FIGHT_PULSAR_ESCAPE">Despite the pulsar, you can still detect the energy coming from their ship's warp deive.</text>
+<text name="LANIUS_FIGHT_PULSAR_ESCAPED">The Lanius ship leaves you behind with the neutron star.</text>
+<text name="LANIUS_FIGHT_PULSAR_TAT_SURRENDER">When your sensors aren't ionised you pick up a surrender signal from the Lanius ship.</text>
+<text name="LANIUS_FIGHT_PULSAR_TAT_SURRENDERY">Accept their surrender.</text>
+<text name="LANIUS_FIGHT_PULSAR_TAT_SURRENDERN">Keep attacking.</text>
+<text name="LANIUS_FIGHT_PULSAR_DESTROYED">The ship breaks apart and begins falling towards the pulsar, you'll have to scrap quickly.</text>
+<text name="LANIUS_FIGHT_PULSAR_DEAD">With the Lanius dead you scrap what you can of the ship before it drifts too close to the pulsar.</text>
+
+<!--LANIUS_NOBOARDERS_PDS-->
+<text name="LANIUS_BOARDERS_PDS_TAT_ESCAPE">The ship must have taken too many ASB shots as it's trying to run away.</text>
+<text name="LANIUS_BOARDERS_PDS_TAT_ESCAPED">The Lanius ship escapes the battle.</text>
+<text name="ship_LANIUS_BOARDERS_PDS_destroyed_text">The Lanius ship joins the other destroyed vessels in the area.</text>
+<text name="ship_LANIUS_BOARDERS_PDS_deadCrew_text">The Lanius are dead and so you are free to contact the planet's residents.</text>
+
+<!--TAT_LANIUS_ASB-->
+<text name="TAT_LANIUS_ASB_INTRO">You see a Lanius ship deploy a makshift ASB on the planet surface before rapidly accelerating to your location.</text>
+
+<!--TAT_LANIUS_BOARDERS-->
+<text name="TAT_LANIUS_BOARDERS_INTRO">You spot a Lanius vessel in the storm, it's not moving or showing any signs of activity. However as soon as you approach it you detect activity in their ship's emergency batteries and brace for an attack.</text>
+
+<!--TAT_LANIUS_NEBULA-->
+<text name="TAT_LANIUS_NEBULA_INTRO">You see a Lanius vessel in the distance, it looks very worn down but it doesn't hesitate to attack you on sight.</text>
+
+<!--TAT_LANIUS_STORM-->
+<text name="TAT_LANIUS_STORM_INTRO">A Lanius ship was waiting, hoping a metal rich ship jumped to this beacon.</text>
+
+<!--EMEN_NEUTRAL-->
+<text name="EMEN_NEUTRAL_INTRO">You see an Emen ship docked to the beacon, "Federation here? Unusual." It seems to be busy tampering with the beacon.</text>
+<text name="EMEN_NEUTRAL_INTERVENE">Intervene.</text>
+<text name="EMEN_NEUTRAL_INTERVENED">As soon as you approach it undocks and charge at you "You just can't keep to yourselves, don't you have Rebels to fight?"</text>
+<text name="EMEN_NEUTRAL_LEAVE">Just let it do its thing.</text>
+
+<!--EMEN_HOSTILE-->
+<text name="EMEN_HOSTILE_INTRO">An Emen immediately engages you as soon as it sees you, clearly this is personal to it.</text>
+
+<!--TAT_EMEN_STORM-->
+<text name="TAT_EMEN_STORM_INTRO">The Emen were waiting here, waiting for you.</text>
+
+<!--TAT_PIRATE_ITEMS-->
+<text name="TAT_PIRATE_ITEMS_INTRO">A pirate ship approaches you, you ready your systems but they just drop some supplies and leaves. Scans show the containers are clean so you pick them up, wondering what their motives are.</text>
+
+
+<!--Not what you were expecting to find, there's a Lanius ship and a Crystal ship fighting in the distance.
+engage the lanius
+engage the crystal
+leave
+
+To your surprise you find a Lanius ship lurking in the nebula, when it sees you it pauses for a bit then engages weapons.-->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--STORE_REBELSIDE (Rebel EXCLUSIVE)-->
+<event name="STORE_REBELSIDE" unique="true">
+	<text id="event_STORE_REBELSIDE_text"/>
+	<choice hidden="true">
+		<text id="event_STORE_REBELSIDE_c1_choice"/>
+		<event load="STORE_REBELSIDE_SEARCH"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_STORE_REBELSIDE_c2_choice"/>
+		<event>
+			<text id="event_STORE_REBELSIDE_c2_text"/>
+		</event>
+	</choice>
+</event>
+<eventList name="STORE_REBELSIDE_SEARCH">
+	<event>
+		<text id="event_STORE_REBELSIDE_SEARCH_1_text"/>
+		<store/>
+	</event>
+	<event>
+		<text id="event_STORE_REBELSIDE_SEARCH_2_text"/>
+		<autoReward level="RANDOM">standard</autoReward>
+	</event>
+	<event>
+		<text id="event_STORE_REBELSIDE_SEARCH_3_text"/>
+		<ship load="REBEL_AUTO" hostile="true"/>
+	</event>
+	<event>
+		<text id="STORE_REBELSIDE_SEARCH_TAT_DIE"/>
+		<ship load="REBEL" hostile="true"/>
+	<environment type="PDS" target="player"/>
+	</event>
+</eventList>
+
+<!--REBEL_PULSAR (Engi)-->
+
+<!--PIRATE_PULSAR (Pirate/Engi)-->
+
+<!--REBEL_PDS (Unused, keep unused)-->
+<!--REBEL_AUTO_PDS (Unused, keep unused)-->

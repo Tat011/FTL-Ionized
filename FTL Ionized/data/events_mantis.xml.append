@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Mantis Sector Events-->
+<!--Stores-->
+<eventList name="STORES_MANTIS">
+	<event load="STORE_MANTIS"/>
+	<event load="TAT_STORE_MANTIS"/>
+</eventList>
+
+<!--Nothing-->
+<eventList name="NOTHING_MANTIS_LIST">
+	<event load="NOTHING_MANTIS"/>
+	<event load="NOTHING"/>
+</eventList>
+
+<!--Passive-->
+<eventList name="ITEMS_MANTIS">
+	<event load="ENGI_FLEET_DELAY"/>
+	<event load="MANTIS_CAPTURE_COMMANDO"/>
+	<event load="MANTIS_GAMBLE"/>
+	<event load="MANTIS_CREW"/>
+</eventList>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_MANTIS">
+	<event load="MANTIS_FIGHT_CHOICE"/><!--Engi, Mantis-->
+	<event load="MANTIS_CIVILIAN"/><!--Engi, Mantis-->
+	<event load="TAT_MANTIS_VS_ROCK"/>
+	<event load="TAT_REBEL_VS_MANTIS"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="FRIENDLY_SLAVER"/>
+	<event load="ALISON_MANTIS_CREW"/>
+	<event load="ROCK_MANTIS_FREIGHTER"/>
+	<event load="ROCK_MANTIS_HUNTER"/>
+	<event load="SLUG_DISTRESS_MANTIS"/>
+	<event load="ZOLTAN_DISTRESS_MANTIS"/>
+	<event load="LANIUS_MANTIS_DISTRESS"/>
+</eventList>
+
+<!--Hostile-->
+<eventList name="HOSTILE_MANTIS"><!--Overriden in dlcEventsOverwrite-->
+	<event load="MANTIS_FIGHT"/>
+	<event load="MANTIS_BOARDERS"/>
+	<event load="MANTIS_SUN_FIGHT"/>
+	<event load="TAT_MANTIS_PULSAR"/>
+	<event load="TAT_MANTIS_ASTEROIDS"/>
+	<event load="TAT_MANTIS_ASB"/>
+	<event load="ROCK_BOARDERS_SHIP"/>
+</eventList>
+
+<!--Controlled only-->
+<eventList name="MANTIS_CONTROLLED">
+	<event load="ENGI_MANTIS_FIGHT"/>
+	<event load="DONOR_MANTIS_CHASE"/>
+	<event load="TAT_PIRATE_VS_PIRATE"/>
+</eventList>
+
+<!--Homewolrds only-->
+<eventList name="MANTIS_HOMEWORLDS">
+	<event load="MANTIS_NAMED_THIEF"/>
+	<event load="TAT_PIRATE_NO_FUEL"/>
+</eventList>
+
+
+<!--MANTIS_CAPTURE_COMMANDO (Engi/Mantis)-->
+<!--MANTIS_GAMBLE (Mantis EXCLUSIVE)-->
+<!--MANTIS_FIGHT (Mantis EXCLUSIVE)-->
+<event name="MANTIS_FIGHT" unique="true">
+	<text load="MANTIS_FIGHT"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+</event>
+
+<!--MANTIS_FIGHT_CHOICE (Mantis/Rock controlled/home/Zoltan, Neutral)-->
+<event name="MANTIS_FIGHT_CHOICE" unique="true">
+	<text load="MANTIS_FIGHT_CHOICE"/>
+	<ship load="MANTIS_FIGHT" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_MANTIS_FIGHT_CHOICE_c1_choice"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_MANTIS_FIGHT_CHOICE_c2_choice"/>
+		<event load="MANTIS_FIGHT_CHOICE_AVOID"/>
+	</choice>
+	<choice hidden="true" req="cloaking" lvl="1">
+		<text id="event_MANTIS_FIGHT_CHOICE_c3_choice"/>
+		<event load="MANTIS_FIGHT_CHOICE_CLOAK"/>
+	</choice>
+</event>
+
+<!--MANTIS_CIVILIAN (Engi/Mantis/Fed controlled)-->
+<event name="MANTIS_CIVILIAN" unique="true">
+	<text load="MANTIS_CIVILIAN"/>
+	<ship load="MANTIS_CIVILIAN" hostile="false"/>
+	<choice hidden="true">
+		<text id="event_MANTIS_CIVILIAN_c1_choice"/>
+		<event>
+			<text id="event_MANTIS_CIVILIAN_c1_text"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="event_MANTIS_CIVILIAN_c2_choice"/>
+		<event>
+			<text load="MANTIS_CIVILIAN_AVOID"/>
+		</event>
+	</choice>
+</event>
+
+<!--MANTIS_CREW (Engi/Mantis/Uncharted)-->
+<eventList name="MANTIS_CREW_LIST">
+	<event>
+		<text id="event_MANTIS_CREW_LIST_1_text"/>
+		<boarders min="1" max="1" class="mantis"/>
+	</event>
+	<event>
+		<text id="event_MANTIS_CREW_LIST_2_text"/>
+		<crewMember amount="1" class="mantis"/>
+	</event>
+	<event>
+		<text id="event_MANTIS_CREW_LIST_3_text"/>
+		<crewMember amount="1" class="human"/>
+	</event>
+</eventList>
+
+<!--MANTIS_SUN_FIGHT (Mantis EXCLUSIVE)-->
+<event name="MANTIS_SUN_FIGHT" unique="true">
+	<img back="No_Stars" planet="NONE"/>
+	<text id="event_MANTIS_SUN_FIGHT_text"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+	<environment type="sun"/>
+</event>
+
+<!--MANTIS_NAMED_THIEF (Mantis EXCLUSIVE)-->
+
+<!--TAT_MANTIS_PULSAR (Mantis both/Engi controlled)-->
+<event name="TAT_MANTIS_PULSAR" unique="true">
+	<text id="TAT_MANTIS_PULSAR_INTRO"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+	<environment type="pulsar"/>
+</event>
+
+<!--TAT_MANTIS_ASTEROIDS (Mantis/Rock)-->
+<event name="TAT_MANTIS_ASTEROIDS" unique="true">
+	<text id="TAT_MANTIS_ASTEROIDS_INTRO"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+	<environment type="asteroid"/>
+</event>
+
+<!--TAT_MANTIS_ASB (Mantis)-->
+<event name="TAT_MANTIS_ASB" unique="true">
+	<text id="TAT_MANTIS_ASB_INTRO"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+	<environment type="PDS" target="player"/>
+</event>
+
+<!--TAT_MANTIS_VS_ROCK (Mantis/Rock)-->
+<event name="TAT_MANTIS_VS_ROCK" unique="true">
+	<text id="TAT_MANTIS_VS_ROCK_INTRO"/>
+	<choice>
+	<text id="TAT_MANTIS_VS_ROCK_CONTINUE"/>
+		<event>
+			<text id="TAT_MANTIS_VS_ROCK_CONTINUED"/>
+			<ship load="TAT_MANTIS_VS_ROCK_MANTIS" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_MANTIS_VS_ROCK_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+<ship name="TAT_MANTIS_VS_ROCK_MANTIS" auto_blueprint="SHIPS_MANTIS"><!--Mantis Ship-->
+	<destroyed>
+		<text id="TAT_MANTIS_VS_ROCK_MANTIS_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+		<ship load="TAT_MANTIS_VS_ROCK_ROCK" hostile="true"/>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_MANTIS_VS_ROCK_MANTIS_DESTROYED"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<ship load="TAT_MANTIS_VS_ROCK_ROCK" hostile="true"/>
+	</deadCrew>
+</ship>
+<ship name="TAT_MANTIS_VS_ROCK_ROCK" auto_blueprint="SHIPS_ROCK"><!--Rock Ship-->
+	<destroyed>
+		<text id="TAT_MANTIS_VS_ROCK_ROCK_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_MANTIS_VS_ROCK_ROCK_DEAD"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--TAT_REBEL_VS_MANTIS (Rebel/Mantis)-->
+<event name="TAT_REBEL_VS_MANTIS" unique="true">
+	<environment type="PDS" target="enemy"/>
+	<text id="TAT_REBEL_VS_MANTIS_INTRO"/>
+	<choice>
+		<text id="TAT_REBEL_VS_MANTIS_MANTIS"/>
+		<event>
+			<text id="TAT_REBEL_VS_MANTIS_MANTISED"/>
+			<ship load="TAT_REBEL_VS_MANTIS_REBEL" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_REBEL_VS_MANTIS_REBEL"/>
+		<event>
+			<text id="TAT_REBEL_VS_MANTIS_REBELED"/>
+			<ship load="TAT_REBEL_VS_MANTIS_MANTIS" hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="TAT_REBEL_VS_MANTIS_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+<ship name="TAT_REBEL_VS_MANTIS_REBEL" auto_blueprint="SHIPS_REBEL"><!--Rebel Ship-->
+	<destroyed>
+		<text id="TAT_REBEL_VS_MANTIS_REBEL_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+		<ship load="TAT_REBEL_VS_MANTIS_MANTIS" hostile="false"/>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_REBEL_VS_MANTIS_REBEL_DESTROYED"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<ship load="TAT_REBEL_VS_MANTIS_MANTIS" hostile="false"/>
+	</deadCrew>
+</ship>
+<ship name="TAT_REBEL_VS_MANTIS_MANTIS" auto_blueprint="SHIPS_MANTIS"><!--Mantis Ship-->
+	<destroyed>
+		<text id="TAT_REBEL_VS_MANTIS_MANTIS_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+		<ship load="TAT_REBEL_VS_MANTIS_REBEL" hostile="false"/>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_REBEL_VS_MANTIS_MANTIS_DESTROYED"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<ship load="TAT_REBEL_VS_MANTIS_REBEL" hostile="false"/>
+	</deadCrew>
+</ship>
+
+<!--TAT_STORE_MANTIS-->
+<event name="TAT_STORE_MANTIS" unique="true">
+	<text id="TAT_STORE_MANTIS_INTRO"/>
+	<store/>
+	<customStore>TAT_MANTIS_STORE_STORE</customStore>
+</event>
+
+<!--TAT_MANTIS_STORM-->
+<event name="TAT_MANTIS_STORM" unique="true">
+	<text id="TAT_MANTIS_STORM_INTRO"/>
+	<environment type="storm"/>
+	<ship load="MANTIS_FIGHT" hostile="true"/>
+</event>

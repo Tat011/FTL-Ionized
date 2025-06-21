@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Planets-->
+<imageList name="PLANET">
+<!--x0.5-->
+	<img w="230" h="230">stars/planet_bigblue.png</img>
+	<img w="230" h="230">stars/planet_brown.png</img>
+	<img w="132" h="132">stars/planet_peach.png</img>
+	<img w="100" h="100">stars/planet_red.png</img>
+	<img w="190" h="190">stars/planet_gas_blue.png</img>
+	<img w="190" h="190">stars/planet_gas_yellow.png</img>
+	<img w="240" h="230">stars/planet_populated_brown.png</img>
+	<img w="240" h="230">stars/planet_populated_dark.png</img>
+	<img w="240" h="230">stars/planet_populated_orange.png</img>
+	<img w="230" h="230">stars/Charon.png</img>
+	<img w="230" h="230">stars/planet_bigblue1.png</img>
+	<img w="230" h="230">stars/planet_bigblue2.png</img>
+	<img w="418" h="418">stars/planet_duo1.png</img>
+	<img w="250" h="250">stars/planet_duo2.png</img>
+	<img w="132" h="132">stars/planet_peach1.png</img>
+	<img w="100" h="100">stars/planet_red1.png</img>
+	<img w="170" h="170">stars/Venus.png</img>
+<!--x1-->
+	<img w="460" h="460">stars/planet_bigblue.png</img>
+	<img w="460" h="460">stars/planet_brown.png</img>
+	<img w="264" h="264">stars/planet_peach.png</img>
+	<img w="200" h="200">stars/planet_red.png</img>
+	<img w="380" h="380">stars/planet_gas_blue.png</img>
+	<img w="380" h="380">stars/planet_gas_yellow.png</img>
+	<img w="480" h="460">stars/planet_populated_brown.png</img>
+	<img w="480" h="460">stars/planet_populated_dark.png</img>
+	<img w="480" h="460">stars/planet_populated_orange.png</img>
+	<img w="460" h="460">stars/Charon.png</img>
+	<img w="460" h="460">stars/planet_bigblue1.png</img>
+	<img w="460" h="460">stars/planet_bigblue2.png</img>
+	<img w="835" h="835">stars/planet_duo1.png</img>
+	<img w="500" h="500">stars/planet_duo2.png</img>
+	<img w="264" h="264">stars/planet_peach1.png</img>
+	<img w="200" h="200">stars/planet_red1.png</img>
+	<img w="341" h="341">stars/Venus.png</img>
+<!--x1.5-->
+	<img w="690" h="690">stars/planet_bigblue.png</img>
+	<img w="690" h="690">stars/planet_brown.png</img>
+	<img w="396" h="396">stars/planet_peach.png</img>
+	<img w="300" h="300">stars/planet_red.png</img>
+	<img w="570" h="570">stars/planet_gas_blue.png</img>
+	<img w="570" h="570">stars/planet_gas_yellow.png</img>
+	<img w="720" h="690">stars/planet_populated_brown.png</img>
+	<img w="720" h="690">stars/planet_populated_dark.png</img>
+	<img w="720" h="690">stars/planet_populated_orange.png</img>
+	<img w="690" h="690">stars/Charon.png</img>
+	<img w="690" h="690">stars/planet_bigblue1.png</img>
+	<img w="690" h="690">stars/planet_bigblue2.png</img>
+	<img w="1252" h="1252">stars/planet_duo1.png</img>
+	<img w="750" h="750">stars/planet_duo2.png</img>
+	<img w="396" h="396">stars/planet_peach1.png</img>
+	<img w="300" h="300">stars/planet_red1.png</img>
+	<img w="511" h="511">stars/Venus.png</img>
+<!--x2-->
+	<img w="920" h="920">stars/planet_bigblue.png</img>
+	<img w="920" h="920">stars/planet_brown.png</img>
+	<img w="528" h="528">stars/planet_peach.png</img>
+	<img w="400" h="400">stars/planet_red.png</img>
+	<img w="760" h="760">stars/planet_gas_blue.png</img>
+	<img w="760" h="760">stars/planet_gas_yellow.png</img>
+	<img w="960" h="920">stars/planet_populated_brown.png</img>
+	<img w="960" h="920">stars/planet_populated_dark.png</img>
+	<img w="960" h="920">stars/planet_populated_orange.png</img>
+	<img w="920" h="920">stars/Charon.png</img>
+	<img w="920" h="920">stars/planet_bigblue1.png</img>
+	<img w="920" h="920">stars/planet_bigblue2.png</img>
+	<img w="1670" h="1670">stars/planet_duo1.png</img>
+	<img w="1000" h="1000">stars/planet_duo2.png</img>
+	<img w="528" h="528">stars/planet_peach1.png</img>
+	<img w="400" h="400">stars/planet_red1.png</img>
+	<img w="682" h="682">stars/Venus.png</img>
+</imageList>
+
+<imageList name="PLANET_POPULATED">
+<!--x1-->
+	<img w="480" h="460">stars/planet_populated_brown.png</img>
+	<img w="480" h="460">stars/planet_populated_dark.png</img>
+	<img w="480" h="460">stars/planet_populated_orange.png</img>
+	<img w="835" h="835">stars/planet_duo1.png</img>
+<!--x1.5-->
+	<img w="720" h="690">stars/planet_populated_brown.png</img>
+	<img w="720" h="690">stars/planet_populated_dark.png</img>
+	<img w="720" h="690">stars/planet_populated_orange.png</img>
+	<img w="1252" h="1252">stars/planet_duo1.png</img>
+<!--x2-->
+	<img w="960" h="920">stars/planet_populated_brown.png</img>
+	<img w="960" h="920">stars/planet_populated_dark.png</img>
+	<img w="960" h="920">stars/planet_populated_orange.png</img>
+	<img w="1670" h="1670">stars/planet_duo1.png</img>
+</imageList>
+
+<imageList name="PLANET_POPULATED_SMALL">
+	<img w="240" h="230">stars/planet_populated_brown.png</img>
+	<img w="240" h="230">stars/planet_populated_dark.png</img>
+	<img w="240" h="230">stars/planet_populated_orange.png</img>
+	<img w="418" h="418">stars/planet_duo1.png</img>
+</imageList>
+
+<imageList name="PLANET_UNPOPULATED">
+	<img w="460" h="460">stars/planet_bigblue.png</img>
+	<img w="460" h="460">stars/planet_brown.png</img>
+	<img w="264" h="264">stars/planet_peach.png</img>
+	<img w="200" h="200">stars/planet_red.png</img>
+	<img w="460" h="460">stars/Charon.png</img>
+	<img w="460" h="460">stars/planet_bigblue1.png</img>
+	<img w="460" h="460">stars/planet_bigblue2.png</img>
+	<img w="500" h="500">stars/planet_duo2.png</img>
+	<img w="264" h="264">stars/planet_peach1.png</img>
+	<img w="200" h="200">stars/planet_red1.png</img>
+	<img w="341" h="341">stars/Venus.png</img>
+</imageList>
+
+<imageList name="PLANET_UNPOPULATED_SMALL">
+	<img w="230" h="230">stars/planet_bigblue.png</img>
+	<img w="230" h="230">stars/planet_brown.png</img>
+	<img w="132" h="132">stars/planet_peach.png</img>
+	<img w="100" h="100">stars/planet_red.png</img>
+	<img w="230" h="230">stars/Charon.png</img>
+	<img w="230" h="230">stars/planet_bigblue1.png</img>
+	<img w="230" h="230">stars/planet_bigblue2.png</img>
+	<img w="250" h="250">stars/planet_duo2.png</img>
+	<img w="132" h="132">stars/planet_peach1.png</img>
+	<img w="100" h="100">stars/planet_red1.png</img>
+	<img w="170" h="170">stars/Venus.png</img>
+</imageList>
+
+<imageList name="PLANET_GAS">
+	<img w="760" h="760">stars/planet_gas_blue.png</img>
+	<img w="760" h="760">stars/planet_gas_yellow.png</img>
+</imageList>
+
+<imageList name="BACKGROUND">
+	<img w="1280" h="720">stars/bg_darknebula.png</img>
+	<img w="1280" h="720">stars/bg_blueStarcluster.png</img> -->
+	<img w="1280" h="720">stars/bg_dullstars.png</img>
+	<img w="1280" h="720">stars/bg_dullstars2.png</img>
+	<img w="1280" h="720">stars/bg_lonelyRedStar.png</img>
+	<img w="1280" h="720">stars/bg_lonelystar.png</img>
+	<img w="1280" h="720">stars/Hourglass.png</img>
+	<img w="1280" h="720">stars/Nebula1.png</img>
+	<img w="1280" h="720">stars/Nebula2.png</img>
+	<img w="1280" h="720">stars/Nebula3.png</img>
+	<img w="1280" h="720">stars/Nebula4.png</img>
+	<img w="1280" h="720">stars/Nebula6.png</img>
+	<img w="1280" h="720">stars/Nebula7.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA">
+	<img w="1280" h="720">stars/bg_darknebula.png</img>
+	<img w="1280" h="720">stars/bg_blueStarcluster.png</img>
+	<img w="1280" h="720">stars/Hourglass.png</img>
+	<img w="1280" h="720">stars/Nebula1.png</img>
+	<img w="1280" h="720">stars/Nebula2.png</img>
+	<img w="1280" h="720">stars/Nebula3.png</img>
+	<img w="1280" h="720">stars/Nebula4.png</img>
+	<img w="1280" h="720">stars/Nebula6.png</img>
+	<img w="1280" h="720">stars/Nebula7.png</img>
+</imageList>
+

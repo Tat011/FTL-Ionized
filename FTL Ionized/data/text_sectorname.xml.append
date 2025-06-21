@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Uncharted Sector-->
+<text name="sector_legend_UNCHARTED">Uncharted</text>  
+<text name="sector_UNCHARTED">Unidentified Uncharted Sector</text>
+
+<text name="sectorname_UNCHARTED_SECTOR">Uncharted Sector</text>  
+<text name="sectorname_short_UNCHARTED_SECTOR">Uncharted Sector</text>
+
+<!--Contested-->
+<text name="sector_legend_CONTESTED">Contested</text>  
+<text name="sector_CONTESTED">Unidentified Contested Sector</text>
+
+<text name="sectorname_ABANDONED_SECTOR">Abandoned Sector</text>
+<text name="sectorname_short_ABANDONED_SECTOR">Abandoned Sector</text>
+<text name="sectorname_BATTLEGROUNDS_SECTOR">Battlegrounds</text>
+<text name="sectorname_short_BATTLEGROUNDS_SECTOR">Battlegrounds</text>
+
+<!--Federation-->
+<text name="sector_legend_FEDERATION">Federation</text>  
+<text name="sector_FEDERATION">Unidentified Federation Sector</text>
+
+<text name="sectorname_FEDERATION_SECTOR">Federation Sector</text>
+<text name="sectorname_short_FEDERATION_SECTOR">Federation Sector</text>
+<text name="sectorname_FEDERATION_HOME">Federation Stronghold</text>
+<text name="sectorname_short_FEDERATION_HOME">Federation Stronghold</text>
+
+<!--Rebel-->
+<text name="sector_legend_REBEL">Rebel</text>  
+<text name="sector_REBEL">Unidentified Rebel Sector</text>
+
+<text name="sectorname_REBEL_SECTOR">Rebel Occupied</text>
+<text name="sectorname_short_REBEL_SECTOR">Rebel Occupied</text>
+<text name="sectorname_FEDERATION_SECTOR_MINIBOSS">Rebel Stronghold</text>
+<text name="sectorname_short_FEDERATION_SECTOR_MINIBOSS">Rebel Stronghold</text>
+
+<!--Engi-->
+<text name="sector_legend_ENGI">Engi</text>  
+<text name="sector_ENGI">Unidentified Engi Sector</text>
+
+<text name="sectorname_ENGI_SECTOR">Engi District</text>
+<text name="sectorname_short_ENGI_SECTOR">Engi District</text>
+<text name="sectorname_ENGI_HOME">Engi Homeworlds</text>
+<text name="sectorname_short_ENGI_HOME">Engi Homeworlds</text>
+
+<!--Zoltan-->
+<text name="sector_legend_ZOLTAN">Zoltan</text>  
+<text name="sector_ZOLTAN">Unidentified Zoltan Sector</text>
+
+<text name="sectorname_ZOLTAN_SECTOR">Zoltan Jurisdiction</text>
+<text name="sectorname_short_ZOLTAN_SECTOR">Zoltan Jurisdiction</text>
+<text name="sectorname_ZOLTAN_HOME">Zoltan Homeworlds</text>
+<text name="sectorname_short_ZOLTAN_HOME">Zoltan Homeworlds</text>
+
+<!--Mantis-->
+<text name="sector_legend_MANTIS">Mantis</text>  
+<text name="sector_MANTIS">Unidentified Mantis Sector</text>
+
+<text name="sectorname_MANTIS_SECTOR">Mantis Colony</text>
+<text name="sectorname_short_MANTIS_SECTOR">Mantis Colony</text>
+<text name="sectorname_MANTIS_HOME">Mantis Homeworlds</text>
+<text name="sectorname_short_MANTIS_HOME">Mantis Homeworlds</text>
+
+<!--Slug-->
+<text name="sector_legend_SLUG">Slug</text>  
+<text name="sector_SLUG">Unidentified Slug Sector</text>
+
+<text name="sectorname_SLUG_SECTOR">Slug Province</text>
+<text name="sectorname_short_SLUG_SECTOR">Slug Province</text>
+<text name="sectorname_SLUG_HOME">Slug Homeworlds</text>
+<text name="sectorname_short_SLUG_HOME">Slug Homeworlds</text>
+
+<!--Rock-->
+<text name="sector_legend_ROCK">Rock</text>  
+<text name="sector_ROCK">Unidentified Rock Sector</text>
+
+<text name="sectorname_ROCK_SECTOR">Rock State</text>
+<text name="sectorname_short_ROCK_SECTOR">Rock State</text>
+<text name="sectorname_ROCK_HOME">Rock Homeworlds</text>
+<text name="sectorname_short_ROCK_HOME">Rock Homeworlds</text>
+
+<!--Lanius-->
+<text name="sector_legend_LANIUS">Lanius</text>  
+<text name="sector_LANIUS">Unidentified Lanius Sector</text>
+
+<text name="sectorname_LANIUS_SECTOR">Lanius Coalescence</text>
+<text name="sectorname_short_LANIUS_SECTOR">Lanius Coalescence</text>
+<text name="sectorname_LANIUS_HOME">Lanius Homeworlds</text>
+<text name="sectorname_short_LANIUS_HOME">Lanius Homeworlds</text>
+

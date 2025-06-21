@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Crew-->
+<!--Aumia-->
+<animSheet name="aumia" w="280" h="579" fw="35" fh="35">people/Aumia_base.png</animSheet>
+<anim name="aumia_walk_down">
+	<sheet>aumia</sheet>
+	<desc length="8" x="0" y="16"/>
+	<time>4</time>
+</anim>
+<anim name="aumia_walk_left">
+	<sheet>aumia</sheet>
+	<desc length="4" x="0" y="15"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_walk_right">
+	<sheet>aumia</sheet>
+	<desc length="4" x="0" y="14"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_walk_up">
+	<sheet>aumia</sheet>
+	<desc length="4" x="0" y="13"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_shoot_down">
+	<sheet>aumia</sheet>
+	<desc length="3" x="0" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_shoot_right">
+	<sheet>aumia</sheet>
+	<desc length="3" x="3" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_shoot_up">
+	<sheet>aumia</sheet>
+	<desc length="3" x="0" y="11"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_shoot_left">
+	<sheet>aumia</sheet>
+	<desc length="3" x="3" y="11"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_punch_down">
+	<sheet>aumia</sheet>
+	<desc length="5" x="0" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_punch_up">
+	<sheet>aumia</sheet>
+	<desc length="5" x="0" y="9"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_fire_down">
+	<sheet>aumia</sheet>
+	<desc length="6" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_fire_right">
+	<sheet>aumia</sheet>
+	<desc length="6" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_fire_up">
+	<sheet>aumia</sheet>
+	<desc length="6" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_fire_left">
+	<sheet>aumia</sheet>
+	<desc length="6" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_repair">
+	<sheet>aumia</sheet>
+	<desc length="6" x="0" y="7"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_type_down">
+	<sheet>aumia</sheet>
+	<desc length="4" x="0" y="6"/>
+	<time>1</time>
+</anim>
+<anim name="aumia_type_up">
+	<sheet>aumia</sheet>
+	<desc length="5" x="0" y="5"/>
+	<time>1</time>
+</anim>
+<anim name="aumia_type_right">
+	<sheet>aumia</sheet>
+	<desc length="3" x="0" y="4"/>
+	<time>1</time>
+</anim>
+<anim name="aumia_type_left">
+	<sheet>aumia</sheet>
+	<desc length="3" x="0" y="3"/>
+	<time>1</time>
+</anim>
+
+<anim name="aumia_teleport">
+	<sheet>aumia</sheet>
+	<desc length="6" x="0" y="2"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="aumia_death_right">
+	<sheet>aumia</sheet>
+	<desc length="5" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="aumia_death_left">
+	<sheet>aumia</sheet>
+	<desc length="5" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_clone">
+	<sheet>aumia</sheet>
+	<desc length="7" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="aumia_portrait">
+	<sheet>aumia</sheet>
+	<desc length="1" x="0" y="16"/>
+	<time>1</time>
+</anim>
+
+<!--Emen-->
+<animSheet name="emen" w="280" h="456" fw="35" fh="35">people/Emen_base.png</animSheet>
+<anim name="emen_walk_down">
+	<sheet>emen</sheet>
+	<desc length="4" x="0" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_walk_right">
+	<sheet>emen</sheet>
+	<desc length="4" x="4" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_walk_up">
+	<sheet>emen</sheet>
+	<desc length="4" x="0" y="11"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_walk_left">
+	<sheet>emen</sheet>
+	<desc length="4" x="4" y="11"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="emen_shoot_down">
+	<sheet>emen</sheet>
+	<desc length="3" x="0" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_shoot_right">
+	<sheet>emen</sheet>
+	<desc length="3" x="3" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_shoot_up">
+	<sheet>emen</sheet>
+	<desc length="3" x="2" y="7"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_shoot_left">
+	<sheet>emen</sheet>
+	<desc length="3" x="5" y="7"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="emen_portrait">
+	<sheet>emen</sheet>
+	<desc length="1" x="0" y="12"/>
+	<time>1</time>
+</anim>
+
+<anim name="emen_fire_down">
+	<sheet>emen</sheet>
+	<desc length="3" x="0" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_fire_right">
+	<sheet>emen</sheet>
+	<desc length="3" x="3" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_fire_up">
+	<sheet>emen</sheet>
+	<desc length="3" x="2" y="7"/>
+	<time>1.0</time>
+</anim>
+<anim name="emen_fire_left">
+	<sheet>emen</sheet>
+	<desc length="3" x="5" y="7"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="emen_repair">
+	<sheet>emen</sheet>
+	<desc length="6" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+
+<anim name="emen_type_down">
+	<sheet>emen</sheet>
+	<desc length="5" x="0" y="5"/>
+	<time>1</time>
+</anim>
+<anim name="emen_type_up">
+	<sheet>emen</sheet>
+	<desc length="5" x="0" y="4"/>
+	<time>1</time>
+</anim>
+<anim name="emen_type_right">
+	<sheet>emen</sheet>
+	<desc length="5" x="0" y="2"/>
+	<time>1</time>
+</anim>
+<anim name="emen_type_left">
+	<sheet>emen</sheet>
+	<desc length="5" x="0" y="3"/>
+	<time>1</time>
+</anim>
+
+<anim name="emen_teleport">
+	<sheet>emen</sheet>
+	<desc length="4" x="0" y="1"/>
+	<time>0.5</time>
+</anim>
+
+<anim name="aumia_death_right">
+	<sheet>emen</sheet>
+	<desc length="6" x="0" y="2"/>
+	<time>1</time>
+</anim>
+<anim name="emen_death_left">
+	<sheet>emen</sheet>
+	<desc length="6" x="0" y="1"/>
+	<time>1</time>
+</anim>
+
+<anim name="emen_clone">
+	<sheet>emen</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<!--Weapoons-->
+<!--Basic Laser 1-->
+<animSheet name="LASER_TAT1_SHEET" w="208" h="49" fw="16" fh="49">weapons/LASER_TAT1.png</animSheet>
+<weaponAnim name="LASER_TAT1_SHEET">
+	<sheet>LASER_TAT1_SHEET</sheet>
+	<desc length="12" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="10" y="0"/>
+	<mountPoint x="5" y="34"/>
+	<chargeImage>weapons/LASER_TAT1_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Basic Laser 2-->
+<animSheet name="LASER_TAT2_SHEET" w="238" h="52" fw="17" fh="52">weapons/LASER_TAT2.png</animSheet>
+<weaponAnim name="LASER_TAT2_SHEET">
+	<sheet>LASER_TAT2_SHEET</sheet>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>6</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint x="10" y="0" />
+	<mountPoint x="1" y="34"/>
+	<chargeImage>weapons/LASER_TAT2_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Basic Beam 2-->
+<animSheet name="BEAM_TAT2_SHEET" w="319" h="44" fw="29" fh="44">weapons/BEAM_TAT2.png</animSheet>
+<weaponAnim name="BEAM_TAT2_SHEET">
+	<sheet>BEAM_TAT2_SHEET</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>2</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="16" y="18" />
+	<mountPoint x="2" y="34"/>
+	<chargeImage>weapons/BEAM_TAT2_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Basic Beam 4-->
+<animSheet name="BEAM_TAT4_SHEET" w="264" h="24" fw="76" fh="24">weapons/BEAM_TAT4.png</animSheet>
+<weaponAnim name="BEAM_TAT4_SHEET">
+	<sheet>BEAM_TAT4_SHEET</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>1</fireFrame>
+	<firePoint x="16" y="49" />
+	<mountPoint x="2" y="34"/>
+	<chargeImage>weapons/BEAM_TAT4_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Super Beam-->
+<animSheet name="BEAM_TATSCYTHE_SHEET" w="297" h="78" fw="33" fh="78">weapons/BEAM_TATSCYTHE.png</animSheet>
+<weaponAnim name="BEAM_TATSCYTHE_SHEET">
+	<sheet>BEAM_TATSCYTHE_SHEET</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="19" y="43"/>
+	<mountPoint x="2" y="33"/>
+	<chargeImage>weapons/BEAM_TATSCYTHE_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Basic Bomb 2-->
+<animSheet name="bomb_TAT2" w="595" h="52" fw="35" fh="52">weapons/bomblauncher_TAT2_strip17.png</animSheet>
+<weaponAnim name="bomb_TAT2">
+	<sheet>bomb_TAT2</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>16</fireFrame>
+	<firePoint x="20" y="8" />
+	<mountPoint x="5" y="34" />
+	<delayChargeAnim>0.98</delayChargeAnim>
+	<chargeImage>weapons/bomblauncher_TAT2_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Basic Bomb 3-->
+<animSheet name="bomb_TAT3" w="595" h="52" fw="35" fh="52">weapons/bomblauncher_TAT3_strip17.png</animSheet>
+<weaponAnim name="bomb_TAT3">
+	<sheet>bomb_TAT3</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>16</fireFrame>
+	<firePoint x="20" y="8" />
+	<mountPoint x="5" y="34" />
+	<delayChargeAnim>0.98</delayChargeAnim>
+	<chargeImage>weapons/bomblauncher_TAT3_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Basic Bomb 4-->
+<animSheet name="bomb_TAT4" w="595" h="52" fw="35" fh="52">weapons/bomblauncher_TAT4_strip17.png</animSheet>
+<weaponAnim name="bomb_TAT4">
+	<sheet>bomb_TAT4</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>16</fireFrame>
+	<firePoint x="20" y="8" />
+	<mountPoint x="5" y="34" />
+	<delayChargeAnim>0.98</delayChargeAnim>
+	<chargeImage>weapons/bomblauncher_TAT4_glow.png</chargeImage>
+</weaponAnim>
+
+<!--Breach Bomb 2-->
+<animSheet name="bomb_breach2" w="595" h="52" fw="35" fh="52">weapons/bomblauncher_breach2_strip17.png</animSheet>
+<weaponAnim name="bomb_breach2">
+	<sheet>bomb_breach2</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>16</fireFrame>
+	<firePoint x="20" y="8" />
+	<mountPoint x="5" y="34" />
+	<delayChargeAnim>0.98</delayChargeAnim>
+	<chargeImage>weapons/bomblauncher_1_glow.png</chargeImage>
+</weaponAnim>
+
+<!--ION_CHAINGUN_2-->
+<animSheet name="ION_CHAINGUN_2" w="300" h="60" fw="30" fh="60">weapons/ION_CHAINGUN_2.png</animSheet>
+<weaponAnim name="ION_CHAINGUN_2">
+	<sheet>ION_CHAINGUN_2</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="15" y="5" />
+	<mountPoint x="0" y="0" />
+</weaponAnim>
+
+<!--Chain Ion-->
+<animSheet name="Chain_Beam_Final" w="300" h="60" fw="30" fh="60">weapons/Chain_Beam_Final.png</animSheet>
+<weaponAnim name="Chain_Beam_Final">
+	<sheet>Chain_Beam_Final</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint x="17" y="44" />
+	<mountPoint x="0" y="0" />
+	<chargeImage>weapons/Chain_Beam_Final_Glow.png</chargeImage>
+	<boost>Chain_Beam_Final_Charge</boost>
+</weaponAnim>
+
+<!--???-->
+<animSheet name="Chain_Beam_Final_Charge" w="162" h="75" fw="54" fh="75">weapons/Chain_Beam_Final_Charge.png</animSheet>
+<anim name="Chain_Beam_Final_Charge">
+	<sheet>Chain_Beam_Final_Charge</sheet>
+	<desc length="5" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
