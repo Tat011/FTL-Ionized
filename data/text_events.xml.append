@@ -1080,7 +1080,11 @@
 <text name="TAT_ROCK_PULSAR_INTRO">You see a Rock ship patrolling a nearby pulsar, "You're trampling on holy ground, outsider. The mighty Neutron star will claim you for this infraction."</text>
 
 <!--TAT_ROCK_STORM-->
-<text name="TAT_ROCK_STORM_INTRO">A Rock ship blocks your path, "The Federation thinks it can go where it pleases, it needs to learn it doesn't own the world." They charge their guns.</text>
+<text name="TAT_ROCK_STORM_INTRO">A Rock ship blocks your path, "The Federation thinks it can go where it pleases, it needs to learn it does not own the world." They charge their guns.</text>
+<text name="TAT_ROCK_STORM_ESCAPE">"You will not get away with this." The Rock ship begins powering its hypedrive.</text>
+<text name="TAT_ROCK_STORM_ESCAPED">The Rock ship jumps away, leaving you alone in the storm.</text>
+<text name="TAT_ROCK_STORM_DESTROYED">The Rock ship explodes into many pieces and begins dispersing into the nebula.</text>
+<text name="TAT_ROCK_STORM_DEAD">The Rock ship is easily shut down without its crew.</text>
 
 <!--Lanius Events-->
 <!--LANIUS_DISTRESS_FIGHT-->

@@ -190,30 +190,6 @@
 	</destroyed>
 </ship>
 
-<!--TAT_ROCK_ASB (Uncharted/Rock)-->
-<event name="TAT_ROCK_ASB" unique="true">
-	<img back="BG_DARK" planet="planet_red1"/>
-	<text id="TAT_ROCK_ASB_INTRO"/>
-	<environment type="PDS" target="player"/>
-	<ship load="TAT_ROCK_ASB_SHIP" hostile="true"/>
-</event>
-<ship name="TAT_ROCK_ASB_SHIP" auto_blueprint="SHIPS_ROCK"><!--Rock Ship-->
-	<escape chance="0.6" min="2" max="5" >
-		<text id="TAT_ROCK_ASB_ESCAPE"/>
-	</escape>
-	<gotaway>
-		<text id="TAT_ROCK_ASB_ESCAPED"/>
-	</gotaway>
-	<destroyed>
-		<text id="TAT_ROCK_ASB_DESTROYED"/>
-		<autoReward level="MED">standard</autoReward>
-	</destroyed>
-	<deadCrew>
-		<text id="TAT_ROCK_ASB_DEAD"/>
-		<autoReward level="MED">standard</autoReward>
-	</deadCrew>
-</ship>
-
 <!--Starting Sector (copy Rebel)-->
 <eventList name="NEUTRAL_STANDARD">
 	<event load="AUTO_CIVILIAN"/>
@@ -2792,8 +2768,17 @@ item - scrap + that thing  -->
 	<ship load="EMEN_SHIP_DEFAULT" hostile="true"/>
 </event>
 
-<!--Batlegrounds events-->
 
+<!--Lanius events-->
+<!--TAT_LANIUS_STORM-->
+<event name="TAT_LANIUS_STORM" unique="true">
+	<text id="TAT_LANIUS_STORM_INTRO"/>
+	<environment type="storm"/>
+	<ship load="LANIUS_SHIP" hostile="true"/>
+</event>
+
+
+<!--Batlegrounds events-->
 <!--TAT_FLEET_SUN (Last Stand/Battlegrounds/Rebel Controlled/Stronghold)-->
 <event name="TAT_FLEET_SUN" unique="true">
 	<img back="BG_DARK"/>

@@ -262,51 +262,39 @@
 	<choice>
 		<text id="TAT_ROCK_CHURCH_25"/>
 		<event>
+			<item_modify>
+				<item type="scrap" min="25" max="25"/>
+			</item_modify>
 			<text id="TAT_ROCK_CHURCH_INSIDE"/>
 			<choice hidden="true">
 				<text id="continue"/>
-				<event>
-					<text id="TAT_ROCK_CHURCH_25ED1"/>
-            	  	<crewMember amount="1" type="rock" id="name_TATKragg"/>
-				</event>
-				<event>
-					<text id="TAT_ROCK_CHURCH_25ED2"/>
-            	    <damage amount="-5"/>
-				</event>
-				<event>
-					<text id="TAT_ROCK_CHURCH_25ED3"/>
-				</event>
+				<event load="TAT_ROCK_CHURCH_25ED"/>
 			</choice>
 		</event>
 	</choice>
 	<choice>
 		<text id="TAT_ROCK_CHURCH_40"/>
 		<event>
+			<item_modify>
+				<item type="scrap" min="40" max="40"/>
+			</item_modify>
 			<text id="TAT_ROCK_CHURCH_INSIDE"/>
 			<choice hidden="true">
 				<text id="continue"/>
-				<event>
-					<text id="TAT_ROCK_CHURCH_40ED1"/>
-            	  	<crewMember amount="1" type="rock" repair="2" id="name_TATOmen"/>
-				</event>
-				<event>
-					<text id="TAT_ROCK_CHURCH_40ED2"/>
-            	    <damage amount="-8"/>
-				</event>
+				<event load="TAT_ROCK_CHURCH_40ED"/>
 			</choice>
 		</event>
 	</choice>
 	<choice>
 		<text id="TAT_ROCK_CHURCH_55"/>
 		<event>
+			<item_modify>
+				<item type="scrap" min="55" max="55"/>
+			</item_modify>
 			<text id="TAT_ROCK_CHURCH_INSIDE"/>
 			<choice hidden="true">
 				<text id="continue"/>
-				<event>
-					<text id="TAT_ROCK_CHURCH_55ED1"/>
-            	  	<crewMember amount="1" type="rock" all_skills="2" id="name_TATElder"/>
-            	    <damage amount="-5"/>
-				</event>
+				<event load="TAT_ROCK_CHURCH_55ED"/>
 			</choice>
 		</event>
 	</choice>
@@ -315,20 +303,97 @@
 		<event/>
 	</choice>
 </event>
+
+<eventList name="TAT_ROCK_CHURCH_25ED">
+	<event>
+		<text id="TAT_ROCK_CHURCH_25ED1"/>
+   	  	<crewMember amount="1" type="rock" id="name_TATKragg"/>
+	</event>
+	<event>
+		<text id="TAT_ROCK_CHURCH_25ED2"/>
+	    <damage amount="-5"/>
+	</event>
+	<event>
+		<text id="TAT_ROCK_CHURCH_25ED3"/>
+	</event>
+</eventList>
+
+<eventList name="TAT_ROCK_CHURCH_40ED">
+	<event>
+		<text id="TAT_ROCK_CHURCH_40ED1"/>
+		<crewMember amount="1" type="rock" repair="2" id="name_TATOmen"/>
+	</event>
+	<event>
+		<text id="TAT_ROCK_CHURCH_40ED2"/>
+		<damage amount="-8"/>
+	</event>
+</eventList>
+
+<eventList name="TAT_ROCK_CHURCH_55ED">
+	<event>
+		<text id="TAT_ROCK_CHURCH_55ED1"/>
+		<crewMember amount="1" type="rock" all_skills="2" id="name_TATElder"/>
+		<damage amount="-5"/>
+	</event>
+</eventList>
+
 <text name="name_TATKragg">Kragg Ooben</text>
 <text name="name_TATOmen">Omen Elm</text>
 <text name="name_TATElder">Elder Esk</text>
 
-<!--TAT_ROCK_PULSAR (Rock EXCLUSIVE)-->
+
+<!--TAT_ROCK_PULSAR (Rock/Engi)-->
 <event name="TAT_ROCK_PULSAR" unique="true">
 	<text id="TAT_ROCK_PULSAR_INTRO"/>
 	<environment type="pulsar"/>
 	<ship load="ROCK_SHIP" hostile="true"/>
 </event>
 
-<!--TAT_ROCK_STORM-->
+<!--TAT_ROCK_ASB (Uncharted/Rock)-->
+<event name="TAT_ROCK_ASB" unique="true">
+	<img back="BG_DARK" planet="planet_red1"/>
+	<text id="TAT_ROCK_ASB_INTRO"/>
+	<environment type="PDS" target="player"/>
+	<ship load="TAT_ROCK_ASB_SHIP" hostile="true"/>
+</event>
+<!--Ship-->
+<ship name="TAT_ROCK_ASB_SHIP" auto_blueprint="SHIPS_ROCK"><!--Rock Ship-->
+	<escape chance="0.6" min="2" max="5" >
+		<text id="TAT_ROCK_ASB_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="TAT_ROCK_ASB_ESCAPED"/>
+	</gotaway>
+	<destroyed>
+		<text id="TAT_ROCK_ASB_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_ROCK_ASB_DEAD"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
+
+<!--TAT_ROCK_STORM (for some reason crashes game)-->
 <event name="TAT_ROCK_STORM" unique="true">
 	<text id="TAT_ROCK_STORM_INTRO"/>
 	<environment type="storm"/>
-	<ship load="ROCK_SHIP" hostile="true"/>
+	<ship load="TAT_ROCK_STORM_SHIP" hostile="true"/>
 </event>
+
+<ship name="TAT_ROCK_STORM_SHIP" auto_blueprint="SHIPS_ROCK">
+	<escape chance="0.6" min="2" max="5" >
+		<text id="TAT_ROCK_ASB_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="TAT_ROCK_STORM_ESCAPED"/>
+	</gotaway>
+	<destroyed>
+		<text id="TAT_ROCK_STORM_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_ROCK_STORM_DEAD"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>

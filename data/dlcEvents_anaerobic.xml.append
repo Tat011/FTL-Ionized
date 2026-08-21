@@ -759,19 +759,12 @@
 	<img back="BG_DARK" planet="PLANET"/>
 	<text id="TAT_LANIUS_ASB_INTRO"/>
 	<environment type="PDS" target="player"/>
-	<ship load="SHIPS_LANIUS" hostile="true"/>
+	<ship load="LANIUS_SHIP" hostile="true"/>
 </event>
 
 <!--TAT_LANIUS_NEBULA-->
 <event name="TAT_LANIUS_NEBULA" unique="true">
 	<text id="TAT_LANIUS_NEBULA_INTRO"/>
 	<environment type="nebula"/>
-	<ship load="SHIPS_LANIUS" hostile="true"/>
-</event>
-
-<!--TAT_LANIUS_STORM-->
-<event name="TAT_LANIUS_STORM" unique="true">
-	<text id="TAT_LANIUS_STORM_INTRO"/>
-	<environment type="storm"/>
-	<ship load="SHIPS_LANIUS" hostile="true"/>
+	<ship load="LANIUS_SHIP" hostile="true"/>
 </event>

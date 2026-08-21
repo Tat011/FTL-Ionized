@@ -65,10 +65,9 @@
 	<event load="TAT_ZOLTAN_NEBULA"/>
 	<event load="TAT_ZOLTAN_STORM"/>
 	<event load="TAT_MANTIS_STORM"/>
-	<event load="TAT_ROCK_STORM"/>
 	<event load="TAT_LANIUS_NEBULA"/>
 	<event load="TAT_LANIUS_STORM"/>
-	<event load="TAT_EMEN_STORM"/>
+	<event load="TAT_EMEN_STORM"/><!--Works-->
 </eventList>
 <eventList name="NEBULA_HOSTILE_STANDARD">
 	<event load="NEBULA_REBEL"/>
@@ -87,7 +86,6 @@
 	<event load="TAT_ZOLTAN_NEBULA"/>
 	<event load="TAT_ZOLTAN_STORM"/>
 	<event load="TAT_MANTIS_STORM"/>
-	<event load="TAT_ROCK_STORM"/>
 	<event load="TAT_LANIUS_NEBULA"/>
 	<event load="TAT_LANIUS_STORM"/>
 	<event load="TAT_EMEN_STORM"/>

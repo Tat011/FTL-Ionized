@@ -56,6 +56,7 @@
 	<event load="BOARDERS_HACKING"/>
 	<event load="REBEL_PULSAR"/>
 	<event load="LANIUS_FIGHT_PULSAR"/>
+	<event load="TAT_ROCK_PULSAR"/>
 	<event load="TAT_SLUG_ENGI_NEUTRON"/>
 	<event load="TAT_ENGI_SUN"/>
 	<event load="TAT_ENGI_ASTEROID"/>
