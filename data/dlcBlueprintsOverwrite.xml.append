@@ -467,7 +467,7 @@
 		<drone name="COMBAT_BEAM_2"/>
 	</droneList>
 	<health amount="30"/>
-	<maxPower amount ="10"/>
+	<maxPower amount ="11"/>
 	<crewCount amount = "1" class="anaerobic"/>
 	<crewCount amount = "2" class="engi"/>
 	<aug name="DEFENSE_SCRAMBLER"/>

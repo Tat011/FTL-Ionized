@@ -16,8 +16,7 @@
 <text name="crew_engi_power_3">150% Repair speed/Fire suppression</text>
 <text name="crew_engi_power_4">50% Combat damage.</text>
 <text name="crew_engi_power_5">20% Damage reduction</text>
-<text name="crew_engi_power_6">Catches on fire on death</text>
-<text name="crew_engi_power_7">Ability: "Ionize"/"DeIonize"; adds or removes 4 ion damage, depending on if you're on your ship or the enemy ship.</text>
+<text name="crew_engi_power_6">Ability: "Ionize"; adds 4 ion damage to the system. Triggers on death</text>
 
 <!--Zoltan-->
 <text name="crew_energy_desc">Zoltans are beings of pure energy that can power ship systems with their bodies.</text>
@@ -67,16 +66,16 @@
 <text name="crew_crystal_power_4">100% Damage dealt</text>
 <text name="crew_crystal_power_5">50% Damage resistance</text>
 <text name="crew_crystal_power_6">25% Stun duration</text>
-<text name="crew_crystal_power_7">Ability: "Lockdown"; prevents room entry and exit</text>
+<text name="crew_crystal_power_7">Ability: "Lockdown"; prevents room entry and exit. Triggers on death.</text>
 
 <!--Lanius-->
 <text name="crew_anaerobic_desc">These anaerobic beings are capable of molding metal to their will.</text>
 <text name="crew_anaerobic_power_1">110 HP</text>
-<text name="crew_anaerobic_power_2">85% Movement speed</text>
+<text name="crew_anaerobic_power_2">100% Movement speed</text>
 <text name="crew_anaerobic_power_3">100% Repair speed/Fire suppression</text>
 <text name="crew_anaerobic_power_4">100% Damage dealt</text>
 <text name="crew_anaerobic_power_5">Drains oxygen from rooms and takes no suffocation damage</text>
-<text name="crew_anaerobic_power_6">Ability: "Metabolize"; heals themselves, releasing oxygen in the process</text>
+<text name="crew_anaerobic_power_6">Ability: "Metabolize"; heals itself, releasing oxygen in the process</text>
 
 <!--Aumia-->
 <text name="crew_aumia_title">Aumia</text>
@@ -95,15 +94,14 @@
 <text name="crew_emen_title">Emen Drone</text>
 <text name="crew_emen_short">Emen</text>
 <text name="crew_emen_desc">The Emen are robotic beings that absconded from the Federation to live independently.</text>
-<text name="crew_emen_power_1">100 HP</text>
+<text name="crew_emen_power_1">75 HP</text>
 <text name="crew_emen_power_2">100% Movement speed</text>
-<text name="crew_emen_power_3">100% Repair speed</text>
-<text name="crew_emen_power_4">100% Fire suppression</text>
-<text name="crew_emen_power_5">100% Damage dealt</text>
-<text name="crew_emen_power_6">50% Fire damage and Stun duration</text>
-<text name="crew_emen_power_7">Immune to suffocation</text>
-<text name="crew_emen_power_8">200% skill requirements</text>
-<text name="crew_emen_power_9">Ability: ????</text>
+<text name="crew_emen_power_3">100% Repair speed/Fire suppression</text>
+<text name="crew_emen_power_4">100% Damage dealt</text>
+<text name="crew_emen_power_5">25% Fire damage and Stun duration</text>
+<text name="crew_emen_power_6">Immune to suffocation</text>
+<text name="crew_emen_power_7">200% skill requirements</text>
+<text name="crew_emen_power_8">Ability: "Electrical Fire"; Creates a fire in the room. Triggers on death</text>
 
 <!--Weapons-->
 <!--Artillery-->

@@ -55,30 +55,22 @@
 		<damageMultiplier>0.5</damageMultiplier>
 		<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
 		<allDamageTakenMultiplier>0.8</allDamageTakenMultiplier>
-		<powerEffect name="DeIonize">
-			<replaceGroupName>IonTatAbility</replaceGroupName>
-			<powerCharges>1</powerCharges>
-			<jumpCooldown>full</jumpCooldown>
-			<cooldown>0</cooldown>
-			<friendlyFire>true</friendlyFire>
-			<ion>-4</ion>
-			<cooldownColor r="125" g="125" b="125"/>
-			<buttonText>De-Ionize</buttonText>
-			<tooltip>Removes up to 4 ion damage from a room.</tooltip>
-		</powerEffect>
 		<powerEffect name="Ionize">
 			<replaceGroupName>IonTatAbility</replaceGroupName>
 			<powerCharges>1</powerCharges>
 			<jumpCooldown>full</jumpCooldown>
 			<cooldown>0</cooldown>
-			<friendlyFire>false</friendlyFire>
-			<ion>4</ion>
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+			<ion>3</ion>
 			<cooldownColor r="155" g="155" b="155"/>
 			<buttonText>Ionize</buttonText>
-			<tooltip>Gives 4 ion damage to a room.</tooltip>
+			<tooltip>Gives 3 ion damage to a room.</tooltip>
 		</powerEffect>
 		<deathEffect>
 			<ion>3</ion>
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
 		</deathEffect>
 		<deathSounds>
 			<deathSound>engiDeath</deathSound>
@@ -132,14 +124,16 @@
     <healSpeed>1.3</healSpeed>
     <cloneSpeedMultiplier>1.3</cloneSpeedMultiplier>
     <powerEffect name="Screech">
-      <powerCharges>1</powerCharges>
-      <jumpCooldown>full</jumpCooldown>
-      <cooldown>0</cooldown>
-     <stunChance>10</stunChance>
-     <friendlyFire>true</friendlyFire>
-     <cooldownColor r="255" g="0" b="0"/>
-      <buttonText>Screech</buttonText>
-			<tooltip>Stuns everyone in the room.</tooltip>
+		<powerCharges>1</powerCharges>
+		<jumpCooldown>full</jumpCooldown>
+		<cooldown>0</cooldown>
+		<stunChance>10</stunChance>
+		<stun>4</stun>
+		<friendlyFire>true</friendlyFire>
+		<shipFriendlyFire>true</shipFriendlyFire>
+		<cooldownColor r="255" g="0" b="0"/>
+		<buttonText>Screech</buttonText>
+		<tooltip>Stuns everyone in the room for 4 seconds.</tooltip>
    </powerEffect>
 		<animBase>mantis</animBase>
 		<deathSounds>
@@ -167,6 +161,7 @@
 			<cooldown>0</cooldown>
 			<breachChance>10</breachChance>
 			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
 			<cooldownColor r="255" g="75" b="75"/>
 			<buttonText>Concealed Charges</buttonText>
 			<tooltip>Creates a breach in the room.</tooltip>
@@ -231,6 +226,11 @@
 			</powerSounds>
 			<effectAnim>explosion_crystal</effectAnim>
 		</powerEffect>
+		<deathEffect>
+			<lockdown>true</lockdown>
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+		</deathEffect>
 		<animBase>rock</animBase>
 		<repairSounds animSoundFrame="5">
 			<repairSound>rockThud1</repairSound>
@@ -250,7 +250,7 @@
 <!--Lanius-->
 	<race name="anaerobic">
 		<maxHealth>110</maxHealth>
-		<moveSpeedMultiplier>1.1</moveSpeedMultiplier>
+		<moveSpeedMultiplier>1</moveSpeedMultiplier>
 		<oxygenChangeSpeed>-0.5</oxygenChangeSpeed>
 		<canSuffocate>false</canSuffocate>
 		<powerEffect name="Metabolize">
@@ -318,8 +318,9 @@
 <!--Emen-->
 	<race name="emen">
 		<canSuffocate>false</canSuffocate>
-		<fireDamageMultiplier>0.5</fireDamageMultiplier>
-		<stunMultiplier>0.5</stunMultiplier>
+		<maxHealth>75</maxHealth>
+		<fireDamageMultiplier>0.25</fireDamageMultiplier>
+		<stunMultiplier>0.25</stunMultiplier>
 		<skills>
 			<piloting req="26"/>
 			<engines req="26"/>
@@ -329,8 +330,21 @@
 			<combat req="14"/>
 		</skills>
 		<canPunch>false</canPunch>
+		<powerEffect name="Electrical Fire">
+			<powerCharges>1</powerCharges>
+			<jumpCooldown>full</jumpCooldown>
+			<cooldown>0</cooldown>
+			<fireChance>10</fireChance>
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
+			<cooldownColor r="255" g="100" b="75"/>
+			<buttonText>Electrical Fire</buttonText>
+			<tooltip>Creates a fire in the room.</tooltip>
+		</powerEffect>
 		<deathEffect>
 			<fireChance>10</fireChance>
+			<friendlyFire>true</friendlyFire>
+			<shipFriendlyFire>true</shipFriendlyFire>
 		</deathEffect>
 	</race>
 

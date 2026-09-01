@@ -527,7 +527,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -555,7 +555,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -585,7 +585,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -613,7 +613,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -642,7 +642,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -670,7 +670,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -699,7 +699,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -727,7 +727,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -756,7 +756,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -784,7 +784,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -813,7 +813,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -841,7 +841,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -870,7 +870,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -899,7 +899,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -928,7 +928,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -956,7 +956,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -985,7 +985,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -1013,7 +1013,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1042,7 +1042,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ZOLTAN_BYPASS" />
@@ -1070,7 +1070,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1105,7 +1105,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1133,7 +1133,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1161,7 +1161,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1186,7 +1186,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1213,7 +1213,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1241,7 +1241,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1269,7 +1269,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1294,7 +1294,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1321,7 +1321,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1350,7 +1350,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1379,7 +1379,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1404,7 +1404,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1431,7 +1431,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1460,7 +1460,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1489,7 +1489,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1518,7 +1518,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1547,7 +1547,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1576,7 +1576,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1601,7 +1601,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1628,7 +1628,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1657,7 +1657,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1685,7 +1685,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1710,7 +1710,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1737,7 +1737,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1765,7 +1765,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1794,7 +1794,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1819,7 +1819,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1846,7 +1846,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1875,7 +1875,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -1904,7 +1904,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1929,7 +1929,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -1956,7 +1956,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -1984,7 +1984,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2013,7 +2013,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -2042,7 +2042,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -2070,7 +2070,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2099,7 +2099,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="human" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
@@ -2124,7 +2124,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<boardingAI>sabotage</boardingAI>
 	<aug name="AUTO_COOLDOWN" />
 	<aug name="SHIELD_RECHARGE" />
@@ -2157,7 +2157,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2185,7 +2185,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2214,7 +2214,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2242,7 +2242,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2271,7 +2271,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2299,7 +2299,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2328,7 +2328,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2356,7 +2356,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2385,7 +2385,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2413,7 +2413,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2450,7 +2450,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2480,7 +2480,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2511,7 +2511,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2541,7 +2541,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2572,7 +2572,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2602,7 +2602,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2633,7 +2633,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="engi" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="NANO_MEDBAY" />
@@ -2663,7 +2663,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2697,7 +2697,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -2725,7 +2725,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2754,7 +2754,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -2782,7 +2782,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2812,7 +2812,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -2841,7 +2841,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2870,7 +2870,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -2898,7 +2898,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2927,7 +2927,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -2955,7 +2955,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -2993,7 +2993,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -3024,7 +3024,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3057,7 +3057,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -3089,7 +3089,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3121,7 +3121,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="energy" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ENERGY_SHIELD" />
@@ -3152,7 +3152,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3182,7 +3182,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3210,7 +3210,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3239,7 +3239,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3267,7 +3267,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3296,7 +3296,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3324,7 +3324,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3353,7 +3353,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3381,7 +3381,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3410,7 +3410,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3438,7 +3438,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3475,7 +3475,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3505,7 +3505,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3536,7 +3536,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3566,7 +3566,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3597,7 +3597,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3627,7 +3627,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3658,7 +3658,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3688,7 +3688,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3725,7 +3725,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3756,7 +3756,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3788,7 +3788,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3819,7 +3819,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3851,7 +3851,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="mantis" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CREW_STIMS" />
@@ -3882,7 +3882,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3916,7 +3916,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -3944,7 +3944,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -3973,7 +3973,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4001,7 +4001,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4030,7 +4030,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4058,7 +4058,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4087,7 +4087,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4115,7 +4115,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4144,7 +4144,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4172,7 +4172,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4220,7 +4220,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4251,7 +4251,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4283,7 +4283,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4314,7 +4314,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4346,7 +4346,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4377,7 +4377,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4409,7 +4409,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4440,7 +4440,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4472,7 +4472,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4503,7 +4503,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4535,7 +4535,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="slug" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SLUG_GEL" />
@@ -4566,7 +4566,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4596,7 +4596,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4624,7 +4624,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4653,7 +4653,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4681,7 +4681,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4710,7 +4710,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4738,7 +4738,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4767,7 +4767,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4795,7 +4795,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4824,7 +4824,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4852,7 +4852,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4889,7 +4889,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4919,7 +4919,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -4950,7 +4950,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -4980,7 +4980,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -5011,7 +5011,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -5041,7 +5041,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -5072,7 +5072,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -5102,7 +5102,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -5139,7 +5139,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -5170,7 +5170,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -5202,7 +5202,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -5233,7 +5233,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -5265,7 +5265,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="rock" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ROCK_ARMOR" />
@@ -5296,7 +5296,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="FTL_BOOSTER" />
@@ -5330,7 +5330,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5358,7 +5358,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5386,7 +5386,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5414,7 +5414,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5442,7 +5442,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5487,7 +5487,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5518,7 +5518,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5549,7 +5549,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="WEAPONS_CRYSTAL" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="crystal" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="CRYSTAL_SHARDS" />
@@ -5577,7 +5577,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5604,7 +5604,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5632,7 +5632,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5659,7 +5659,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5687,7 +5687,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5714,7 +5714,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5742,7 +5742,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5769,7 +5769,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5797,7 +5797,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5824,7 +5824,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD" />
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5871,7 +5871,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5901,7 +5901,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5932,7 +5932,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -5962,7 +5962,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -5993,7 +5993,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="anaerobic" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SHIELD_RECHARGE" />
@@ -6023,7 +6023,7 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="16" />
-	<maxPower amount="8"/>
+	<maxPower amount="7"/>
 	<crewCount amount="5" max="9" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
@@ -6037,14 +6037,14 @@ Assault. Rigger-->
 <!--Lanius Rigger C (Weapons)-->
 
 <!--Emen (Drones, Hacking, Mind Control)-->
-<!--Emen Scout A (Hacking)-->
+<!--Emen Scout A (Drones)-->
 <shipBlueprint name="EMEN_SCOUT_A" layout="emen_scout_a" img="auto_basic">
 	<class id="text_EMEN_SCOUT_A_class"/>
 	<maxSector>8</maxSector>
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
-		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<hacking power="1" max="5" room="0" start="true" />
 		<drones power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
@@ -6056,11 +6056,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Scout A-->
@@ -6071,6 +6071,7 @@ Assault. Rigger-->
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
 		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<hacking power="1" max="5" room="0" start="true" />
 		<drones power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
@@ -6082,13 +6083,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emen Scout B (Cloaking)-->
@@ -6098,9 +6099,9 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
-		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<cloaking power="1" max="5" room="0" start="true" />
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6110,11 +6111,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Scout B-->
@@ -6125,8 +6126,9 @@ Assault. Rigger-->
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
 		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<cloaking power="1" max="5" room="0" start="true" />
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6136,13 +6138,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emen Scout C (Boarding)-->
@@ -6152,9 +6154,9 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
-		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<teleporter power="1" max="5" room="0" start="true" />
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6164,11 +6166,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Scout C-->
@@ -6179,8 +6181,9 @@ Assault. Rigger-->
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
 		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<teleporter power="1" max="5" room="0" start="true" />
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6190,13 +6193,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emen Scout D (Mind Control)-->
@@ -6206,9 +6209,9 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
-		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<mind power="1" max="5" room="0" start="true" />
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6218,11 +6221,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Scout D (Mind Control)-->
@@ -6233,8 +6236,9 @@ Assault. Rigger-->
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
 		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<mind power="1" max="5" room="0" start="true" />
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6244,13 +6248,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emen Scout E (Artillery)-->
@@ -6260,9 +6264,9 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
-		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<artillery power="1" max="5" room="0" start="true" weapon="ARTILLERY_FED"/>
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6272,11 +6276,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Scout E-->
@@ -6287,8 +6291,9 @@ Assault. Rigger-->
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="6" start="true" />
 		<medbay power="1" max="4" room="7" start="true" />
+		<clonebay power="1" max="4" room="7" start="true" />
 		<artillery power="1" max="5" room="0" start="true" weapon="ARTILLERY_FED"/>
-		<drones power="1" max="5" room="5" start="true" />
+		<hacking power="1" max="5" room="5" start="true" />
 		<engines power="1" max="10" room="1" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="2" max="10" room="4" start="true" />
@@ -6298,13 +6303,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="8" />
-	<maxPower amount="6"/>
+	<maxPower amount="5"/>
 	<crewCount amount="3" max="7" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emem Interceptor A-->
@@ -6320,10 +6325,10 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="7" start="true" />
-		<medbay power="1" max="4" room="6" start="true" />
+		<clonebay power="1" max="4" room="6" start="true" />
 		<cloaking power="1" max="5" room="8" start="true" />
 		<hacking power="1" max="5" room="5" start="true" />
-		<drones power="1" max="5" room="0" start="true" />
+		<teleporter power="1" max="5" room="0" start="true" />
 		<engines power="1" max="10" room="4" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="1" max="10" room="1" start="true" />
@@ -6333,11 +6338,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Fighter A-->
@@ -6351,7 +6356,7 @@ Assault. Rigger-->
 		<clonebay power="1" max="4" room="6" start="true" />
 		<cloaking power="1" max="5" room="8" start="true" />
 		<hacking power="1" max="5" room="5" start="true" />
-		<drones power="1" max="5" room="0" start="true" />
+		<teleporter power="1" max="5" room="0" start="true" />
 		<engines power="1" max="10" room="4" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="1" max="10" room="1" start="true" />
@@ -6361,23 +6366,23 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
-<!--Emen Fighter B (Boarding)-->
+<!--Emen Fighter B (Drones)-->
 <shipBlueprint name="EMEN_FIGHTER_B" layout="emen_fighter_b" img="auto_assault">
 	<class id="text_EMEN_FIGHTER_B_class"/>
 	<maxSector>8</maxSector>
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="7" start="true" />
-		<medbay power="1" max="4" room="6" start="true" />
+		<clonebay power="1" max="4" room="6" start="true" />
 		<teleporter power="1" max="5" room="8" start="true" />
 		<hacking power="1" max="5" room="5" start="true" />
 		<drones power="1" max="5" room="0" start="true" />
@@ -6390,11 +6395,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Fighter B-->
@@ -6418,13 +6423,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emen Fighter C (Mind Control)-->
@@ -6434,10 +6439,10 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="7" start="true" />
-		<medbay power="1" max="4" room="6" start="true" />
+		<clonebay power="1" max="4" room="6" start="true" />
 		<mind power="1" max="5" room="8" start="true" />
 		<hacking power="1" max="5" room="5" start="true" />
-		<drones power="1" max="5" room="0" start="true" />
+		<teleporter power="1" max="5" room="0" start="true" />
 		<engines power="1" max="10" room="4" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="1" max="10" room="1" start="true" />
@@ -6447,11 +6452,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Fighter C-->
@@ -6465,7 +6470,7 @@ Assault. Rigger-->
 		<clonebay power="1" max="4" room="6" start="true" />
 		<mind power="1" max="5" room="8" start="true" />
 		<hacking power="1" max="5" room="5" start="true" />
-		<drones power="1" max="5" room="0" start="true" />
+		<teleporter power="1" max="5" room="0" start="true" />
 		<engines power="1" max="10" room="4" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="1" max="10" room="1" start="true" />
@@ -6475,13 +6480,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emen Fighter D (Artillery)-->
@@ -6491,10 +6496,10 @@ Assault. Rigger-->
 	<systemList>
 		<pilot power="1" max="3" room="2" start="true" />
 		<doors power="1" max="3" room="7" start="true" />
-		<medbay power="1" max="4" room="6" start="true" />
+		<clonebay power="1" max="4" room="6" start="true" />
 		<artillery power="1" max="5" room="8" start="true" weapon="ARTILLERY_FED"/>
 		<hacking power="1" max="5" room="5" start="true" />
-		<drones power="1" max="5" room="0" start="true" />
+		<teleporter power="1" max="5" room="0" start="true" />
 		<engines power="1" max="10" room="4" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="1" max="10" room="1" start="true" />
@@ -6504,11 +6509,11 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="emen" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
 	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 <!--Pirate Emen Fighter D-->
@@ -6522,7 +6527,7 @@ Assault. Rigger-->
 		<clonebay power="1" max="4" room="6" start="true" />
 		<artillery power="1" max="5" room="8" start="true" weapon="ARTILLERY_FED"/>
 		<hacking power="1" max="5" room="5" start="true" />
-		<drones power="1" max="5" room="0" start="true" />
+		<teleporter power="1" max="5" room="0" start="true" />
 		<engines power="1" max="10" room="4" start="true" />
 		<shields power="2" max="10" room="3" start="true" />
 		<weapons power="1" max="10" room="1" start="true" />
@@ -6532,13 +6537,13 @@ Assault. Rigger-->
 	<weaponList missiles="8" count="6" load="STANDARD_WEAPONS" />
 	<droneList drones="8" count="6" load="DRONES_STANDARD"/>
 	<health amount="12" />
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="4" max="8" class="random" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="O2_MASKS" />
 	<aug name="FTL_JAMMER" />
-	<aug name="SYSTEM_CASING" />
-	<aug name="DRONE_SPEED" />
+	<aug name="TELEPORT_HEAL" />
+	<aug name="DEFENSE_SCRAMBLER" />
 </shipBlueprint>
 
 <!--Emem Bomber A-->

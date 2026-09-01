@@ -107,7 +107,7 @@
 	<event load="TAT_REBEL_REFUEL"/>
 	<event load="TAT_REKT_AUTO"/>
 	<event load="TAT_FED_UPRISING"/>
-	<event load="TAT_REBEL_UPRISING"/>
+	<event load="TAT_REBUPRISING"/>
 </eventList>
 
 <!--Neutral-->

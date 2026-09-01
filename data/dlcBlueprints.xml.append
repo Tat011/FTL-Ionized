@@ -735,7 +735,7 @@
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't affect combat drone -->
 	<dodge>0</dodge>
-	<speed>12</speed> <!-- Change this to increase/decrease firing speed -->
+	<speed>13</speed> <!-- Change this to increase/decrease firing speed -->
 	<cost>65</cost>
 	<rarity>4</rarity>
 	<weaponBlueprint>DRONE_BEAM2</weaponBlueprint>
@@ -748,7 +748,7 @@
 	<type>BEAM</type>
 	<title>Mini Beam</title>
 	<short>Mini Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<desc>Beam of Beam Drone 2</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -756,7 +756,7 @@
 	<speed>8</speed>
 	<rarity>0</rarity>
 	<image>beam_contact</image>
-	<length>40</length>
+	<length>50</length>
 	<launchSounds>
 		<sound>beam1</sound>
 		<sound>beam1_2</sound>

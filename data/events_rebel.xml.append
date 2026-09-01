@@ -18,7 +18,7 @@
 	<event load="TAT_REBEL_REFUEL"/><!--Works-->
 	<event load="TAT_MEET_THE_SPY"/>
 	<event load="TAT_REKT_AUTO"/>
-	<event load="TAT_REBEL_UPRISING"/><!--Works-->
+	<event load="TAT_REBUPRISING"/><!--Works-->
 </eventList>
 
 <!--Neutral-->
@@ -128,12 +128,13 @@
 	<environment type="nebula"/>
 	<text id="event_NEBULA_REBEL_BOARDING_text"/>
 	<boarders min="6" max="6" class="human"/>
+	<autoReward level="LOW">standard</autoReward>
 </event>
 
 <!--BOARDERS_REBEL_SHIP (Rebel both/Last Stand/Battlegrounds)-->
 <event name="BOARDERS_REBEL_SHIP" unique="true">
 	<text load="BOARDERS_REBEL_SHIP"/>
-	<boarders min="4" max="4" class="human"/>
+	<boarders min="3" max="3" class="human"/>
 	<ship load="REBEL" hostile="true"/>
 </event>
 
@@ -215,75 +216,6 @@ hack for fleet delay-->
 </event>
 <text name="name_TATJames">James Lee</text>
 
-<!--TAT_REKT_AUTO (Rebel/Battlegrounds/Abandoned)-->
-<event name="TAT_REKT_AUTO" unique="true">
-	<ship load="REBEL_AUTO" hostile="flase"/>
-	<text id="TAT_REKT_AUTO_INTRO"/>
-	<choice hidden="true">
-		<text id="TAT_REKT_AUTO_SCRAP"/>
-		<event>
-			<text id="TAT_REKT_AUTO_SCRAPED"/>
-			<autoReward level="HIGH">stuff</autoReward>
-			<modifyPursuit amount="1"/>
-		</event>
-	</choice>
-	<choice req="hacking" hidden="true">
-		<text id="TAT_REKT_AUTO_HACK"/>
-		<event>
-			<text id="TAT_REKT_AUTO_HACKED"/>
-			<autoReward level="HIGH">stuff</autoReward>
-		</event>
-	</choice>
-	<choice req="anaerobic" hidden="true">
-		<text id="SHIPS_REBEL_AUTO_LANIUS"/>
-		<event>
-			<text id="SHIPS_REBEL_AUTO_LANIUSED"/>
-			<autoReward level="HIGH">stuff</autoReward>
-		</event>
-	</choice>
-	<choice req="emen" hidden="true">
-		<text id="SHIPS_REBEL_AUTO_EMEN"/>
-		<event>
-			<text id="SHIPS_REBEL_AUTO_LANIUSED"/>
-			<autoReward level="HIGH">stuff</autoReward>
-		</event>
-	</choice>
-	<choice hidden="true">
-		<text id="TAT_REKT_AUTO_LEAVE"/>
-		<event/>
-	</choice>
-</event>
-
-<!--TAT_REBEL_UPRISING (Rebel/Battlegrounds)-->
-<event name="TAT_REBEL_UPRISING" unique="true">
-	<img planet="PLANET_POPULATED"/>
-	<text id="TAT_REBEL_UPRISING_INTRO"/>
-	<choice hidden="true">
-		<text id="TAT_REBEL_UPRISING_FIRE"/>
-		<event>
-			<text id="TAT_REBEL_UPRISING_FIRE1"/>
-			<modifyPursuit amount="-2"/>
-		</event>
-		<event>
-			<text id="TAT_REBEL_UPRISING_FIRE2"/>
-			<damage amount="1" system="engines" effect="breach"/>
-			<damage amount="1" system="shields" effect="breach"/>
-			<damage amount="1" system="pilot" effect="breach"/>
-		</event>
-	</choice>
-	<choice req="artillery" hidden="true">
-		<text id="TAT_REBEL_UPRISING_ARTILLERY"/>
-		<event>
-			<text id="TAT_REBEL_UPRISING_ARTILLERYED"/>
-			<modifyPursuit amount="-2"/>
-		</event>
-	</choice>
-	<choice hidden="true">
-		<text id="TAT_REBEL_UPRISING_LEAVE"/>
-		<event/>
-	</choice>
-</event>
-
 <!--TAT_REBEL_SUN (Rebel/Zoltan)-->
 <event name="TAT_REBEL_SUN" unique="true">
 	<img back="No_Stars" planet="NONE"/>
@@ -303,8 +235,25 @@ hack for fleet delay-->
 <event name="TAT_REBEL_NEUTRON" unique="true">
 	<text id="TAT_REBEL_NEUTRON_INTRO"/>
 	<environment type="pulsar"/>
-	<ship load="REBEL" hostile="true"/>
+	<ship load="TAT_REBEL_NEUTRON_SHIP" hostile="true"/>
 </event>
+<!--Rebel Ship-->
+<ship name="TAT_REBEL_NEUTRON_SHIP" auto_blueprint="SHIPS_REBEL">
+	<escape chance="0.4" min="2" max="5" >
+		<text id="TAT_ROCK_ASB_ESCAPE"/>
+	</escape>
+	<gotaway>
+		<text id="TAT_REBEL_NEUTRON_ESCAPED"/>
+	</gotaway>
+	<destroyed>
+		<text id="TAT_REBEL_NEUTRON_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="TAT_REBEL_NEUTRON_DEAD"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>
 
 <!--REBEL_BOMBED-->
 <!--You stumble upon a Federation settlement that's been severely bombed, almost all buildings are somewhere between damaged and a pile of rubble

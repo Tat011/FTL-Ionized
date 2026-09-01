@@ -260,7 +260,7 @@
 <text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_DEAD">The hostile crystaline ship powers down, useless without its crew.</text>
 <text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_END_TEXT">"Sorry you were involved in all of this, we are trying to escape our people but they don't take kindly to defectors. Here, take this in exchange for helping us."</text>
 <text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_END_TEXT2">"Sorry you were involved in all of this, we are trying to escape our people but they don't take kindly to defectors. Let one of us join you, we think it is best for us to split three ways."</text>
-<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_ESCAPE">The crystaline ship asumes a defensive position, you asume they are looking for an escape.</text>
+<text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_ESCAPE">The crystaline ship retreats to a defensive position, you asume they are looking for an escape.</text>
 <text name="TAT_SECRET_CRYSTAL_VS_CRYSTAL_ESCAPED">The ship escapes, but at least the other crystal ship survived.</text>
 
 <!--Last Stand Events-->
@@ -695,7 +695,7 @@
 <text name="TAT_REBEL_VS_MANTIS_REBEL_DESTROYED">With the Rebel ship down you approach the Mantis ship, "I suppose we should be... grateful." They say before leaving.</text>
 <text name="TAT_REBEL_VS_MANTIS_MANTIS_DESTROYED">With the Mantis ship down you approach the Rebel ship, "We will make an exeption... this time." They say before leaving.</text>
 
-<!--TAT_REBEL_UPRISING-->
+<!--TAT_REBUPRISING-->
 <text name="TAT_REBEL_UPRISING_INTRO">You see a large amount of smoke coming out of a nearby settlement, you approach to find there's a full on riot against the occupying Rebel forces taking place, the rioters are gaining ground but you have a feeling that when Rebel military reinforcements arrive things will turn sour fast.</text>
 <text name="TAT_REBEL_UPRISING_FIRE">Fire on the ground Rebel forces.</text>
 <text name="TAT_REBEL_UPRISING_FIRE1">You fire on the Rebels and cause severe damage and even more chaos before several rebel ships arrive, you have to leave before they catch up to you.</text>
@@ -790,6 +790,11 @@
 
 <!--TAT_REBEL_NEUTRON-->
 <text name="TAT_REBEL_NEUTRON_INTRO">You recieve a message from the nearby Rebel ship, "We are coming, Federation. You may be able to beat me, but you cannot beat us all." You prepare to engage.</text>
+
+<text name="TAT_REBEL_NEUTRON_ESCAPE">"We'll be back" they say as they power on their hyperdrive.</text>
+<text name="TAT_REBEL_NEUTRON_ESCAPED">The Rebel ship jumps away, leaving you with the message "See you soon".</text>
+<text name="TAT_REBEL_NEUTRON_DESTROYED">The Rebel ship explodes, exposing its ionized interior to space.</text>
+<text name="TAT_REBEL_NEUTRON_DEAD">The Rebel ship, now empty, is easy to shut its ionized systems off.</text>
 
 <!--ROCK_LOOTING-->
 <text name="event_ROCK_LOOTING_STRIP_TAT_PIRATE">Mid scrapping a pirate ship jumps in and engages, it seems to want to scrap you both.</text>

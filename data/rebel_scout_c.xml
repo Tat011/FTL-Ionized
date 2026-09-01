@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FTL>
+
 <!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
-<img x="-50" y="-84" w="346" h="509" />
+<img x="-50" y="-82" w="346" h="509" />
 <offsets>
 	<floor x="0" y="0" />
 	<cloak x="20" y="19" />
@@ -44,4 +44,4 @@
 		<y>0</y>
 	</gib4>
 </explosion>
-</FTL>
+

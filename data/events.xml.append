@@ -192,7 +192,6 @@
 
 <!--Starting Sector (copy Rebel)-->
 <eventList name="NEUTRAL_STANDARD">
-	<event load="AUTO_CIVILIAN"/>
 	<event load="SQUAT_REFUEL_STATION"/>
 	<event load="REBEL_TRANSPORT"/>
 	<event load="BROKEN_REBEL_DRONE"/>
@@ -204,22 +203,15 @@
 	<event load="REBEL_HELPERS"/>
 	<event load="TAT_REBEL_VS_MANTIS"/>
 	<event load="STORE_REBELSIDE"/>
-	<event load="LANIUS_AUTO_REBEL"/>
-	<event load="LANIUS_GROUP_AUTO"/>
 	<event load="NEBULA_REBEL_UNDETECTED"/>
 	<event load="TAT_FEDERATION_DISABLED"/>
 </eventList>
 
 <eventList name="HOSTILE_STANDARD">
 	<event load="REBEL"/>
-	<event load="REBEL_AUTO"/>
-	<event load="AUTO_ASTEROID"/>
-	<event load="AUTO_SUN"/>
-	<event load="AUTO_WARNING"/>
 	<event load="SQUAT_WARNING"/>
 	<event load="NEBULA_REBEL_BOARDING"/>
 	<event load="BOARDERS_REBEL_SHIP"/>
-	<event load="AUTO_HACKER"/>
 	<event load="BOARDERS"/>
 	<event load="TAT_PIRATES_SCRAPPING"/>
 	<event load="TRAP_BEACON"/>
@@ -2779,6 +2771,79 @@ item - scrap + that thing  -->
 
 
 <!--Batlegrounds events-->
+<!--TAT_REBUPRISING (Rebel/Battlegrounds)-->
+<event name="TAT_REBUPRISING" unique="true">
+	<img planet="PLANET_POPULATED"/>
+	<text id="TAT_REBEL_UPRISING_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_REBEL_UPRISING_FIRE"/>
+		<event load="TAT_REBEL_UPRISING_FIRED"/>
+	</choice>
+	<choice req="artillery" hidden="true">
+		<text id="TAT_REBEL_UPRISING_ARTILLERY"/>
+		<event>
+			<text id="TAT_REBEL_UPRISING_ARTILLERYED"/>
+			<modifyPursuit amount="-2"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_REBEL_UPRISING_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+<!--Intervene-->
+<eventList name="TAT_REBEL_UPRISING_FIRED">
+	<event>
+		<text id="TAT_REBEL_UPRISING_FIRE1"/>
+		<modifyPursuit amount="-2"/>
+	</event>
+	<event>
+		<text id="TAT_REBEL_UPRISING_FIRE2"/>
+		<damage amount="1" system="engines" effect="breach"/>
+		<damage amount="1" system="shields" effect="breach"/>
+		<damage amount="1" system="pilot" effect="breach"/>
+	</event>
+</eventList>
+
+<!--TAT_REKT_AUTO (Rebel/Battlegrounds/Abandoned)-->
+<event name="TAT_REKT_AUTO" unique="true">
+	<ship load="REBEL_AUTO" hostile="flase"/>
+	<text id="TAT_REKT_AUTO_INTRO"/>
+	<choice hidden="true">
+		<text id="TAT_REKT_AUTO_SCRAP"/>
+		<event>
+			<text id="TAT_REKT_AUTO_SCRAPED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+			<modifyPursuit amount="1"/>
+		</event>
+	</choice>
+	<choice req="hacking" hidden="true">
+		<text id="TAT_REKT_AUTO_HACK"/>
+		<event>
+			<text id="TAT_REKT_AUTO_HACKED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice req="anaerobic" hidden="true">
+		<text id="SHIPS_REBEL_AUTO_LANIUS"/>
+		<event>
+			<text id="SHIPS_REBEL_AUTO_LANIUSED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice req="emen" hidden="true">
+		<text id="SHIPS_REBEL_AUTO_EMEN"/>
+		<event>
+			<text id="SHIPS_REBEL_AUTO_LANIUSED"/>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="TAT_REKT_AUTO_LEAVE"/>
+		<event/>
+	</choice>
+</event>
+
 <!--TAT_FLEET_SUN (Last Stand/Battlegrounds/Rebel Controlled/Stronghold)-->
 <event name="TAT_FLEET_SUN" unique="true">
 	<img back="BG_DARK"/>

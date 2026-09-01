@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FTL>
+
 <!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
-<img x="-44" y="-122" w="362" h="363" />
+<img x="-44" y="-150" w="362" h="363" />
 <offsets>
-	<floor x="0" y="17" />
+	<floor x="0" y="45" />
 	<cloak x="20" y="17" />
 </offsets>
 <weaponMounts>
@@ -44,4 +44,4 @@
 		<y>0</y>
 	</gib4>
 </explosion>
-</FTL>
+

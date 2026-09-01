@@ -98,6 +98,7 @@
 		<power id="crew_energy_power_4"/>
 		<power id="crew_energy_power_5"/>
 		<power id="crew_energy_power_6"/>
+		<power id="crew_energy_power_7"/>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color -->
@@ -135,6 +136,7 @@
 		<power id="crew_mantis_power_3"/>
 		<power id="crew_mantis_power_4"/>
 		<power id="crew_mantis_power_5"/>
+		<power id="crew_mantis_power_6"/>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color-->
@@ -208,6 +210,7 @@
 		<power id="crew_rock_power_5"/>
 		<power id="crew_rock_power_6"/>
 		<power id="crew_rock_power_7"/>
+		<power id="crew_rock_power_8"/>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color-->
@@ -240,6 +243,7 @@
 		<power id="crew_crystal_power_4"/>
 		<power id="crew_crystal_power_5"/>
 		<power id="crew_crystal_power_6"/>
+		<power id="crew_crystal_power_7"/>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color -->
@@ -275,6 +279,7 @@
 		<power id="crew_anaerobic_power_3"/>
 		<power id="crew_anaerobic_power_4"/>
 		<power id="crew_anaerobic_power_5"/>
+		<power id="crew_anaerobic_power_6"/>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color -->
@@ -339,7 +344,6 @@
 		<power id="crew_emen_power_6"/>
 		<power id="crew_emen_power_7"/>
 		<power id="crew_emen_power_8"/>
-		<power id="crew_emen_power_9"/>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color-->
@@ -5076,13 +5080,13 @@
 	<droneImage>drone_beam</droneImage>
 	<iconImage>beam</iconImage>
 </droneBlueprint>
-
+<!--Beam of Beam Drone 1-->
 <weaponBlueprint name="DRONE_BEAM" NOLOC="1">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
 	<title>Drone Beam</title>
 	<short>Drone Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<desc>Beam of Beam Drone 1</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -5090,7 +5094,7 @@
 	<speed>3</speed>
 	<rarity>0</rarity>
 	<image>beam_contact</image>
-	<length>20</length>
+	<length>30</length>
 	<launchSounds>
 		<sound>beam1</sound>
 		<sound>beam1_2</sound>
@@ -5098,7 +5102,7 @@
 	<weaponArt>beam_1</weaponArt>
 </weaponBlueprint>
 
-<!--Beam Drone 2 (check)-->
+<!--Beam Drone 2 (check dlcBlueprints)-->
 <droneBlueprint name="COMBAT_BEAM_2">
 	<type>COMBAT</type>
 	<title id="drone_COMBAT_BEAM_2_title"/>
@@ -5109,7 +5113,7 @@
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't affect combat drone -->
 	<dodge>0</dodge>
-	<speed>12</speed> <!-- Change this to increase/decrease firing speed -->
+	<speed>13</speed> <!-- Change this to increase/decrease firing speed -->
 	<cost>65</cost>
 	<rarity>4</rarity>
 	<weaponBlueprint>DRONE_BEAM2</weaponBlueprint>
@@ -5117,12 +5121,12 @@
 	<droneImage>drone_beam_2</droneImage>
 	<iconImage>beam2</iconImage>
 </droneBlueprint>
-<!--Beam of Beam Drone 2--> 
+<!--Beam of Beam Drone 2-->
 <weaponBlueprint name="DRONE_BEAM2" NOLOC="1">
 	<type>BEAM</type>
 	<title>Mini Beam</title>
 	<short>Mini Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<desc>Beam of Beam Drone 2</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -5130,30 +5134,13 @@
 	<speed>8</speed>
 	<rarity>0</rarity>
 	<image>beam_contact</image>
-	<length>40</length>
+	<length>50</length>
 	<launchSounds>
 		<sound>beam1</sound>
 		<sound>beam1_2</sound>
 	</launchSounds>
 	<weaponArt>beam_1</weaponArt>
 </weaponBlueprint>
-<droneBlueprint name="COMBAT_BEAM_2">
-	<type>COMBAT</type>
-	<title id="drone_COMBAT_BEAM_2_title"/>
-	<tip>tip_combat</tip>
-	<short id="drone_COMBAT_BEAM_2_short"/>
-	<desc id="drone_COMBAT_BEAM_2_desc"/>
-	<power>3</power>
-	<cooldown>1000</cooldown> <!-- Doesn't affect combat drone -->
-	<dodge>0</dodge>
-	<speed>11</speed> <!-- Change this to increase/decrease firing speed -->
-	<cost>60</cost>
-	<bp>3</bp>
-	<droneImage>drone_beam_2</droneImage>
-	<weaponBlueprint>DRONE_BEAM2</weaponBlueprint>
-	<rarity>5</rarity>
-	<iconImage>beam2</iconImage>
-</droneBlueprint>
 
 <!--Fire Drone ()-->
 <droneBlueprint name="COMBAT_FIRE">
@@ -5438,7 +5425,7 @@
 	<cost>35</cost>
 	<rarity>2</rarity>
 	<stackable>true</stackable>
-	<value>0.5</value>
+	<value>0.4</value>
 </augBlueprint>
 
 <!--Shield Charge Booster-->
@@ -6181,10 +6168,11 @@
 		<drone name="COMBAT_BEAM_2"/>
 	</droneList>
 	<health amount="30"/>
-	<maxPower amount ="10"/>
+	<maxPower amount ="11"/>
 	<crewCount amount = "1" class="anaerobic"/>
 	<crewCount amount = "2" class="engi"/>
 	<aug name="DEFENSE_SCRAMBLER"/>
+	<aug name="SHIELD_RECHARGE"/>
 	<hiddenAug>MIND_ORDER</hiddenAug>
 	<shieldImage>circle_cruiser</shieldImage>
 	<cloakImage>circle_cruiser</cloakImage>

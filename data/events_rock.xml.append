@@ -357,7 +357,7 @@
 	<ship load="TAT_ROCK_ASB_SHIP" hostile="true"/>
 </event>
 <!--Ship-->
-<ship name="TAT_ROCK_ASB_SHIP" auto_blueprint="SHIPS_ROCK"><!--Rock Ship-->
+<ship name="TAT_ROCK_ASB_SHIP" auto_blueprint="SHIPS_ROCK">
 	<escape chance="0.6" min="2" max="5" >
 		<text id="TAT_ROCK_ASB_ESCAPE"/>
 	</escape>
@@ -380,7 +380,7 @@
 	<environment type="storm"/>
 	<ship load="TAT_ROCK_STORM_SHIP" hostile="true"/>
 </event>
-
+<!--Rock Ship-->
 <ship name="TAT_ROCK_STORM_SHIP" auto_blueprint="SHIPS_ROCK">
 	<escape chance="0.6" min="2" max="5" >
 		<text id="TAT_ROCK_ASB_ESCAPE"/>
