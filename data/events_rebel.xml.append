@@ -200,6 +200,13 @@ hack for fleet delay-->
 		</event>
 	</choice>
 	<choice>
+		<text id="TAT_MEET_THE_SPY_DRONE"/>
+		<event>
+			<text id="TAT_MEET_THE_DRONED"/>
+				<autoReward level="HIGH">drone</autoReward>
+		</event>
+	</choice>
+	<choice>
 		<text id="TAT_MEET_THE_SPY_DELAY"/>
 		<event>
 			<text id="TAT_MEET_THE_SPY_DELAYED"/>

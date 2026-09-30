@@ -956,8 +956,10 @@
 
 <!--TAT_MEET_THE_SPY-->
 <text name="TAT_MEET_THE_SPY_INTRO">At first the beacon and its vicinity seems empty, but you recognize some of what seems like radio static being actually a Federation code, once you reply a known Federation spy contacts you from the beacon "It's been forever since I've been in contact with the Federation, I remember your mission and helping you is the least I could do. My contacts allow me to pull quite a few strings in your favor but using multiple of these would blow my cover so you only get one."</text>
-<text name="TAT_MEET_THE_SPY_STUFF">Resources.</text>
+<text name="TAT_MEET_THE_SPY_STUFF">Supplies.</text>
 <text name="TAT_MEET_THE_SPY_STUFFED">You wait almost a full hyperdrive cycle before the spy contacts you again, "This is all I could gather in this short amount of time, now get going before they take notice."</text>
+<text name="TAT_MEET_THE_SPY_DRONE">A Drone.</text>
+<text name="TAT_MEET_THE_SPY_DRONED">You wait almost a full hyperdrive cycle before the spy contacts you again, "This drone should be helpful to you, now get going before they take notice."</text>
 <text name="TAT_MEET_THE_SPY_DELAY">Delay the fleet.</text>
 <text name="TAT_MEET_THE_SPY_DELAYED">You wait almost a full hyperdrive cycle before the spy contacts you again, "There are now sightings of your ship on the nearby nebula sector, now get going before they take notice."</text>
 <text name="TAT_MEET_THE_SPY_JOIN">Ask him to join.</text>
@@ -1202,7 +1204,7 @@
 <text name="TAT_EMEN_STORM_INTRO">An Emen is waiting here, waiting for you.</text>
 
 <!--TAT_PIRATE_ITEMS-->
-<text name="TAT_PIRATE_ITEMS_INTRO">A pirate ship approaches you, you ready your systems but they just drop some supplies and leaves. Scans show the containers are clean so you pick them up, wondering what their motives are.</text>
+<text name="TAT_PIRATE_ITEMS_INTRO">A pirate ship approaches you, you ready your systems but they just drop some supplies and leave. Scans show the containers are clean so you pick them up, wondering what their motives are.</text>
 
 
 <!--Not what you were expecting to find, there's a Lanius ship and a Crystal ship fighting in the distance.

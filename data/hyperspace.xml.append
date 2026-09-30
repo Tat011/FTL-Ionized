@@ -5,7 +5,7 @@
 <extraShipInfo missileCount="true" droneCount="true" crewLimit="false"/>
 <enemyPreigniterFix enabled="true"/>
 <alternateCrewMovement enabled="true"/>
-<console enabled="true" invertCaps="true"/>
+<console enabled="true" invertCaps="false"/>
 
 <crew>
 <!--Aliens (NO EMPTY SPACES INSIDE powerEffect, CRASHES GAME, humans crash game?)-->
